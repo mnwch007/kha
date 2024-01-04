@@ -1,0 +1,808 @@
+CRITICAL - 2023-08-29 09:24:03 --> Undefined property: App\Modules\Standard\Controllers\Customer::$stand
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 36.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Customer::$stand', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Customer.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 09:24:03 --> Undefined property: App\Modules\Standard\Controllers\Customer::$stand
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 36.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Customer::$stand', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Customer.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 09:33:23 --> Undefined property: App\Modules\Standard\Controllers\Customer::$stand
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 37.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Customer::$stand', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Customer.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 09:33:24 --> Undefined property: App\Modules\Standard\Controllers\Customer::$stand
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 37.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Customer::$stand', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Customer.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 09:33:45 --> Undefined property: App\Modules\Standard\Controllers\Customer::$stand
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 37.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Customer::$stand', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Customer.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 09:33:46 --> Undefined property: App\Modules\Standard\Controllers\Customer::$stand
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 37.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Customer::$stand', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Customer.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 09:34:47 --> Undefined property: App\Modules\Standard\Controllers\Customer::$stand
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 37.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Customer::$stand', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Customer.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 09:34:48 --> Undefined property: App\Modules\Standard\Controllers\Customer::$stand
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 37.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Customer::$stand', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Customer.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 09:34:48 --> Undefined property: App\Modules\Standard\Controllers\Customer::$stand
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 37.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Customer::$stand', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Customer.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 09:34:48 --> Undefined property: App\Modules\Standard\Controllers\Customer::$stand
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 37.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Customer::$stand', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Customer.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 09:34:48 --> Undefined property: App\Modules\Standard\Controllers\Customer::$stand
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 37.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Customer::$stand', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Customer.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 09:36:41 --> Cannot use object of type stdClass as array
+in APPPATH\Models\BaseModel.php on line 33.
+ 1 APPPATH\Modules\Standard\Models\Standard.php(47): App\Models\BaseModel->count_rec('ID', 'customer', 'Active=1')
+ 2 APPPATH\Modules\Standard\Controllers\Customer.php(40): App\Modules\Standard\Models\Standard->count_itemlist('customer', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 09:36:43 --> Cannot use object of type stdClass as array
+in APPPATH\Models\BaseModel.php on line 33.
+ 1 APPPATH\Modules\Standard\Models\Standard.php(47): App\Models\BaseModel->count_rec('ID', 'customer', 'Active=1')
+ 2 APPPATH\Modules\Standard\Controllers\Customer.php(40): App\Modules\Standard\Models\Standard->count_itemlist('customer', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 09:38:47 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+in APPPATH\Models\BaseModel.php on line 34.
+ 1 APPPATH\Modules\Standard\Models\Standard.php(47): App\Models\BaseModel->count_rec('ID', 'customer', 'Active=1')
+ 2 APPPATH\Modules\Standard\Controllers\Customer.php(40): App\Modules\Standard\Models\Standard->count_itemlist('customer', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 09:38:48 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+in APPPATH\Models\BaseModel.php on line 34.
+ 1 APPPATH\Modules\Standard\Models\Standard.php(47): App\Models\BaseModel->count_rec('ID', 'customer', 'Active=1')
+ 2 APPPATH\Modules\Standard\Controllers\Customer.php(40): App\Modules\Standard\Models\Standard->count_itemlist('customer', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 09:39:01 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+in APPPATH\Models\BaseModel.php on line 34.
+ 1 APPPATH\Modules\Standard\Models\Standard.php(47): App\Models\BaseModel->count_rec('ID', 'customer', 'Active=1')
+ 2 APPPATH\Modules\Standard\Controllers\Customer.php(40): App\Modules\Standard\Models\Standard->count_itemlist('customer', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 09:39:02 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+in APPPATH\Models\BaseModel.php on line 34.
+ 1 APPPATH\Modules\Standard\Models\Standard.php(47): App\Models\BaseModel->count_rec('ID', 'customer', 'Active=1')
+ 2 APPPATH\Modules\Standard\Controllers\Customer.php(40): App\Modules\Standard\Models\Standard->count_itemlist('customer', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 09:41:23 --> Cannot use object of type stdClass as array
+in APPPATH\Models\BaseModel.php on line 35.
+ 1 APPPATH\Modules\Standard\Models\Standard.php(47): App\Models\BaseModel->count_rec('ID', 'customer', 'Active=1')
+ 2 APPPATH\Modules\Standard\Controllers\Customer.php(40): App\Modules\Standard\Models\Standard->count_itemlist('customer', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 09:41:24 --> Cannot use object of type stdClass as array
+in APPPATH\Models\BaseModel.php on line 35.
+ 1 APPPATH\Modules\Standard\Models\Standard.php(47): App\Models\BaseModel->count_rec('ID', 'customer', 'Active=1')
+ 2 APPPATH\Modules\Standard\Controllers\Customer.php(40): App\Modules\Standard\Models\Standard->count_itemlist('customer', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 09:56:39 --> Undefined array key "s_mode"
+in APPPATH\Modules\Standard\Views\customer\search.php on line 3.
+ 1 APPPATH\Modules\Standard\Views\customer\search.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "s_mode"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\customer\\search.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\customer\\search.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\customer\\search', [], true)
+ 5 APPPATH\Modules\Standard\Views\customer\index.php(2): view('Modules\\Standard\\Views\\customer\\search', [...])
+ 6 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\customer\\index.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\customer\\index', [], true)
+ 9 APPPATH\Modules\Standard\Controllers\Customer.php(49): view('Modules\\Standard\\Views\\customer\\index', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 09:56:46 --> Undefined array key "s_mode"
+in APPPATH\Modules\Standard\Views\customer\search.php on line 3.
+ 1 APPPATH\Modules\Standard\Views\customer\search.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "s_mode"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\customer\\search.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\customer\\search.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\customer\\search', [], true)
+ 5 APPPATH\Modules\Standard\Views\customer\index.php(2): view('Modules\\Standard\\Views\\customer\\search', [...])
+ 6 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\customer\\index.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\customer\\index', [], true)
+ 9 APPPATH\Modules\Standard\Controllers\Customer.php(49): view('Modules\\Standard\\Views\\customer\\index', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 10:02:42 --> Undefined property: App\Modules\Standard\Controllers\Customer::$load
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 88.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Customer::$load', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Customer.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 10:02:59 --> Undefined property: App\Modules\Standard\Controllers\Customer::$load
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 89.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Customer::$load', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Customer.php', 89)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 10:03:00 --> Undefined property: App\Modules\Standard\Controllers\Customer::$load
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 89.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Customer::$load', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Customer.php', 89)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 10:03:46 --> Undefined property: App\Modules\Standard\Controllers\Customer::$load
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 89.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Customer::$load', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Customer.php', 89)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 10:05:35 --> Undefined property: App\Modules\Standard\Controllers\Customer::$load
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 89.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Customer::$load', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Customer.php', 89)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 10:05:47 --> Undefined property: App\Modules\Standard\Controllers\Customer::$load
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 89.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Customer::$load', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Customer.php', 89)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 10:05:50 --> Undefined property: App\Modules\Standard\Controllers\Customer::$load
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 89.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Customer::$load', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Customer.php', 89)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 10:06:01 --> Undefined property: App\Modules\Standard\Controllers\Customer::$load
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 89.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Customer::$load', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Customer.php', 89)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 10:06:15 --> Undefined property: App\Modules\Standard\Controllers\Customer::$load
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 89.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Customer::$load', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Customer.php', 89)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 10:13:39 --> Undefined property: App\Modules\Standard\Controllers\Customer::$stand
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 75.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Customer::$stand', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Customer.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 10:13:42 --> Undefined property: App\Modules\Standard\Controllers\Customer::$stand
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 75.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Customer::$stand', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Customer.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 10:13:43 --> Undefined property: App\Modules\Standard\Controllers\Customer::$stand
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 75.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Customer::$stand', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Customer.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 10:14:47 --> Undefined variable $param
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 61.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $param', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Customer.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 10:14:48 --> Undefined variable $param
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 61.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $param', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Customer.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 10:15:04 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Modules\Standard\Models\Standard.php on line 53.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(79): App\Modules\Standard\Models\Standard->get_itemlist_limit('customer', 'a%3A2%3A%7Bs%3A4%3A%22mode%22%3Bs%3A6%3A%22search%22%3Bs%3A8%3A%22SKeyword%22%3Bs%3A0%3A%22%22%3B%7D', 'BName', 'asc', 0)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 10:15:05 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Modules\Standard\Models\Standard.php on line 53.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(79): App\Modules\Standard\Models\Standard->get_itemlist_limit('customer', 'a%3A2%3A%7Bs%3A4%3A%22mode%22%3Bs%3A6%3A%22search%22%3Bs%3A8%3A%22SKeyword%22%3Bs%3A0%3A%22%22%3B%7D', 'BName', 'asc', 0)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 10:15:06 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Modules\Standard\Models\Standard.php on line 53.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(79): App\Modules\Standard\Models\Standard->get_itemlist_limit('customer', 'a%3A2%3A%7Bs%3A4%3A%22mode%22%3Bs%3A6%3A%22search%22%3Bs%3A8%3A%22SKeyword%22%3Bs%3A0%3A%22%22%3B%7D', 'BName', 'asc', 0)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 10:15:08 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Modules\Standard\Models\Standard.php on line 53.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(79): App\Modules\Standard\Models\Standard->get_itemlist_limit('customer', 'a%3A2%3A%7Bs%3A4%3A%22mode%22%3Bs%3A6%3A%22search%22%3Bs%3A8%3A%22SKeyword%22%3Bs%3A0%3A%22%22%3B%7D', 'BName', 'asc', 0)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 10:15:37 --> Undefined variable $param
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 61.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $param', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Customer.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 10:15:38 --> Undefined variable $param
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 61.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $param', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Customer.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 10:15:54 --> Undefined variable $param
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 61.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $param', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Customer.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 10:15:55 --> Undefined variable $param
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 61.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $param', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Customer.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 10:16:51 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Modules\Standard\Models\Standard.php on line 55.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(63): App\Modules\Standard\Models\Standard->get_itemlist_limit('customer', '', 'BName', 'asc', 1)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 10:18:43 --> syntax error, unexpected token "if"
+in APPPATH\Modules\Standard\Models\Standard.php on line 72.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Models\\Standard.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Modules\\Standard\\Models\\Standard')
+ 3 APPPATH\Modules\Standard\Controllers\Customer.php(60): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Modules\\Standard\\Models\\Standard')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_data()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 10:19:04 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResultArray()
+in APPPATH\Modules\Standard\Models\Standard.php on line 57.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(63): App\Modules\Standard\Models\Standard->get_itemlist_limit('customer', '', 'BName', 'asc', 1)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 10:19:05 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResultArray()
+in APPPATH\Modules\Standard\Models\Standard.php on line 57.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(63): App\Modules\Standard\Models\Standard->get_itemlist_limit('customer', '', 'BName', 'asc', 1)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 10:20:57 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Modules\Standard\Models\Standard.php on line 60.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(63): App\Modules\Standard\Models\Standard->get_itemlist_limit('customer', '', 'BName', 'asc', 1)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 10:20:57 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Modules\Standard\Models\Standard.php on line 60.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(63): App\Modules\Standard\Models\Standard->get_itemlist_limit('customer', '', 'BName', 'asc', 1)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 10:32:48 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::limit()
+in APPPATH\Modules\Standard\Models\Standard.php on line 85.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(63): App\Modules\Standard\Models\Standard->get_itemlist_limit('customer', '', 'BName', 'asc', 1)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 10:32:56 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::limit()
+in APPPATH\Modules\Standard\Models\Standard.php on line 85.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(63): App\Modules\Standard\Models\Standard->get_itemlist_limit('customer', '', 'BName', 'asc', 1)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 10:34:18 --> Undefined variable $query
+in APPPATH\Modules\Standard\Models\Standard.php on line 89.
+ 1 APPPATH\Modules\Standard\Models\Standard.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $query', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Models\\Standard.php', 89)
+ 2 APPPATH\Modules\Standard\Controllers\Customer.php(63): App\Modules\Standard\Models\Standard->get_itemlist_limit('customer', '', 'BName', 'asc', 1)
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_data()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 10:35:23 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+in APPPATH\Modules\Standard\Models\Standard.php on line 84.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(63): App\Modules\Standard\Models\Standard->get_itemlist_limit('customer', '', 'BName', 'asc', 0)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 10:35:24 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+in APPPATH\Modules\Standard\Models\Standard.php on line 84.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(63): App\Modules\Standard\Models\Standard->get_itemlist_limit('customer', '', 'BName', 'asc', 0)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 10:35:25 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+in APPPATH\Modules\Standard\Models\Standard.php on line 84.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(63): App\Modules\Standard\Models\Standard->get_itemlist_limit('customer', '', 'BName', 'asc', 0)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 10:35:40 --> Call to undefined function App\Modules\Standard\Models\get()
+in APPPATH\Modules\Standard\Models\Standard.php on line 84.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(63): App\Modules\Standard\Models\Standard->get_itemlist_limit('customer', '', 'BName', 'asc', 0)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 10:35:41 --> Call to undefined function App\Modules\Standard\Models\get()
+in APPPATH\Modules\Standard\Models\Standard.php on line 84.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(63): App\Modules\Standard\Models\Standard->get_itemlist_limit('customer', '', 'BName', 'asc', 0)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 10:44:43 --> Undefined property: App\Modules\Standard\Controllers\Customer::$stand
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 115.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Customer::$stand', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Customer.php', 115)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->tets()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 10:44:44 --> Undefined property: App\Modules\Standard\Controllers\Customer::$stand
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 115.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Customer::$stand', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Customer.php', 115)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->tets()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 10:45:01 --> Undefined property: App\Modules\Standard\Controllers\Customer::$stand
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 115.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Customer::$stand', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Customer.php', 115)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->test()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 10:45:02 --> Undefined property: App\Modules\Standard\Controllers\Customer::$stand
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 115.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Customer::$stand', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Customer.php', 115)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->test()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 10:45:13 --> Undefined property: App\Modules\Standard\Controllers\Customer::$stand
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 115.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Customer::$stand', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Customer.php', 115)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->test()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 10:45:14 --> Undefined property: App\Modules\Standard\Controllers\Customer::$stand
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 115.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Customer::$stand', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Customer.php', 115)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->test()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 10:45:20 --> Undefined property: App\Modules\Standard\Controllers\Customer::$stand
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 115.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Customer::$stand', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Customer.php', 115)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->test()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 11:28:46 --> Undefined array key "BName"
+in APPPATH\Modules\Standard\Views\customer\form.php on line 46.
+ 1 APPPATH\Modules\Standard\Views\customer\form.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "BName"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\customer\\form.php', 46)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\customer\\form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\customer\\form', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Customer.php(117): view('Modules\\Standard\\Views\\customer\\form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_form()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 11:28:46 --> Undefined array key "BName"
+in APPPATH\Modules\Standard\Views\customer\form.php on line 46.
+ 1 APPPATH\Modules\Standard\Views\customer\form.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "BName"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\customer\\form.php', 46)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\customer\\form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\customer\\form', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Customer.php(117): view('Modules\\Standard\\Views\\customer\\form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_form()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 11:28:47 --> Undefined array key "BName"
+in APPPATH\Modules\Standard\Views\customer\form.php on line 46.
+ 1 APPPATH\Modules\Standard\Views\customer\form.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "BName"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\customer\\form.php', 46)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\customer\\form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\customer\\form', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Customer.php(117): view('Modules\\Standard\\Views\\customer\\form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_form()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 11:28:48 --> Undefined array key "BName"
+in APPPATH\Modules\Standard\Views\customer\form.php on line 46.
+ 1 APPPATH\Modules\Standard\Views\customer\form.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "BName"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\customer\\form.php', 46)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\customer\\form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\customer\\form', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Customer.php(117): view('Modules\\Standard\\Views\\customer\\form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_form()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 11:28:48 --> Undefined array key "BName"
+in APPPATH\Modules\Standard\Views\customer\form.php on line 46.
+ 1 APPPATH\Modules\Standard\Views\customer\form.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "BName"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\customer\\form.php', 46)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\customer\\form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\customer\\form', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Customer.php(117): view('Modules\\Standard\\Views\\customer\\form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_form()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 11:28:52 --> Undefined array key "BName"
+in APPPATH\Modules\Standard\Views\customer\form.php on line 46.
+ 1 APPPATH\Modules\Standard\Views\customer\form.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "BName"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\customer\\form.php', 46)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\customer\\form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\customer\\form', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Customer.php(117): view('Modules\\Standard\\Views\\customer\\form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_form()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 12:28:23 --> Undefined variable $search
+in APPPATH\Modules\Standard\Views\customer\search.php on line 3.
+ 1 APPPATH\Modules\Standard\Views\customer\search.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $search', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\customer\\search.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\customer\\search.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\customer\\search', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Customer.php(123): view('Modules\\Standard\\Views\\customer\\search', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_form_search()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 12:28:23 --> Undefined variable $search
+in APPPATH\Modules\Standard\Views\customer\search.php on line 3.
+ 1 APPPATH\Modules\Standard\Views\customer\search.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $search', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\customer\\search.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\customer\\search.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\customer\\search', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Customer.php(123): view('Modules\\Standard\\Views\\customer\\search', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_form_search()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 12:28:24 --> Undefined variable $search
+in APPPATH\Modules\Standard\Views\customer\search.php on line 3.
+ 1 APPPATH\Modules\Standard\Views\customer\search.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $search', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\customer\\search.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\customer\\search.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\customer\\search', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Customer.php(123): view('Modules\\Standard\\Views\\customer\\search', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_form_search()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 12:28:24 --> Undefined variable $search
+in APPPATH\Modules\Standard\Views\customer\search.php on line 3.
+ 1 APPPATH\Modules\Standard\Views\customer\search.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $search', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\customer\\search.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\customer\\search.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\customer\\search', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Customer.php(123): view('Modules\\Standard\\Views\\customer\\search', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_form_search()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 14:27:47 --> Declaration of App\Modules\Standard\Controllers\Customer::initController() must be compatible with App\Controllers\BaseController::initController(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, Psr\Log\LoggerInterface $logger)
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 17.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-08-29 15:04:51 --> Call to undefined method App\Modules\Standard\Controllers\Customer::now()
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 173.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->test()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 15:17:55 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::insertID()
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 185.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->test()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 15:18:02 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::insertID()
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 185.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->test()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 15:22:33 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getInsertID()
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 185.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->test()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 15:23:08 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::insertID()
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 185.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->test()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 15:24:39 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::insert_id()
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 185.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->test()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 15:24:43 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::insert_id()
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 185.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->test()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 15:25:45 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::insertID()
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 185.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->test()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 15:25:58 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::insertID()
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 185.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->test()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 15:26:09 --> Call to a member function insertID() on bool
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 184.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->test()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 15:31:53 --> trim(): Argument #1 ($string) must be of type string, array given
+in APPPATH\Helpers\general_helper.php on line 274.
+ 1 APPPATH\Helpers\general_helper.php(274): trim([...])
+ 2 APPPATH\Modules\Standard\Controllers\Customer.php(134): filter_number([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->submit()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 15:35:28 --> trim(): Argument #1 ($string) must be of type string, array given
+in APPPATH\Helpers\general_helper.php on line 274.
+ 1 APPPATH\Helpers\general_helper.php(274): trim([...])
+ 2 APPPATH\Modules\Standard\Controllers\Customer.php(134): filter_number([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->submit()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 15:36:02 --> trim(): Argument #1 ($string) must be of type string, array given
+in APPPATH\Helpers\general_helper.php on line 274.
+ 1 APPPATH\Helpers\general_helper.php(274): trim([...])
+ 2 APPPATH\Modules\Standard\Controllers\Customer.php(134): filter_number([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->submit()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 15:37:23 --> trim(): Argument #1 ($string) must be of type string, array given
+in APPPATH\Helpers\general_helper.php on line 274.
+ 1 APPPATH\Helpers\general_helper.php(274): trim([...])
+ 2 APPPATH\Modules\Standard\Controllers\Customer.php(133): filter_number([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->submit()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 15:38:13 --> trim(): Argument #1 ($string) must be of type string, array given
+in APPPATH\Helpers\general_helper.php on line 274.
+ 1 APPPATH\Helpers\general_helper.php(274): trim([...])
+ 2 APPPATH\Modules\Standard\Controllers\Customer.php(133): filter_number([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->submit()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 15:38:58 --> trim(): Argument #1 ($string) must be of type string, array given
+in APPPATH\Helpers\general_helper.php on line 274.
+ 1 APPPATH\Helpers\general_helper.php(274): trim([...])
+ 2 APPPATH\Modules\Standard\Controllers\Customer.php(133): filter_number([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->submit()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 15:39:06 --> trim(): Argument #1 ($string) must be of type string, array given
+in APPPATH\Helpers\general_helper.php on line 274.
+ 1 APPPATH\Helpers\general_helper.php(274): trim([...])
+ 2 APPPATH\Modules\Standard\Controllers\Customer.php(133): filter_number([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->submit()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 15:39:16 --> trim(): Argument #1 ($string) must be of type string, array given
+in APPPATH\Helpers\general_helper.php on line 274.
+ 1 APPPATH\Helpers\general_helper.php(274): trim([...])
+ 2 APPPATH\Modules\Standard\Controllers\Customer.php(133): filter_number([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->submit()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 15:39:24 --> trim(): Argument #1 ($string) must be of type string, array given
+in APPPATH\Helpers\general_helper.php on line 274.
+ 1 APPPATH\Helpers\general_helper.php(274): trim([...])
+ 2 APPPATH\Modules\Standard\Controllers\Customer.php(133): filter_number([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->submit()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 16:24:52 --> Undefined array key "ID"
+in APPPATH\Modules\Standard\Views\customer\form.php on line 4.
+ 1 APPPATH\Modules\Standard\Views\customer\form.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ID"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\customer\\form.php', 4)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\customer\\form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\customer\\form', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Customer.php(114): view('Modules\\Standard\\Views\\customer\\form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_form()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-29 16:24:53 --> Undefined array key "ID"
+in APPPATH\Modules\Standard\Views\customer\form.php on line 4.
+ 1 APPPATH\Modules\Standard\Views\customer\form.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ID"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\customer\\form.php', 4)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\customer\\form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\customer\\form', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Customer.php(114): view('Modules\\Standard\\Views\\customer\\form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_form()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-29 16:52:21 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 2 in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `cu...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `cu...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `cu...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `cu...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Standard\Controllers\Customer.php(195): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->test()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-29 16:52:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `customer`
+WHERE 0 = :0:
+AND 1 = :1:', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `customer`
+WHERE 0 = :0:
+AND 1 = :1:')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `customer`
+WHERE 0 = :0:
+AND 1 = :1:')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `customer`
+WHERE 0 = :0:
+AND 1 = :1:', [...], false)
+ 5 APPPATH\Modules\Standard\Controllers\Customer.php(195): CodeIgniter\Database\BaseBuilder->delete([...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->test()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-29 16:53:03 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 2 in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `cu...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `cu...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `cu...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `cu...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Standard\Controllers\Customer.php(196): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->test()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-29 16:53:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `customer`
+WHERE 0 = :0:
+AND 1 = :1:', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `customer`
+WHERE 0 = :0:
+AND 1 = :1:')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `customer`
+WHERE 0 = :0:
+AND 1 = :1:')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `customer`
+WHERE 0 = :0:
+AND 1 = :1:', [...], false)
+ 5 APPPATH\Modules\Standard\Controllers\Customer.php(196): CodeIgniter\Database\BaseBuilder->delete([...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->test()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

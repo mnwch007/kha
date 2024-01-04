@@ -1,0 +1,667 @@
+CRITICAL - 2023-09-14 11:05:23 --> Call to a member function move() on null
+in APPPATH\Modules\Standard\Controllers\Fabric.php on line 203.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->submit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 11:06:11 --> Call to a member function move() on null
+in APPPATH\Modules\Standard\Controllers\Fabric.php on line 203.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->submit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 11:07:35 --> Call to a member function move() on null
+in APPPATH\Modules\Standard\Controllers\Fabric.php on line 203.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->submit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 11:07:41 --> Call to a member function move() on null
+in APPPATH\Modules\Standard\Controllers\Fabric.php on line 203.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->submit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 11:30:37 --> Class "CodeIgniter\Images" not found
+in APPPATH\Models\ImageModel.php on line 14.
+ 1 APPPATH\Modules\Standard\Controllers\Fabric.php(27): App\Models\ImageModel->img_upload()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 11:31:04 --> Class "CodeIgniter\Image" not found
+in APPPATH\Models\ImageModel.php on line 14.
+ 1 APPPATH\Modules\Standard\Controllers\Fabric.php(27): App\Models\ImageModel->img_upload()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 11:31:05 --> Class "CodeIgniter\Image" not found
+in APPPATH\Models\ImageModel.php on line 14.
+ 1 APPPATH\Modules\Standard\Controllers\Fabric.php(27): App\Models\ImageModel->img_upload()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 11:31:49 --> Too few arguments to function CodeIgniter\Files\File::__construct(), 0 passed in D:\xampp\htdocs\dfinest\app\Models\ImageModel.php on line 14 and at least 1 expected
+in SYSTEMPATH\Files\File.php on line 44.
+ 1 APPPATH\Models\ImageModel.php(14): CodeIgniter\Files\File->__construct()
+ 2 APPPATH\Modules\Standard\Controllers\Fabric.php(27): App\Models\ImageModel->img_upload()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 11:31:50 --> Too few arguments to function CodeIgniter\Files\File::__construct(), 0 passed in D:\xampp\htdocs\dfinest\app\Models\ImageModel.php on line 14 and at least 1 expected
+in SYSTEMPATH\Files\File.php on line 44.
+ 1 APPPATH\Models\ImageModel.php(14): CodeIgniter\Files\File->__construct()
+ 2 APPPATH\Modules\Standard\Controllers\Fabric.php(27): App\Models\ImageModel->img_upload()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 11:32:45 --> Undefined constant "CodeIgniter\Images\Image"
+in APPPATH\Models\ImageModel.php on line 11.
+ 1 APPPATH\Modules\Standard\Controllers\Fabric.php(27): App\Models\ImageModel->img_upload()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 11:32:46 --> Undefined constant "CodeIgniter\Images\Image"
+in APPPATH\Models\ImageModel.php on line 11.
+ 1 APPPATH\Modules\Standard\Controllers\Fabric.php(27): App\Models\ImageModel->img_upload()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 11:33:10 --> Too few arguments to function CodeIgniter\Files\File::__construct(), 0 passed in D:\xampp\htdocs\dfinest\app\Models\ImageModel.php on line 11 and at least 1 expected
+in SYSTEMPATH\Files\File.php on line 44.
+ 1 APPPATH\Models\ImageModel.php(11): CodeIgniter\Files\File->__construct()
+ 2 APPPATH\Modules\Standard\Controllers\Fabric.php(27): App\Models\ImageModel->img_upload()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 11:33:11 --> Too few arguments to function CodeIgniter\Files\File::__construct(), 0 passed in D:\xampp\htdocs\dfinest\app\Models\ImageModel.php on line 11 and at least 1 expected
+in SYSTEMPATH\Files\File.php on line 44.
+ 1 APPPATH\Models\ImageModel.php(11): CodeIgniter\Files\File->__construct()
+ 2 APPPATH\Modules\Standard\Controllers\Fabric.php(27): App\Models\ImageModel->img_upload()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 11:52:02 --> Call to a member function store() on null
+in APPPATH\Modules\Standard\Controllers\Fabric.php on line 202.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->submit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 11:53:14 --> Call to a member function store() on null
+in APPPATH\Modules\Standard\Controllers\Fabric.php on line 202.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->submit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 11:54:38 --> Call to a member function store() on null
+in APPPATH\Modules\Standard\Controllers\Fabric.php on line 202.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->submit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 11:54:42 --> Call to a member function store() on null
+in APPPATH\Modules\Standard\Controllers\Fabric.php on line 202.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->submit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 11:57:02 --> Call to a member function hasMoved() on null
+in APPPATH\Modules\Standard\Controllers\Fabric.php on line 204.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->submit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 11:57:06 --> Call to a member function hasMoved() on null
+in APPPATH\Modules\Standard\Controllers\Fabric.php on line 204.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->submit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 11:58:45 --> Call to a member function hasMoved() on null
+in APPPATH\Modules\Standard\Controllers\Fabric.php on line 205.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->submit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 12:02:13 --> Call to a member function store() on null
+in APPPATH\Modules\Standard\Controllers\Fabric.php on line 203.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->submit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 12:02:41 --> Call to a member function store() on null
+in APPPATH\Modules\Standard\Controllers\Fabric.php on line 203.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->submit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 12:03:19 --> Call to a member function store() on null
+in APPPATH\Modules\Standard\Controllers\Fabric.php on line 203.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->submit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 12:03:41 --> Call to a member function store() on null
+in APPPATH\Modules\Standard\Controllers\Fabric.php on line 203.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->submit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 12:04:12 --> Call to a member function store() on null
+in APPPATH\Modules\Standard\Controllers\Fabric.php on line 204.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->submit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 12:06:16 --> Call to a member function getRandomName() on null
+in APPPATH\Modules\Standard\Controllers\Fabric.php on line 204.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->submit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 12:08:26 --> Call to a member function getName() on null
+in APPPATH\Modules\Standard\Controllers\Fabric.php on line 204.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->submit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 12:08:30 --> Call to a member function getName() on null
+in APPPATH\Modules\Standard\Controllers\Fabric.php on line 204.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->submit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 12:10:54 --> Call to a member function getName() on null
+in APPPATH\Modules\Standard\Controllers\Fabric.php on line 204.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->submit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 12:11:29 --> Undefined array key "txtPhoto"
+in APPPATH\Modules\Standard\Controllers\Fabric.php on line 204.
+ 1 APPPATH\Modules\Standard\Controllers\Fabric.php(204): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "txtPhoto"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Fabric.php', 204)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->submit()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 12:11:55 --> Undefined array key "PathFile"
+in APPPATH\Modules\Standard\Controllers\Fabric.php on line 204.
+ 1 APPPATH\Modules\Standard\Controllers\Fabric.php(204): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "PathFile"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Fabric.php', 204)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->submit()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 13:36:07 --> Undefined property: App\Modules\Standard\Controllers\Fabric::$resp
+in APPPATH\Modules\Standard\Controllers\Fabric.php on line 157.
+ 1 APPPATH\Modules\Standard\Controllers\Fabric.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Fabric::$resp', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Fabric.php', 157)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->submit()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 13:43:30 --> Call to a member function getName() on string
+in APPPATH\Modules\Standard\Controllers\Fabric.php on line 170.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->submit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 13:47:41 --> Class "App\Modules\Standard\Controllers\File" not found
+in APPPATH\Modules\Standard\Controllers\Fabric.php on line 174.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->submit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 15:00:06 --> The framework needs the following extension(s) installed and loaded: "GD".
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 54.
+ 1 SYSTEMPATH\Images\Handlers\GDHandler.php(34): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('GD')
+ 2 SYSTEMPATH\Config\Services.php(345): CodeIgniter\Images\Handlers\GDHandler->__construct(Object(Config\Images))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image('gd', Object(Config\Images), false)
+ 4 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 5 SYSTEMPATH\Config\Services.php(336): CodeIgniter\Config\BaseService::getSharedInstance('image', null, null)
+ 6 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image()
+ 7 APPPATH\Modules\Standard\Controllers\Fabric.php(178): CodeIgniter\Config\BaseService::__callStatic('image', [])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->submit()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 15:00:49 --> The framework needs the following extension(s) installed and loaded: "GD".
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 54.
+ 1 SYSTEMPATH\Images\Handlers\GDHandler.php(34): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('GD')
+ 2 SYSTEMPATH\Config\Services.php(345): CodeIgniter\Images\Handlers\GDHandler->__construct(Object(Config\Images))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image('gd', Object(Config\Images), false)
+ 4 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 5 SYSTEMPATH\Config\Services.php(336): CodeIgniter\Config\BaseService::getSharedInstance('image', null, null)
+ 6 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image()
+ 7 APPPATH\Modules\Standard\Controllers\Fabric.php(178): CodeIgniter\Config\BaseService::__callStatic('image', [])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->submit()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 15:00:59 --> The framework needs the following extension(s) installed and loaded: "GD".
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 54.
+ 1 SYSTEMPATH\Images\Handlers\GDHandler.php(34): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('GD')
+ 2 SYSTEMPATH\Config\Services.php(345): CodeIgniter\Images\Handlers\GDHandler->__construct(Object(Config\Images))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image('gd', Object(Config\Images), false)
+ 4 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 5 SYSTEMPATH\Config\Services.php(336): CodeIgniter\Config\BaseService::getSharedInstance('image', null, null)
+ 6 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image()
+ 7 APPPATH\Modules\Standard\Controllers\Fabric.php(178): CodeIgniter\Config\BaseService::__callStatic('image', [])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->submit()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 15:02:06 --> The framework needs the following extension(s) installed and loaded: "GD".
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 54.
+ 1 SYSTEMPATH\Images\Handlers\GDHandler.php(34): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('GD')
+ 2 SYSTEMPATH\Config\Services.php(345): CodeIgniter\Images\Handlers\GDHandler->__construct(Object(Config\Images))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image('gd', Object(Config\Images), false)
+ 4 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 5 SYSTEMPATH\Config\Services.php(336): CodeIgniter\Config\BaseService::getSharedInstance('image', null, null)
+ 6 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image()
+ 7 APPPATH\Modules\Standard\Controllers\Fabric.php(178): CodeIgniter\Config\BaseService::__callStatic('image', [])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->submit()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 15:02:17 --> The framework needs the following extension(s) installed and loaded: "GD".
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 54.
+ 1 SYSTEMPATH\Images\Handlers\GDHandler.php(34): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('GD')
+ 2 SYSTEMPATH\Config\Services.php(345): CodeIgniter\Images\Handlers\GDHandler->__construct(Object(Config\Images))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image('gd', Object(Config\Images), false)
+ 4 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 5 SYSTEMPATH\Config\Services.php(336): CodeIgniter\Config\BaseService::getSharedInstance('image', null, null)
+ 6 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image()
+ 7 APPPATH\Modules\Standard\Controllers\Fabric.php(178): CodeIgniter\Config\BaseService::__callStatic('image', [])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->submit()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 15:08:01 --> The framework needs the following extension(s) installed and loaded: "IMAGICK".
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 54.
+ 1 SYSTEMPATH\Images\Handlers\ImageMagickHandler.php(46): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('IMAGICK')
+ 2 SYSTEMPATH\Config\Services.php(345): CodeIgniter\Images\Handlers\ImageMagickHandler->__construct(Object(Config\Images))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image('imagick', Object(Config\Images), false)
+ 4 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 5 SYSTEMPATH\Config\Services.php(336): CodeIgniter\Config\BaseService::getSharedInstance('image', 'imagick', null)
+ 6 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image('imagick')
+ 7 APPPATH\Modules\Standard\Controllers\Fabric.php(157): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->test()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 15:08:21 --> The framework needs the following extension(s) installed and loaded: "IMAGICK".
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 54.
+ 1 SYSTEMPATH\Images\Handlers\ImageMagickHandler.php(46): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('IMAGICK')
+ 2 SYSTEMPATH\Config\Services.php(345): CodeIgniter\Images\Handlers\ImageMagickHandler->__construct(Object(Config\Images))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image('imagick', Object(Config\Images), false)
+ 4 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 5 SYSTEMPATH\Config\Services.php(336): CodeIgniter\Config\BaseService::getSharedInstance('image', 'imagick', null)
+ 6 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image('imagick')
+ 7 APPPATH\Modules\Standard\Controllers\Fabric.php(157): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->test()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 15:09:22 --> The framework needs the following extension(s) installed and loaded: "IMAGICK".
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 54.
+ 1 SYSTEMPATH\Images\Handlers\ImageMagickHandler.php(46): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('IMAGICK')
+ 2 SYSTEMPATH\Config\Services.php(345): CodeIgniter\Images\Handlers\ImageMagickHandler->__construct(Object(Config\Images))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image('imagick', Object(Config\Images), false)
+ 4 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 5 SYSTEMPATH\Config\Services.php(336): CodeIgniter\Config\BaseService::getSharedInstance('image', 'imagick', null)
+ 6 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image('imagick')
+ 7 APPPATH\Modules\Standard\Controllers\Fabric.php(157): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->test()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 15:09:23 --> The framework needs the following extension(s) installed and loaded: "IMAGICK".
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 54.
+ 1 SYSTEMPATH\Images\Handlers\ImageMagickHandler.php(46): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('IMAGICK')
+ 2 SYSTEMPATH\Config\Services.php(345): CodeIgniter\Images\Handlers\ImageMagickHandler->__construct(Object(Config\Images))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image('imagick', Object(Config\Images), false)
+ 4 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 5 SYSTEMPATH\Config\Services.php(336): CodeIgniter\Config\BaseService::getSharedInstance('image', 'imagick', null)
+ 6 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image('imagick')
+ 7 APPPATH\Modules\Standard\Controllers\Fabric.php(157): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->test()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 15:18:20 --> The framework needs the following extension(s) installed and loaded: "IMAGICK".
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 54.
+ 1 SYSTEMPATH\Images\Handlers\ImageMagickHandler.php(46): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('IMAGICK')
+ 2 SYSTEMPATH\Config\Services.php(345): CodeIgniter\Images\Handlers\ImageMagickHandler->__construct(Object(Config\Images))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image('imagick', Object(Config\Images), false)
+ 4 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 5 SYSTEMPATH\Config\Services.php(336): CodeIgniter\Config\BaseService::getSharedInstance('image', 'imagick', null)
+ 6 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image('imagick')
+ 7 APPPATH\Modules\Standard\Controllers\Fabric.php(159): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->test()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 15:19:04 --> The framework needs the following extension(s) installed and loaded: "IMAGICK".
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 54.
+ 1 SYSTEMPATH\Images\Handlers\ImageMagickHandler.php(46): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('IMAGICK')
+ 2 SYSTEMPATH\Config\Services.php(345): CodeIgniter\Images\Handlers\ImageMagickHandler->__construct(Object(Config\Images))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image('imagick', Object(Config\Images), false)
+ 4 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 5 SYSTEMPATH\Config\Services.php(336): CodeIgniter\Config\BaseService::getSharedInstance('image', 'imagick', null)
+ 6 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image('imagick')
+ 7 APPPATH\Modules\Standard\Controllers\Fabric.php(159): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->test()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 15:19:59 --> Too few arguments to function CodeIgniter\Files\File::__construct(), 0 passed in D:\xampp\htdocs\dfinest\app\Modules\Standard\Controllers\Fabric.php on line 159 and at least 1 expected
+in SYSTEMPATH\Files\File.php on line 44.
+ 1 APPPATH\Modules\Standard\Controllers\Fabric.php(159): CodeIgniter\Files\File->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->test()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 15:21:52 --> Non-static method CodeIgniter\Images\Image::copy() cannot be called statically
+in APPPATH\Modules\Standard\Controllers\Fabric.php on line 159.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->test()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 15:24:01 --> The framework needs the following extension(s) installed and loaded: "GD".
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 54.
+ 1 SYSTEMPATH\Images\Handlers\GDHandler.php(34): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('GD')
+ 2 SYSTEMPATH\Config\Services.php(345): CodeIgniter\Images\Handlers\GDHandler->__construct(Object(Config\Images))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image('gd', Object(Config\Images), false)
+ 4 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 5 SYSTEMPATH\Config\Services.php(336): CodeIgniter\Config\BaseService::getSharedInstance('image', null, null)
+ 6 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image()
+ 7 APPPATH\Modules\Standard\Controllers\Fabric.php(158): CodeIgniter\Config\BaseService::__callStatic('image', [])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->test()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 15:25:52 --> The framework needs the following extension(s) installed and loaded: "GD".
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 54.
+ 1 SYSTEMPATH\Images\Handlers\GDHandler.php(34): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('GD')
+ 2 SYSTEMPATH\Config\Services.php(345): CodeIgniter\Images\Handlers\GDHandler->__construct(Object(Config\Images))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image('gd', Object(Config\Images), false)
+ 4 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 5 SYSTEMPATH\Config\Services.php(336): CodeIgniter\Config\BaseService::getSharedInstance('image', null, null)
+ 6 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image()
+ 7 APPPATH\Controllers\BaseController.php(58): CodeIgniter\Config\BaseService::__callStatic('image', [])
+ 8 SYSTEMPATH\CodeIgniter.php(905): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 15:25:53 --> The framework needs the following extension(s) installed and loaded: "GD".
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 54.
+ 1 SYSTEMPATH\Images\Handlers\GDHandler.php(34): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('GD')
+ 2 SYSTEMPATH\Config\Services.php(345): CodeIgniter\Images\Handlers\GDHandler->__construct(Object(Config\Images))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image('gd', Object(Config\Images), false)
+ 4 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 5 SYSTEMPATH\Config\Services.php(336): CodeIgniter\Config\BaseService::getSharedInstance('image', null, null)
+ 6 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image()
+ 7 APPPATH\Controllers\BaseController.php(58): CodeIgniter\Config\BaseService::__callStatic('image', [])
+ 8 SYSTEMPATH\CodeIgniter.php(905): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 15:26:02 --> The framework needs the following extension(s) installed and loaded: "GD".
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 54.
+ 1 SYSTEMPATH\Images\Handlers\GDHandler.php(34): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('GD')
+ 2 SYSTEMPATH\Config\Services.php(345): CodeIgniter\Images\Handlers\GDHandler->__construct(Object(Config\Images))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image('gd', Object(Config\Images), false)
+ 4 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 5 SYSTEMPATH\Config\Services.php(336): CodeIgniter\Config\BaseService::getSharedInstance('image', null, null)
+ 6 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image()
+ 7 APPPATH\Controllers\BaseController.php(58): CodeIgniter\Config\BaseService::__callStatic('image', [])
+ 8 SYSTEMPATH\CodeIgniter.php(905): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 15:26:03 --> The framework needs the following extension(s) installed and loaded: "GD".
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 54.
+ 1 SYSTEMPATH\Images\Handlers\GDHandler.php(34): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('GD')
+ 2 SYSTEMPATH\Config\Services.php(345): CodeIgniter\Images\Handlers\GDHandler->__construct(Object(Config\Images))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image('gd', Object(Config\Images), false)
+ 4 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 5 SYSTEMPATH\Config\Services.php(336): CodeIgniter\Config\BaseService::getSharedInstance('image', null, null)
+ 6 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image()
+ 7 APPPATH\Controllers\BaseController.php(58): CodeIgniter\Config\BaseService::__callStatic('image', [])
+ 8 SYSTEMPATH\CodeIgniter.php(905): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 15:26:45 --> The framework needs the following extension(s) installed and loaded: "GD".
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 54.
+ 1 SYSTEMPATH\Images\Handlers\GDHandler.php(34): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('GD')
+ 2 SYSTEMPATH\Config\Services.php(345): CodeIgniter\Images\Handlers\GDHandler->__construct(Object(Config\Images))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image('gd', Object(Config\Images), false)
+ 4 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 5 SYSTEMPATH\Config\Services.php(336): CodeIgniter\Config\BaseService::getSharedInstance('image', null, null)
+ 6 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image()
+ 7 APPPATH\Controllers\BaseController.php(58): CodeIgniter\Config\BaseService::__callStatic('image', [])
+ 8 SYSTEMPATH\CodeIgniter.php(905): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 15:26:47 --> The framework needs the following extension(s) installed and loaded: "GD".
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 54.
+ 1 SYSTEMPATH\Images\Handlers\GDHandler.php(34): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('GD')
+ 2 SYSTEMPATH\Config\Services.php(345): CodeIgniter\Images\Handlers\GDHandler->__construct(Object(Config\Images))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image('gd', Object(Config\Images), false)
+ 4 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 5 SYSTEMPATH\Config\Services.php(336): CodeIgniter\Config\BaseService::getSharedInstance('image', null, null)
+ 6 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image()
+ 7 APPPATH\Controllers\BaseController.php(58): CodeIgniter\Config\BaseService::__callStatic('image', [])
+ 8 SYSTEMPATH\CodeIgniter.php(905): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 15:33:02 --> The framework needs the following extension(s) installed and loaded: "IMAGICK".
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 54.
+ 1 SYSTEMPATH\Images\Handlers\ImageMagickHandler.php(46): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('IMAGICK')
+ 2 SYSTEMPATH\Config\Services.php(345): CodeIgniter\Images\Handlers\ImageMagickHandler->__construct(Object(Config\Images))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image('imagick', Object(Config\Images), false)
+ 4 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 5 SYSTEMPATH\Config\Services.php(336): CodeIgniter\Config\BaseService::getSharedInstance('image', 'imagick', null)
+ 6 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image('imagick')
+ 7 APPPATH\Controllers\BaseController.php(58): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(905): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 15:33:18 --> The framework needs the following extension(s) installed and loaded: "IMAGICK".
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 54.
+ 1 SYSTEMPATH\Images\Handlers\ImageMagickHandler.php(46): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('IMAGICK')
+ 2 SYSTEMPATH\Config\Services.php(345): CodeIgniter\Images\Handlers\ImageMagickHandler->__construct(Object(Config\Images))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image('imagick', Object(Config\Images), false)
+ 4 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 5 SYSTEMPATH\Config\Services.php(336): CodeIgniter\Config\BaseService::getSharedInstance('image', 'imagick', null)
+ 6 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image('imagick')
+ 7 APPPATH\Controllers\BaseController.php(58): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(905): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 15:33:20 --> The framework needs the following extension(s) installed and loaded: "IMAGICK".
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 54.
+ 1 SYSTEMPATH\Images\Handlers\ImageMagickHandler.php(46): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('IMAGICK')
+ 2 SYSTEMPATH\Config\Services.php(345): CodeIgniter\Images\Handlers\ImageMagickHandler->__construct(Object(Config\Images))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image('imagick', Object(Config\Images), false)
+ 4 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 5 SYSTEMPATH\Config\Services.php(336): CodeIgniter\Config\BaseService::getSharedInstance('image', 'imagick', null)
+ 6 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image('imagick')
+ 7 APPPATH\Controllers\BaseController.php(58): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(905): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 15:33:43 --> The framework needs the following extension(s) installed and loaded: "IMAGICK".
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 54.
+ 1 SYSTEMPATH\Images\Handlers\ImageMagickHandler.php(46): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('IMAGICK')
+ 2 SYSTEMPATH\Config\Services.php(345): CodeIgniter\Images\Handlers\ImageMagickHandler->__construct(Object(Config\Images))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image('imagick', Object(Config\Images), false)
+ 4 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 5 SYSTEMPATH\Config\Services.php(336): CodeIgniter\Config\BaseService::getSharedInstance('image', 'imagick', null)
+ 6 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image('imagick')
+ 7 APPPATH\Modules\Standard\Controllers\Fabric.php(158): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->test()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 15:33:44 --> The framework needs the following extension(s) installed and loaded: "IMAGICK".
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 54.
+ 1 SYSTEMPATH\Images\Handlers\ImageMagickHandler.php(46): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('IMAGICK')
+ 2 SYSTEMPATH\Config\Services.php(345): CodeIgniter\Images\Handlers\ImageMagickHandler->__construct(Object(Config\Images))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image('imagick', Object(Config\Images), false)
+ 4 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 5 SYSTEMPATH\Config\Services.php(336): CodeIgniter\Config\BaseService::getSharedInstance('image', 'imagick', null)
+ 6 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image('imagick')
+ 7 APPPATH\Modules\Standard\Controllers\Fabric.php(158): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->test()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 15:34:03 --> Undefined array key "gd "
+in SYSTEMPATH\Config\Services.php on line 343.
+ 1 SYSTEMPATH\Config\Services.php(343): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "gd "', 'D:\\xampp\\htdocs\\dfinest\\system\\Config\\Services.php', 343)
+ 2 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image('gd ', Object(Config\Images), false)
+ 3 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 4 SYSTEMPATH\Config\Services.php(336): CodeIgniter\Config\BaseService::getSharedInstance('image', 'gd ', null)
+ 5 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image('gd ')
+ 6 APPPATH\Modules\Standard\Controllers\Fabric.php(158): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->test()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 15:34:10 --> Undefined array key "gd2 "
+in SYSTEMPATH\Config\Services.php on line 343.
+ 1 SYSTEMPATH\Config\Services.php(343): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "gd2 "', 'D:\\xampp\\htdocs\\dfinest\\system\\Config\\Services.php', 343)
+ 2 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image('gd2 ', Object(Config\Images), false)
+ 3 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 4 SYSTEMPATH\Config\Services.php(336): CodeIgniter\Config\BaseService::getSharedInstance('image', 'gd2 ', null)
+ 5 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::image('gd2 ')
+ 6 APPPATH\Modules\Standard\Controllers\Fabric.php(158): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->test()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-14 17:20:08 --> mysqli_sql_exception: Unknown column 'StypeID' in 'where clause' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Models\BaseModel.php(102): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Standard\Controllers\Level.php(245): App\Models\BaseModel->get_field_arr('*', 'ptype', 'Active=1 AND St...', 'Name asc')
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Standard\Controllers\Level->pricing_load_data()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Level))
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-14 17:20:08 --> Unknown column 'StypeID' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `ptype`
+WHERE `Active` = 1 AND `StypeID` = 2
+ORDER BY `Name` asc', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `ptype`
+WHERE `Active` = 1 AND `StypeID` = 2
+ORDER BY `Name` asc')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `ptype`
+WHERE `Active` = 1 AND `StypeID` = 2
+ORDER BY `Name` asc')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ptype`
+WHERE `Active` = 1 AND `StypeID` = 2
+ORDER BY `Name` asc', [], false)
+ 5 APPPATH\Models\BaseModel.php(102): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Standard\Controllers\Level.php(245): App\Models\BaseModel->get_field_arr('*', 'ptype', 'Active=1 AND StypeID=2', 'Name asc')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Level->pricing_load_data()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Level))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-14 17:20:38 --> mysqli_sql_exception: Unknown column 'Stype' in 'where clause' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Models\BaseModel.php(102): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Standard\Controllers\Level.php(245): App\Models\BaseModel->get_field_arr('*', 'ptype', 'Active=1 AND St...', 'Name asc')
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Standard\Controllers\Level->pricing_load_data()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Level))
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-14 17:20:38 --> Unknown column 'Stype' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `ptype`
+WHERE `Active` = 1 AND `Stype` = 2
+ORDER BY `Name` asc', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `ptype`
+WHERE `Active` = 1 AND `Stype` = 2
+ORDER BY `Name` asc')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `ptype`
+WHERE `Active` = 1 AND `Stype` = 2
+ORDER BY `Name` asc')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ptype`
+WHERE `Active` = 1 AND `Stype` = 2
+ORDER BY `Name` asc', [], false)
+ 5 APPPATH\Models\BaseModel.php(102): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Standard\Controllers\Level.php(245): App\Models\BaseModel->get_field_arr('*', 'ptype', 'Active=1 AND Stype=2', 'Name asc')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Level->pricing_load_data()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Level))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-14 17:20:40 --> mysqli_sql_exception: Unknown column 'Stype' in 'where clause' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Models\BaseModel.php(102): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Standard\Controllers\Level.php(245): App\Models\BaseModel->get_field_arr('*', 'ptype', 'Active=1 AND St...', 'Name asc')
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Standard\Controllers\Level->pricing_load_data()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Level))
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-14 17:20:40 --> Unknown column 'Stype' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `ptype`
+WHERE `Active` = 1 AND `Stype` = 2
+ORDER BY `Name` asc', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `ptype`
+WHERE `Active` = 1 AND `Stype` = 2
+ORDER BY `Name` asc')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `ptype`
+WHERE `Active` = 1 AND `Stype` = 2
+ORDER BY `Name` asc')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ptype`
+WHERE `Active` = 1 AND `Stype` = 2
+ORDER BY `Name` asc', [], false)
+ 5 APPPATH\Models\BaseModel.php(102): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Standard\Controllers\Level.php(245): App\Models\BaseModel->get_field_arr('*', 'ptype', 'Active=1 AND Stype=2', 'Name asc')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Level->pricing_load_data()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Level))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

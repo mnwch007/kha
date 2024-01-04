@@ -1,0 +1,270 @@
+ERROR - 2023-09-27 10:50:49 --> mysqli_sql_exception: Unknown column 'OrStatus' in 'field list' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `stockin...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `stockin...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `stockin...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `stockin...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Models\Prepare_or.php(39): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Controllers\Prepare_or.php(165): App\Modules\Create_or\Models\Prepare_or->add()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Prepare_or->submit()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Prepare_or))
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-27 10:50:49 --> Unknown column 'OrStatus' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `stockin` SET `OrStatus` = 2, `CutID` = \'2\', `CutDateTime` = \'2023-09-27 10:50:49\', `CreatedDate` = \'2023-09-27 10:50:49\', `LastUpdated` = \'2023-09-27 10:50:49\'
+WHERE `ID` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `stockin` SET `OrStatus` = 2, `CutID` = \'2\', `CutDateTime` = \'2023-09-27 10:50:49\', `CreatedDate` = \'2023-09-27 10:50:49\', `LastUpdated` = \'2023-09-27 10:50:49\'
+WHERE `ID` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `stockin` SET `OrStatus` = 2, `CutID` = \'2\', `CutDateTime` = \'2023-09-27 10:50:49\', `CreatedDate` = \'2023-09-27 10:50:49\', `LastUpdated` = \'2023-09-27 10:50:49\'
+WHERE `ID` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `stockin` SET `OrStatus` = :OrStatus:, `CutID` = :CutID:, `CutDateTime` = :CutDateTime:, `CreatedDate` = :CreatedDate:, `LastUpdated` = :LastUpdated:
+WHERE `ID` = :ID:', [...], false)
+ 5 APPPATH\Modules\Create_or\Models\Prepare_or.php(39): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH\Modules\Create_or\Controllers\Prepare_or.php(165): App\Modules\Create_or\Models\Prepare_or->add()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Prepare_or->submit()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Prepare_or))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-27 10:53:16 --> mysqli_sql_exception: Unknown column 'CStID' in 'field list' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `po...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Models\Prepare_or.php(98): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Models\Prepare_or.php(43): App\Modules\Create_or\Models\Prepare_or->add_list('2', Array)
+#6 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Controllers\Prepare_or.php(165): App\Modules\Create_or\Models\Prepare_or->add()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Prepare_or->submit()
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Prepare_or))
+#9 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-09-27 10:53:16 --> Unknown column 'CStID' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `porder_roll` (`OrID`, `OrDID`, `PID`, `CStID`, `SBarcode`, `CAvaiQty`, `CQty`, `CUnit`, `Note`, `CreatedDate`, `LastUpdated`) VALUES (\'2\', \'16\', \'3\', \'12\', \'2309000012\', \'60.00\', \'60.00\', \'Y\', \'\', \'2023-09-27 10:53:16\', \'2023-09-27 10:53:16\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `porder_roll` (`OrID`, `OrDID`, `PID`, `CStID`, `SBarcode`, `CAvaiQty`, `CQty`, `CUnit`, `Note`, `CreatedDate`, `LastUpdated`) VALUES (\'2\', \'16\', \'3\', \'12\', \'2309000012\', \'60.00\', \'60.00\', \'Y\', \'\', \'2023-09-27 10:53:16\', \'2023-09-27 10:53:16\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `porder_roll` (`OrID`, `OrDID`, `PID`, `CStID`, `SBarcode`, `CAvaiQty`, `CQty`, `CUnit`, `Note`, `CreatedDate`, `LastUpdated`) VALUES (\'2\', \'16\', \'3\', \'12\', \'2309000012\', \'60.00\', \'60.00\', \'Y\', \'\', \'2023-09-27 10:53:16\', \'2023-09-27 10:53:16\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `porder_roll` (`OrID`, `OrDID`, `PID`, `CStID`, `SBarcode`, `CAvaiQty`, `CQty`, `CUnit`, `Note`, `CreatedDate`, `LastUpdated`) VALUES (:OrID:, :OrDID:, :PID:, :CStID:, :SBarcode:, :CAvaiQty:, :CQty:, :CUnit:, :Note:, :CreatedDate:, :LastUpdated:)', [...], false)
+ 5 APPPATH\Modules\Create_or\Models\Prepare_or.php(98): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Modules\Create_or\Models\Prepare_or.php(43): App\Modules\Create_or\Models\Prepare_or->add_list('2', [...])
+ 7 APPPATH\Modules\Create_or\Controllers\Prepare_or.php(165): App\Modules\Create_or\Models\Prepare_or->add()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Prepare_or->submit()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Prepare_or))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 11:02:20 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Modules\Create_or\Controllers\Prepare_or.php on line 76.
+ 1 APPPATH\Modules\Create_or\Controllers\Prepare_or.php(76): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Prepare_or->get_order()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Prepare_or))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 11:02:25 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Modules\Create_or\Controllers\Prepare_or.php on line 76.
+ 1 APPPATH\Modules\Create_or\Controllers\Prepare_or.php(76): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Prepare_or->get_order()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Prepare_or))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 11:10:50 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Modules\Create_or\Controllers\Prepare_or.php on line 76.
+ 1 APPPATH\Modules\Create_or\Controllers\Prepare_or.php(76): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Prepare_or->get_order()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Prepare_or))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 11:10:53 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Modules\Create_or\Controllers\Prepare_or.php on line 76.
+ 1 APPPATH\Modules\Create_or\Controllers\Prepare_or.php(76): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Prepare_or->get_order()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Prepare_or))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 11:11:08 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Modules\Create_or\Controllers\Prepare_or.php on line 76.
+ 1 APPPATH\Modules\Create_or\Controllers\Prepare_or.php(76): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Prepare_or->get_order()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Prepare_or))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-27 11:26:25 --> mysqli_sql_exception: Unknown column 'Roll' in 'field list' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COALESCE...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COALESCE...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COALESCE...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COALESCE...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Models\BaseModel.php(127): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Models\Prepare_or.php(149): App\Models\BaseModel->get_field_arr1('COALESCE(SUM(Ro...', 'porder_roll', 'OrID=2  Group B...')
+#6 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Models\Prepare_or.php(19): App\Modules\Create_or\Models\Prepare_or->check_balance(2)
+#7 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Controllers\Prepare_or.php(23): App\Modules\Create_or\Models\Prepare_or->__construct()
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(904): App\Modules\Create_or\Controllers\Prepare_or->__construct()
+#9 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#10 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-27 11:26:25 --> Unknown column 'Roll' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COALESCE(SUM(Roll), 0) TRoll, COALESCE(SUM(Qty), 0)CQty, COALESCE(SUM(Qty), 0)SQty
+FROM `porder_roll`
+WHERE `OrID` = 2  Group By OrDID
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COALESCE(SUM(Roll), 0) TRoll, COALESCE(SUM(Qty), 0)CQty, COALESCE(SUM(Qty), 0)SQty
+FROM `porder_roll`
+WHERE `OrID` = 2  Group By OrDID
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COALESCE(SUM(Roll), 0) TRoll, COALESCE(SUM(Qty), 0)CQty, COALESCE(SUM(Qty), 0)SQty
+FROM `porder_roll`
+WHERE `OrID` = 2  Group By OrDID
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COALESCE(SUM(Roll), 0) TRoll, COALESCE(SUM(Qty), 0)CQty, COALESCE(SUM(Qty), 0)SQty
+FROM `porder_roll`
+WHERE `OrID` = 2  Group By OrDID
+ LIMIT 1', [], false)
+ 5 APPPATH\Models\BaseModel.php(127): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Create_or\Models\Prepare_or.php(149): App\Models\BaseModel->get_field_arr1('COALESCE(SUM(Roll), 0) TRoll, COALESCE(SUM(Qty), 0)CQty, COALESCE(SUM(Qty), 0)SQty', 'porder_roll', 'OrID=2  Group By OrDID')
+ 7 APPPATH\Modules\Create_or\Models\Prepare_or.php(19): App\Modules\Create_or\Models\Prepare_or->check_balance(2)
+ 8 APPPATH\Modules\Create_or\Controllers\Prepare_or.php(23): App\Modules\Create_or\Models\Prepare_or->__construct()
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Modules\Create_or\Controllers\Prepare_or->__construct()
+10 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-27 12:14:57 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`Location` > 1
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PCID`
+WHERE `PCode` LIKE '' at line 5 in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `p`.`ID`...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`ID`...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`ID`...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`ID`...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Models\Ajax.php(64): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Controllers\Ajax.php(50): App\Modules\Ajax\Models\Ajax->loadProductItem(Array)
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->auto_complete()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-27 12:14:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`Location` > 1
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PCID`
+WHERE `PCode` LIKE '' at line 5
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `p`.`ID`, `PCode` as `value`, `p`.`StType`, `p`.`PSCode`, `p`.`PCode`, `p`.`PName`, `p`.`Photo`, `p`.`Unit`, (SELECT Name FROM width WHERE ID=p.PWidth) PWidth, (SELECT Name FROM weight WHERE ID=p.PWeight) PWeight, (SELECT Name FROM composition WHERE ID=p.PCompo) PCompo
+FROM `product_item` `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Qty>0AND` `Location` > 1
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PCID`
+WHERE `PCode` LIKE \'%%\' ESCAPE \'!\'
+AND `p`.`Active` = 1
+ORDER BY LENGTH(PCode), `PCode` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`ID`, `PCode` as `value`, `p`.`StType`, `p`.`PSCode`, `p`.`PCode`, `p`.`PName`, `p`.`Photo`, `p`.`Unit`, (SELECT Name FROM width WHERE ID=p.PWidth) PWidth, (SELECT Name FROM weight WHERE ID=p.PWeight) PWeight, (SELECT Name FROM composition WHERE ID=p.PCompo) PCompo
+FROM `product_item` `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Qty>0AND` `Location` > 1
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PCID`
+WHERE `PCode` LIKE \'%%\' ESCAPE \'!\'
+AND `p`.`Active` = 1
+ORDER BY LENGTH(PCode), `PCode` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`ID`, `PCode` as `value`, `p`.`StType`, `p`.`PSCode`, `p`.`PCode`, `p`.`PName`, `p`.`Photo`, `p`.`Unit`, (SELECT Name FROM width WHERE ID=p.PWidth) PWidth, (SELECT Name FROM weight WHERE ID=p.PWeight) PWeight, (SELECT Name FROM composition WHERE ID=p.PCompo) PCompo
+FROM `product_item` `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Qty>0AND` `Location` > 1
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PCID`
+WHERE `PCode` LIKE \'%%\' ESCAPE \'!\'
+AND `p`.`Active` = 1
+ORDER BY LENGTH(PCode), `PCode` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`ID`, `PCode` as `value`, `p`.`StType`, `p`.`PSCode`, `p`.`PCode`, `p`.`PName`, `p`.`Photo`, `p`.`Unit`, (SELECT Name FROM width WHERE ID=p.PWidth) PWidth, (SELECT Name FROM weight WHERE ID=p.PWeight) PWeight, (SELECT Name FROM composition WHERE ID=p.PCompo) PCompo
+FROM `product_item` `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Qty>0AND` `Location` > 1
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PCID`
+WHERE `PCode` LIKE :PCode: ESCAPE \'!\'
+AND `p`.`Active` = :p.Active:
+ORDER BY LENGTH(PCode), `PCode` ASC', [...], false)
+ 5 APPPATH\Modules\Ajax\Models\Ajax.php(64): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Ajax\Controllers\Ajax.php(50): App\Modules\Ajax\Models\Ajax->loadProductItem([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->auto_complete()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 12:23:29 --> Undefined variable $info_location
+in APPPATH\Modules\Report\Views\rp_porder\data.php on line 20.
+ 1 APPPATH\Modules\Report\Views\rp_porder\data.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_location', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_porder\\data.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_porder\\data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_porder\\data', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_porder.php(109): view('Modules\\Report\\Views\\rp_porder\\data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_porder->load_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_porder))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 12:23:30 --> Undefined variable $info_location
+in APPPATH\Modules\Report\Views\rp_porder\data.php on line 20.
+ 1 APPPATH\Modules\Report\Views\rp_porder\data.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_location', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_porder\\data.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_porder\\data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_porder\\data', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_porder.php(109): view('Modules\\Report\\Views\\rp_porder\\data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_porder->load_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_porder))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 12:23:31 --> Undefined variable $info_location
+in APPPATH\Modules\Report\Views\rp_porder\data.php on line 20.
+ 1 APPPATH\Modules\Report\Views\rp_porder\data.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_location', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_porder\\data.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_porder\\data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_porder\\data', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_porder.php(109): view('Modules\\Report\\Views\\rp_porder\\data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_porder->load_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_porder))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 12:23:50 --> Undefined variable $info_location
+in APPPATH\Modules\Report\Views\rp_porder\data.php on line 20.
+ 1 APPPATH\Modules\Report\Views\rp_porder\data.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_location', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_porder\\data.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_porder\\data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_porder\\data', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_porder.php(109): view('Modules\\Report\\Views\\rp_porder\\data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_porder->load_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_porder))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 12:23:51 --> Undefined variable $info_location
+in APPPATH\Modules\Report\Views\rp_porder\data.php on line 20.
+ 1 APPPATH\Modules\Report\Views\rp_porder\data.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_location', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_porder\\data.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_porder\\data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_porder\\data', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_porder.php(109): view('Modules\\Report\\Views\\rp_porder\\data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_porder->load_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_porder))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 12:24:23 --> Undefined variable $info_location
+in APPPATH\Modules\Create_or\Views\create_or\index.php on line 33.
+ 1 APPPATH\Modules\Create_or\Views\create_or\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_location', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\create_or\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\create_or\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Create_or\\Views\\create_or\\index', [], true)
+ 5 APPPATH\Modules\Create_or\Controllers\Create_or.php(98): view('Modules\\Create_or\\Views\\create_or\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_or->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_or))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 13:31:28 --> Undefined variable $w3
+in APPPATH\Modules\Report\Views\rp_porder\index.php on line 63.
+ 1 APPPATH\Modules\Report\Views\rp_porder\index.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $w3', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_porder\\index.php', 63)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_porder\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_porder\\index', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_porder.php(71): view('Modules\\Report\\Views\\rp_porder\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_porder->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_porder))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

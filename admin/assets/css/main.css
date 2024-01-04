@@ -1,0 +1,93 @@
+/**
+ css
+**/
+
+.font-red {
+    color: red !important;
+}
+
+.m-form .m-form__group .form-control-label,
+.m-form .m-form__group label {
+    color: #666;
+    font-weight: bold;
+}
+
+.mgb-15 {
+    margin-bottom: 15px;
+}
+
+.img-set {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+
+.img-set img {
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    vertical-align: middle;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+.img-set .overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 8;
+    background: url('../../images/hero-play.png') center center no-repeat;
+}
+
+.display-hide {
+    display: none;
+}
+
+.img-set .content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 15px;
+    line-height: 16px;
+    background: rgba(0, 0, 0, .4);
+    color: #fff;
+    z-index: 9;
+}
+
+a.edit-button {
+    color: #fff;
+    text-decoration: none;
+}
+
+.frm-inline {
+    display: inline;
+}
+
+.floting-proj {
+    position: fixed;
+    right: 0;
+    top: 80px;
+    background: #fff;
+    padding: 15px 20px 15px 20px;
+    color: #444;
+    font-size: 24px;
+    line-height: 24px;
+    z-index: 999;
+    box-shadow: 0 0 10px 0 rgba(45, 50, 52, .2);
+}
+
+@media screen and (max-width: 768px) {
+    .floting-proj {
+        top: 75px;
+        font-size: 14px;
+        line-height: 14px;
+        padding: 10px 15px 10px 15px;
+    }
+}

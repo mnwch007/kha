@@ -1,0 +1,40 @@
+ERROR - 2023-11-28 09:50:42 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /home/kissdemos/public_html/kha/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /home/kissdemos/public_html/kha/system/Database/MySQLi/Connection.php(174): mysqli->real_connect('localhost', 'root', 'root', 'kha', 3306, '', 0)
+#1 /home/kissdemos/public_html/kha/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/kissdemos/public_html/kha/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/kissdemos/public_html/kha/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *, (bann...', Array, false)
+#4 /home/kissdemos/public_html/kha/app/Models/BaseModel.php(111): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/kissdemos/public_html/kha/app/Modules/Main/Controllers/Main.php(25): App\Models\BaseModel->get_field_arr('*,(banner_title...', 'banners', 'Active=1', 'Sequence asc')
+#6 /home/kissdemos/public_html/kha/system/CodeIgniter.php(932): App\Modules\Main\Controllers\Main->index()
+#7 /home/kissdemos/public_html/kha/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\Main))
+#8 /home/kissdemos/public_html/kha/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/kissdemos/public_html/kha/index.php(68): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/kissdemos/public_html/kha/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/kissdemos/public_html/kha/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/kissdemos/public_html/kha/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/kissdemos/public_html/kha/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *, (bann...', Array, false)
+#3 /home/kissdemos/public_html/kha/app/Models/BaseModel.php(111): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/kissdemos/public_html/kha/app/Modules/Main/Controllers/Main.php(25): App\Models\BaseModel->get_field_arr('*,(banner_title...', 'banners', 'Active=1', 'Sequence asc')
+#5 /home/kissdemos/public_html/kha/system/CodeIgniter.php(932): App\Modules\Main\Controllers\Main->index()
+#6 /home/kissdemos/public_html/kha/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\Main))
+#7 /home/kissdemos/public_html/kha/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/kissdemos/public_html/kha/index.php(68): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-28 09:50:42 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *, (banner_title_th)banner_title, (banner_detail_th)banner_detail
+FROM `banners`
+WHERE `Active` = 1
+ORDER BY `Sequence` asc', [], false)
+ 3 APPPATH/Models/BaseModel.php(111): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Modules/Main/Controllers/Main.php(25): App\Models\BaseModel->get_field_arr('*,(banner_title_th)banner_title,(banner_detail_th)banner_detail', 'banners', 'Active=1', 'Sequence asc')
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Modules\Main\Controllers\Main->index()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\Main))
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()

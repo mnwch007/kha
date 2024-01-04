@@ -1,0 +1,803 @@
+CRITICAL - 2023-09-22 10:25:45 --> Undefined variable $info_intype
+in APPPATH\Modules\Create_or\Views\create_or\index.php on line 38.
+ 1 APPPATH\Modules\Create_or\Views\create_or\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_intype', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\create_or\\index.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\create_or\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Create_or\\Views\\create_or\\index', [], true)
+ 5 APPPATH\Modules\Create_or\Controllers\Create_or.php(55): view('Modules\\Create_or\\Views\\create_or\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_or->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_or))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 10:26:07 --> Undefined variable $info_intype
+in APPPATH\Modules\Create_or\Views\create_or\index.php on line 38.
+ 1 APPPATH\Modules\Create_or\Views\create_or\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_intype', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\create_or\\index.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\create_or\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Create_or\\Views\\create_or\\index', [], true)
+ 5 APPPATH\Modules\Create_or\Controllers\Create_or.php(55): view('Modules\\Create_or\\Views\\create_or\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_or->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_or))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 10:26:08 --> Undefined variable $info_intype
+in APPPATH\Modules\Create_or\Views\create_or\index.php on line 38.
+ 1 APPPATH\Modules\Create_or\Views\create_or\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_intype', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\create_or\\index.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\create_or\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Create_or\\Views\\create_or\\index', [], true)
+ 5 APPPATH\Modules\Create_or\Controllers\Create_or.php(55): view('Modules\\Create_or\\Views\\create_or\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_or->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_or))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 10:26:41 --> Undefined variable $info_intype
+in APPPATH\Modules\Create_or\Views\create_or\index.php on line 38.
+ 1 APPPATH\Modules\Create_or\Views\create_or\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_intype', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\create_or\\index.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\create_or\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Create_or\\Views\\create_or\\index', [], true)
+ 5 APPPATH\Modules\Create_or\Controllers\Create_or.php(55): view('Modules\\Create_or\\Views\\create_or\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_or->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_or))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 10:26:42 --> Undefined variable $info_intype
+in APPPATH\Modules\Create_or\Views\create_or\index.php on line 38.
+ 1 APPPATH\Modules\Create_or\Views\create_or\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_intype', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\create_or\\index.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\create_or\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Create_or\\Views\\create_or\\index', [], true)
+ 5 APPPATH\Modules\Create_or\Controllers\Create_or.php(55): view('Modules\\Create_or\\Views\\create_or\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_or->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_or))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 10:26:55 --> Undefined variable $info_intype
+in APPPATH\Modules\Create_or\Views\create_or\index.php on line 38.
+ 1 APPPATH\Modules\Create_or\Views\create_or\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_intype', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\create_or\\index.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\create_or\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Create_or\\Views\\create_or\\index', [], true)
+ 5 APPPATH\Modules\Create_or\Controllers\Create_or.php(55): view('Modules\\Create_or\\Views\\create_or\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_or->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_or))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 10:26:56 --> Undefined variable $info_intype
+in APPPATH\Modules\Create_or\Views\create_or\index.php on line 38.
+ 1 APPPATH\Modules\Create_or\Views\create_or\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_intype', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\create_or\\index.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\create_or\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Create_or\\Views\\create_or\\index', [], true)
+ 5 APPPATH\Modules\Create_or\Controllers\Create_or.php(55): view('Modules\\Create_or\\Views\\create_or\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_or->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_or))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 10:27:18 --> Undefined variable $info_intype
+in APPPATH\Modules\Create_or\Views\create_or\index.php on line 38.
+ 1 APPPATH\Modules\Create_or\Views\create_or\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_intype', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\create_or\\index.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\create_or\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Create_or\\Views\\create_or\\index', [], true)
+ 5 APPPATH\Modules\Create_or\Controllers\Create_or.php(55): view('Modules\\Create_or\\Views\\create_or\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_or->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_or))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 10:27:34 --> Undefined variable $info_intype
+in APPPATH\Modules\Create_or\Views\create_or\index.php on line 38.
+ 1 APPPATH\Modules\Create_or\Views\create_or\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_intype', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\create_or\\index.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\create_or\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Create_or\\Views\\create_or\\index', [], true)
+ 5 APPPATH\Modules\Create_or\Controllers\Create_or.php(55): view('Modules\\Create_or\\Views\\create_or\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_or->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_or))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 10:27:35 --> Undefined variable $info_intype
+in APPPATH\Modules\Create_or\Views\create_or\index.php on line 38.
+ 1 APPPATH\Modules\Create_or\Views\create_or\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_intype', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\create_or\\index.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\create_or\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Create_or\\Views\\create_or\\index', [], true)
+ 5 APPPATH\Modules\Create_or\Controllers\Create_or.php(55): view('Modules\\Create_or\\Views\\create_or\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_or->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_or))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 10:28:13 --> Undefined variable $info_intype
+in APPPATH\Modules\Create_or\Views\create_or\index.php on line 38.
+ 1 APPPATH\Modules\Create_or\Views\create_or\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_intype', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\create_or\\index.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\create_or\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Create_or\\Views\\create_or\\index', [], true)
+ 5 APPPATH\Modules\Create_or\Controllers\Create_or.php(55): view('Modules\\Create_or\\Views\\create_or\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_or->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_or))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 10:28:14 --> Undefined variable $info_intype
+in APPPATH\Modules\Create_or\Views\create_or\index.php on line 38.
+ 1 APPPATH\Modules\Create_or\Views\create_or\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_intype', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\create_or\\index.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\create_or\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Create_or\\Views\\create_or\\index', [], true)
+ 5 APPPATH\Modules\Create_or\Controllers\Create_or.php(55): view('Modules\\Create_or\\Views\\create_or\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_or->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_or))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 10:28:42 --> Undefined variable $info_term
+in APPPATH\Modules\Create_or\Views\create_or\index.php on line 23.
+ 1 APPPATH\Modules\Create_or\Views\create_or\index.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_term', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\create_or\\index.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\create_or\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Create_or\\Views\\create_or\\index', [], true)
+ 5 APPPATH\Modules\Create_or\Controllers\Create_or.php(55): view('Modules\\Create_or\\Views\\create_or\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_or->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_or))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 10:28:43 --> Undefined variable $info_term
+in APPPATH\Modules\Create_or\Views\create_or\index.php on line 23.
+ 1 APPPATH\Modules\Create_or\Views\create_or\index.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_term', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\create_or\\index.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\create_or\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Create_or\\Views\\create_or\\index', [], true)
+ 5 APPPATH\Modules\Create_or\Controllers\Create_or.php(55): view('Modules\\Create_or\\Views\\create_or\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_or->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_or))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-22 11:14:17 --> mysqli_sql_exception: Table 'dfinest.term' doesn't exist in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `ID`, `B...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`, `B...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`, `B...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `ID`, `B...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Models\Ajax.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Controllers\Ajax.php(34): App\Modules\Ajax\Models\Ajax->loadDataList('ID, BName AS va...', 'customer, Level...', 'BName', 'Active=1')
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->auto_complete()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-22 11:14:17 --> Table 'dfinest.term' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `ID`, `BName` AS `value`, `BName`
+FROM `customer`, `Level`, `Term`, `CLimit`
+WHERE `BName` LIKE "%g%"
+AND `Active` = 1
+ORDER BY `BName` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`, `BName` AS `value`, `BName`
+FROM `customer`, `Level`, `Term`, `CLimit`
+WHERE `BName` LIKE "%g%"
+AND `Active` = 1
+ORDER BY `BName` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`, `BName` AS `value`, `BName`
+FROM `customer`, `Level`, `Term`, `CLimit`
+WHERE `BName` LIKE "%g%"
+AND `Active` = 1
+ORDER BY `BName` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `ID`, `BName` AS `value`, `BName`
+FROM `customer`, `Level`, `Term`, `CLimit`
+WHERE `BName` LIKE "%g%"
+AND `Active` = 1
+ORDER BY `BName` ASC', [], false)
+ 5 APPPATH\Modules\Ajax\Models\Ajax.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Ajax\Controllers\Ajax.php(34): App\Modules\Ajax\Models\Ajax->loadDataList('ID, BName AS value,BName', 'customer, Level, Term, CLimit', 'BName', 'Active=1')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->auto_complete()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-22 11:14:18 --> mysqli_sql_exception: Table 'dfinest.term' doesn't exist in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `ID`, `B...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`, `B...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`, `B...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `ID`, `B...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Models\Ajax.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Controllers\Ajax.php(34): App\Modules\Ajax\Models\Ajax->loadDataList('ID, BName AS va...', 'customer, Level...', 'BName', 'Active=1')
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->auto_complete()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-22 11:14:18 --> Table 'dfinest.term' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `ID`, `BName` AS `value`, `BName`
+FROM `customer`, `Level`, `Term`, `CLimit`
+WHERE `BName` LIKE "%เอก%"
+AND `Active` = 1
+ORDER BY `BName` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`, `BName` AS `value`, `BName`
+FROM `customer`, `Level`, `Term`, `CLimit`
+WHERE `BName` LIKE "%เอก%"
+AND `Active` = 1
+ORDER BY `BName` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`, `BName` AS `value`, `BName`
+FROM `customer`, `Level`, `Term`, `CLimit`
+WHERE `BName` LIKE "%เอก%"
+AND `Active` = 1
+ORDER BY `BName` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `ID`, `BName` AS `value`, `BName`
+FROM `customer`, `Level`, `Term`, `CLimit`
+WHERE `BName` LIKE "%เอก%"
+AND `Active` = 1
+ORDER BY `BName` ASC', [], false)
+ 5 APPPATH\Modules\Ajax\Models\Ajax.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Ajax\Controllers\Ajax.php(34): App\Modules\Ajax\Models\Ajax->loadDataList('ID, BName AS value,BName', 'customer, Level, Term, CLimit', 'BName', 'Active=1')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->auto_complete()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-22 11:14:20 --> mysqli_sql_exception: Table 'dfinest.term' doesn't exist in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `ID`, `B...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`, `B...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`, `B...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `ID`, `B...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Models\Ajax.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Controllers\Ajax.php(34): App\Modules\Ajax\Models\Ajax->loadDataList('ID, BName AS va...', 'customer, Level...', 'BName', 'Active=1')
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->auto_complete()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-22 11:14:20 --> Table 'dfinest.term' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `ID`, `BName` AS `value`, `BName`
+FROM `customer`, `Level`, `Term`, `CLimit`
+WHERE `BName` LIKE "%เอกม%"
+AND `Active` = 1
+ORDER BY `BName` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`, `BName` AS `value`, `BName`
+FROM `customer`, `Level`, `Term`, `CLimit`
+WHERE `BName` LIKE "%เอกม%"
+AND `Active` = 1
+ORDER BY `BName` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`, `BName` AS `value`, `BName`
+FROM `customer`, `Level`, `Term`, `CLimit`
+WHERE `BName` LIKE "%เอกม%"
+AND `Active` = 1
+ORDER BY `BName` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `ID`, `BName` AS `value`, `BName`
+FROM `customer`, `Level`, `Term`, `CLimit`
+WHERE `BName` LIKE "%เอกม%"
+AND `Active` = 1
+ORDER BY `BName` ASC', [], false)
+ 5 APPPATH\Modules\Ajax\Models\Ajax.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Ajax\Controllers\Ajax.php(34): App\Modules\Ajax\Models\Ajax->loadDataList('ID, BName AS value,BName', 'customer, Level, Term, CLimit', 'BName', 'Active=1')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->auto_complete()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 11:25:32 --> Undefined array key "SInStatus"
+in APPPATH\Libraries\Condition.php on line 646.
+ 1 APPPATH\Libraries\Condition.php(646): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "SInStatus"', 'D:\\xampp\\htdocs\\dfinest\\app\\Libraries\\Condition.php', 646)
+ 2 APPPATH\Libraries\Sql.php(87): App\Libraries\Condition->conRpIn([...])
+ 3 APPPATH\Modules\Report\Controllers\Rp_porder.php(50): App\Libraries\Sql->sqlRpIn([...], 'count')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_porder->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_porder))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 11:25:51 --> Undefined array key "SInStatus"
+in APPPATH\Libraries\Condition.php on line 646.
+ 1 APPPATH\Libraries\Condition.php(646): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "SInStatus"', 'D:\\xampp\\htdocs\\dfinest\\app\\Libraries\\Condition.php', 646)
+ 2 APPPATH\Libraries\Sql.php(87): App\Libraries\Condition->conRpIn([...])
+ 3 APPPATH\Modules\Report\Controllers\Rp_porder.php(50): App\Libraries\Sql->sqlRpIn([...], 'count')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_porder->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_porder))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 11:25:52 --> Undefined array key "SInStatus"
+in APPPATH\Libraries\Condition.php on line 646.
+ 1 APPPATH\Libraries\Condition.php(646): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "SInStatus"', 'D:\\xampp\\htdocs\\dfinest\\app\\Libraries\\Condition.php', 646)
+ 2 APPPATH\Libraries\Sql.php(87): App\Libraries\Condition->conRpIn([...])
+ 3 APPPATH\Modules\Report\Controllers\Rp_porder.php(50): App\Libraries\Sql->sqlRpIn([...], 'count')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_porder->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_porder))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 11:32:43 --> Undefined array key "Name"
+in APPPATH\Modules\Report\Views\rp_porder\data.php on line 17.
+ 1 APPPATH\Modules\Report\Views\rp_porder\data.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Name"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_porder\\data.php', 17)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_porder\\data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_porder\\data', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_porder.php(100): view('Modules\\Report\\Views\\rp_porder\\data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_porder->load_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_porder))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 11:32:45 --> Undefined array key "Name"
+in APPPATH\Modules\Report\Views\rp_porder\data.php on line 17.
+ 1 APPPATH\Modules\Report\Views\rp_porder\data.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Name"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_porder\\data.php', 17)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_porder\\data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_porder\\data', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_porder.php(100): view('Modules\\Report\\Views\\rp_porder\\data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_porder->load_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_porder))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 12:13:57 --> Undefined variable $f
+in APPPATH\Modules\Report\Views\rp_porder\detail.php on line 27.
+ 1 APPPATH\Modules\Report\Views\rp_porder\detail.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $f', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_porder\\detail.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_porder\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_porder\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_porder.php(118): view('Modules\\Report\\Views\\rp_porder\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_porder->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_porder))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 12:13:58 --> Undefined variable $f
+in APPPATH\Modules\Report\Views\rp_porder\detail.php on line 27.
+ 1 APPPATH\Modules\Report\Views\rp_porder\detail.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $f', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_porder\\detail.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_porder\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_porder\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_porder.php(118): view('Modules\\Report\\Views\\rp_porder\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_porder->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_porder))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 12:13:59 --> Undefined variable $f
+in APPPATH\Modules\Report\Views\rp_porder\detail.php on line 27.
+ 1 APPPATH\Modules\Report\Views\rp_porder\detail.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $f', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_porder\\detail.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_porder\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_porder\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_porder.php(118): view('Modules\\Report\\Views\\rp_porder\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_porder->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_porder))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 12:15:31 --> Undefined array key "Desp"
+in APPPATH\Modules\Report\Views\rp_porder\detail.php on line 15.
+ 1 APPPATH\Modules\Report\Views\rp_porder\detail.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Desp"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_porder\\detail.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_porder\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_porder\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_porder.php(118): view('Modules\\Report\\Views\\rp_porder\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_porder->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_porder))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 12:15:32 --> Undefined array key "Desp"
+in APPPATH\Modules\Report\Views\rp_porder\detail.php on line 15.
+ 1 APPPATH\Modules\Report\Views\rp_porder\detail.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Desp"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_porder\\detail.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_porder\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_porder\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_porder.php(118): view('Modules\\Report\\Views\\rp_porder\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_porder->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_porder))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 12:17:33 --> Undefined array key "Desp"
+in APPPATH\Modules\Report\Views\rp_porder\detail.php on line 15.
+ 1 APPPATH\Modules\Report\Views\rp_porder\detail.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Desp"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_porder\\detail.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_porder\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_porder\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_porder.php(118): view('Modules\\Report\\Views\\rp_porder\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_porder->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_porder))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 12:17:33 --> Undefined array key "Desp"
+in APPPATH\Modules\Report\Views\rp_porder\detail.php on line 15.
+ 1 APPPATH\Modules\Report\Views\rp_porder\detail.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Desp"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_porder\\detail.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_porder\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_porder\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_porder.php(118): view('Modules\\Report\\Views\\rp_porder\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_porder->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_porder))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 12:18:02 --> Undefined array key "Desp"
+in APPPATH\Modules\Report\Views\rp_porder\detail.php on line 15.
+ 1 APPPATH\Modules\Report\Views\rp_porder\detail.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Desp"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_porder\\detail.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_porder\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_porder\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_porder.php(119): view('Modules\\Report\\Views\\rp_porder\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_porder->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_porder))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 12:18:46 --> Undefined array key "Desp"
+in APPPATH\Modules\Report\Views\rp_porder\detail.php on line 15.
+ 1 APPPATH\Modules\Report\Views\rp_porder\detail.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Desp"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_porder\\detail.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_porder\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_porder\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_porder.php(114): view('Modules\\Report\\Views\\rp_porder\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_porder->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_porder))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 12:19:30 --> Undefined array key "Desp"
+in APPPATH\Modules\Report\Views\rp_porder\detail.php on line 15.
+ 1 APPPATH\Modules\Report\Views\rp_porder\detail.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Desp"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_porder\\detail.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_porder\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_porder\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_porder.php(114): view('Modules\\Report\\Views\\rp_porder\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_porder->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_porder))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 12:19:31 --> Undefined array key "Desp"
+in APPPATH\Modules\Report\Views\rp_porder\detail.php on line 15.
+ 1 APPPATH\Modules\Report\Views\rp_porder\detail.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Desp"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_porder\\detail.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_porder\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_porder\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_porder.php(114): view('Modules\\Report\\Views\\rp_porder\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_porder->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_porder))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 15:19:23 --> Undefined variable $id
+in APPPATH\Modules\Create_or\Controllers\Create_or.php on line 60.
+ 1 APPPATH\Modules\Create_or\Controllers\Create_or.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Controllers\\Create_or.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_or->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_or))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 15:19:25 --> Undefined variable $id
+in APPPATH\Modules\Create_or\Controllers\Create_or.php on line 60.
+ 1 APPPATH\Modules\Create_or\Controllers\Create_or.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Controllers\\Create_or.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_or->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_or))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 15:19:51 --> The route for "http://localhost:8080/dfinest/public/report/rp_porder" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost:8080/dfinest/public/report/rp_porder')
+ 2 SYSTEMPATH\Common.php(877): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Modules\Create_or\Controllers\Create_or.php(64): redirect('http://localhost:8080/dfinest/public/report/rp_porder', 'location')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_or->edit()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_or))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 15:19:52 --> The route for "http://localhost:8080/dfinest/public/report/rp_porder" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost:8080/dfinest/public/report/rp_porder')
+ 2 SYSTEMPATH\Common.php(877): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Modules\Create_or\Controllers\Create_or.php(64): redirect('http://localhost:8080/dfinest/public/report/rp_porder', 'location')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_or->edit()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_or))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 15:19:52 --> The route for "http://localhost:8080/dfinest/public/report/rp_porder" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost:8080/dfinest/public/report/rp_porder')
+ 2 SYSTEMPATH\Common.php(877): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Modules\Create_or\Controllers\Create_or.php(64): redirect('http://localhost:8080/dfinest/public/report/rp_porder', 'location')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_or->edit()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_or))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 15:20:27 --> The route for "http://localhost:8080/dfinest/public/report/rp_porder" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost:8080/dfinest/public/report/rp_porder')
+ 2 SYSTEMPATH\Common.php(877): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Modules\Create_or\Controllers\Create_or.php(64): redirect('http://localhost:8080/dfinest/public/report/rp_porder')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_or->edit()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_or))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 15:20:28 --> The route for "http://localhost:8080/dfinest/public/report/rp_porder" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost:8080/dfinest/public/report/rp_porder')
+ 2 SYSTEMPATH\Common.php(877): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Modules\Create_or\Controllers\Create_or.php(64): redirect('http://localhost:8080/dfinest/public/report/rp_porder')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_or->edit()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_or))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 15:22:23 --> The route for "report\rp_porder" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('report\\rp_porder')
+ 2 SYSTEMPATH\Common.php(877): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Modules\Create_or\Controllers\Create_or.php(64): redirect('report\\rp_porder')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_or->edit()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_or))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 15:22:53 --> The route for "1://localhost:8080/dfinest/public/report/rp_porder" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('1://localhost:8080/dfinest/public/report/rp_porder')
+ 2 SYSTEMPATH\Common.php(877): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Modules\Create_or\Controllers\Create_or.php(64): redirect('1://localhost:8080/dfinest/public/report/rp_porder')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_or->edit()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_or))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 15:22:59 --> The route for "http://localhost:8080/dfinest/public/report/rp_porder" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost:8080/dfinest/public/report/rp_porder')
+ 2 SYSTEMPATH\Common.php(877): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Modules\Create_or\Controllers\Create_or.php(64): redirect('http://localhost:8080/dfinest/public/report/rp_porder')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_or->edit()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_or))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 15:25:29 --> The route for "http://localhost:8080/dfinest/public/report/rp_porder" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost:8080/dfinest/public/report/rp_porder')
+ 2 SYSTEMPATH\Common.php(877): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Modules\Create_or\Controllers\Create_or.php(64): redirect('http://localhost:8080/dfinest/public/report/rp_porder')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_or->edit()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_or))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 16:11:58 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::where_in()
+in APPPATH\Modules\Create_or\Controllers\Create_or.php on line 81.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_or->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_or))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 16:12:13 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::where_in()
+in APPPATH\Modules\Create_or\Controllers\Create_or.php on line 81.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_or->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_or))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 16:13:03 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::where_in()
+in APPPATH\Modules\Create_or\Controllers\Create_or.php on line 81.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_or->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_or))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 16:18:46 --> Array to string conversion
+in APPPATH\Helpers\general_helper.php on line 636.
+ 1 APPPATH\Helpers\general_helper.php(636): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\dfinest\\app\\Helpers\\general_helper.php', 636)
+ 2 APPPATH\Modules\Create_or\Views\create_or\form.php(16): gen_dropdown('', [...], 'drpPID[]', 'drpPID1', '', 'style="min-width:100px;" data-req="true"', '')
+ 3 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\create_or\\form.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Create_or\\Views\\create_or\\form', [], true)
+ 6 APPPATH\Modules\Create_or\Views\create_or\index.php(65): view('Modules\\Create_or\\Views\\create_or\\form')
+ 7 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\create_or\\index.php')
+ 8 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Create_or\\Views\\create_or\\index', [], true)
+10 APPPATH\Modules\Create_or\Controllers\Create_or.php(97): view('Modules\\Create_or\\Views\\create_or\\index', [...])
+11 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_or->edit()
+12 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_or))
+13 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 17:01:54 --> Undefined property: App\Modules\Ajax\Controllers\Ajax::$load
+in APPPATH\Modules\Ajax\Controllers\Ajax.php on line 126.
+ 1 APPPATH\Modules\Ajax\Controllers\Ajax.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Ajax\\Controllers\\Ajax::$load', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Controllers\\Ajax.php', 126)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->edit_remark()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 17:02:38 --> Undefined property: App\Modules\Ajax\Controllers\Ajax::$load
+in APPPATH\Modules\Ajax\Controllers\Ajax.php on line 127.
+ 1 APPPATH\Modules\Ajax\Controllers\Ajax.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Ajax\\Controllers\\Ajax::$load', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Controllers\\Ajax.php', 127)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->edit_remark()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 17:02:42 --> Undefined property: App\Modules\Ajax\Controllers\Ajax::$load
+in APPPATH\Modules\Ajax\Controllers\Ajax.php on line 127.
+ 1 APPPATH\Modules\Ajax\Controllers\Ajax.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Ajax\\Controllers\\Ajax::$load', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Controllers\\Ajax.php', 127)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->edit_remark()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 17:02:59 --> Undefined property: App\Modules\Ajax\Controllers\Ajax::$load
+in APPPATH\Modules\Ajax\Controllers\Ajax.php on line 127.
+ 1 APPPATH\Modules\Ajax\Controllers\Ajax.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Ajax\\Controllers\\Ajax::$load', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Controllers\\Ajax.php', 127)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->edit_remark()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 17:03:00 --> Undefined property: App\Modules\Ajax\Controllers\Ajax::$load
+in APPPATH\Modules\Ajax\Controllers\Ajax.php on line 127.
+ 1 APPPATH\Modules\Ajax\Controllers\Ajax.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Ajax\\Controllers\\Ajax::$load', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Controllers\\Ajax.php', 127)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->edit_remark()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 17:03:23 --> Undefined property: App\Modules\Ajax\Controllers\Ajax::$load
+in APPPATH\Modules\Ajax\Controllers\Ajax.php on line 127.
+ 1 APPPATH\Modules\Ajax\Controllers\Ajax.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Ajax\\Controllers\\Ajax::$load', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Controllers\\Ajax.php', 127)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->edit_remark()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 17:03:28 --> Undefined property: App\Modules\Ajax\Controllers\Ajax::$load
+in APPPATH\Modules\Ajax\Controllers\Ajax.php on line 127.
+ 1 APPPATH\Modules\Ajax\Controllers\Ajax.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Ajax\\Controllers\\Ajax::$load', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Controllers\\Ajax.php', 127)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->edit_remark()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 17:03:35 --> Undefined property: App\Modules\Ajax\Controllers\Ajax::$load
+in APPPATH\Modules\Ajax\Controllers\Ajax.php on line 127.
+ 1 APPPATH\Modules\Ajax\Controllers\Ajax.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Ajax\\Controllers\\Ajax::$load', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Controllers\\Ajax.php', 127)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->edit_remark()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 17:03:36 --> Undefined property: App\Modules\Ajax\Controllers\Ajax::$load
+in APPPATH\Modules\Ajax\Controllers\Ajax.php on line 127.
+ 1 APPPATH\Modules\Ajax\Controllers\Ajax.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Ajax\\Controllers\\Ajax::$load', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Controllers\\Ajax.php', 127)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->edit_remark()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 17:03:47 --> Undefined property: App\Modules\Ajax\Controllers\Ajax::$load
+in APPPATH\Modules\Ajax\Controllers\Ajax.php on line 127.
+ 1 APPPATH\Modules\Ajax\Controllers\Ajax.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Ajax\\Controllers\\Ajax::$load', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Controllers\\Ajax.php', 127)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->edit_remark()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 17:04:10 --> Undefined property: App\Modules\Ajax\Controllers\Ajax::$load
+in APPPATH\Modules\Ajax\Controllers\Ajax.php on line 127.
+ 1 APPPATH\Modules\Ajax\Controllers\Ajax.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Ajax\\Controllers\\Ajax::$load', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Controllers\\Ajax.php', 127)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->edit_remark()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 17:04:11 --> Undefined property: App\Modules\Ajax\Controllers\Ajax::$load
+in APPPATH\Modules\Ajax\Controllers\Ajax.php on line 127.
+ 1 APPPATH\Modules\Ajax\Controllers\Ajax.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Ajax\\Controllers\\Ajax::$load', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Controllers\\Ajax.php', 127)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->edit_remark()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 17:04:11 --> Undefined property: App\Modules\Ajax\Controllers\Ajax::$load
+in APPPATH\Modules\Ajax\Controllers\Ajax.php on line 127.
+ 1 APPPATH\Modules\Ajax\Controllers\Ajax.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Ajax\\Controllers\\Ajax::$load', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Controllers\\Ajax.php', 127)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->edit_remark()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 17:04:22 --> Undefined property: App\Modules\Ajax\Controllers\Ajax::$load
+in APPPATH\Modules\Ajax\Controllers\Ajax.php on line 127.
+ 1 APPPATH\Modules\Ajax\Controllers\Ajax.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Ajax\\Controllers\\Ajax::$load', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Controllers\\Ajax.php', 127)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->edit_remark()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 17:04:23 --> Undefined property: App\Modules\Ajax\Controllers\Ajax::$load
+in APPPATH\Modules\Ajax\Controllers\Ajax.php on line 127.
+ 1 APPPATH\Modules\Ajax\Controllers\Ajax.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Ajax\\Controllers\\Ajax::$load', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Controllers\\Ajax.php', 127)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->edit_remark()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 17:04:53 --> Undefined property: App\Modules\Ajax\Controllers\Ajax::$load
+in APPPATH\Modules\Ajax\Controllers\Ajax.php on line 127.
+ 1 APPPATH\Modules\Ajax\Controllers\Ajax.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Ajax\\Controllers\\Ajax::$load', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Controllers\\Ajax.php', 127)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->edit_remark()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 17:04:54 --> Undefined property: App\Modules\Ajax\Controllers\Ajax::$load
+in APPPATH\Modules\Ajax\Controllers\Ajax.php on line 127.
+ 1 APPPATH\Modules\Ajax\Controllers\Ajax.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Ajax\\Controllers\\Ajax::$load', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Controllers\\Ajax.php', 127)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->edit_remark()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-22 17:08:58 --> mysqli_sql_exception: Unknown column 'undefined' in 'where clause' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `OrNo` A...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `OrNo` A...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `OrNo` A...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `OrNo` A...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Models\BaseModel.php(120): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Controllers\Ajax.php(127): App\Models\BaseModel->get_field_arr1('OrNo AS DocNo, ...', 'porder', 'ID=undefined')
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->edit_remark()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-22 17:08:58 --> Unknown column 'undefined' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `OrNo` AS `DocNo`, `Remark`
+FROM `porder`
+WHERE `ID` = undefined
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `OrNo` AS `DocNo`, `Remark`
+FROM `porder`
+WHERE `ID` = undefined
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `OrNo` AS `DocNo`, `Remark`
+FROM `porder`
+WHERE `ID` = undefined
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `OrNo` AS `DocNo`, `Remark`
+FROM `porder`
+WHERE `ID` = undefined
+ LIMIT 1', [], false)
+ 5 APPPATH\Models\BaseModel.php(120): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Ajax\Controllers\Ajax.php(127): App\Models\BaseModel->get_field_arr1('OrNo AS DocNo, Remark', 'porder', 'ID=undefined')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->edit_remark()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-22 17:09:55 --> mysqli_sql_exception: Unknown column 'undefined' in 'where clause' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `OrNo` A...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `OrNo` A...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `OrNo` A...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `OrNo` A...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Models\BaseModel.php(120): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Controllers\Ajax.php(127): App\Models\BaseModel->get_field_arr1('OrNo AS DocNo, ...', 'porder', 'ID=undefined')
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->edit_remark()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-22 17:09:55 --> Unknown column 'undefined' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `OrNo` AS `DocNo`, `Remark`
+FROM `porder`
+WHERE `ID` = undefined
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `OrNo` AS `DocNo`, `Remark`
+FROM `porder`
+WHERE `ID` = undefined
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `OrNo` AS `DocNo`, `Remark`
+FROM `porder`
+WHERE `ID` = undefined
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `OrNo` AS `DocNo`, `Remark`
+FROM `porder`
+WHERE `ID` = undefined
+ LIMIT 1', [], false)
+ 5 APPPATH\Models\BaseModel.php(120): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Ajax\Controllers\Ajax.php(127): App\Models\BaseModel->get_field_arr1('OrNo AS DocNo, Remark', 'porder', 'ID=undefined')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->edit_remark()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 17:29:21 --> Undefined variable $request
+in APPPATH\Modules\Ajax\Controllers\Ajax.php on line 124.
+ 1 APPPATH\Modules\Ajax\Controllers\Ajax.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Controllers\\Ajax.php', 124)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->edit_remark()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 17:30:48 --> Class "App\Modules\Ajax\Controllers\Str" not found
+in APPPATH\Modules\Ajax\Controllers\Ajax.php on line 124.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->edit_remark()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 17:37:43 --> Using $this when not in object context
+in APPPATH\Helpers\general_helper.php on line 71.
+ 1 APPPATH\Modules\Ajax\Controllers\Ajax.php(123): get_control('Modules\\Report\\Views\\rp_porder')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->edit_remark()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 17:37:44 --> Using $this when not in object context
+in APPPATH\Helpers\general_helper.php on line 71.
+ 1 APPPATH\Modules\Ajax\Controllers\Ajax.php(123): get_control('Modules\\Report\\Views\\rp_porder')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->edit_remark()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 17:55:18 --> Undefined variable $table
+in APPPATH\Modules\Ajax\Controllers\Ajax.php on line 132.
+ 1 APPPATH\Modules\Ajax\Controllers\Ajax.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $table', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Controllers\\Ajax.php', 132)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->edit_remark()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

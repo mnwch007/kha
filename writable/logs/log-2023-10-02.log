@@ -1,0 +1,1043 @@
+CRITICAL - 2023-10-02 10:46:51 --> Undefined variable $trow
+in APPPATH\Modules\Create_or\Views\create_or\form.php on line 22.
+ 1 APPPATH\Modules\Create_or\Views\create_or\form.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $trow', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\create_or\\form.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\create_or\\form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Create_or\\Views\\create_or\\form', [], true)
+ 5 APPPATH\Modules\Create_or\Views\create_or\index.php(52): view('Modules\\Create_or\\Views\\create_or\\form')
+ 6 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\create_or\\index.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Create_or\\Views\\create_or\\index', [], true)
+ 9 APPPATH\Modules\Create_or\Controllers\Create_or.php(101): view('Modules\\Create_or\\Views\\create_or\\index', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_or->edit()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_or))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-02 12:19:59 --> mysqli_sql_exception: Unknown column 'DiscountType' in 'field list' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `Discoun...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Discoun...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Discoun...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `Discoun...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Models\BaseModel.php(127): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Models\Create_inv.php(124): App\Models\BaseModel->get_field_arr1('DiscountType,PD...', 'invoice', 'ID=1')
+#6 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Models\Create_inv.php(21): App\Modules\Create_or\Models\Create_inv->check_balance_inv(1)
+#7 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Controllers\Create_inv.php(23): App\Modules\Create_or\Models\Create_inv->__construct()
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(904): App\Modules\Create_or\Controllers\Create_inv->__construct()
+#9 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#10 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-02 12:19:59 --> Unknown column 'DiscountType' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `DiscountType`, `PDiscount`, `Discount`, `VATType`, `PVAT`, `PmStatus`, `BLStatus`
+FROM `invoice`
+WHERE `ID` = 1
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DiscountType`, `PDiscount`, `Discount`, `VATType`, `PVAT`, `PmStatus`, `BLStatus`
+FROM `invoice`
+WHERE `ID` = 1
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DiscountType`, `PDiscount`, `Discount`, `VATType`, `PVAT`, `PmStatus`, `BLStatus`
+FROM `invoice`
+WHERE `ID` = 1
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `DiscountType`, `PDiscount`, `Discount`, `VATType`, `PVAT`, `PmStatus`, `BLStatus`
+FROM `invoice`
+WHERE `ID` = 1
+ LIMIT 1', [], false)
+ 5 APPPATH\Models\BaseModel.php(127): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Create_or\Models\Create_inv.php(124): App\Models\BaseModel->get_field_arr1('DiscountType,PDiscount,Discount,VATType,PVAT, PmStatus,BLStatus', 'invoice', 'ID=1')
+ 7 APPPATH\Modules\Create_or\Models\Create_inv.php(21): App\Modules\Create_or\Models\Create_inv->check_balance_inv(1)
+ 8 APPPATH\Modules\Create_or\Controllers\Create_inv.php(23): App\Modules\Create_or\Models\Create_inv->__construct()
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Modules\Create_or\Controllers\Create_inv->__construct()
+10 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-02 12:20:34 --> mysqli_sql_exception: Unknown column 'DiscountType' in 'field list' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `Discoun...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Discoun...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Discoun...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `Discoun...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Models\BaseModel.php(127): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Models\Create_inv.php(124): App\Models\BaseModel->get_field_arr1('DiscountType,PD...', 'invoice', 'ID=1')
+#6 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Models\Create_inv.php(21): App\Modules\Create_or\Models\Create_inv->check_balance_inv(1)
+#7 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Controllers\Create_inv.php(23): App\Modules\Create_or\Models\Create_inv->__construct()
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(904): App\Modules\Create_or\Controllers\Create_inv->__construct()
+#9 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#10 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-02 12:20:34 --> Unknown column 'DiscountType' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `DiscountType`, `PDiscount`, `Discount`, `VATType`, `PVAT`, `PmStatus`, `BLStatus`
+FROM `invoice`
+WHERE `ID` = 1
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DiscountType`, `PDiscount`, `Discount`, `VATType`, `PVAT`, `PmStatus`, `BLStatus`
+FROM `invoice`
+WHERE `ID` = 1
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DiscountType`, `PDiscount`, `Discount`, `VATType`, `PVAT`, `PmStatus`, `BLStatus`
+FROM `invoice`
+WHERE `ID` = 1
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `DiscountType`, `PDiscount`, `Discount`, `VATType`, `PVAT`, `PmStatus`, `BLStatus`
+FROM `invoice`
+WHERE `ID` = 1
+ LIMIT 1', [], false)
+ 5 APPPATH\Models\BaseModel.php(127): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Create_or\Models\Create_inv.php(124): App\Models\BaseModel->get_field_arr1('DiscountType,PDiscount,Discount,VATType,PVAT, PmStatus,BLStatus', 'invoice', 'ID=1')
+ 7 APPPATH\Modules\Create_or\Models\Create_inv.php(21): App\Modules\Create_or\Models\Create_inv->check_balance_inv(1)
+ 8 APPPATH\Modules\Create_or\Controllers\Create_inv.php(23): App\Modules\Create_or\Models\Create_inv->__construct()
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Modules\Create_or\Controllers\Create_inv->__construct()
+10 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-02 12:21:00 --> mysqli_sql_exception: Unknown column 'DiscountType' in 'field list' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `Discoun...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Discoun...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Discoun...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `Discoun...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Models\BaseModel.php(127): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Models\Create_inv.php(124): App\Models\BaseModel->get_field_arr1('DiscountType,PD...', 'invoice', 'ID=1')
+#6 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Models\Create_inv.php(21): App\Modules\Create_or\Models\Create_inv->check_balance_inv(1)
+#7 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Controllers\Create_inv.php(23): App\Modules\Create_or\Models\Create_inv->__construct()
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(904): App\Modules\Create_or\Controllers\Create_inv->__construct()
+#9 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#10 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-02 12:21:00 --> Unknown column 'DiscountType' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `DiscountType`, `PDiscount`, `Discount`, `VATType`, `PVAT`, `PmStatus`, `BLStatus`
+FROM `invoice`
+WHERE `ID` = 1
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DiscountType`, `PDiscount`, `Discount`, `VATType`, `PVAT`, `PmStatus`, `BLStatus`
+FROM `invoice`
+WHERE `ID` = 1
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DiscountType`, `PDiscount`, `Discount`, `VATType`, `PVAT`, `PmStatus`, `BLStatus`
+FROM `invoice`
+WHERE `ID` = 1
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `DiscountType`, `PDiscount`, `Discount`, `VATType`, `PVAT`, `PmStatus`, `BLStatus`
+FROM `invoice`
+WHERE `ID` = 1
+ LIMIT 1', [], false)
+ 5 APPPATH\Models\BaseModel.php(127): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Create_or\Models\Create_inv.php(124): App\Models\BaseModel->get_field_arr1('DiscountType,PDiscount,Discount,VATType,PVAT, PmStatus,BLStatus', 'invoice', 'ID=1')
+ 7 APPPATH\Modules\Create_or\Models\Create_inv.php(21): App\Modules\Create_or\Models\Create_inv->check_balance_inv(1)
+ 8 APPPATH\Modules\Create_or\Controllers\Create_inv.php(23): App\Modules\Create_or\Models\Create_inv->__construct()
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Modules\Create_or\Controllers\Create_inv->__construct()
+10 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-02 12:21:01 --> mysqli_sql_exception: Unknown column 'DiscountType' in 'field list' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `Discoun...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Discoun...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Discoun...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `Discoun...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Models\BaseModel.php(127): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Models\Create_inv.php(124): App\Models\BaseModel->get_field_arr1('DiscountType,PD...', 'invoice', 'ID=1')
+#6 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Models\Create_inv.php(21): App\Modules\Create_or\Models\Create_inv->check_balance_inv(1)
+#7 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Controllers\Create_inv.php(23): App\Modules\Create_or\Models\Create_inv->__construct()
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(904): App\Modules\Create_or\Controllers\Create_inv->__construct()
+#9 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#10 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-02 12:21:01 --> Unknown column 'DiscountType' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `DiscountType`, `PDiscount`, `Discount`, `VATType`, `PVAT`, `PmStatus`, `BLStatus`
+FROM `invoice`
+WHERE `ID` = 1
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DiscountType`, `PDiscount`, `Discount`, `VATType`, `PVAT`, `PmStatus`, `BLStatus`
+FROM `invoice`
+WHERE `ID` = 1
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DiscountType`, `PDiscount`, `Discount`, `VATType`, `PVAT`, `PmStatus`, `BLStatus`
+FROM `invoice`
+WHERE `ID` = 1
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `DiscountType`, `PDiscount`, `Discount`, `VATType`, `PVAT`, `PmStatus`, `BLStatus`
+FROM `invoice`
+WHERE `ID` = 1
+ LIMIT 1', [], false)
+ 5 APPPATH\Models\BaseModel.php(127): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Create_or\Models\Create_inv.php(124): App\Models\BaseModel->get_field_arr1('DiscountType,PDiscount,Discount,VATType,PVAT, PmStatus,BLStatus', 'invoice', 'ID=1')
+ 7 APPPATH\Modules\Create_or\Models\Create_inv.php(21): App\Modules\Create_or\Models\Create_inv->check_balance_inv(1)
+ 8 APPPATH\Modules\Create_or\Controllers\Create_inv.php(23): App\Modules\Create_or\Models\Create_inv->__construct()
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Modules\Create_or\Controllers\Create_inv->__construct()
+10 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-02 12:23:28 --> mysqli_sql_exception: Unknown column 'RtStatus' in 'where clause' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COALESCE...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COALESCE...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COALESCE...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COALESCE...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Models\BaseModel.php(127): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Models\Create_inv.php(125): App\Models\BaseModel->get_field_arr1('COALESCE(SUM(Qt...', 'porder_roll', 'RtStatus=0 AND ...')
+#6 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Models\Create_inv.php(21): App\Modules\Create_or\Models\Create_inv->check_balance_inv(1)
+#7 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Controllers\Create_inv.php(23): App\Modules\Create_or\Models\Create_inv->__construct()
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(904): App\Modules\Create_or\Controllers\Create_inv->__construct()
+#9 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#10 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-02 12:23:28 --> Unknown column 'RtStatus' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COALESCE(SUM(Qty), 0) TQty, COALESCE(SUM(Price), 0) TPrice
+FROM `porder_roll`
+WHERE `RtStatus` =0 AND `InvID` = 1
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COALESCE(SUM(Qty), 0) TQty, COALESCE(SUM(Price), 0) TPrice
+FROM `porder_roll`
+WHERE `RtStatus` =0 AND `InvID` = 1
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COALESCE(SUM(Qty), 0) TQty, COALESCE(SUM(Price), 0) TPrice
+FROM `porder_roll`
+WHERE `RtStatus` =0 AND `InvID` = 1
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COALESCE(SUM(Qty), 0) TQty, COALESCE(SUM(Price), 0) TPrice
+FROM `porder_roll`
+WHERE `RtStatus` =0 AND `InvID` = 1
+ LIMIT 1', [], false)
+ 5 APPPATH\Models\BaseModel.php(127): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Create_or\Models\Create_inv.php(125): App\Models\BaseModel->get_field_arr1('COALESCE(SUM(Qty), 0) TQty, COALESCE(SUM(Price), 0) TPrice', 'porder_roll', 'RtStatus=0 AND InvID=1')
+ 7 APPPATH\Modules\Create_or\Models\Create_inv.php(21): App\Modules\Create_or\Models\Create_inv->check_balance_inv(1)
+ 8 APPPATH\Modules\Create_or\Controllers\Create_inv.php(23): App\Modules\Create_or\Models\Create_inv->__construct()
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Modules\Create_or\Controllers\Create_inv->__construct()
+10 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-02 13:49:26 --> mysqli_sql_exception: Unknown column 'a.InID' in 'where clause' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `a`.*, `...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*, `...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*, `...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Models\Create_inv.php(181): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Models\Create_inv.php(22): App\Modules\Create_or\Models\Create_inv->get_data(2)
+#6 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Controllers\Create_inv.php(23): App\Modules\Create_or\Models\Create_inv->__construct()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(904): App\Modules\Create_or\Controllers\Create_inv->__construct()
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#9 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-02 13:49:26 --> Unknown column 'a.InID' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `a`.*, `p`.`PCID`, `p`.`PCode`, `p`.`PColor`, `p`.`PSCode`, `p`.`PSColor`, `p`.`PName`, `p`.`Photo`, `p`.`StType`, `p`.`NoColor`, `p`.`Unit` as `StUnit`, `p`.`UnitConvert`, (SELECT Name FROM ptype WHERE ID=p.PTypeID) PType, (SELECT Name FROM width WHERE ID=p.PWidth) PWidth, (SELECT Name FROM weight WHERE ID=p.PWeight) PWeight, (SELECT Name FROM composition WHERE ID=p.PCompo) PCompo, (SELECT Name FROM pshade WHERE ID=p.PShade) PShade
+FROM `invoice_roll` as `a`
+INNER JOIN `product` as `p` ON `a`.`PID` = `p`.`ID`
+WHERE `a`.`InID` = 2
+ORDER BY `a`.`ID` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*, `p`.`PCID`, `p`.`PCode`, `p`.`PColor`, `p`.`PSCode`, `p`.`PSColor`, `p`.`PName`, `p`.`Photo`, `p`.`StType`, `p`.`NoColor`, `p`.`Unit` as `StUnit`, `p`.`UnitConvert`, (SELECT Name FROM ptype WHERE ID=p.PTypeID) PType, (SELECT Name FROM width WHERE ID=p.PWidth) PWidth, (SELECT Name FROM weight WHERE ID=p.PWeight) PWeight, (SELECT Name FROM composition WHERE ID=p.PCompo) PCompo, (SELECT Name FROM pshade WHERE ID=p.PShade) PShade
+FROM `invoice_roll` as `a`
+INNER JOIN `product` as `p` ON `a`.`PID` = `p`.`ID`
+WHERE `a`.`InID` = 2
+ORDER BY `a`.`ID` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*, `p`.`PCID`, `p`.`PCode`, `p`.`PColor`, `p`.`PSCode`, `p`.`PSColor`, `p`.`PName`, `p`.`Photo`, `p`.`StType`, `p`.`NoColor`, `p`.`Unit` as `StUnit`, `p`.`UnitConvert`, (SELECT Name FROM ptype WHERE ID=p.PTypeID) PType, (SELECT Name FROM width WHERE ID=p.PWidth) PWidth, (SELECT Name FROM weight WHERE ID=p.PWeight) PWeight, (SELECT Name FROM composition WHERE ID=p.PCompo) PCompo, (SELECT Name FROM pshade WHERE ID=p.PShade) PShade
+FROM `invoice_roll` as `a`
+INNER JOIN `product` as `p` ON `a`.`PID` = `p`.`ID`
+WHERE `a`.`InID` = 2
+ORDER BY `a`.`ID` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `p`.`PCID`, `p`.`PCode`, `p`.`PColor`, `p`.`PSCode`, `p`.`PSColor`, `p`.`PName`, `p`.`Photo`, `p`.`StType`, `p`.`NoColor`, `p`.`Unit` as `StUnit`, `p`.`UnitConvert`, (SELECT Name FROM ptype WHERE ID=p.PTypeID) PType, (SELECT Name FROM width WHERE ID=p.PWidth) PWidth, (SELECT Name FROM weight WHERE ID=p.PWeight) PWeight, (SELECT Name FROM composition WHERE ID=p.PCompo) PCompo, (SELECT Name FROM pshade WHERE ID=p.PShade) PShade
+FROM `invoice_roll` as `a`
+INNER JOIN `product` as `p` ON `a`.`PID` = `p`.`ID`
+WHERE `a`.`InID` = :a.InID:
+ORDER BY `a`.`ID` ASC', [...], false)
+ 5 APPPATH\Modules\Create_or\Models\Create_inv.php(181): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Create_or\Models\Create_inv.php(22): App\Modules\Create_or\Models\Create_inv->get_data(2)
+ 7 APPPATH\Modules\Create_or\Controllers\Create_inv.php(23): App\Modules\Create_or\Models\Create_inv->__construct()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Modules\Create_or\Controllers\Create_inv->__construct()
+ 9 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 13:57:08 --> Undefined variable $w2
+in APPPATH\Modules\Report\Views\rp_sales\index.php on line 51.
+ 1 APPPATH\Modules\Report\Views\rp_sales\index.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $w2', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_sales\\index.php', 51)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_sales\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_sales\\index', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_sales.php(61): view('Modules\\Report\\Views\\rp_sales\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 13:57:38 --> Undefined variable $w2
+in APPPATH\Modules\Report\Views\rp_sales\index.php on line 51.
+ 1 APPPATH\Modules\Report\Views\rp_sales\index.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $w2', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_sales\\index.php', 51)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_sales\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_sales\\index', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_sales.php(61): view('Modules\\Report\\Views\\rp_sales\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 13:59:21 --> Undefined variable $w2
+in APPPATH\Modules\Report\Views\rp_sales\index.php on line 51.
+ 1 APPPATH\Modules\Report\Views\rp_sales\index.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $w2', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_sales\\index.php', 51)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_sales\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_sales\\index', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_sales.php(61): view('Modules\\Report\\Views\\rp_sales\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 13:59:28 --> Undefined variable $w2
+in APPPATH\Modules\Report\Views\rp_sales\index.php on line 51.
+ 1 APPPATH\Modules\Report\Views\rp_sales\index.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $w2', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_sales\\index.php', 51)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_sales\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_sales\\index', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_sales.php(61): view('Modules\\Report\\Views\\rp_sales\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 14:00:20 --> Undefined variable $w2
+in APPPATH\Modules\Report\Views\rp_sales\index.php on line 51.
+ 1 APPPATH\Modules\Report\Views\rp_sales\index.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $w2', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_sales\\index.php', 51)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_sales\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_sales\\index', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_sales.php(61): view('Modules\\Report\\Views\\rp_sales\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 14:01:18 --> Undefined variable $w2
+in APPPATH\Modules\Report\Views\rp_sales\index.php on line 51.
+ 1 APPPATH\Modules\Report\Views\rp_sales\index.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $w2', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_sales\\index.php', 51)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_sales\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_sales\\index', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_sales.php(63): view('Modules\\Report\\Views\\rp_sales\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 14:01:19 --> Undefined variable $w2
+in APPPATH\Modules\Report\Views\rp_sales\index.php on line 51.
+ 1 APPPATH\Modules\Report\Views\rp_sales\index.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $w2', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_sales\\index.php', 51)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_sales\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_sales\\index', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_sales.php(63): view('Modules\\Report\\Views\\rp_sales\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-02 14:02:17 --> mysqli_sql_exception: Unknown column 'CutID' in 'where clause' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *, (SELE...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, (SELE...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, (SELE...')
+#3 D:\xampp\htdocs\dfinest\app\Modules\Report\Models\Report.php(23): CodeIgniter\Database\BaseConnection->query('SELECT *, (SELE...')
+#4 D:\xampp\htdocs\dfinest\app\Modules\Report\Controllers\Rp_sales.php(98): App\Modules\Report\Models\Report->get_itemlist('SELECT *, (SELE...', 0, '50')
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->load_data()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-02 14:02:17 --> Unknown column 'CutID' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *, (SELECT BName FROM customer WHERE ID=CusID)Name, (SELECT Username FROM admin_users WHERE ID=UserID) AddBy, (SELECT Username FROM admin_users WHERE ID=CutID) CutBy FROM invoice ORDER BY ID DESC LIMIT 0,50', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, (SELECT BName FROM customer WHERE ID=CusID)Name, (SELECT Username FROM admin_users WHERE ID=UserID) AddBy, (SELECT Username FROM admin_users WHERE ID=CutID) CutBy FROM invoice ORDER BY ID DESC LIMIT 0,50')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, (SELECT BName FROM customer WHERE ID=CusID)Name, (SELECT Username FROM admin_users WHERE ID=UserID) AddBy, (SELECT Username FROM admin_users WHERE ID=CutID) CutBy FROM invoice ORDER BY ID DESC LIMIT 0,50')
+ 4 APPPATH\Modules\Report\Models\Report.php(23): CodeIgniter\Database\BaseConnection->query('SELECT *, (SELECT BName FROM customer WHERE ID=CusID)Name, (SELECT Username FROM admin_users WHERE ID=UserID) AddBy, (SELECT Username FROM admin_users WHERE ID=CutID) CutBy FROM invoice ORDER BY ID DESC LIMIT 0,50')
+ 5 APPPATH\Modules\Report\Controllers\Rp_sales.php(98): App\Modules\Report\Models\Report->get_itemlist('SELECT *, (SELECT BName FROM customer WHERE ID=CusID)Name, (SELECT Username FROM admin_users WHERE ID=UserID) AddBy, (SELECT Username FROM admin_users WHERE ID=CutID) CutBy FROM invoice ORDER BY ID DESC LIMIT 0,50', 0, '50')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->load_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-02 14:02:19 --> mysqli_sql_exception: Unknown column 'CutID' in 'where clause' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *, (SELE...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, (SELE...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, (SELE...')
+#3 D:\xampp\htdocs\dfinest\app\Modules\Report\Models\Report.php(23): CodeIgniter\Database\BaseConnection->query('SELECT *, (SELE...')
+#4 D:\xampp\htdocs\dfinest\app\Modules\Report\Controllers\Rp_sales.php(98): App\Modules\Report\Models\Report->get_itemlist('SELECT *, (SELE...', 0, '50')
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->load_data()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-02 14:02:19 --> Unknown column 'CutID' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *, (SELECT BName FROM customer WHERE ID=CusID)Name, (SELECT Username FROM admin_users WHERE ID=UserID) AddBy, (SELECT Username FROM admin_users WHERE ID=CutID) CutBy FROM invoice ORDER BY ID DESC LIMIT 0,50', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, (SELECT BName FROM customer WHERE ID=CusID)Name, (SELECT Username FROM admin_users WHERE ID=UserID) AddBy, (SELECT Username FROM admin_users WHERE ID=CutID) CutBy FROM invoice ORDER BY ID DESC LIMIT 0,50')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, (SELECT BName FROM customer WHERE ID=CusID)Name, (SELECT Username FROM admin_users WHERE ID=UserID) AddBy, (SELECT Username FROM admin_users WHERE ID=CutID) CutBy FROM invoice ORDER BY ID DESC LIMIT 0,50')
+ 4 APPPATH\Modules\Report\Models\Report.php(23): CodeIgniter\Database\BaseConnection->query('SELECT *, (SELECT BName FROM customer WHERE ID=CusID)Name, (SELECT Username FROM admin_users WHERE ID=UserID) AddBy, (SELECT Username FROM admin_users WHERE ID=CutID) CutBy FROM invoice ORDER BY ID DESC LIMIT 0,50')
+ 5 APPPATH\Modules\Report\Controllers\Rp_sales.php(98): App\Modules\Report\Models\Report->get_itemlist('SELECT *, (SELECT BName FROM customer WHERE ID=CusID)Name, (SELECT Username FROM admin_users WHERE ID=UserID) AddBy, (SELECT Username FROM admin_users WHERE ID=CutID) CutBy FROM invoice ORDER BY ID DESC LIMIT 0,50', 0, '50')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->load_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-02 14:03:35 --> mysqli_sql_exception: Unknown column 'CutID' in 'where clause' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *, (SELE...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, (SELE...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, (SELE...')
+#3 D:\xampp\htdocs\dfinest\app\Modules\Report\Models\Report.php(23): CodeIgniter\Database\BaseConnection->query('SELECT *, (SELE...')
+#4 D:\xampp\htdocs\dfinest\app\Modules\Report\Controllers\Rp_sales.php(98): App\Modules\Report\Models\Report->get_itemlist('SELECT *, (SELE...', 0, '50')
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->load_data()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-02 14:03:35 --> Unknown column 'CutID' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *, (SELECT BName FROM customer WHERE ID=CusID)Name, (SELECT Username FROM admin_users WHERE ID=UserID) AddBy, (SELECT Username FROM admin_users WHERE ID=CutID) CutBy FROM invoice ORDER BY ID DESC LIMIT 0,50', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, (SELECT BName FROM customer WHERE ID=CusID)Name, (SELECT Username FROM admin_users WHERE ID=UserID) AddBy, (SELECT Username FROM admin_users WHERE ID=CutID) CutBy FROM invoice ORDER BY ID DESC LIMIT 0,50')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, (SELECT BName FROM customer WHERE ID=CusID)Name, (SELECT Username FROM admin_users WHERE ID=UserID) AddBy, (SELECT Username FROM admin_users WHERE ID=CutID) CutBy FROM invoice ORDER BY ID DESC LIMIT 0,50')
+ 4 APPPATH\Modules\Report\Models\Report.php(23): CodeIgniter\Database\BaseConnection->query('SELECT *, (SELECT BName FROM customer WHERE ID=CusID)Name, (SELECT Username FROM admin_users WHERE ID=UserID) AddBy, (SELECT Username FROM admin_users WHERE ID=CutID) CutBy FROM invoice ORDER BY ID DESC LIMIT 0,50')
+ 5 APPPATH\Modules\Report\Controllers\Rp_sales.php(98): App\Modules\Report\Models\Report->get_itemlist('SELECT *, (SELECT BName FROM customer WHERE ID=CusID)Name, (SELECT Username FROM admin_users WHERE ID=UserID) AddBy, (SELECT Username FROM admin_users WHERE ID=CutID) CutBy FROM invoice ORDER BY ID DESC LIMIT 0,50', 0, '50')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->load_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 14:04:18 --> Undefined array key "OrNo"
+in APPPATH\Modules\Report\Views\rp_sales\data.php on line 15.
+ 1 APPPATH\Modules\Report\Views\rp_sales\data.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "OrNo"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_sales\\data.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_sales\\data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_sales\\data', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_sales.php(107): view('Modules\\Report\\Views\\rp_sales\\data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->load_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 14:05:06 --> Undefined array key "OrStatus"
+in APPPATH\Modules\Report\Views\rp_sales\data.php on line 20.
+ 1 APPPATH\Modules\Report\Views\rp_sales\data.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "OrStatus"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_sales\\data.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_sales\\data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_sales\\data', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_sales.php(107): view('Modules\\Report\\Views\\rp_sales\\data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->load_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 14:05:07 --> Undefined array key "OrStatus"
+in APPPATH\Modules\Report\Views\rp_sales\data.php on line 20.
+ 1 APPPATH\Modules\Report\Views\rp_sales\data.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "OrStatus"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_sales\\data.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_sales\\data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_sales\\data', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_sales.php(107): view('Modules\\Report\\Views\\rp_sales\\data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->load_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 14:05:38 --> Undefined array key "CutBy"
+in APPPATH\Modules\Report\Views\rp_sales\data.php on line 21.
+ 1 APPPATH\Modules\Report\Views\rp_sales\data.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "CutBy"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_sales\\data.php', 21)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_sales\\data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_sales\\data', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_sales.php(107): view('Modules\\Report\\Views\\rp_sales\\data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->load_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 14:05:39 --> Undefined array key "CutBy"
+in APPPATH\Modules\Report\Views\rp_sales\data.php on line 21.
+ 1 APPPATH\Modules\Report\Views\rp_sales\data.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "CutBy"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_sales\\data.php', 21)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_sales\\data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_sales\\data', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_sales.php(107): view('Modules\\Report\\Views\\rp_sales\\data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->load_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 14:06:01 --> Undefined array key "OrStatus"
+in APPPATH\Modules\Report\Views\rp_sales\data.php on line 39.
+ 1 APPPATH\Modules\Report\Views\rp_sales\data.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "OrStatus"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_sales\\data.php', 39)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_sales\\data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_sales\\data', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_sales.php(107): view('Modules\\Report\\Views\\rp_sales\\data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->load_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 14:06:02 --> Undefined array key "OrStatus"
+in APPPATH\Modules\Report\Views\rp_sales\data.php on line 39.
+ 1 APPPATH\Modules\Report\Views\rp_sales\data.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "OrStatus"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_sales\\data.php', 39)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_sales\\data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_sales\\data', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_sales.php(107): view('Modules\\Report\\Views\\rp_sales\\data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->load_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 14:07:22 --> Undefined array key "OrStatus"
+in APPPATH\Modules\Report\Views\rp_sales\data.php on line 39.
+ 1 APPPATH\Modules\Report\Views\rp_sales\data.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "OrStatus"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_sales\\data.php', 39)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_sales\\data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_sales\\data', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_sales.php(107): view('Modules\\Report\\Views\\rp_sales\\data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->load_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 14:07:23 --> Undefined array key "OrStatus"
+in APPPATH\Modules\Report\Views\rp_sales\data.php on line 39.
+ 1 APPPATH\Modules\Report\Views\rp_sales\data.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "OrStatus"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_sales\\data.php', 39)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_sales\\data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_sales\\data', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_sales.php(107): view('Modules\\Report\\Views\\rp_sales\\data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->load_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 14:07:24 --> Undefined array key "OrStatus"
+in APPPATH\Modules\Report\Views\rp_sales\data.php on line 39.
+ 1 APPPATH\Modules\Report\Views\rp_sales\data.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "OrStatus"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_sales\\data.php', 39)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_sales\\data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_sales\\data', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_sales.php(107): view('Modules\\Report\\Views\\rp_sales\\data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->load_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 14:07:52 --> Undefined array key "CutBy"
+in APPPATH\Modules\Report\Views\rp_sales\data.php on line 21.
+ 1 APPPATH\Modules\Report\Views\rp_sales\data.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "CutBy"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_sales\\data.php', 21)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_sales\\data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_sales\\data', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_sales.php(107): view('Modules\\Report\\Views\\rp_sales\\data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->load_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 14:25:50 --> Undefined variable $table
+in APPPATH\Modules\Ajax\Controllers\Ajax.php on line 296.
+ 1 APPPATH\Modules\Ajax\Controllers\Ajax.php(296): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $table', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Controllers\\Ajax.php', 296)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->edit_remark()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 14:40:26 --> Undefined array key "OtCost"
+in APPPATH\Modules\Report\Views\rp_sales\detail.php on line 39.
+ 1 APPPATH\Modules\Report\Views\rp_sales\detail.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "OtCost"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_sales\\detail.php', 39)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_sales\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_sales\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_sales.php(124): view('Modules\\Report\\Views\\rp_sales\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 14:40:27 --> Undefined array key "OtCost"
+in APPPATH\Modules\Report\Views\rp_sales\detail.php on line 39.
+ 1 APPPATH\Modules\Report\Views\rp_sales\detail.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "OtCost"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_sales\\detail.php', 39)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_sales\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_sales\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_sales.php(124): view('Modules\\Report\\Views\\rp_sales\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-02 15:06:15 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+ORDER BY LENGTH(PColor) ASC' at line 4 in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `ID`, `P...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`, `P...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`, `P...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `ID`, `P...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Controllers\Create_or.php(82): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_or->edit()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_or))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-02 15:06:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+ORDER BY LENGTH(PColor) ASC' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `ID`, `PCID`, `PColor` as `Name`, `PColor`, `Photo`
+FROM `product`
+WHERE `Active` = 1
+AND `PCID` IN ()
+ORDER BY LENGTH(PColor) ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`, `PCID`, `PColor` as `Name`, `PColor`, `Photo`
+FROM `product`
+WHERE `Active` = 1
+AND `PCID` IN ()
+ORDER BY LENGTH(PColor) ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`, `PCID`, `PColor` as `Name`, `PColor`, `Photo`
+FROM `product`
+WHERE `Active` = 1
+AND `PCID` IN ()
+ORDER BY LENGTH(PColor) ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `ID`, `PCID`, `PColor` as `Name`, `PColor`, `Photo`
+FROM `product`
+WHERE `Active` = :Active:
+AND `PCID` IN :PCID:
+ORDER BY LENGTH(PColor) ASC', [...], false)
+ 5 APPPATH\Modules\Create_or\Controllers\Create_or.php(82): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_or->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_or))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-02 15:07:09 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+ORDER BY LENGTH(PColor) ASC' at line 4 in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `ID`, `P...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`, `P...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`, `P...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `ID`, `P...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Controllers\Create_or.php(82): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_or->edit()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_or))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-02 15:07:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+ORDER BY LENGTH(PColor) ASC' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `ID`, `PCID`, `PColor` as `Name`, `PColor`, `Photo`
+FROM `product`
+WHERE `Active` = 1
+AND `PCID` IN ()
+ORDER BY LENGTH(PColor) ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`, `PCID`, `PColor` as `Name`, `PColor`, `Photo`
+FROM `product`
+WHERE `Active` = 1
+AND `PCID` IN ()
+ORDER BY LENGTH(PColor) ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`, `PCID`, `PColor` as `Name`, `PColor`, `Photo`
+FROM `product`
+WHERE `Active` = 1
+AND `PCID` IN ()
+ORDER BY LENGTH(PColor) ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `ID`, `PCID`, `PColor` as `Name`, `PColor`, `Photo`
+FROM `product`
+WHERE `Active` = :Active:
+AND `PCID` IN :PCID:
+ORDER BY LENGTH(PColor) ASC', [...], false)
+ 5 APPPATH\Modules\Create_or\Controllers\Create_or.php(82): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_or->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_or))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-02 15:08:15 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+ORDER BY LENGTH(PColor) ASC' at line 4 in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `ID`, `P...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`, `P...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`, `P...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `ID`, `P...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Controllers\Create_or.php(82): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_or->edit()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_or))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-02 15:08:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+ORDER BY LENGTH(PColor) ASC' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `ID`, `PCID`, `PColor` as `Name`, `PColor`, `Photo`
+FROM `product`
+WHERE `Active` = 1
+AND `PCID` IN ()
+ORDER BY LENGTH(PColor) ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`, `PCID`, `PColor` as `Name`, `PColor`, `Photo`
+FROM `product`
+WHERE `Active` = 1
+AND `PCID` IN ()
+ORDER BY LENGTH(PColor) ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`, `PCID`, `PColor` as `Name`, `PColor`, `Photo`
+FROM `product`
+WHERE `Active` = 1
+AND `PCID` IN ()
+ORDER BY LENGTH(PColor) ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `ID`, `PCID`, `PColor` as `Name`, `PColor`, `Photo`
+FROM `product`
+WHERE `Active` = :Active:
+AND `PCID` IN :PCID:
+ORDER BY LENGTH(PColor) ASC', [...], false)
+ 5 APPPATH\Modules\Create_or\Controllers\Create_or.php(82): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_or->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_or))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-02 15:08:24 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+ORDER BY LENGTH(PColor) ASC' at line 4 in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `ID`, `P...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`, `P...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`, `P...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `ID`, `P...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Controllers\Create_or.php(82): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_or->edit()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_or))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-02 15:08:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+ORDER BY LENGTH(PColor) ASC' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `ID`, `PCID`, `PColor` as `Name`, `PColor`, `Photo`
+FROM `product`
+WHERE `Active` = 1
+AND `PCID` IN ()
+ORDER BY LENGTH(PColor) ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`, `PCID`, `PColor` as `Name`, `PColor`, `Photo`
+FROM `product`
+WHERE `Active` = 1
+AND `PCID` IN ()
+ORDER BY LENGTH(PColor) ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`, `PCID`, `PColor` as `Name`, `PColor`, `Photo`
+FROM `product`
+WHERE `Active` = 1
+AND `PCID` IN ()
+ORDER BY LENGTH(PColor) ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `ID`, `PCID`, `PColor` as `Name`, `PColor`, `Photo`
+FROM `product`
+WHERE `Active` = :Active:
+AND `PCID` IN :PCID:
+ORDER BY LENGTH(PColor) ASC', [...], false)
+ 5 APPPATH\Modules\Create_or\Controllers\Create_or.php(82): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_or->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_or))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-02 15:09:44 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+ORDER BY LENGTH(PColor) ASC' at line 4 in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `ID`, `P...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`, `P...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`, `P...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `ID`, `P...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Controllers\Create_or.php(82): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_or->edit()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_or))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-02 15:09:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+ORDER BY LENGTH(PColor) ASC' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `ID`, `PCID`, `PColor` as `Name`, `PColor`, `Photo`
+FROM `product`
+WHERE `Active` = 1
+AND `PCID` IN ()
+ORDER BY LENGTH(PColor) ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`, `PCID`, `PColor` as `Name`, `PColor`, `Photo`
+FROM `product`
+WHERE `Active` = 1
+AND `PCID` IN ()
+ORDER BY LENGTH(PColor) ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`, `PCID`, `PColor` as `Name`, `PColor`, `Photo`
+FROM `product`
+WHERE `Active` = 1
+AND `PCID` IN ()
+ORDER BY LENGTH(PColor) ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `ID`, `PCID`, `PColor` as `Name`, `PColor`, `Photo`
+FROM `product`
+WHERE `Active` = :Active:
+AND `PCID` IN :PCID:
+ORDER BY LENGTH(PColor) ASC', [...], false)
+ 5 APPPATH\Modules\Create_or\Controllers\Create_or.php(82): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_or->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_or))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-02 15:10:00 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+ORDER BY LENGTH(PColor) ASC' at line 4 in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `ID`, `P...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`, `P...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`, `P...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `ID`, `P...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Controllers\Create_or.php(83): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_or->edit()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_or))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-02 15:10:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+ORDER BY LENGTH(PColor) ASC' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `ID`, `PCID`, `PColor` as `Name`, `PColor`, `Photo`
+FROM `product`
+WHERE `Active` = 1
+AND `PCID` IN ()
+ORDER BY LENGTH(PColor) ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`, `PCID`, `PColor` as `Name`, `PColor`, `Photo`
+FROM `product`
+WHERE `Active` = 1
+AND `PCID` IN ()
+ORDER BY LENGTH(PColor) ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`, `PCID`, `PColor` as `Name`, `PColor`, `Photo`
+FROM `product`
+WHERE `Active` = 1
+AND `PCID` IN ()
+ORDER BY LENGTH(PColor) ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `ID`, `PCID`, `PColor` as `Name`, `PColor`, `Photo`
+FROM `product`
+WHERE `Active` = :Active:
+AND `PCID` IN :PCID:
+ORDER BY LENGTH(PColor) ASC', [...], false)
+ 5 APPPATH\Modules\Create_or\Controllers\Create_or.php(83): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_or->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_or))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-02 15:38:16 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+ORDER BY LENGTH(PColor) ASC' at line 4 in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `ID`, `P...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`, `P...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`, `P...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `ID`, `P...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Controllers\Create_or.php(82): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_or->edit()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_or))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-02 15:38:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+ORDER BY LENGTH(PColor) ASC' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `ID`, `PCID`, `PColor` as `Name`, `PColor`, `Photo`
+FROM `product`
+WHERE `Active` = 1
+AND `PCID` IN ()
+ORDER BY LENGTH(PColor) ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`, `PCID`, `PColor` as `Name`, `PColor`, `Photo`
+FROM `product`
+WHERE `Active` = 1
+AND `PCID` IN ()
+ORDER BY LENGTH(PColor) ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`, `PCID`, `PColor` as `Name`, `PColor`, `Photo`
+FROM `product`
+WHERE `Active` = 1
+AND `PCID` IN ()
+ORDER BY LENGTH(PColor) ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `ID`, `PCID`, `PColor` as `Name`, `PColor`, `Photo`
+FROM `product`
+WHERE `Active` = :Active:
+AND `PCID` IN :PCID:
+ORDER BY LENGTH(PColor) ASC', [...], false)
+ 5 APPPATH\Modules\Create_or\Controllers\Create_or.php(82): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_or->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_or))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-02 15:43:40 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+ORDER BY LENGTH(PColor) ASC' at line 4 in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `ID`, `P...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`, `P...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`, `P...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `ID`, `P...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Controllers\Create_or.php(82): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_or->edit()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_or))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-02 15:43:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+ORDER BY LENGTH(PColor) ASC' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `ID`, `PCID`, `PColor` as `Name`, `PColor`, `Photo`
+FROM `product`
+WHERE `Active` = 1
+AND `PCID` IN ()
+ORDER BY LENGTH(PColor) ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`, `PCID`, `PColor` as `Name`, `PColor`, `Photo`
+FROM `product`
+WHERE `Active` = 1
+AND `PCID` IN ()
+ORDER BY LENGTH(PColor) ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`, `PCID`, `PColor` as `Name`, `PColor`, `Photo`
+FROM `product`
+WHERE `Active` = 1
+AND `PCID` IN ()
+ORDER BY LENGTH(PColor) ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `ID`, `PCID`, `PColor` as `Name`, `PColor`, `Photo`
+FROM `product`
+WHERE `Active` = :Active:
+AND `PCID` IN :PCID:
+ORDER BY LENGTH(PColor) ASC', [...], false)
+ 5 APPPATH\Modules\Create_or\Controllers\Create_or.php(82): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_or->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_or))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-02 15:43:55 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+ORDER BY LENGTH(PColor) ASC' at line 4 in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `ID`, `P...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`, `P...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`, `P...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `ID`, `P...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Controllers\Create_or.php(82): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_or->edit()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_or))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-02 15:43:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+ORDER BY LENGTH(PColor) ASC' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `ID`, `PCID`, `PColor` as `Name`, `PColor`, `Photo`
+FROM `product`
+WHERE `Active` = 1
+AND `PCID` IN ()
+ORDER BY LENGTH(PColor) ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`, `PCID`, `PColor` as `Name`, `PColor`, `Photo`
+FROM `product`
+WHERE `Active` = 1
+AND `PCID` IN ()
+ORDER BY LENGTH(PColor) ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`, `PCID`, `PColor` as `Name`, `PColor`, `Photo`
+FROM `product`
+WHERE `Active` = 1
+AND `PCID` IN ()
+ORDER BY LENGTH(PColor) ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `ID`, `PCID`, `PColor` as `Name`, `PColor`, `Photo`
+FROM `product`
+WHERE `Active` = :Active:
+AND `PCID` IN :PCID:
+ORDER BY LENGTH(PColor) ASC', [...], false)
+ 5 APPPATH\Modules\Create_or\Controllers\Create_or.php(82): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_or->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_or))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-02 15:44:01 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+ORDER BY LENGTH(PColor) ASC' at line 4 in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `ID`, `P...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`, `P...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`, `P...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `ID`, `P...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Controllers\Create_or.php(82): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_or->edit()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_or))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-02 15:44:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+ORDER BY LENGTH(PColor) ASC' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `ID`, `PCID`, `PColor` as `Name`, `PColor`, `Photo`
+FROM `product`
+WHERE `Active` = 1
+AND `PCID` IN ()
+ORDER BY LENGTH(PColor) ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`, `PCID`, `PColor` as `Name`, `PColor`, `Photo`
+FROM `product`
+WHERE `Active` = 1
+AND `PCID` IN ()
+ORDER BY LENGTH(PColor) ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`, `PCID`, `PColor` as `Name`, `PColor`, `Photo`
+FROM `product`
+WHERE `Active` = 1
+AND `PCID` IN ()
+ORDER BY LENGTH(PColor) ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `ID`, `PCID`, `PColor` as `Name`, `PColor`, `Photo`
+FROM `product`
+WHERE `Active` = :Active:
+AND `PCID` IN :PCID:
+ORDER BY LENGTH(PColor) ASC', [...], false)
+ 5 APPPATH\Modules\Create_or\Controllers\Create_or.php(82): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_or->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_or))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-02 15:47:29 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+ORDER BY LENGTH(PColor) ASC' at line 4 in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `ID`, `P...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`, `P...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`, `P...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `ID`, `P...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Controllers\Create_inv.php(100): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_inv->get_order_detail()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_inv))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-02 15:47:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+ORDER BY LENGTH(PColor) ASC' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `ID`, `PCID`, `PColor` as `Name`, `PColor`, `Photo`
+FROM `product`
+WHERE `Active` = 1
+AND `PCID` IN ()
+ORDER BY LENGTH(PColor) ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`, `PCID`, `PColor` as `Name`, `PColor`, `Photo`
+FROM `product`
+WHERE `Active` = 1
+AND `PCID` IN ()
+ORDER BY LENGTH(PColor) ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`, `PCID`, `PColor` as `Name`, `PColor`, `Photo`
+FROM `product`
+WHERE `Active` = 1
+AND `PCID` IN ()
+ORDER BY LENGTH(PColor) ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `ID`, `PCID`, `PColor` as `Name`, `PColor`, `Photo`
+FROM `product`
+WHERE `Active` = :Active:
+AND `PCID` IN :PCID:
+ORDER BY LENGTH(PColor) ASC', [...], false)
+ 5 APPPATH\Modules\Create_or\Controllers\Create_inv.php(100): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_inv->get_order_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_inv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 15:57:37 --> Undefined array key "Location"
+in APPPATH\Modules\Create_or\Views\create_inv\order_detail.php on line 30.
+ 1 APPPATH\Modules\Create_or\Views\create_inv\order_detail.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Location"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\create_inv\\order_detail.php', 30)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\create_inv\\order_detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Create_or\\Views\\create_inv\\order_detail', [], true)
+ 5 APPPATH\Modules\Create_or\Controllers\Create_inv.php(140): view('Modules\\Create_or\\Views\\create_inv\\order_detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_inv->get_order_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_inv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 16:30:46 --> Undefined array key 2
+in APPPATH\Modules\Create_or\Views\create_inv\order_detail.php on line 111.
+ 1 APPPATH\Modules\Create_or\Views\create_inv\order_detail.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\create_inv\\order_detail.php', 111)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\create_inv\\order_detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Create_or\\Views\\create_inv\\order_detail', [], true)
+ 5 APPPATH\Modules\Create_or\Controllers\Create_inv.php(140): view('Modules\\Create_or\\Views\\create_inv\\order_detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_inv->get_order_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_inv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 16:31:29 --> Undefined array key 2
+in APPPATH\Modules\Create_or\Views\create_inv\order_detail.php on line 112.
+ 1 APPPATH\Modules\Create_or\Views\create_inv\order_detail.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\create_inv\\order_detail.php', 112)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\create_inv\\order_detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Create_or\\Views\\create_inv\\order_detail', [], true)
+ 5 APPPATH\Modules\Create_or\Controllers\Create_inv.php(140): view('Modules\\Create_or\\Views\\create_inv\\order_detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_inv->get_order_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_inv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

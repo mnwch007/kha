@@ -1,0 +1,69 @@
+CRITICAL - 2023-08-23 11:35:44 --> Undefined property: App\Modules\Main\Controllers\Main::$session
+in APPPATH\Modules\Main\Controllers\Main.php on line 9.
+ 1 APPPATH\Modules\Main\Controllers\Main.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Main\\Controllers\\Main::$session', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Main\\Controllers\\Main.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-23 11:35:46 --> Undefined property: App\Modules\Main\Controllers\Main::$session
+in APPPATH\Modules\Main\Controllers\Main.php on line 9.
+ 1 APPPATH\Modules\Main\Controllers\Main.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Main\\Controllers\\Main::$session', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Main\\Controllers\\Main.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-23 11:35:46 --> Undefined property: App\Modules\Main\Controllers\Main::$session
+in APPPATH\Modules\Main\Controllers\Main.php on line 9.
+ 1 APPPATH\Modules\Main\Controllers\Main.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Main\\Controllers\\Main::$session', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Main\\Controllers\\Main.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-23 11:36:02 --> Undefined property: App\Modules\Main\Controllers\Main::$session
+in APPPATH\Modules\Main\Controllers\Main.php on line 9.
+ 1 APPPATH\Modules\Main\Controllers\Main.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Main\\Controllers\\Main::$session', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Main\\Controllers\\Main.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-23 11:36:03 --> Undefined property: App\Modules\Main\Controllers\Main::$session
+in APPPATH\Modules\Main\Controllers\Main.php on line 9.
+ 1 APPPATH\Modules\Main\Controllers\Main.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Main\\Controllers\\Main::$session', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Main\\Controllers\\Main.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-23 11:36:18 --> Undefined property: App\Modules\Main\Controllers\Main::$session
+in APPPATH\Modules\Main\Controllers\Main.php on line 9.
+ 1 APPPATH\Modules\Main\Controllers\Main.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Main\\Controllers\\Main::$session', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Main\\Controllers\\Main.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-23 11:36:19 --> Undefined property: App\Modules\Main\Controllers\Main::$session
+in APPPATH\Modules\Main\Controllers\Main.php on line 9.
+ 1 APPPATH\Modules\Main\Controllers\Main.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Main\\Controllers\\Main::$session', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Main\\Controllers\\Main.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-23 11:50:17 --> Undefined property: App\Modules\Main\Controllers\Main::$page_title
+in APPPATH\Modules\Main\Controllers\Main.php on line 10.
+ 1 APPPATH\Modules\Main\Controllers\Main.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Main\\Controllers\\Main::$page_title', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Main\\Controllers\\Main.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-23 11:50:18 --> Undefined property: App\Modules\Main\Controllers\Main::$page_title
+in APPPATH\Modules\Main\Controllers\Main.php on line 10.
+ 1 APPPATH\Modules\Main\Controllers\Main.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Main\\Controllers\\Main::$page_title', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Main\\Controllers\\Main.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-23 13:04:38 --> Too few arguments to function App\Modules\Main\Controllers\Main::language_changer(), 0 passed in D:\xampp\htdocs\dfinest\system\CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH\Modules\Main\Controllers\Main.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\Main->language_changer()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

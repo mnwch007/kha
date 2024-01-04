@@ -1,0 +1,305 @@
+CRITICAL - 2023-10-16 09:50:46 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #1 ($uri) must be of type string, null given, called in D:\xampp\htdocs\dfinest\app\Modules\Report\Controllers\Rp_sales_wh.php on line 178
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 32.
+ 1 APPPATH\Modules\Report\Controllers\Rp_sales_wh.php(178): CodeIgniter\HTTP\RedirectResponse->to(null)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales_wh->document('1', '4')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales_wh))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 09:53:03 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #1 ($uri) must be of type string, null given, called in D:\xampp\htdocs\dfinest\app\Modules\Report\Controllers\Rp_sales_wh.php on line 178
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 32.
+ 1 APPPATH\Modules\Report\Controllers\Rp_sales_wh.php(178): CodeIgniter\HTTP\RedirectResponse->to(null)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales_wh->document('1', '4')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales_wh))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 09:55:48 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #1 ($uri) must be of type string, null given, called in D:\xampp\htdocs\dfinest\app\Modules\Report\Controllers\Rp_sales.php on line 180
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 32.
+ 1 APPPATH\Modules\Report\Controllers\Rp_sales.php(180): CodeIgniter\HTTP\RedirectResponse->to(null)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->document('1', '7')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 09:56:04 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #1 ($uri) must be of type string, null given, called in D:\xampp\htdocs\dfinest\app\Modules\Report\Controllers\Rp_sales_wh.php on line 178
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 32.
+ 1 APPPATH\Modules\Report\Controllers\Rp_sales_wh.php(178): CodeIgniter\HTTP\RedirectResponse->to(null)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales_wh->document('1', '6')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales_wh))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-16 10:23:39 --> mysqli_sql_exception: Unknown column 'Location' in 'field list' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `in...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Models\Create_inv.php(138): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Models\Create_inv.php(38): App\Modules\Create_or\Models\Create_inv->gen_invoice_doc('6')
+#6 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Controllers\Create_inv.php(207): App\Modules\Create_or\Models\Create_inv->add()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_inv->submit()
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_inv))
+#9 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-16 10:23:39 --> Unknown column 'Location' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `invoice_roll` (`SaleType`, `OrID`, `OrDID`, `PCID`, `PID`, `StID`, `CAvaiQty`, `Qty`, `Unit`, `UPrice`, `Price`, `Location`, `UpStock`, `InvID`, `Line`) VALUES (\'1\', \'6\', \'0\', \'1\', \'1\', \'7\', \'20.00\', \'20.00\', \'Y\', \'55.00\', \'1100.00\', \'1\', \'0\', 8, 1)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `invoice_roll` (`SaleType`, `OrID`, `OrDID`, `PCID`, `PID`, `StID`, `CAvaiQty`, `Qty`, `Unit`, `UPrice`, `Price`, `Location`, `UpStock`, `InvID`, `Line`) VALUES (\'1\', \'6\', \'0\', \'1\', \'1\', \'7\', \'20.00\', \'20.00\', \'Y\', \'55.00\', \'1100.00\', \'1\', \'0\', 8, 1)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `invoice_roll` (`SaleType`, `OrID`, `OrDID`, `PCID`, `PID`, `StID`, `CAvaiQty`, `Qty`, `Unit`, `UPrice`, `Price`, `Location`, `UpStock`, `InvID`, `Line`) VALUES (\'1\', \'6\', \'0\', \'1\', \'1\', \'7\', \'20.00\', \'20.00\', \'Y\', \'55.00\', \'1100.00\', \'1\', \'0\', 8, 1)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `invoice_roll` (`SaleType`, `OrID`, `OrDID`, `PCID`, `PID`, `StID`, `CAvaiQty`, `Qty`, `Unit`, `UPrice`, `Price`, `Location`, `UpStock`, `InvID`, `Line`) VALUES (:SaleType:, :OrID:, :OrDID:, :PCID:, :PID:, :StID:, :CAvaiQty:, :Qty:, :Unit:, :UPrice:, :Price:, :Location:, :UpStock:, :InvID:, :Line:)', [...], false)
+ 5 APPPATH\Modules\Create_or\Models\Create_inv.php(138): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Modules\Create_or\Models\Create_inv.php(38): App\Modules\Create_or\Models\Create_inv->gen_invoice_doc('6')
+ 7 APPPATH\Modules\Create_or\Controllers\Create_inv.php(207): App\Modules\Create_or\Models\Create_inv->add()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_inv->submit()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_inv))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-16 10:25:17 --> mysqli_sql_exception: Unknown column 'Location' in 'field list' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `in...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Models\Create_inv.php(138): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Models\Create_inv.php(38): App\Modules\Create_or\Models\Create_inv->gen_invoice_doc('6')
+#6 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Controllers\Create_inv.php(207): App\Modules\Create_or\Models\Create_inv->add()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_inv->submit()
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_inv))
+#9 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-16 10:25:17 --> Unknown column 'Location' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `invoice_roll` (`SaleType`, `OrID`, `OrDID`, `PCID`, `PID`, `StID`, `CAvaiQty`, `Qty`, `Unit`, `UPrice`, `Price`, `Location`, `UpStock`, `InvID`, `Line`) VALUES (\'1\', \'6\', \'0\', \'1\', \'1\', \'7\', \'20.00\', \'20.00\', \'Y\', \'55.00\', \'1100.00\', \'1\', \'0\', 9, 1)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `invoice_roll` (`SaleType`, `OrID`, `OrDID`, `PCID`, `PID`, `StID`, `CAvaiQty`, `Qty`, `Unit`, `UPrice`, `Price`, `Location`, `UpStock`, `InvID`, `Line`) VALUES (\'1\', \'6\', \'0\', \'1\', \'1\', \'7\', \'20.00\', \'20.00\', \'Y\', \'55.00\', \'1100.00\', \'1\', \'0\', 9, 1)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `invoice_roll` (`SaleType`, `OrID`, `OrDID`, `PCID`, `PID`, `StID`, `CAvaiQty`, `Qty`, `Unit`, `UPrice`, `Price`, `Location`, `UpStock`, `InvID`, `Line`) VALUES (\'1\', \'6\', \'0\', \'1\', \'1\', \'7\', \'20.00\', \'20.00\', \'Y\', \'55.00\', \'1100.00\', \'1\', \'0\', 9, 1)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `invoice_roll` (`SaleType`, `OrID`, `OrDID`, `PCID`, `PID`, `StID`, `CAvaiQty`, `Qty`, `Unit`, `UPrice`, `Price`, `Location`, `UpStock`, `InvID`, `Line`) VALUES (:SaleType:, :OrID:, :OrDID:, :PCID:, :PID:, :StID:, :CAvaiQty:, :Qty:, :Unit:, :UPrice:, :Price:, :Location:, :UpStock:, :InvID:, :Line:)', [...], false)
+ 5 APPPATH\Modules\Create_or\Models\Create_inv.php(138): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Modules\Create_or\Models\Create_inv.php(38): App\Modules\Create_or\Models\Create_inv->gen_invoice_doc('6')
+ 7 APPPATH\Modules\Create_or\Controllers\Create_inv.php(207): App\Modules\Create_or\Models\Create_inv->add()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_inv->submit()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_inv))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-16 10:31:11 --> mysqli_sql_exception: Unknown column 'Location' in 'field list' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `in...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Models\Create_inv.php(138): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Models\Create_inv.php(38): App\Modules\Create_or\Models\Create_inv->gen_invoice_doc('6')
+#6 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Controllers\Create_inv.php(207): App\Modules\Create_or\Models\Create_inv->add()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_inv->submit()
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_inv))
+#9 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-16 10:31:11 --> Unknown column 'Location' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `invoice_roll` (`SaleType`, `OrID`, `OrDID`, `PCID`, `PID`, `StID`, `CAvaiQty`, `Qty`, `Unit`, `UPrice`, `Price`, `Location`, `UpStock`, `InvID`, `Line`) VALUES (\'1\', \'6\', \'0\', \'1\', \'1\', \'7\', \'20.00\', \'20.00\', \'Y\', \'55.00\', \'1100.00\', \'1\', \'0\', 10, 1)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `invoice_roll` (`SaleType`, `OrID`, `OrDID`, `PCID`, `PID`, `StID`, `CAvaiQty`, `Qty`, `Unit`, `UPrice`, `Price`, `Location`, `UpStock`, `InvID`, `Line`) VALUES (\'1\', \'6\', \'0\', \'1\', \'1\', \'7\', \'20.00\', \'20.00\', \'Y\', \'55.00\', \'1100.00\', \'1\', \'0\', 10, 1)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `invoice_roll` (`SaleType`, `OrID`, `OrDID`, `PCID`, `PID`, `StID`, `CAvaiQty`, `Qty`, `Unit`, `UPrice`, `Price`, `Location`, `UpStock`, `InvID`, `Line`) VALUES (\'1\', \'6\', \'0\', \'1\', \'1\', \'7\', \'20.00\', \'20.00\', \'Y\', \'55.00\', \'1100.00\', \'1\', \'0\', 10, 1)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `invoice_roll` (`SaleType`, `OrID`, `OrDID`, `PCID`, `PID`, `StID`, `CAvaiQty`, `Qty`, `Unit`, `UPrice`, `Price`, `Location`, `UpStock`, `InvID`, `Line`) VALUES (:SaleType:, :OrID:, :OrDID:, :PCID:, :PID:, :StID:, :CAvaiQty:, :Qty:, :Unit:, :UPrice:, :Price:, :Location:, :UpStock:, :InvID:, :Line:)', [...], false)
+ 5 APPPATH\Modules\Create_or\Models\Create_inv.php(138): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Modules\Create_or\Models\Create_inv.php(38): App\Modules\Create_or\Models\Create_inv->gen_invoice_doc('6')
+ 7 APPPATH\Modules\Create_or\Controllers\Create_inv.php(207): App\Modules\Create_or\Models\Create_inv->add()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_inv->submit()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_inv))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 10:32:50 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\MainModel.php on line 573.
+ 1 APPPATH\Modules\Create_or\Models\Create_inv.php(142): App\Models\MainModel->update_stock(1, '7', -20.0, 'Y', '0')
+ 2 APPPATH\Modules\Create_or\Models\Create_inv.php(38): App\Modules\Create_or\Models\Create_inv->gen_invoice_doc('6')
+ 3 APPPATH\Modules\Create_or\Controllers\Create_inv.php(207): App\Modules\Create_or\Models\Create_inv->add()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_inv->submit()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_inv))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 11:01:16 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #1 ($uri) must be of type string, null given, called in D:\xampp\htdocs\dfinest\app\Modules\Report\Controllers\Rp_sales_wh.php on line 178
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 32.
+ 1 APPPATH\Modules\Report\Controllers\Rp_sales_wh.php(178): CodeIgniter\HTTP\RedirectResponse->to(null)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales_wh->document('1', '17')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales_wh))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 11:01:32 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #1 ($uri) must be of type string, null given, called in D:\xampp\htdocs\dfinest\app\Modules\Report\Controllers\Rp_sales.php on line 180
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 32.
+ 1 APPPATH\Modules\Report\Controllers\Rp_sales.php(180): CodeIgniter\HTTP\RedirectResponse->to(null)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->document('1', '18')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 11:05:51 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #1 ($uri) must be of type string, null given, called in D:\xampp\htdocs\dfinest\app\Modules\Report\Controllers\Rp_sales_wh.php on line 178
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 32.
+ 1 APPPATH\Modules\Report\Controllers\Rp_sales_wh.php(178): CodeIgniter\HTTP\RedirectResponse->to(null)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales_wh->document('1', '19')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales_wh))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 11:06:04 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #1 ($uri) must be of type string, null given, called in D:\xampp\htdocs\dfinest\app\Modules\Report\Controllers\Rp_sales.php on line 180
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 32.
+ 1 APPPATH\Modules\Report\Controllers\Rp_sales.php(180): CodeIgniter\HTTP\RedirectResponse->to(null)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->document('1', '20')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 11:21:57 --> Class "App\Modules\Credit\Models\Credit_ap" not found
+in APPPATH\Modules\Credit\Controllers\Credit_ap.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Modules\Credit\Controllers\Credit_ap->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 11:21:58 --> Class "App\Modules\Credit\Models\Credit_ap" not found
+in APPPATH\Modules\Credit\Controllers\Credit_ap.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Modules\Credit\Controllers\Credit_ap->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 11:22:24 --> Class "App\Modules\Credit\Models\Credit_ap" not found
+in APPPATH\Modules\Credit\Controllers\Credit_ap.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Modules\Credit\Controllers\Credit_ap->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 11:22:25 --> Class "App\Modules\Credit\Models\Credit_ap" not found
+in APPPATH\Modules\Credit\Controllers\Credit_ap.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Modules\Credit\Controllers\Credit_ap->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 11:22:54 --> Class "App\Modules\Credit\Models\Credit_ap" not found
+in APPPATH\Modules\Credit\Controllers\Credit_ap.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Modules\Credit\Controllers\Credit_ap->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 11:22:55 --> Class "App\Modules\Credit\Models\Credit_ap" not found
+in APPPATH\Modules\Credit\Controllers\Credit_ap.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Modules\Credit\Controllers\Credit_ap->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 11:23:10 --> Class "App\Modules\Credit\Models\Credit_ap" not found
+in APPPATH\Modules\Credit\Controllers\Credit_ap.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Modules\Credit\Controllers\Credit_ap->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 11:23:11 --> Class "App\Modules\Credit\Models\Credit_ap" not found
+in APPPATH\Modules\Credit\Controllers\Credit_ap.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Modules\Credit\Controllers\Credit_ap->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 11:24:07 --> Class "App\Modules\Credit\Models\Credit_ap" not found
+in APPPATH\Modules\Credit\Controllers\Credit_ap.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Modules\Credit\Controllers\Credit_ap->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 11:24:08 --> Class "App\Modules\Credit\Models\Credit_ap" not found
+in APPPATH\Modules\Credit\Controllers\Credit_ap.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Modules\Credit\Controllers\Credit_ap->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 11:24:46 --> Class "App\Modules\Credit\Models\Credit_ap" not found
+in APPPATH\Modules\Credit\Controllers\Credit_ap.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Modules\Credit\Controllers\Credit_ap->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 11:24:46 --> Class "App\Modules\Credit\Models\Credit_ap" not found
+in APPPATH\Modules\Credit\Controllers\Credit_ap.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Modules\Credit\Controllers\Credit_ap->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 11:25:29 --> Class "App\Modules\Credit\Models\Credit_ap" not found
+in APPPATH\Modules\Credit\Controllers\Credit_ap.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Modules\Credit\Controllers\Credit_ap->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 11:25:30 --> Class "App\Modules\Credit\Models\Credit_ap" not found
+in APPPATH\Modules\Credit\Controllers\Credit_ap.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Modules\Credit\Controllers\Credit_ap->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 12:00:30 --> Invalid file: "Modules\Credit\Views\credit_ap\form.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Credit\\Views\\credit_ap\\form.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Credit\\Views\\credit_ap\\form', [], true)
+ 3 APPPATH\Modules\Credit\Views\credit_ap\index.php(53): view('Modules\\Credit\\Views\\credit_ap\\form')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Credit\\Views\\credit_ap\\index.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Credit\\Views\\credit_ap\\index', [], true)
+ 7 APPPATH\Modules\Credit\Controllers\Credit_ap.php(60): view('Modules\\Credit\\Views\\credit_ap\\index', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Credit\Controllers\Credit_ap->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Credit\Controllers\Credit_ap))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 12:01:11 --> Invalid file: "Modules\Credit\Views\credit_ap\form.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Credit\\Views\\credit_ap\\form.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Credit\\Views\\credit_ap\\form', [], true)
+ 3 APPPATH\Modules\Credit\Views\credit_ap\index.php(53): view('Modules\\Credit\\Views\\credit_ap\\form')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Credit\\Views\\credit_ap\\index.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Credit\\Views\\credit_ap\\index', [], true)
+ 7 APPPATH\Modules\Credit\Controllers\Credit_ap.php(60): view('Modules\\Credit\\Views\\credit_ap\\index', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Credit\Controllers\Credit_ap->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Credit\Controllers\Credit_ap))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 12:04:18 --> Undefined variable $mode
+in APPPATH\Modules\Credit\Views\credit_ap\form1.php on line 14.
+ 1 APPPATH\Modules\Credit\Views\credit_ap\form1.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mode', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Credit\\Views\\credit_ap\\form1.php', 14)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Credit\\Views\\credit_ap\\form1.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Credit\\Views\\credit_ap\\form1', [], true)
+ 5 APPPATH\Modules\Credit\Controllers\Credit_ap.php(127): view('Modules\\Credit\\Views\\credit_ap\\form1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Credit\Controllers\Credit_ap->ajax_get_form()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Credit\Controllers\Credit_ap))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 12:04:52 --> Undefined variable $mode
+in APPPATH\Modules\Credit\Views\credit_ap\form1.php on line 14.
+ 1 APPPATH\Modules\Credit\Views\credit_ap\form1.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mode', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Credit\\Views\\credit_ap\\form1.php', 14)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Credit\\Views\\credit_ap\\form1.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Credit\\Views\\credit_ap\\form1', [], true)
+ 5 APPPATH\Modules\Credit\Controllers\Credit_ap.php(127): view('Modules\\Credit\\Views\\credit_ap\\form1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Credit\Controllers\Credit_ap->ajax_get_form()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Credit\Controllers\Credit_ap))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 12:05:56 --> Invalid file: "Modules\Credit\Views\credit_ap\form.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Credit\\Views\\credit_ap\\form.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Credit\\Views\\credit_ap\\form', [], true)
+ 3 APPPATH\Modules\Credit\Controllers\Credit_ap.php(127): view('Modules\\Credit\\Views\\credit_ap\\form', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Credit\Controllers\Credit_ap->ajax_get_form()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Credit\Controllers\Credit_ap))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 12:13:53 --> Invalid file: "Modules\Credit\Views\credit_ap\form.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Credit\\Views\\credit_ap\\form.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Credit\\Views\\credit_ap\\form', [], true)
+ 3 APPPATH\Modules\Credit\Controllers\Credit_ap.php(127): view('Modules\\Credit\\Views\\credit_ap\\form', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Credit\Controllers\Credit_ap->ajax_get_form()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Credit\Controllers\Credit_ap))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 12:14:46 --> Invalid file: "Modules\Credit\Views\credit_ap\form.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Credit\\Views\\credit_ap\\form.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Credit\\Views\\credit_ap\\form', [], true)
+ 3 APPPATH\Modules\Credit\Controllers\Credit_ap.php(128): view('Modules\\Credit\\Views\\credit_ap\\form', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Credit\Controllers\Credit_ap->ajax_get_form()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Credit\Controllers\Credit_ap))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

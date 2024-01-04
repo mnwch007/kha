@@ -1,0 +1,1140 @@
+ERROR - 2023-10-18 10:26:59 --> mysqli_sql_exception: Unknown column 'RefNo' in 'field list' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `po...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Po\Models\Po.php(46): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\xampp\htdocs\dfinest\app\Modules\Po\Controllers\Po.php(60): App\Modules\Po\Models\Po->add()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Po\Controllers\Po->submit()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Po\Controllers\Po))
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-18 10:26:59 --> Unknown column 'RefNo' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `po` (`PoDate`, `RefNo`, `SupID`, `Remark`, `DiscountType`, `PDiscount`, `Discount`, `VATType`, `Location`, `IP`, `UserID`, `CreatedDate`, `LastUpdated`, `PoNo`) VALUES (\'2023-10-18\', \'\', \'1\', \'\', \'1\', \'\', \'\', \'1\', \'1\', \'::1\', \'2\', \'2023-10-18 10:26:59\', \'2023-10-18 10:26:59\', \'PO2310-001\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po` (`PoDate`, `RefNo`, `SupID`, `Remark`, `DiscountType`, `PDiscount`, `Discount`, `VATType`, `Location`, `IP`, `UserID`, `CreatedDate`, `LastUpdated`, `PoNo`) VALUES (\'2023-10-18\', \'\', \'1\', \'\', \'1\', \'\', \'\', \'1\', \'1\', \'::1\', \'2\', \'2023-10-18 10:26:59\', \'2023-10-18 10:26:59\', \'PO2310-001\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po` (`PoDate`, `RefNo`, `SupID`, `Remark`, `DiscountType`, `PDiscount`, `Discount`, `VATType`, `Location`, `IP`, `UserID`, `CreatedDate`, `LastUpdated`, `PoNo`) VALUES (\'2023-10-18\', \'\', \'1\', \'\', \'1\', \'\', \'\', \'1\', \'1\', \'::1\', \'2\', \'2023-10-18 10:26:59\', \'2023-10-18 10:26:59\', \'PO2310-001\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po` (`PoDate`, `RefNo`, `SupID`, `Remark`, `DiscountType`, `PDiscount`, `Discount`, `VATType`, `Location`, `IP`, `UserID`, `CreatedDate`, `LastUpdated`, `PoNo`) VALUES (:PoDate:, :RefNo:, :SupID:, :Remark:, :DiscountType:, :PDiscount:, :Discount:, :VATType:, :Location:, :IP:, :UserID:, :CreatedDate:, :LastUpdated:, :PoNo:)', [...], false)
+ 5 APPPATH\Modules\Po\Models\Po.php(46): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Modules\Po\Controllers\Po.php(60): App\Modules\Po\Models\Po->add()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Po\Controllers\Po->submit()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Po\Controllers\Po))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-18 10:32:09 --> mysqli_sql_exception: Unknown column 'Line' in 'field list' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `po...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Po\Models\Po.php(71): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\xampp\htdocs\dfinest\app\Modules\Po\Models\Po.php(49): App\Modules\Po\Models\Po->add_list(1, Array)
+#6 D:\xampp\htdocs\dfinest\app\Modules\Po\Controllers\Po.php(60): App\Modules\Po\Models\Po->add()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Po\Controllers\Po->submit()
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Po\Controllers\Po))
+#9 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-18 10:32:09 --> Unknown column 'Line' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `po_detail` (`PoID`, `PID`, `Line`, `Qty`, `UPrice`, `Price`, `Unit`, `CreatedDate`, `LastUpdated`) VALUES (1, \'1\', 1, \'120\', \'100\', \'12000.00\', \'Y\', \'2023-10-18 10:32:09\', \'2023-10-18 10:32:09\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po_detail` (`PoID`, `PID`, `Line`, `Qty`, `UPrice`, `Price`, `Unit`, `CreatedDate`, `LastUpdated`) VALUES (1, \'1\', 1, \'120\', \'100\', \'12000.00\', \'Y\', \'2023-10-18 10:32:09\', \'2023-10-18 10:32:09\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po_detail` (`PoID`, `PID`, `Line`, `Qty`, `UPrice`, `Price`, `Unit`, `CreatedDate`, `LastUpdated`) VALUES (1, \'1\', 1, \'120\', \'100\', \'12000.00\', \'Y\', \'2023-10-18 10:32:09\', \'2023-10-18 10:32:09\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po_detail` (`PoID`, `PID`, `Line`, `Qty`, `UPrice`, `Price`, `Unit`, `CreatedDate`, `LastUpdated`) VALUES (:PoID:, :PID:, :Line:, :Qty:, :UPrice:, :Price:, :Unit:, :CreatedDate:, :LastUpdated:)', [...], false)
+ 5 APPPATH\Modules\Po\Models\Po.php(71): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Modules\Po\Models\Po.php(49): App\Modules\Po\Models\Po->add_list(1, [...])
+ 7 APPPATH\Modules\Po\Controllers\Po.php(60): App\Modules\Po\Models\Po->add()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Po\Controllers\Po->submit()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Po\Controllers\Po))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-18 10:34:42 --> mysqli_sql_exception: Unknown column 'PmStatus' in 'field list' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `Discoun...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Discoun...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Discoun...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `Discoun...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Models\BaseModel.php(127): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Po\Models\Po.php(77): App\Models\BaseModel->get_field_arr1('DiscountType,PD...', 'po', 'ID=2')
+#6 D:\xampp\htdocs\dfinest\app\Modules\Po\Models\Po.php(51): App\Modules\Po\Models\Po->check_balance(2)
+#7 D:\xampp\htdocs\dfinest\app\Modules\Po\Controllers\Po.php(60): App\Modules\Po\Models\Po->add()
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Po\Controllers\Po->submit()
+#9 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Po\Controllers\Po))
+#10 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-18 10:34:42 --> Unknown column 'PmStatus' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `DiscountType`, `PDiscount`, `Discount`, `VATType`, `PVAT`, `OtCost`, `PmStatus`, `PoStatus`
+FROM `po`
+WHERE `ID` = 2
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DiscountType`, `PDiscount`, `Discount`, `VATType`, `PVAT`, `OtCost`, `PmStatus`, `PoStatus`
+FROM `po`
+WHERE `ID` = 2
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DiscountType`, `PDiscount`, `Discount`, `VATType`, `PVAT`, `OtCost`, `PmStatus`, `PoStatus`
+FROM `po`
+WHERE `ID` = 2
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `DiscountType`, `PDiscount`, `Discount`, `VATType`, `PVAT`, `OtCost`, `PmStatus`, `PoStatus`
+FROM `po`
+WHERE `ID` = 2
+ LIMIT 1', [], false)
+ 5 APPPATH\Models\BaseModel.php(127): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Po\Models\Po.php(77): App\Models\BaseModel->get_field_arr1('DiscountType,PDiscount,Discount,VATType,PVAT,OtCost, PmStatus, PoStatus', 'po', 'ID=2')
+ 7 APPPATH\Modules\Po\Models\Po.php(51): App\Modules\Po\Models\Po->check_balance(2)
+ 8 APPPATH\Modules\Po\Controllers\Po.php(60): App\Modules\Po\Models\Po->add()
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Po\Controllers\Po->submit()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Po\Controllers\Po))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-18 10:46:21 --> mysqli_sql_exception: Unknown column 'OrStatus' in 'where clause' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(ID...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(ID...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(ID...')
+#3 D:\xampp\htdocs\dfinest\app\Modules\Report\Models\Report.php(11): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(ID...')
+#4 D:\xampp\htdocs\dfinest\app\Modules\Report\Controllers\Rp_po.php(66): App\Modules\Report\Models\Report->count_itemlist('SELECT COUNT(ID...')
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_po->index()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_po))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-18 10:46:21 --> Unknown column 'OrStatus' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(ID) total FROM po  WHERE OrStatus =1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(ID) total FROM po  WHERE OrStatus =1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(ID) total FROM po  WHERE OrStatus =1')
+ 4 APPPATH\Modules\Report\Models\Report.php(11): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(ID) total FROM po  WHERE OrStatus =1')
+ 5 APPPATH\Modules\Report\Controllers\Rp_po.php(66): App\Modules\Report\Models\Report->count_itemlist('SELECT COUNT(ID) total FROM po  WHERE OrStatus =1')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_po->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_po))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-18 10:46:22 --> mysqli_sql_exception: Unknown column 'OrStatus' in 'where clause' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(ID...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(ID...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(ID...')
+#3 D:\xampp\htdocs\dfinest\app\Modules\Report\Models\Report.php(11): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(ID...')
+#4 D:\xampp\htdocs\dfinest\app\Modules\Report\Controllers\Rp_po.php(66): App\Modules\Report\Models\Report->count_itemlist('SELECT COUNT(ID...')
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_po->index()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_po))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-18 10:46:22 --> Unknown column 'OrStatus' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(ID) total FROM po  WHERE OrStatus =1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(ID) total FROM po  WHERE OrStatus =1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(ID) total FROM po  WHERE OrStatus =1')
+ 4 APPPATH\Modules\Report\Models\Report.php(11): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(ID) total FROM po  WHERE OrStatus =1')
+ 5 APPPATH\Modules\Report\Controllers\Rp_po.php(66): App\Modules\Report\Models\Report->count_itemlist('SELECT COUNT(ID) total FROM po  WHERE OrStatus =1')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_po->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_po))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-18 10:46:25 --> mysqli_sql_exception: Unknown column 'OrStatus' in 'where clause' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(ID...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(ID...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(ID...')
+#3 D:\xampp\htdocs\dfinest\app\Modules\Report\Models\Report.php(11): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(ID...')
+#4 D:\xampp\htdocs\dfinest\app\Modules\Report\Controllers\Rp_po.php(66): App\Modules\Report\Models\Report->count_itemlist('SELECT COUNT(ID...')
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_po->index()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_po))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-18 10:46:25 --> Unknown column 'OrStatus' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(ID) total FROM po  WHERE OrStatus =1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(ID) total FROM po  WHERE OrStatus =1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(ID) total FROM po  WHERE OrStatus =1')
+ 4 APPPATH\Modules\Report\Models\Report.php(11): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(ID) total FROM po  WHERE OrStatus =1')
+ 5 APPPATH\Modules\Report\Controllers\Rp_po.php(66): App\Modules\Report\Models\Report->count_itemlist('SELECT COUNT(ID) total FROM po  WHERE OrStatus =1')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_po->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_po))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-18 10:47:24 --> mysqli_sql_exception: Unknown column 'OrStatus' in 'where clause' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(ID...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(ID...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(ID...')
+#3 D:\xampp\htdocs\dfinest\app\Modules\Report\Models\Report.php(11): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(ID...')
+#4 D:\xampp\htdocs\dfinest\app\Modules\Report\Controllers\Rp_po.php(66): App\Modules\Report\Models\Report->count_itemlist('SELECT COUNT(ID...')
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_po->index()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_po))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-18 10:47:24 --> Unknown column 'OrStatus' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(ID) total FROM po  WHERE OrStatus =1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(ID) total FROM po  WHERE OrStatus =1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(ID) total FROM po  WHERE OrStatus =1')
+ 4 APPPATH\Modules\Report\Models\Report.php(11): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(ID) total FROM po  WHERE OrStatus =1')
+ 5 APPPATH\Modules\Report\Controllers\Rp_po.php(66): App\Modules\Report\Models\Report->count_itemlist('SELECT COUNT(ID) total FROM po  WHERE OrStatus =1')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_po->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_po))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-18 10:47:24 --> mysqli_sql_exception: Unknown column 'OrStatus' in 'where clause' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(ID...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(ID...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(ID...')
+#3 D:\xampp\htdocs\dfinest\app\Modules\Report\Models\Report.php(11): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(ID...')
+#4 D:\xampp\htdocs\dfinest\app\Modules\Report\Controllers\Rp_po.php(66): App\Modules\Report\Models\Report->count_itemlist('SELECT COUNT(ID...')
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_po->index()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_po))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-18 10:47:24 --> Unknown column 'OrStatus' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(ID) total FROM po  WHERE OrStatus =1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(ID) total FROM po  WHERE OrStatus =1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(ID) total FROM po  WHERE OrStatus =1')
+ 4 APPPATH\Modules\Report\Models\Report.php(11): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(ID) total FROM po  WHERE OrStatus =1')
+ 5 APPPATH\Modules\Report\Controllers\Rp_po.php(66): App\Modules\Report\Models\Report->count_itemlist('SELECT COUNT(ID) total FROM po  WHERE OrStatus =1')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_po->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_po))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-18 10:47:25 --> mysqli_sql_exception: Unknown column 'OrStatus' in 'where clause' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(ID...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(ID...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(ID...')
+#3 D:\xampp\htdocs\dfinest\app\Modules\Report\Models\Report.php(11): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(ID...')
+#4 D:\xampp\htdocs\dfinest\app\Modules\Report\Controllers\Rp_po.php(66): App\Modules\Report\Models\Report->count_itemlist('SELECT COUNT(ID...')
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_po->index()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_po))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-18 10:47:25 --> Unknown column 'OrStatus' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(ID) total FROM po  WHERE OrStatus =1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(ID) total FROM po  WHERE OrStatus =1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(ID) total FROM po  WHERE OrStatus =1')
+ 4 APPPATH\Modules\Report\Models\Report.php(11): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(ID) total FROM po  WHERE OrStatus =1')
+ 5 APPPATH\Modules\Report\Controllers\Rp_po.php(66): App\Modules\Report\Models\Report->count_itemlist('SELECT COUNT(ID) total FROM po  WHERE OrStatus =1')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_po->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_po))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-18 10:47:55 --> mysqli_sql_exception: Unknown column 'OrStatus' in 'where clause' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(ID...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(ID...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(ID...')
+#3 D:\xampp\htdocs\dfinest\app\Modules\Report\Models\Report.php(11): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(ID...')
+#4 D:\xampp\htdocs\dfinest\app\Modules\Report\Controllers\Rp_po.php(67): App\Modules\Report\Models\Report->count_itemlist('SELECT COUNT(ID...')
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_po->index()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_po))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-18 10:47:55 --> Unknown column 'OrStatus' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(ID) total FROM po  WHERE OrStatus =1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(ID) total FROM po  WHERE OrStatus =1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(ID) total FROM po  WHERE OrStatus =1')
+ 4 APPPATH\Modules\Report\Models\Report.php(11): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(ID) total FROM po  WHERE OrStatus =1')
+ 5 APPPATH\Modules\Report\Controllers\Rp_po.php(67): App\Modules\Report\Models\Report->count_itemlist('SELECT COUNT(ID) total FROM po  WHERE OrStatus =1')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_po->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_po))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 10:53:52 --> Undefined array key "OrStatus"
+in APPPATH\Modules\Report\Views\rp_po\data.php on line 29.
+ 1 APPPATH\Modules\Report\Views\rp_po\data.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "OrStatus"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\data.php', 29)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_po\\data', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_po.php(124): view('Modules\\Report\\Views\\rp_po\\data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_po->load_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_po))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 10:53:55 --> Undefined array key "OrStatus"
+in APPPATH\Modules\Report\Views\rp_po\data.php on line 29.
+ 1 APPPATH\Modules\Report\Views\rp_po\data.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "OrStatus"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\data.php', 29)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_po\\data', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_po.php(124): view('Modules\\Report\\Views\\rp_po\\data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_po->load_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_po))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 10:55:35 --> Undefined array key "OrStatus"
+in APPPATH\Modules\Report\Views\rp_po\data.php on line 29.
+ 1 APPPATH\Modules\Report\Views\rp_po\data.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "OrStatus"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\data.php', 29)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_po\\data', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_po.php(124): view('Modules\\Report\\Views\\rp_po\\data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_po->load_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_po))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 10:57:39 --> Undefined array key "CAvaiQty"
+in APPPATH\Modules\Report\Views\rp_po\detail.php on line 16.
+ 1 APPPATH\Modules\Report\Views\rp_po\detail.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "CAvaiQty"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_po\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_po.php(136): view('Modules\\Report\\Views\\rp_po\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_po->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_po))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 10:58:49 --> Undefined array key "CAvaiQty"
+in APPPATH\Modules\Report\Views\rp_po\detail.php on line 16.
+ 1 APPPATH\Modules\Report\Views\rp_po\detail.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "CAvaiQty"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_po\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_po.php(136): view('Modules\\Report\\Views\\rp_po\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_po->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_po))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 11:05:26 --> Undefined array key "CAvaiQty"
+in APPPATH\Modules\Report\Views\rp_po\detail.php on line 16.
+ 1 APPPATH\Modules\Report\Views\rp_po\detail.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "CAvaiQty"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_po\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_po.php(136): view('Modules\\Report\\Views\\rp_po\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_po->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_po))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 11:07:51 --> Undefined array key "CAvaiQty"
+in APPPATH\Modules\Report\Views\rp_po\detail.php on line 16.
+ 1 APPPATH\Modules\Report\Views\rp_po\detail.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "CAvaiQty"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_po\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_po.php(136): view('Modules\\Report\\Views\\rp_po\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_po->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_po))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 11:07:52 --> Undefined array key "CAvaiQty"
+in APPPATH\Modules\Report\Views\rp_po\detail.php on line 16.
+ 1 APPPATH\Modules\Report\Views\rp_po\detail.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "CAvaiQty"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_po\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_po.php(136): view('Modules\\Report\\Views\\rp_po\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_po->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_po))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 11:07:52 --> Undefined array key "CAvaiQty"
+in APPPATH\Modules\Report\Views\rp_po\detail.php on line 16.
+ 1 APPPATH\Modules\Report\Views\rp_po\detail.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "CAvaiQty"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_po\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_po.php(136): view('Modules\\Report\\Views\\rp_po\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_po->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_po))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 11:07:53 --> Undefined array key "CAvaiQty"
+in APPPATH\Modules\Report\Views\rp_po\detail.php on line 16.
+ 1 APPPATH\Modules\Report\Views\rp_po\detail.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "CAvaiQty"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_po\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_po.php(136): view('Modules\\Report\\Views\\rp_po\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_po->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_po))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 11:08:01 --> Undefined array key "CAvaiQty"
+in APPPATH\Modules\Report\Views\rp_po\detail.php on line 16.
+ 1 APPPATH\Modules\Report\Views\rp_po\detail.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "CAvaiQty"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_po\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_po.php(136): view('Modules\\Report\\Views\\rp_po\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_po->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_po))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 11:08:01 --> Undefined array key "CAvaiQty"
+in APPPATH\Modules\Report\Views\rp_po\detail.php on line 16.
+ 1 APPPATH\Modules\Report\Views\rp_po\detail.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "CAvaiQty"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_po\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_po.php(136): view('Modules\\Report\\Views\\rp_po\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_po->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_po))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 11:08:30 --> Undefined array key "CAvaiQty"
+in APPPATH\Modules\Report\Views\rp_po\detail.php on line 16.
+ 1 APPPATH\Modules\Report\Views\rp_po\detail.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "CAvaiQty"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_po\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_po.php(136): view('Modules\\Report\\Views\\rp_po\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_po->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_po))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 11:11:35 --> Undefined array key "SSupID"
+in APPPATH\Libraries\Condition.php on line 713.
+ 1 APPPATH\Libraries\Condition.php(713): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "SSupID"', 'D:\\xampp\\htdocs\\dfinest\\app\\Libraries\\Condition.php', 713)
+ 2 APPPATH\Libraries\Sql.php(70): App\Libraries\Condition->conRpPo([...])
+ 3 APPPATH\Modules\Report\Controllers\Rp_po.php(67): App\Libraries\Sql->sqlRpPo([...], 'count')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_po->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_po))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 11:11:36 --> Undefined array key "SSupID"
+in APPPATH\Libraries\Condition.php on line 713.
+ 1 APPPATH\Libraries\Condition.php(713): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "SSupID"', 'D:\\xampp\\htdocs\\dfinest\\app\\Libraries\\Condition.php', 713)
+ 2 APPPATH\Libraries\Sql.php(70): App\Libraries\Condition->conRpPo([...])
+ 3 APPPATH\Modules\Report\Controllers\Rp_po.php(67): App\Libraries\Sql->sqlRpPo([...], 'count')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_po->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_po))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 11:11:37 --> Undefined array key "SSupID"
+in APPPATH\Libraries\Condition.php on line 713.
+ 1 APPPATH\Libraries\Condition.php(713): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "SSupID"', 'D:\\xampp\\htdocs\\dfinest\\app\\Libraries\\Condition.php', 713)
+ 2 APPPATH\Libraries\Sql.php(70): App\Libraries\Condition->conRpPo([...])
+ 3 APPPATH\Modules\Report\Controllers\Rp_po.php(67): App\Libraries\Sql->sqlRpPo([...], 'count')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_po->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_po))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 11:12:09 --> Undefined array key "SSupID"
+in APPPATH\Libraries\Condition.php on line 713.
+ 1 APPPATH\Libraries\Condition.php(713): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "SSupID"', 'D:\\xampp\\htdocs\\dfinest\\app\\Libraries\\Condition.php', 713)
+ 2 APPPATH\Libraries\Sql.php(70): App\Libraries\Condition->conRpPo([...])
+ 3 APPPATH\Modules\Report\Controllers\Rp_po.php(67): App\Libraries\Sql->sqlRpPo([...], 'count')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_po->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_po))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 11:12:10 --> Undefined array key "SSupID"
+in APPPATH\Libraries\Condition.php on line 713.
+ 1 APPPATH\Libraries\Condition.php(713): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "SSupID"', 'D:\\xampp\\htdocs\\dfinest\\app\\Libraries\\Condition.php', 713)
+ 2 APPPATH\Libraries\Sql.php(70): App\Libraries\Condition->conRpPo([...])
+ 3 APPPATH\Modules\Report\Controllers\Rp_po.php(67): App\Libraries\Sql->sqlRpPo([...], 'count')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_po->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_po))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 11:16:30 --> Undefined array key "CAvaiQty"
+in APPPATH\Modules\Report\Views\rp_po\detail.php on line 16.
+ 1 APPPATH\Modules\Report\Views\rp_po\detail.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "CAvaiQty"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_po\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_po.php(136): view('Modules\\Report\\Views\\rp_po\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_po->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_po))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 11:16:31 --> Undefined variable $table
+in APPPATH\Modules\Ajax\Controllers\Ajax.php on line 340.
+ 1 APPPATH\Modules\Ajax\Controllers\Ajax.php(340): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $table', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Controllers\\Ajax.php', 340)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->edit_remark()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 11:19:27 --> Undefined array key "CAvaiQty"
+in APPPATH\Modules\Report\Views\rp_po\detail.php on line 16.
+ 1 APPPATH\Modules\Report\Views\rp_po\detail.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "CAvaiQty"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_po\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_po.php(136): view('Modules\\Report\\Views\\rp_po\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_po->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_po))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 11:19:31 --> Undefined array key "CAvaiQty"
+in APPPATH\Modules\Report\Views\rp_po\detail.php on line 16.
+ 1 APPPATH\Modules\Report\Views\rp_po\detail.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "CAvaiQty"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_po\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_po.php(136): view('Modules\\Report\\Views\\rp_po\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_po->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_po))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 11:19:37 --> Undefined array key "CAvaiQty"
+in APPPATH\Modules\Report\Views\rp_po\detail.php on line 16.
+ 1 APPPATH\Modules\Report\Views\rp_po\detail.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "CAvaiQty"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_po\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_po.php(136): view('Modules\\Report\\Views\\rp_po\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_po->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_po))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 11:19:38 --> Undefined array key "CAvaiQty"
+in APPPATH\Modules\Report\Views\rp_po\detail.php on line 16.
+ 1 APPPATH\Modules\Report\Views\rp_po\detail.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "CAvaiQty"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_po\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_po.php(136): view('Modules\\Report\\Views\\rp_po\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_po->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_po))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 11:19:39 --> Undefined array key "CAvaiQty"
+in APPPATH\Modules\Report\Views\rp_po\detail.php on line 16.
+ 1 APPPATH\Modules\Report\Views\rp_po\detail.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "CAvaiQty"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_po\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_po.php(136): view('Modules\\Report\\Views\\rp_po\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_po->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_po))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 11:20:03 --> Undefined array key "CAvaiQty"
+in APPPATH\Modules\Report\Views\rp_po\detail.php on line 16.
+ 1 APPPATH\Modules\Report\Views\rp_po\detail.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "CAvaiQty"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_po\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_po.php(136): view('Modules\\Report\\Views\\rp_po\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_po->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_po))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 11:20:05 --> Undefined array key "CAvaiQty"
+in APPPATH\Modules\Report\Views\rp_po\detail.php on line 16.
+ 1 APPPATH\Modules\Report\Views\rp_po\detail.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "CAvaiQty"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_po\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_po.php(136): view('Modules\\Report\\Views\\rp_po\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_po->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_po))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 11:20:07 --> Undefined array key "CAvaiQty"
+in APPPATH\Modules\Report\Views\rp_po\detail.php on line 16.
+ 1 APPPATH\Modules\Report\Views\rp_po\detail.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "CAvaiQty"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_po\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_po.php(136): view('Modules\\Report\\Views\\rp_po\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_po->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_po))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 11:21:12 --> Undefined array key "CAvaiQty"
+in APPPATH\Modules\Report\Views\rp_po\detail.php on line 16.
+ 1 APPPATH\Modules\Report\Views\rp_po\detail.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "CAvaiQty"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_po\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_po.php(136): view('Modules\\Report\\Views\\rp_po\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_po->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_po))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 11:21:12 --> Undefined array key "CAvaiQty"
+in APPPATH\Modules\Report\Views\rp_po\detail.php on line 16.
+ 1 APPPATH\Modules\Report\Views\rp_po\detail.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "CAvaiQty"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_po\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_po.php(136): view('Modules\\Report\\Views\\rp_po\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_po->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_po))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 11:21:12 --> Undefined array key "CAvaiQty"
+in APPPATH\Modules\Report\Views\rp_po\detail.php on line 16.
+ 1 APPPATH\Modules\Report\Views\rp_po\detail.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "CAvaiQty"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_po\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_po.php(136): view('Modules\\Report\\Views\\rp_po\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_po->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_po))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 11:21:13 --> Undefined array key "CAvaiQty"
+in APPPATH\Modules\Report\Views\rp_po\detail.php on line 16.
+ 1 APPPATH\Modules\Report\Views\rp_po\detail.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "CAvaiQty"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_po\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_po.php(136): view('Modules\\Report\\Views\\rp_po\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_po->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_po))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 11:21:16 --> Undefined array key "CAvaiQty"
+in APPPATH\Modules\Report\Views\rp_po\detail.php on line 16.
+ 1 APPPATH\Modules\Report\Views\rp_po\detail.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "CAvaiQty"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_po\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_po.php(136): view('Modules\\Report\\Views\\rp_po\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_po->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_po))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 11:21:24 --> Undefined array key "CAvaiQty"
+in APPPATH\Modules\Report\Views\rp_po\detail.php on line 16.
+ 1 APPPATH\Modules\Report\Views\rp_po\detail.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "CAvaiQty"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_po\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_po.php(136): view('Modules\\Report\\Views\\rp_po\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_po->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_po))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 11:21:38 --> Undefined array key "CAvaiQty"
+in APPPATH\Modules\Report\Views\rp_po\detail.php on line 16.
+ 1 APPPATH\Modules\Report\Views\rp_po\detail.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "CAvaiQty"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_po\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_po.php(136): view('Modules\\Report\\Views\\rp_po\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_po->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_po))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 11:45:14 --> Undefined array key "CAvaiQty"
+in APPPATH\Modules\Report\Views\rp_po\detail.php on line 16.
+ 1 APPPATH\Modules\Report\Views\rp_po\detail.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "CAvaiQty"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_po\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_po.php(136): view('Modules\\Report\\Views\\rp_po\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_po->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_po))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 11:48:31 --> Undefined array key "CAvaiQty"
+in APPPATH\Modules\Report\Views\rp_po\detail.php on line 16.
+ 1 APPPATH\Modules\Report\Views\rp_po\detail.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "CAvaiQty"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_po\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_po.php(136): view('Modules\\Report\\Views\\rp_po\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_po->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_po))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 11:48:34 --> Undefined array key "CAvaiQty"
+in APPPATH\Modules\Report\Views\rp_po\detail.php on line 16.
+ 1 APPPATH\Modules\Report\Views\rp_po\detail.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "CAvaiQty"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_po\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_po\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_po.php(136): view('Modules\\Report\\Views\\rp_po\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_po->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_po))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 13:37:22 --> Undefined property: App\Modules\Stock\Controllers\Stockin::$refmodel
+in APPPATH\Modules\Stock\Controllers\Stockin.php on line 91.
+ 1 APPPATH\Modules\Stock\Controllers\Stockin.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Stock\\Controllers\\Stockin::$refmodel', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Controllers\\Stockin.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->get_order_detail()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 13:37:30 --> Undefined property: App\Modules\Stock\Controllers\Stockin::$refmodel
+in APPPATH\Modules\Stock\Controllers\Stockin.php on line 91.
+ 1 APPPATH\Modules\Stock\Controllers\Stockin.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Stock\\Controllers\\Stockin::$refmodel', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Controllers\\Stockin.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->get_order_detail()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 13:37:38 --> Undefined property: App\Modules\Stock\Controllers\Stockin::$refmodel
+in APPPATH\Modules\Stock\Controllers\Stockin.php on line 91.
+ 1 APPPATH\Modules\Stock\Controllers\Stockin.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Stock\\Controllers\\Stockin::$refmodel', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Controllers\\Stockin.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->get_order_detail()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 13:38:21 --> Undefined property: App\Modules\Stock\Controllers\Stockin::$refmodel
+in APPPATH\Modules\Stock\Controllers\Stockin.php on line 91.
+ 1 APPPATH\Modules\Stock\Controllers\Stockin.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Stock\\Controllers\\Stockin::$refmodel', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Controllers\\Stockin.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->get_order_detail()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 13:38:31 --> Undefined property: App\Modules\Stock\Controllers\Stockin::$refmodel
+in APPPATH\Modules\Stock\Controllers\Stockin.php on line 92.
+ 1 APPPATH\Modules\Stock\Controllers\Stockin.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Stock\\Controllers\\Stockin::$refmodel', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Controllers\\Stockin.php', 92)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->get_order_detail()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 13:38:47 --> Undefined property: App\Modules\Stock\Controllers\Stockin::$refmodel
+in APPPATH\Modules\Stock\Controllers\Stockin.php on line 92.
+ 1 APPPATH\Modules\Stock\Controllers\Stockin.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Stock\\Controllers\\Stockin::$refmodel', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Controllers\\Stockin.php', 92)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->get_order_detail()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 13:38:48 --> Undefined property: App\Modules\Stock\Controllers\Stockin::$refmodel
+in APPPATH\Modules\Stock\Controllers\Stockin.php on line 92.
+ 1 APPPATH\Modules\Stock\Controllers\Stockin.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Stock\\Controllers\\Stockin::$refmodel', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Controllers\\Stockin.php', 92)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->get_order_detail()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 13:39:54 --> Undefined property: App\Modules\Stock\Controllers\Stockin::$refmodel
+in APPPATH\Modules\Stock\Controllers\Stockin.php on line 91.
+ 1 APPPATH\Modules\Stock\Controllers\Stockin.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Stock\\Controllers\\Stockin::$refmodel', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Controllers\\Stockin.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->get_order_detail()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 13:39:55 --> Undefined property: App\Modules\Stock\Controllers\Stockin::$refmodel
+in APPPATH\Modules\Stock\Controllers\Stockin.php on line 91.
+ 1 APPPATH\Modules\Stock\Controllers\Stockin.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Stock\\Controllers\\Stockin::$refmodel', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Controllers\\Stockin.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->get_order_detail()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 13:40:06 --> Undefined property: App\Modules\Stock\Controllers\Stockin::$refmodel
+in APPPATH\Modules\Stock\Controllers\Stockin.php on line 91.
+ 1 APPPATH\Modules\Stock\Controllers\Stockin.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Stock\\Controllers\\Stockin::$refmodel', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Controllers\\Stockin.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->get_order_detail()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 13:40:07 --> Undefined property: App\Modules\Stock\Controllers\Stockin::$refmodel
+in APPPATH\Modules\Stock\Controllers\Stockin.php on line 91.
+ 1 APPPATH\Modules\Stock\Controllers\Stockin.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Stock\\Controllers\\Stockin::$refmodel', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Controllers\\Stockin.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->get_order_detail()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 13:43:26 --> Undefined variable $row
+in APPPATH\Modules\Stock\Views\stockin\order_detail.php on line 5.
+ 1 APPPATH\Modules\Stock\Views\stockin\order_detail.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Views\\stockin\\order_detail.php', 5)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Views\\stockin\\order_detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Stock\\Views\\stockin\\order_detail', [], true)
+ 5 APPPATH\Modules\Stock\Controllers\Stockin.php(101): view('Modules\\Stock\\Views\\stockin\\order_detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->get_order_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 13:43:27 --> Undefined variable $row
+in APPPATH\Modules\Stock\Views\stockin\order_detail.php on line 5.
+ 1 APPPATH\Modules\Stock\Views\stockin\order_detail.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Views\\stockin\\order_detail.php', 5)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Views\\stockin\\order_detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Stock\\Views\\stockin\\order_detail', [], true)
+ 5 APPPATH\Modules\Stock\Controllers\Stockin.php(101): view('Modules\\Stock\\Views\\stockin\\order_detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->get_order_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 13:51:41 --> Undefined array key "Photos"
+in APPPATH\Modules\Stock\Views\stockin\order_detail.php on line 22.
+ 1 APPPATH\Modules\Stock\Views\stockin\order_detail.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Photos"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Views\\stockin\\order_detail.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Views\\stockin\\order_detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Stock\\Views\\stockin\\order_detail', [], true)
+ 5 APPPATH\Modules\Stock\Controllers\Stockin.php(101): view('Modules\\Stock\\Views\\stockin\\order_detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->get_order_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 13:51:54 --> Undefined array key "Photos"
+in APPPATH\Modules\Stock\Views\stockin\order_detail.php on line 22.
+ 1 APPPATH\Modules\Stock\Views\stockin\order_detail.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Photos"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Views\\stockin\\order_detail.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Views\\stockin\\order_detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Stock\\Views\\stockin\\order_detail', [], true)
+ 5 APPPATH\Modules\Stock\Controllers\Stockin.php(101): view('Modules\\Stock\\Views\\stockin\\order_detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->get_order_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 13:51:57 --> Undefined array key "Photos"
+in APPPATH\Modules\Stock\Views\stockin\order_detail.php on line 22.
+ 1 APPPATH\Modules\Stock\Views\stockin\order_detail.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Photos"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Views\\stockin\\order_detail.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Views\\stockin\\order_detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Stock\\Views\\stockin\\order_detail', [], true)
+ 5 APPPATH\Modules\Stock\Controllers\Stockin.php(101): view('Modules\\Stock\\Views\\stockin\\order_detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->get_order_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 14:05:58 --> Undefined array key 9
+in APPPATH\Modules\Stock\Views\stockin\order_detail.php on line 12.
+ 1 APPPATH\Modules\Stock\Views\stockin\order_detail.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 9', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Views\\stockin\\order_detail.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Views\\stockin\\order_detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Stock\\Views\\stockin\\order_detail', [], true)
+ 5 APPPATH\Modules\Stock\Controllers\Stockin.php(103): view('Modules\\Stock\\Views\\stockin\\order_detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->get_order_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 15:22:56 --> Call to a member function post() on null
+in APPPATH\Modules\Stock\Models\Stockin.php on line 23.
+ 1 APPPATH\Modules\Stock\Models\Stockin.php(54): App\Modules\Stock\Models\Stockin->createData()
+ 2 APPPATH\Modules\Stock\Controllers\Stockin.php(112): App\Modules\Stock\Models\Stockin->add()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->submit()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 15:23:55 --> Call to a member function post() on null
+in APPPATH\Modules\Stock\Models\Stockin.php on line 23.
+ 1 APPPATH\Modules\Stock\Models\Stockin.php(54): App\Modules\Stock\Models\Stockin->createData()
+ 2 APPPATH\Modules\Stock\Controllers\Stockin.php(112): App\Modules\Stock\Models\Stockin->add()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->submit()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 15:38:44 --> Call to a member function post() on null
+in APPPATH\Modules\Stock\Models\Stockin.php on line 23.
+ 1 APPPATH\Modules\Stock\Models\Stockin.php(54): App\Modules\Stock\Models\Stockin->createData()
+ 2 APPPATH\Modules\Stock\Controllers\Stockin.php(112): App\Modules\Stock\Models\Stockin->add()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->submit()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 15:40:53 --> Call to a member function post() on null
+in APPPATH\Modules\Stock\Models\Stockin.php on line 23.
+ 1 APPPATH\Modules\Stock\Models\Stockin.php(54): App\Modules\Stock\Models\Stockin->createData()
+ 2 APPPATH\Modules\Stock\Controllers\Stockin.php(112): App\Modules\Stock\Models\Stockin->add()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->submit()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 15:42:12 --> Call to a member function post() on null
+in APPPATH\Modules\Stock\Models\Stockin.php on line 23.
+ 1 APPPATH\Modules\Stock\Models\Stockin.php(54): App\Modules\Stock\Models\Stockin->createData()
+ 2 APPPATH\Modules\Stock\Controllers\Stockin.php(112): App\Modules\Stock\Models\Stockin->add()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->submit()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 15:43:14 --> Call to a member function post() on null
+in APPPATH\Modules\Stock\Models\Stockin.php on line 23.
+ 1 APPPATH\Modules\Stock\Models\Stockin.php(54): App\Modules\Stock\Models\Stockin->createData()
+ 2 APPPATH\Modules\Stock\Controllers\Stockin.php(112): App\Modules\Stock\Models\Stockin->add()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->submit()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 15:43:39 --> Call to a member function post() on null
+in APPPATH\Modules\Stock\Models\Stockin.php on line 23.
+ 1 APPPATH\Modules\Stock\Models\Stockin.php(54): App\Modules\Stock\Models\Stockin->createData()
+ 2 APPPATH\Modules\Stock\Controllers\Stockin.php(112): App\Modules\Stock\Models\Stockin->add()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->submit()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 15:44:20 --> Call to a member function post() on null
+in APPPATH\Modules\Stock\Models\Stockin.php on line 23.
+ 1 APPPATH\Modules\Stock\Models\Stockin.php(54): App\Modules\Stock\Models\Stockin->createData()
+ 2 APPPATH\Modules\Stock\Controllers\Stockin.php(112): App\Modules\Stock\Models\Stockin->add()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->submit()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 16:24:13 --> Undefined array key "PdQty"
+in APPPATH\Modules\Report\Views\rp_stock\data.php on line 22.
+ 1 APPPATH\Modules\Report\Views\rp_stock\data.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "PdQty"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stock\\data.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stock\\data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_stock\\data', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_stock.php(142): view('Modules\\Report\\Views\\rp_stock\\data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stock->load_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stock))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-18 16:24:57 --> mysqli_sql_exception: Unknown column 'TPdQty' in 'field list' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT SUM(TRol...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(TRol...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(TRol...')
+#3 D:\xampp\htdocs\dfinest\app\Modules\Report\Models\Report.php(32): CodeIgniter\Database\BaseConnection->query('SELECT SUM(TRol...')
+#4 D:\xampp\htdocs\dfinest\app\Modules\Report\Controllers\Rp_stock.php(86): App\Modules\Report\Models\Report->get_item_rec('SELECT SUM(TRol...')
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stock->index()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stock))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-18 16:24:57 --> Unknown column 'TPdQty' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT SUM(TRoll) TRoll, SUM(TYQty) TYQty, SUM(TMQty) TMQty,SUM(TPdQty)TPdQty,SUM(Cost)Cost FROM ( SELECT p.*, s.TRoll, s.TYQty, s.TMQty,s.Cost FROM product p  INNER JOIN  (SELECT PID, COUNT(ID) TRoll,SUM(Qty*UCost) Cost,SUM(CASE Unit
+                        WHEN "M" THEN Qty
+                        WHEN "Y" THEN ROUND(Qty*0.9144, 2)
+                        ELSE 0
+                    END) AS TMQty,SUM(CASE Unit
+                        WHEN "Y" THEN Qty
+                        WHEN "M" THEN ROUND(Qty/0.9144, 2)
+                        ELSE 0
+                    END) AS TYQty,(Select COALESCE(SUM(PdQty),0) From po_detail Where Close=0 AND PID=stock.PID)TPdQty FROM stock   WHERE  Qty>0 GROUP BY PID) s ON p.ID=s.PID  WHERE p.Active=1 ORDER BY p.PCode ASC,p.PColor ASC) t', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(TRoll) TRoll, SUM(TYQty) TYQty, SUM(TMQty) TMQty,SUM(TPdQty)TPdQty,SUM(Cost)Cost FROM ( SELECT p.*, s.TRoll, s.TYQty, s.TMQty,s.Cost FROM product p  INNER JOIN  (SELECT PID, COUNT(ID) TRoll,SUM(Qty*UCost) Cost,SUM(CASE Unit
+                        WHEN "M" THEN Qty
+                        WHEN "Y" THEN ROUND(Qty*0.9144, 2)
+                        ELSE 0
+                    END) AS TMQty,SUM(CASE Unit
+                        WHEN "Y" THEN Qty
+                        WHEN "M" THEN ROUND(Qty/0.9144, 2)
+                        ELSE 0
+                    END) AS TYQty,(Select COALESCE(SUM(PdQty),0) From po_detail Where Close=0 AND PID=stock.PID)TPdQty FROM stock   WHERE  Qty>0 GROUP BY PID) s ON p.ID=s.PID  WHERE p.Active=1 ORDER BY p.PCode ASC,p.PColor ASC) t')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(TRoll) TRoll, SUM(TYQty) TYQty, SUM(TMQty) TMQty,SUM(TPdQty)TPdQty,SUM(Cost)Cost FROM ( SELECT p.*, s.TRoll, s.TYQty, s.TMQty,s.Cost FROM product p  INNER JOIN  (SELECT PID, COUNT(ID) TRoll,SUM(Qty*UCost) Cost,SUM(CASE Unit
+                        WHEN "M" THEN Qty
+                        WHEN "Y" THEN ROUND(Qty*0.9144, 2)
+                        ELSE 0
+                    END) AS TMQty,SUM(CASE Unit
+                        WHEN "Y" THEN Qty
+                        WHEN "M" THEN ROUND(Qty/0.9144, 2)
+                        ELSE 0
+                    END) AS TYQty,(Select COALESCE(SUM(PdQty),0) From po_detail Where Close=0 AND PID=stock.PID)TPdQty FROM stock   WHERE  Qty>0 GROUP BY PID) s ON p.ID=s.PID  WHERE p.Active=1 ORDER BY p.PCode ASC,p.PColor ASC) t')
+ 4 APPPATH\Modules\Report\Models\Report.php(32): CodeIgniter\Database\BaseConnection->query('SELECT SUM(TRoll) TRoll, SUM(TYQty) TYQty, SUM(TMQty) TMQty,SUM(TPdQty)TPdQty,SUM(Cost)Cost FROM ( SELECT p.*, s.TRoll, s.TYQty, s.TMQty,s.Cost FROM product p  INNER JOIN  (SELECT PID, COUNT(ID) TRoll,SUM(Qty*UCost) Cost,SUM(CASE Unit
+                        WHEN "M" THEN Qty
+                        WHEN "Y" THEN ROUND(Qty*0.9144, 2)
+                        ELSE 0
+                    END) AS TMQty,SUM(CASE Unit
+                        WHEN "Y" THEN Qty
+                        WHEN "M" THEN ROUND(Qty/0.9144, 2)
+                        ELSE 0
+                    END) AS TYQty,(Select COALESCE(SUM(PdQty),0) From po_detail Where Close=0 AND PID=stock.PID)TPdQty FROM stock   WHERE  Qty>0 GROUP BY PID) s ON p.ID=s.PID  WHERE p.Active=1 ORDER BY p.PCode ASC,p.PColor ASC) t')
+ 5 APPPATH\Modules\Report\Controllers\Rp_stock.php(86): App\Modules\Report\Models\Report->get_item_rec('SELECT SUM(TRoll) TRoll, SUM(TYQty) TYQty, SUM(TMQty) TMQty,SUM(TPdQty)TPdQty,SUM(Cost)Cost FROM ( SELECT p.*, s.TRoll, s.TYQty, s.TMQty,s.Cost FROM product p  INNER JOIN  (SELECT PID, COUNT(ID) TRoll,SUM(Qty*UCost) Cost,SUM(CASE Unit
+                        WHEN "M" THEN Qty
+                        WHEN "Y" THEN ROUND(Qty*0.9144, 2)
+                        ELSE 0
+                    END) AS TMQty,SUM(CASE Unit
+                        WHEN "Y" THEN Qty
+                        WHEN "M" THEN ROUND(Qty/0.9144, 2)
+                        ELSE 0
+                    END) AS TYQty,(Select COALESCE(SUM(PdQty),0) From po_detail Where Close=0 AND PID=stock.PID)TPdQty FROM stock   WHERE  Qty>0 GROUP BY PID) s ON p.ID=s.PID  WHERE p.Active=1 ORDER BY p.PCode ASC,p.PColor ASC) t')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stock->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stock))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-18 16:27:34 --> mysqli_sql_exception: Unknown column 'TPdQty' in 'field list' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT SUM(TRol...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(TRol...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(TRol...')
+#3 D:\xampp\htdocs\dfinest\app\Modules\Report\Models\Report.php(32): CodeIgniter\Database\BaseConnection->query('SELECT SUM(TRol...')
+#4 D:\xampp\htdocs\dfinest\app\Modules\Report\Controllers\Rp_stock.php(86): App\Modules\Report\Models\Report->get_item_rec('SELECT SUM(TRol...')
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stock->index()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stock))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-18 16:27:34 --> Unknown column 'TPdQty' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT SUM(TRoll) TRoll, SUM(TYQty) TYQty, SUM(TMQty) TMQty,SUM(TPdQty)TPdQty,SUM(Cost)Cost FROM ( SELECT p.*, s.TRoll, s.TYQty, s.TMQty,s.Cost FROM product p  INNER JOIN  (SELECT PID, COUNT(ID) TRoll,SUM(Qty*UCost) Cost,SUM(CASE Unit
+                        WHEN "M" THEN Qty
+                        WHEN "Y" THEN ROUND(Qty*0.9144, 2)
+                        ELSE 0
+                    END) AS TMQty,SUM(CASE Unit
+                        WHEN "Y" THEN Qty
+                        WHEN "M" THEN ROUND(Qty/0.9144, 2)
+                        ELSE 0
+                    END) AS TYQty,(Select COALESCE(SUM(PdQty),0) From po_detail Where Close=0 AND PID=stock.PID)TPdQty FROM stock   WHERE  Qty>0 GROUP BY PID) s ON p.ID=s.PID  WHERE p.Active=1 ORDER BY p.PCode ASC,p.PColor ASC) t', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(TRoll) TRoll, SUM(TYQty) TYQty, SUM(TMQty) TMQty,SUM(TPdQty)TPdQty,SUM(Cost)Cost FROM ( SELECT p.*, s.TRoll, s.TYQty, s.TMQty,s.Cost FROM product p  INNER JOIN  (SELECT PID, COUNT(ID) TRoll,SUM(Qty*UCost) Cost,SUM(CASE Unit
+                        WHEN "M" THEN Qty
+                        WHEN "Y" THEN ROUND(Qty*0.9144, 2)
+                        ELSE 0
+                    END) AS TMQty,SUM(CASE Unit
+                        WHEN "Y" THEN Qty
+                        WHEN "M" THEN ROUND(Qty/0.9144, 2)
+                        ELSE 0
+                    END) AS TYQty,(Select COALESCE(SUM(PdQty),0) From po_detail Where Close=0 AND PID=stock.PID)TPdQty FROM stock   WHERE  Qty>0 GROUP BY PID) s ON p.ID=s.PID  WHERE p.Active=1 ORDER BY p.PCode ASC,p.PColor ASC) t')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(TRoll) TRoll, SUM(TYQty) TYQty, SUM(TMQty) TMQty,SUM(TPdQty)TPdQty,SUM(Cost)Cost FROM ( SELECT p.*, s.TRoll, s.TYQty, s.TMQty,s.Cost FROM product p  INNER JOIN  (SELECT PID, COUNT(ID) TRoll,SUM(Qty*UCost) Cost,SUM(CASE Unit
+                        WHEN "M" THEN Qty
+                        WHEN "Y" THEN ROUND(Qty*0.9144, 2)
+                        ELSE 0
+                    END) AS TMQty,SUM(CASE Unit
+                        WHEN "Y" THEN Qty
+                        WHEN "M" THEN ROUND(Qty/0.9144, 2)
+                        ELSE 0
+                    END) AS TYQty,(Select COALESCE(SUM(PdQty),0) From po_detail Where Close=0 AND PID=stock.PID)TPdQty FROM stock   WHERE  Qty>0 GROUP BY PID) s ON p.ID=s.PID  WHERE p.Active=1 ORDER BY p.PCode ASC,p.PColor ASC) t')
+ 4 APPPATH\Modules\Report\Models\Report.php(32): CodeIgniter\Database\BaseConnection->query('SELECT SUM(TRoll) TRoll, SUM(TYQty) TYQty, SUM(TMQty) TMQty,SUM(TPdQty)TPdQty,SUM(Cost)Cost FROM ( SELECT p.*, s.TRoll, s.TYQty, s.TMQty,s.Cost FROM product p  INNER JOIN  (SELECT PID, COUNT(ID) TRoll,SUM(Qty*UCost) Cost,SUM(CASE Unit
+                        WHEN "M" THEN Qty
+                        WHEN "Y" THEN ROUND(Qty*0.9144, 2)
+                        ELSE 0
+                    END) AS TMQty,SUM(CASE Unit
+                        WHEN "Y" THEN Qty
+                        WHEN "M" THEN ROUND(Qty/0.9144, 2)
+                        ELSE 0
+                    END) AS TYQty,(Select COALESCE(SUM(PdQty),0) From po_detail Where Close=0 AND PID=stock.PID)TPdQty FROM stock   WHERE  Qty>0 GROUP BY PID) s ON p.ID=s.PID  WHERE p.Active=1 ORDER BY p.PCode ASC,p.PColor ASC) t')
+ 5 APPPATH\Modules\Report\Controllers\Rp_stock.php(86): App\Modules\Report\Models\Report->get_item_rec('SELECT SUM(TRoll) TRoll, SUM(TYQty) TYQty, SUM(TMQty) TMQty,SUM(TPdQty)TPdQty,SUM(Cost)Cost FROM ( SELECT p.*, s.TRoll, s.TYQty, s.TMQty,s.Cost FROM product p  INNER JOIN  (SELECT PID, COUNT(ID) TRoll,SUM(Qty*UCost) Cost,SUM(CASE Unit
+                        WHEN "M" THEN Qty
+                        WHEN "Y" THEN ROUND(Qty*0.9144, 2)
+                        ELSE 0
+                    END) AS TMQty,SUM(CASE Unit
+                        WHEN "Y" THEN Qty
+                        WHEN "M" THEN ROUND(Qty/0.9144, 2)
+                        ELSE 0
+                    END) AS TYQty,(Select COALESCE(SUM(PdQty),0) From po_detail Where Close=0 AND PID=stock.PID)TPdQty FROM stock   WHERE  Qty>0 GROUP BY PID) s ON p.ID=s.PID  WHERE p.Active=1 ORDER BY p.PCode ASC,p.PColor ASC) t')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stock->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stock))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 17:41:10 --> Undefined constant "App\Modules\Standard\Controllers\CIPATH"
+in APPPATH\Modules\Standard\Controllers\Fabric.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->test()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 18:40:11 --> Undefined variable $info_discount
+in APPPATH\Modules\Po\Views\index.php on line 78.
+ 1 APPPATH\Modules\Po\Views\index.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_discount', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Po\\Views\\index.php', 78)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Po\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Po\\Views\\index', [], true)
+ 5 APPPATH\Modules\Po\Controllers\Po.php(97): view('Modules\\Po\\Views\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Po\Controllers\Po->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Po\Controllers\Po))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 18:51:17 --> Call to undefined function decimall_null()
+in APPPATH\Modules\Po\Views\form.php on line 17.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Po\\Views\\form', [], true)
+ 4 APPPATH\Modules\Po\Views\index.php(62): view('Modules\\Po\\Views\\form')
+ 5 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Po\\Views\\index.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Po\\Views\\index', [], true)
+ 8 APPPATH\Modules\Po\Controllers\Po.php(98): view('Modules\\Po\\Views\\index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Po\Controllers\Po->edit()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Po\Controllers\Po))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 18:51:33 --> Call to undefined function decimall_null()
+in APPPATH\Modules\Po\Views\form.php on line 17.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Po\\Views\\form', [], true)
+ 4 APPPATH\Modules\Po\Views\index.php(62): view('Modules\\Po\\Views\\form')
+ 5 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Po\\Views\\index.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Po\\Views\\index', [], true)
+ 8 APPPATH\Modules\Po\Controllers\Po.php(98): view('Modules\\Po\\Views\\index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Po\Controllers\Po->edit()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Po\Controllers\Po))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 18:53:15 --> Call to undefined function decimall_null()
+in APPPATH\Modules\Po\Views\form.php on line 17.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Po\\Views\\form', [], true)
+ 4 APPPATH\Modules\Po\Views\index.php(62): view('Modules\\Po\\Views\\form')
+ 5 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Po\\Views\\index.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Po\\Views\\index', [], true)
+ 8 APPPATH\Modules\Po\Controllers\Po.php(98): view('Modules\\Po\\Views\\index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Po\Controllers\Po->edit()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Po\Controllers\Po))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 18:53:46 --> Call to undefined function decimall_null()
+in APPPATH\Modules\Po\Views\form.php on line 17.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Po\\Views\\form', [], true)
+ 4 APPPATH\Modules\Po\Views\index.php(62): view('Modules\\Po\\Views\\form')
+ 5 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Po\\Views\\index.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Po\\Views\\index', [], true)
+ 8 APPPATH\Modules\Po\Controllers\Po.php(98): view('Modules\\Po\\Views\\index', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Po\Controllers\Po->edit()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Po\Controllers\Po))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 19:04:09 --> number_format(): Argument #1 ($num) must be of type float, string given
+in APPPATH\Helpers\general_helper.php on line 497.
+ 1 APPPATH\Helpers\general_helper.php(497): number_format('', 2)
+ 2 APPPATH\Helpers\general_helper.php(154): decimal_null('', 2)
+ 3 APPPATH\Modules\Po\Views\index.php(79): isset_arr_decimal_null('PDiscount', [...], 2)
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Po\\Views\\index.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Po\\Views\\index', [], true)
+ 7 APPPATH\Modules\Po\Controllers\Po.php(98): view('Modules\\Po\\Views\\index', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Po\Controllers\Po->edit()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Po\Controllers\Po))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 19:05:50 --> number_format(): Argument #1 ($num) must be of type float, string given
+in APPPATH\Helpers\general_helper.php on line 497.
+ 1 APPPATH\Helpers\general_helper.php(497): number_format('', 2)
+ 2 APPPATH\Helpers\general_helper.php(154): decimal_null('', 2)
+ 3 APPPATH\Modules\Po\Views\index.php(79): isset_arr_decimal_null('PDiscount', [...], 2)
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Po\\Views\\index.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Po\\Views\\index', [], true)
+ 7 APPPATH\Modules\Po\Controllers\Po.php(98): view('Modules\\Po\\Views\\index', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Po\Controllers\Po->edit()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Po\Controllers\Po))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 19:06:17 --> number_format(): Argument #1 ($num) must be of type float, string given
+in APPPATH\Helpers\general_helper.php on line 497.
+ 1 APPPATH\Helpers\general_helper.php(497): number_format('', 2)
+ 2 APPPATH\Helpers\general_helper.php(154): decimal_null('', 2)
+ 3 APPPATH\Modules\Po\Views\index.php(79): isset_arr_decimal_null('PDiscount', [...], 2)
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Po\\Views\\index.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Po\\Views\\index', [], true)
+ 7 APPPATH\Modules\Po\Controllers\Po.php(98): view('Modules\\Po\\Views\\index', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Po\Controllers\Po->edit()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Po\Controllers\Po))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 19:07:06 --> number_format(): Argument #1 ($num) must be of type float, string given
+in APPPATH\Helpers\general_helper.php on line 497.
+ 1 APPPATH\Helpers\general_helper.php(497): number_format('', 2)
+ 2 APPPATH\Helpers\general_helper.php(154): decimal_null('', 2)
+ 3 APPPATH\Modules\Po\Views\index.php(79): isset_arr_decimal_null('PDiscount', [...], 2)
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Po\\Views\\index.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Po\\Views\\index', [], true)
+ 7 APPPATH\Modules\Po\Controllers\Po.php(98): view('Modules\\Po\\Views\\index', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Po\Controllers\Po->edit()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Po\Controllers\Po))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 19:07:43 --> number_format(): Argument #1 ($num) must be of type float, string given
+in APPPATH\Helpers\general_helper.php on line 497.
+ 1 APPPATH\Helpers\general_helper.php(497): number_format('', 2)
+ 2 APPPATH\Helpers\general_helper.php(154): decimal_null('', 2)
+ 3 APPPATH\Modules\Po\Views\index.php(79): isset_arr_decimal_null('PDiscount', [...], 2)
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Po\\Views\\index.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Po\\Views\\index', [], true)
+ 7 APPPATH\Modules\Po\Controllers\Po.php(98): view('Modules\\Po\\Views\\index', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Po\Controllers\Po->edit()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Po\Controllers\Po))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

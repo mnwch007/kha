@@ -1,0 +1,136 @@
+CRITICAL - 2023-09-08 15:55:51 --> Undefined array key "Photo"
+in APPPATH\Modules\Standard\Views\fabric\form.php on line 50.
+ 1 APPPATH\Modules\Standard\Views\fabric\form.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Photo"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\fabric\\form.php', 50)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\fabric\\form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\fabric\\form', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Fabric.php(149): view('Modules\\Standard\\Views\\fabric\\form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->load_form()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 15:55:53 --> Undefined array key "Photo"
+in APPPATH\Modules\Standard\Views\fabric\form.php on line 50.
+ 1 APPPATH\Modules\Standard\Views\fabric\form.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Photo"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\fabric\\form.php', 50)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\fabric\\form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\fabric\\form', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Fabric.php(149): view('Modules\\Standard\\Views\\fabric\\form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->load_form()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 15:55:53 --> Undefined array key "Photo"
+in APPPATH\Modules\Standard\Views\fabric\form.php on line 50.
+ 1 APPPATH\Modules\Standard\Views\fabric\form.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Photo"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\fabric\\form.php', 50)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\fabric\\form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\fabric\\form', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Fabric.php(149): view('Modules\\Standard\\Views\\fabric\\form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->load_form()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 15:55:54 --> Undefined array key "Photo"
+in APPPATH\Modules\Standard\Views\fabric\form.php on line 50.
+ 1 APPPATH\Modules\Standard\Views\fabric\form.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Photo"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\fabric\\form.php', 50)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\fabric\\form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\fabric\\form', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Fabric.php(149): view('Modules\\Standard\\Views\\fabric\\form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->load_form()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 16:30:04 --> Undefined variable $data_information
+in APPPATH\Controllers\BaseController.php on line 76.
+ 1 APPPATH\Controllers\BaseController.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_information', 'D:\\xampp\\htdocs\\dfinest\\app\\Controllers\\BaseController.php', 76)
+ 2 APPPATH\Modules\Standard\Controllers\Fabric.php(202): App\Controllers\BaseController->crop_upload('Image', 'uploads/products_item')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->submit()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 16:30:46 --> Class "App\Controllers\App\Libraries\SlimCrop\Slim" not found
+in APPPATH\Controllers\BaseController.php on line 73.
+ 1 APPPATH\Modules\Standard\Controllers\Fabric.php(202): App\Controllers\BaseController->crop_upload('txtPhoto', 'uploads/products_item')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->submit()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 16:44:05 --> Class "App\Controllers\App\Libraries\SlimCrop\Slim" not found
+in APPPATH\Controllers\BaseController.php on line 71.
+ 1 APPPATH\Modules\Standard\Controllers\Fabric.php(202): App\Controllers\BaseController->crop_upload('txtPhoto', 'uploads/products_item/')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->submit()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 17:29:37 --> Undefined property: App\Modules\Standard\Controllers\Fabric::$input
+in APPPATH\Modules\Standard\Controllers\Fabric.php on line 238.
+ 1 APPPATH\Modules\Standard\Controllers\Fabric.php(238): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Fabric::$input', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Fabric.php', 238)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->del_pcimg()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 17:32:11 --> Undefined property: App\Modules\Standard\Controllers\Fabric::$input
+in APPPATH\Modules\Standard\Controllers\Fabric.php on line 238.
+ 1 APPPATH\Modules\Standard\Controllers\Fabric.php(238): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Fabric::$input', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Fabric.php', 238)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->del_pcimg()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 17:32:27 --> Undefined property: App\Modules\Standard\Controllers\Fabric::$input
+in APPPATH\Modules\Standard\Controllers\Fabric.php on line 238.
+ 1 APPPATH\Modules\Standard\Controllers\Fabric.php(238): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Fabric::$input', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Fabric.php', 238)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->del_pcimg()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 17:37:26 --> Undefined property: App\Modules\Standard\Controllers\Fabric::$input
+in APPPATH\Modules\Standard\Controllers\Fabric.php on line 238.
+ 1 APPPATH\Modules\Standard\Controllers\Fabric.php(238): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Fabric::$input', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Fabric.php', 238)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->del_pcimg()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 17:39:34 --> Undefined property: App\Modules\Standard\Controllers\Fabric::$input
+in APPPATH\Modules\Standard\Controllers\Fabric.php on line 238.
+ 1 APPPATH\Modules\Standard\Controllers\Fabric.php(238): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Fabric::$input', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Fabric.php', 238)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->del_pcimg()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 17:40:07 --> Undefined property: App\Modules\Standard\Controllers\Fabric::$input
+in APPPATH\Modules\Standard\Controllers\Fabric.php on line 238.
+ 1 APPPATH\Modules\Standard\Controllers\Fabric.php(238): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Fabric::$input', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Fabric.php', 238)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->del_pcimg()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 17:40:20 --> Undefined property: App\Modules\Standard\Controllers\Fabric::$input
+in APPPATH\Modules\Standard\Controllers\Fabric.php on line 238.
+ 1 APPPATH\Modules\Standard\Controllers\Fabric.php(238): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Fabric::$input', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Fabric.php', 238)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->del_pcimg()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 17:41:22 --> Undefined property: App\Modules\Standard\Controllers\Fabric::$input
+in APPPATH\Modules\Standard\Controllers\Fabric.php on line 238.
+ 1 APPPATH\Modules\Standard\Controllers\Fabric.php(238): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Fabric::$input', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Fabric.php', 238)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->del_pcimg()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 17:42:00 --> Undefined property: App\Modules\Standard\Controllers\Fabric::$input
+in APPPATH\Modules\Standard\Controllers\Fabric.php on line 239.
+ 1 APPPATH\Modules\Standard\Controllers\Fabric.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Fabric::$input', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Fabric.php', 239)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->del_pcimg()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 17:56:23 --> Undefined property: App\Modules\Ajax\Controllers\Ajax::$table
+in APPPATH\Modules\Ajax\Controllers\Ajax.php on line 57.
+ 1 APPPATH\Modules\Ajax\Controllers\Ajax.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Ajax\\Controllers\\Ajax::$table', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Controllers\\Ajax.php', 57)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->del_imgcroper()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

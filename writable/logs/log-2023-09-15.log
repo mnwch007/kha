@@ -1,0 +1,595 @@
+CRITICAL - 2023-09-15 11:15:25 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Modules\Ajax\Models\Ajax.php(10): CodeIgniter\Model->__get('request')
+ 4 APPPATH\Modules\Ajax\Controllers\Ajax.php(18): App\Modules\Ajax\Models\Ajax->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->auto_complete()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 11:16:33 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Modules\Ajax\Models\Ajax.php(10): CodeIgniter\Model->__get('request')
+ 4 APPPATH\Modules\Ajax\Controllers\Ajax.php(19): App\Modules\Ajax\Models\Ajax->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->auto_complete()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 11:16:34 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Modules\Ajax\Models\Ajax.php(10): CodeIgniter\Model->__get('request')
+ 4 APPPATH\Modules\Ajax\Controllers\Ajax.php(19): App\Modules\Ajax\Models\Ajax->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->auto_complete()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 11:16:54 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Modules\Ajax\Models\Ajax.php(10): CodeIgniter\Model->__get('request')
+ 4 APPPATH\Modules\Ajax\Controllers\Ajax.php(19): App\Modules\Ajax\Models\Ajax->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->auto_complete()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 11:16:54 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Modules\Ajax\Models\Ajax.php(10): CodeIgniter\Model->__get('request')
+ 4 APPPATH\Modules\Ajax\Controllers\Ajax.php(19): App\Modules\Ajax\Models\Ajax->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->auto_complete()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 11:18:23 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Modules\Ajax\Models\Ajax.php(19): CodeIgniter\Model->__get('word')
+ 4 APPPATH\Modules\Ajax\Controllers\Ajax.php(37): App\Modules\Ajax\Models\Ajax->loadProductItem([...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->auto_complete()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 11:27:28 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Modules\Ajax\Models\Ajax.php(10): CodeIgniter\Model->__get('request')
+ 4 APPPATH\Modules\Ajax\Controllers\Ajax.php(19): App\Modules\Ajax\Models\Ajax->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->auto_complete()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 11:53:05 --> Undefined variable $db
+in APPPATH\Modules\Ajax\Models\Ajax.php on line 46.
+ 1 APPPATH\Modules\Ajax\Models\Ajax.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Models\\Ajax.php', 46)
+ 2 APPPATH\Modules\Ajax\Controllers\Ajax.php(51): App\Modules\Ajax\Models\Ajax->get_pcolor_list('1', 'sup')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->ajax_get_data_json()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-15 11:56:29 --> mysqli_sql_exception: Not unique table/alias: 'product' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `ID`, `P...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`, `P...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`, `P...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `ID`, `P...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Models\Ajax.php(54): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Controllers\Ajax.php(51): App\Modules\Ajax\Models\Ajax->get_pcolor_list('7', 'sup')
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->ajax_get_data_json()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-15 11:56:29 --> Not unique table/alias: 'product'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `ID`, `PColor` as `Name`, `PSColor`, `PColor`, `PShade`, COALESCE(Photo, "") Photo
+FROM `product`, `product`
+WHERE `Active` = 1
+AND `PCID` = \'7\'
+ORDER BY `PColor` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`, `PColor` as `Name`, `PSColor`, `PColor`, `PShade`, COALESCE(Photo, "") Photo
+FROM `product`, `product`
+WHERE `Active` = 1
+AND `PCID` = \'7\'
+ORDER BY `PColor` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`, `PColor` as `Name`, `PSColor`, `PColor`, `PShade`, COALESCE(Photo, "") Photo
+FROM `product`, `product`
+WHERE `Active` = 1
+AND `PCID` = \'7\'
+ORDER BY `PColor` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `ID`, `PColor` as `Name`, `PSColor`, `PColor`, `PShade`, COALESCE(Photo, "") Photo
+FROM `product`, `product`
+WHERE `Active` = :Active:
+AND `PCID` = :PCID:
+ORDER BY `PColor` ASC', [...], false)
+ 5 APPPATH\Modules\Ajax\Models\Ajax.php(54): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Ajax\Controllers\Ajax.php(51): App\Modules\Ajax\Models\Ajax->get_pcolor_list('7', 'sup')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->ajax_get_data_json()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 12:17:58 --> Array to string conversion
+in APPPATH\Modules\Ajax\Controllers\Ajax.php on line 57.
+ 1 APPPATH\Modules\Ajax\Controllers\Ajax.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Controllers\\Ajax.php', 57)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->ajax_get_data_json()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 12:18:16 --> Array to string conversion
+in APPPATH\Modules\Ajax\Controllers\Ajax.php on line 58.
+ 1 APPPATH\Modules\Ajax\Controllers\Ajax.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Controllers\\Ajax.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->ajax_get_data_json()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 12:21:27 --> Array to string conversion
+in APPPATH\Modules\Ajax\Controllers\Ajax.php on line 57.
+ 1 APPPATH\Modules\Ajax\Controllers\Ajax.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Controllers\\Ajax.php', 57)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->ajax_get_data_json()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 12:21:46 --> Array to string conversion
+in APPPATH\Modules\Ajax\Controllers\Ajax.php on line 60.
+ 1 APPPATH\Modules\Ajax\Controllers\Ajax.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Controllers\\Ajax.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->ajax_get_data_json()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:20:26 --> Undefined property: CodeIgniter\View\View::$dateformat
+in APPPATH\Modules\Stock\Views\stockin\index.php on line 12.
+ 1 APPPATH\Modules\Stock\Views\stockin\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$dateformat', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Views\\stockin\\index.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Views\\stockin\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Stock\\Views\\stockin\\index', [], true)
+ 5 APPPATH\Modules\Stock\Controllers\Stockin.php(47): view('Modules\\Stock\\Views\\stockin\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:26:55 --> Undefined property: CodeIgniter\View\View::$dateformat
+in APPPATH\Modules\Stock\Views\stockin\index.php on line 12.
+ 1 APPPATH\Modules\Stock\Views\stockin\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$dateformat', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Views\\stockin\\index.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Views\\stockin\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Stock\\Views\\stockin\\index', [], true)
+ 5 APPPATH\Modules\Stock\Controllers\Stockin.php(47): view('Modules\\Stock\\Views\\stockin\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:26:57 --> Undefined property: CodeIgniter\View\View::$dateformat
+in APPPATH\Modules\Stock\Views\stockin\index.php on line 12.
+ 1 APPPATH\Modules\Stock\Views\stockin\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$dateformat', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Views\\stockin\\index.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Views\\stockin\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Stock\\Views\\stockin\\index', [], true)
+ 5 APPPATH\Modules\Stock\Controllers\Stockin.php(47): view('Modules\\Stock\\Views\\stockin\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:26:58 --> Undefined property: CodeIgniter\View\View::$dateformat
+in APPPATH\Modules\Stock\Views\stockin\index.php on line 12.
+ 1 APPPATH\Modules\Stock\Views\stockin\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$dateformat', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Views\\stockin\\index.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Views\\stockin\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Stock\\Views\\stockin\\index', [], true)
+ 5 APPPATH\Modules\Stock\Controllers\Stockin.php(47): view('Modules\\Stock\\Views\\stockin\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:30:24 --> Undefined property: CodeIgniter\View\View::$dateformat
+in APPPATH\Modules\Stock\Views\stockin\index.php on line 12.
+ 1 APPPATH\Modules\Stock\Views\stockin\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$dateformat', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Views\\stockin\\index.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Views\\stockin\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Stock\\Views\\stockin\\index', [], true)
+ 5 APPPATH\Modules\Stock\Controllers\Stockin.php(47): view('Modules\\Stock\\Views\\stockin\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:30:26 --> Undefined property: CodeIgniter\View\View::$dateformat
+in APPPATH\Modules\Stock\Views\stockin\index.php on line 12.
+ 1 APPPATH\Modules\Stock\Views\stockin\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$dateformat', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Views\\stockin\\index.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Views\\stockin\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Stock\\Views\\stockin\\index', [], true)
+ 5 APPPATH\Modules\Stock\Controllers\Stockin.php(47): view('Modules\\Stock\\Views\\stockin\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:33:29 --> Undefined property: App\Modules\Stock\Controllers\Stockin::$dateformat
+in APPPATH\Modules\Stock\Controllers\Stockin.php on line 41.
+ 1 APPPATH\Modules\Stock\Controllers\Stockin.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Stock\\Controllers\\Stockin::$dateformat', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Controllers\\Stockin.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:33:30 --> Undefined property: App\Modules\Stock\Controllers\Stockin::$dateformat
+in APPPATH\Modules\Stock\Controllers\Stockin.php on line 41.
+ 1 APPPATH\Modules\Stock\Controllers\Stockin.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Stock\\Controllers\\Stockin::$dateformat', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Controllers\\Stockin.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:33:30 --> Undefined property: App\Modules\Stock\Controllers\Stockin::$dateformat
+in APPPATH\Modules\Stock\Controllers\Stockin.php on line 41.
+ 1 APPPATH\Modules\Stock\Controllers\Stockin.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Stock\\Controllers\\Stockin::$dateformat', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Controllers\\Stockin.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:33:30 --> Undefined property: App\Modules\Stock\Controllers\Stockin::$dateformat
+in APPPATH\Modules\Stock\Controllers\Stockin.php on line 41.
+ 1 APPPATH\Modules\Stock\Controllers\Stockin.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Stock\\Controllers\\Stockin::$dateformat', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Controllers\\Stockin.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:33:30 --> Undefined property: App\Modules\Stock\Controllers\Stockin::$dateformat
+in APPPATH\Modules\Stock\Controllers\Stockin.php on line 41.
+ 1 APPPATH\Modules\Stock\Controllers\Stockin.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Stock\\Controllers\\Stockin::$dateformat', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Controllers\\Stockin.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:33:32 --> Undefined property: App\Modules\Stock\Controllers\Stockin::$dateformat
+in APPPATH\Modules\Stock\Controllers\Stockin.php on line 41.
+ 1 APPPATH\Modules\Stock\Controllers\Stockin.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Stock\\Controllers\\Stockin::$dateformat', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Controllers\\Stockin.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:36:11 --> mktime(): Argument #1 ($hour) must be of type int, string given
+in APPPATH\Libraries\Dateformat.php on line 69.
+ 1 APPPATH\Libraries\Dateformat.php(69): mktime('', '', '', '09', '15', '2023')
+ 2 APPPATH\Libraries\Dateformat.php(129): App\Libraries\Dateformat->loadformat('2023-09-15', 'mysql')
+ 3 APPPATH\Modules\Stock\Controllers\Stockin.php(42): App\Libraries\Dateformat->showdate('2023-09-15')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:39:31 --> mktime(): Argument #1 ($hour) must be of type int, string given
+in APPPATH\Libraries\Dateformat.php on line 69.
+ 1 APPPATH\Libraries\Dateformat.php(69): mktime('', '', '', '09', '15', '2023')
+ 2 APPPATH\Libraries\Dateformat.php(129): App\Libraries\Dateformat->loadformat('2023-09-15', 'mysql')
+ 3 APPPATH\Modules\Stock\Controllers\Stockin.php(44): App\Libraries\Dateformat->showdate('2023-09-15')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:39:32 --> mktime(): Argument #1 ($hour) must be of type int, string given
+in APPPATH\Libraries\Dateformat.php on line 69.
+ 1 APPPATH\Libraries\Dateformat.php(69): mktime('', '', '', '09', '15', '2023')
+ 2 APPPATH\Libraries\Dateformat.php(129): App\Libraries\Dateformat->loadformat('2023-09-15', 'mysql')
+ 3 APPPATH\Modules\Stock\Controllers\Stockin.php(44): App\Libraries\Dateformat->showdate('2023-09-15')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:41:58 --> mktime(): Argument #1 ($hour) must be of type int, string given
+in APPPATH\Libraries\Dateformat.php on line 71.
+ 1 APPPATH\Libraries\Dateformat.php(71): mktime('', '', '', '09', '15', '2023')
+ 2 APPPATH\Libraries\Dateformat.php(131): App\Libraries\Dateformat->loadformat('2023-09-15', 'mysql')
+ 3 APPPATH\Modules\Stock\Controllers\Stockin.php(44): App\Libraries\Dateformat->showdate('2023-09-15')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:43:48 --> mktime(): Argument #1 ($hour) must be of type int, string given
+in APPPATH\Libraries\Dateformat.php on line 76.
+ 1 APPPATH\Libraries\Dateformat.php(76): mktime('', '', '', '09', '15', '2023')
+ 2 APPPATH\Libraries\Dateformat.php(136): App\Libraries\Dateformat->loadformat('2023-09-15', 'mysql')
+ 3 APPPATH\Modules\Stock\Controllers\Stockin.php(44): App\Libraries\Dateformat->showdate('2023-09-15')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:46:27 --> mktime(): Argument #1 ($hour) must be of type int, string given
+in APPPATH\Libraries\Dateformat.php on line 75.
+ 1 APPPATH\Libraries\Dateformat.php(75): mktime('', '', '', '09', '15', '2023')
+ 2 APPPATH\Libraries\Dateformat.php(135): App\Libraries\Dateformat->loadformat('2023-09-15', 'mysql')
+ 3 APPPATH\Modules\Stock\Controllers\Stockin.php(44): App\Libraries\Dateformat->showdate('2023-09-15')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:48:53 --> mktime(): Argument #1 ($hour) must be of type int, string given
+in APPPATH\Libraries\Dateformat.php on line 78.
+ 1 APPPATH\Libraries\Dateformat.php(78): mktime('', 0, 0, '09', '15', '2023')
+ 2 APPPATH\Libraries\Dateformat.php(138): App\Libraries\Dateformat->loadformat('2023-09-15', 'mysql')
+ 3 APPPATH\Modules\Stock\Controllers\Stockin.php(44): App\Libraries\Dateformat->showdate('2023-09-15')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:50:07 --> mktime(): Argument #1 ($hour) must be of type int, string given
+in APPPATH\Libraries\Dateformat.php on line 76.
+ 1 APPPATH\Libraries\Dateformat.php(76): mktime('', 0, 0, '09', '15', '2023')
+ 2 APPPATH\Libraries\Dateformat.php(137): App\Libraries\Dateformat->loadformat('2023-09-15', 'mysql')
+ 3 APPPATH\Modules\Stock\Controllers\Stockin.php(44): App\Libraries\Dateformat->showdate('2023-09-15')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:50:08 --> mktime(): Argument #1 ($hour) must be of type int, string given
+in APPPATH\Libraries\Dateformat.php on line 76.
+ 1 APPPATH\Libraries\Dateformat.php(76): mktime('', 0, 0, '09', '15', '2023')
+ 2 APPPATH\Libraries\Dateformat.php(137): App\Libraries\Dateformat->loadformat('2023-09-15', 'mysql')
+ 3 APPPATH\Modules\Stock\Controllers\Stockin.php(44): App\Libraries\Dateformat->showdate('2023-09-15')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:50:08 --> mktime(): Argument #1 ($hour) must be of type int, string given
+in APPPATH\Libraries\Dateformat.php on line 76.
+ 1 APPPATH\Libraries\Dateformat.php(76): mktime('', 0, 0, '09', '15', '2023')
+ 2 APPPATH\Libraries\Dateformat.php(137): App\Libraries\Dateformat->loadformat('2023-09-15', 'mysql')
+ 3 APPPATH\Modules\Stock\Controllers\Stockin.php(44): App\Libraries\Dateformat->showdate('2023-09-15')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:50:08 --> mktime(): Argument #1 ($hour) must be of type int, string given
+in APPPATH\Libraries\Dateformat.php on line 76.
+ 1 APPPATH\Libraries\Dateformat.php(76): mktime('', 0, 0, '09', '15', '2023')
+ 2 APPPATH\Libraries\Dateformat.php(137): App\Libraries\Dateformat->loadformat('2023-09-15', 'mysql')
+ 3 APPPATH\Modules\Stock\Controllers\Stockin.php(44): App\Libraries\Dateformat->showdate('2023-09-15')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:50:08 --> mktime(): Argument #1 ($hour) must be of type int, string given
+in APPPATH\Libraries\Dateformat.php on line 76.
+ 1 APPPATH\Libraries\Dateformat.php(76): mktime('', 0, 0, '09', '15', '2023')
+ 2 APPPATH\Libraries\Dateformat.php(137): App\Libraries\Dateformat->loadformat('2023-09-15', 'mysql')
+ 3 APPPATH\Modules\Stock\Controllers\Stockin.php(44): App\Libraries\Dateformat->showdate('2023-09-15')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:50:08 --> mktime(): Argument #1 ($hour) must be of type int, string given
+in APPPATH\Libraries\Dateformat.php on line 76.
+ 1 APPPATH\Libraries\Dateformat.php(76): mktime('', 0, 0, '09', '15', '2023')
+ 2 APPPATH\Libraries\Dateformat.php(137): App\Libraries\Dateformat->loadformat('2023-09-15', 'mysql')
+ 3 APPPATH\Modules\Stock\Controllers\Stockin.php(44): App\Libraries\Dateformat->showdate('2023-09-15')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:50:08 --> mktime(): Argument #1 ($hour) must be of type int, string given
+in APPPATH\Libraries\Dateformat.php on line 76.
+ 1 APPPATH\Libraries\Dateformat.php(76): mktime('', 0, 0, '09', '15', '2023')
+ 2 APPPATH\Libraries\Dateformat.php(137): App\Libraries\Dateformat->loadformat('2023-09-15', 'mysql')
+ 3 APPPATH\Modules\Stock\Controllers\Stockin.php(44): App\Libraries\Dateformat->showdate('2023-09-15')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:51:25 --> number_format(): Argument #1 ($num) must be of type float, string given
+in APPPATH\Libraries\Dateformat.php on line 71.
+ 1 APPPATH\Libraries\Dateformat.php(71): number_format('')
+ 2 APPPATH\Libraries\Dateformat.php(138): App\Libraries\Dateformat->loadformat('2023-09-15', 'mysql')
+ 3 APPPATH\Modules\Stock\Controllers\Stockin.php(44): App\Libraries\Dateformat->showdate('2023-09-15')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 13:54:22 --> Undefined property: App\Modules\Stock\Controllers\Stockin::$dateformat
+in APPPATH\Modules\Stock\Controllers\Stockin.php on line 44.
+ 1 APPPATH\Modules\Stock\Controllers\Stockin.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Stock\\Controllers\\Stockin::$dateformat', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Controllers\\Stockin.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 15:56:21 --> Call to a member function basedate() on null
+in APPPATH\Modules\Stock\Models\Stockin.php on line 17.
+ 1 APPPATH\Modules\Stock\Models\Stockin.php(53): App\Modules\Stock\Models\Stockin->createData()
+ 2 APPPATH\Modules\Stock\Controllers\Stockin.php(56): App\Modules\Stock\Models\Stockin->add()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->submit()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 16:00:16 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Modules\Stock\Controllers\Stockin.php(38): CodeIgniter\Model->__call('test', [])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 16:00:33 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Modules\Stock\Controllers\Stockin.php(38): CodeIgniter\Model->__call('test', [])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 16:00:34 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Modules\Stock\Controllers\Stockin.php(38): CodeIgniter\Model->__call('test', [])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 16:01:15 --> Call to a member function gen_docno() on null
+in APPPATH\Modules\Stock\Models\Stockin.php on line 55.
+ 1 APPPATH\Modules\Stock\Controllers\Stockin.php(40): App\Modules\Stock\Models\Stockin->test()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 16:06:37 --> Call to a member function basedate() on null
+in APPPATH\Modules\Stock\Models\Stockin.php on line 21.
+ 1 APPPATH\Modules\Stock\Models\Stockin.php(57): App\Modules\Stock\Models\Stockin->createData()
+ 2 APPPATH\Modules\Stock\Controllers\Stockin.php(56): App\Modules\Stock\Models\Stockin->add()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->submit()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 16:07:01 --> Call to a member function basedate() on null
+in APPPATH\Modules\Stock\Models\Stockin.php on line 21.
+ 1 APPPATH\Modules\Stock\Models\Stockin.php(57): App\Modules\Stock\Models\Stockin->createData()
+ 2 APPPATH\Modules\Stock\Controllers\Stockin.php(56): App\Modules\Stock\Models\Stockin->add()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->submit()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 16:52:19 --> Cannot call constructor
+in APPPATH\Modules\Stock\Controllers\Stockin.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Modules\Stock\Controllers\Stockin->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 16:52:20 --> Cannot call constructor
+in APPPATH\Modules\Stock\Controllers\Stockin.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Modules\Stock\Controllers\Stockin->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 16:53:33 --> Declaration of App\Modules\Stock\Controllers\Stockin::initController() must be compatible with App\Controllers\BaseController::initController(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, Psr\Log\LoggerInterface $logger)
+in APPPATH\Modules\Stock\Controllers\Stockin.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-15 16:53:34 --> Declaration of App\Modules\Stock\Controllers\Stockin::initController() must be compatible with App\Controllers\BaseController::initController(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, Psr\Log\LoggerInterface $logger)
+in APPPATH\Modules\Stock\Controllers\Stockin.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-15 16:55:40 --> Cannot call constructor
+in APPPATH\Modules\Stock\Controllers\Stockin.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Modules\Stock\Controllers\Stockin->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 16:55:40 --> Cannot call constructor
+in APPPATH\Modules\Stock\Controllers\Stockin.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Modules\Stock\Controllers\Stockin->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 17:08:46 --> Call to a member function getLocale() on null
+in APPPATH\Modules\Stock\Controllers\Stockin.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Modules\Stock\Controllers\Stockin->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 17:10:17 --> Undefined variable $session
+in APPPATH\Modules\Stock\Controllers\Stockin.php on line 28.
+ 1 APPPATH\Modules\Stock\Controllers\Stockin.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Controllers\\Stockin.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 17:19:47 --> Undefined property: App\Modules\Stock\Controllers\Stockin::$router
+in APPPATH\Modules\Stock\Controllers\Stockin.php on line 23.
+ 1 APPPATH\Modules\Stock\Controllers\Stockin.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Stock\\Controllers\\Stockin::$router', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Controllers\\Stockin.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Modules\Stock\Controllers\Stockin->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 17:22:04 --> Call to undefined method CodeIgniter\Router\Router::getRoutes()
+in APPPATH\Modules\Stock\Controllers\Stockin.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 17:22:21 --> Call to undefined method CodeIgniter\Router\Router::getDefaultMethod()
+in APPPATH\Modules\Stock\Controllers\Stockin.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 17:22:22 --> Call to undefined method CodeIgniter\Router\Router::getDefaultMethod()
+in APPPATH\Modules\Stock\Controllers\Stockin.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 17:23:35 --> Array to string conversion
+in APPPATH\Modules\Stock\Controllers\Stockin.php on line 27.
+ 1 APPPATH\Modules\Stock\Controllers\Stockin.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Controllers\\Stockin.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 17:24:29 --> Too few arguments to function CodeIgniter\Router\Router::setIndexPage(), 0 passed in D:\xampp\htdocs\dfinest\app\Modules\Stock\Controllers\Stockin.php on line 27 and exactly 1 expected
+in SYSTEMPATH\Router\Router.php on line 336.
+ 1 APPPATH\Modules\Stock\Controllers\Stockin.php(27): CodeIgniter\Router\Router->setIndexPage()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 17:24:30 --> Too few arguments to function CodeIgniter\Router\Router::setIndexPage(), 0 passed in D:\xampp\htdocs\dfinest\app\Modules\Stock\Controllers\Stockin.php on line 27 and exactly 1 expected
+in SYSTEMPATH\Router\Router.php on line 336.
+ 1 APPPATH\Modules\Stock\Controllers\Stockin.php(27): CodeIgniter\Router\Router->setIndexPage()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 17:25:42 --> Call to protected method CodeIgniter\Router\Router::scanControllers() from scope App\Modules\Stock\Controllers\Stockin
+in APPPATH\Modules\Stock\Controllers\Stockin.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 17:38:01 --> Invalid file: "Stock\stockin\index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Stock\\stockin\\index.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Stock\\stockin\\index', [], true)
+ 3 APPPATH\Modules\Stock\Controllers\Stockin.php(57): view('Stock\\stockin\\index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 17:39:49 --> Invalid file: "Stock\stockin\index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Stock\\stockin\\index.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Stock\\stockin\\index', [], true)
+ 3 APPPATH\Modules\Stock\Controllers\Stockin.php(57): view('Stock\\stockin\\index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 17:42:02 --> Invalid file: "Stock\stockin\index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Stock\\stockin\\index.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Stock\\stockin\\index', [], true)
+ 3 APPPATH\Modules\Stock\Controllers\Stockin.php(57): view('Stock\\stockin\\index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 17:42:11 --> Invalid file: "stock\stockin\index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('stock\\stockin\\index.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('stock\\stockin\\index', [], true)
+ 3 APPPATH\Modules\Stock\Controllers\Stockin.php(57): view('stock\\stockin\\index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 17:42:48 --> Invalid file: "Stock\Views\stockin\index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Stock\\Views\\stockin\\index.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Stock\\Views\\stockin\\index', [], true)
+ 3 APPPATH\Modules\Stock\Controllers\Stockin.php(57): view('Stock\\Views\\stockin\\index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

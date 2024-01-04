@@ -1,0 +1,338 @@
+CRITICAL - 2023-09-11 10:13:13 --> Undefined variable $info_ptype
+in APPPATH\Modules\Standard\Controllers\Level.php on line 198.
+ 1 APPPATH\Modules\Standard\Controllers\Level.php(198): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_ptype', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Level.php', 198)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Level->load_pricing()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Level))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-11 10:13:15 --> Undefined variable $info_ptype
+in APPPATH\Modules\Standard\Controllers\Level.php on line 198.
+ 1 APPPATH\Modules\Standard\Controllers\Level.php(198): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_ptype', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Level.php', 198)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Level->load_pricing()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Level))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-11 10:13:16 --> Undefined variable $info_ptype
+in APPPATH\Modules\Standard\Controllers\Level.php on line 198.
+ 1 APPPATH\Modules\Standard\Controllers\Level.php(198): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_ptype', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Level.php', 198)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Level->load_pricing()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Level))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-11 10:15:58 --> Cannot access offset of type string on string
+in APPPATH\Modules\Standard\Views\level\pricing.php on line 35.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\level\\pricing', [], true)
+ 4 APPPATH\Modules\Standard\Controllers\Level.php(200): view('Modules\\Standard\\Views\\level\\pricing', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Level->load_pricing()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Level))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-11 10:16:00 --> Cannot access offset of type string on string
+in APPPATH\Modules\Standard\Views\level\pricing.php on line 35.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\level\\pricing', [], true)
+ 4 APPPATH\Modules\Standard\Controllers\Level.php(200): view('Modules\\Standard\\Views\\level\\pricing', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Level->load_pricing()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Level))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-11 10:38:59 --> Undefined property: App\Modules\Standard\Controllers\Level::$input
+in APPPATH\Modules\Standard\Controllers\Level.php on line 208.
+ 1 APPPATH\Modules\Standard\Controllers\Level.php(208): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Level::$input', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Level.php', 208)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Level->pricing_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Level))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-11 10:40:12 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+in APPPATH\Models\BaseModel.php on line 68.
+ 1 APPPATH\Modules\Standard\Controllers\Level.php(215): App\Models\BaseModel->get_field('ID', 'level_pricing', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Level->pricing_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Level))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-11 10:41:52 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+in APPPATH\Models\BaseModel.php on line 68.
+ 1 APPPATH\Modules\Standard\Controllers\Level.php(215): App\Models\BaseModel->get_field('ID', 'level_pricing', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Level->pricing_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Level))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-11 10:42:10 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+in APPPATH\Models\BaseModel.php on line 68.
+ 1 APPPATH\Modules\Standard\Controllers\Level.php(215): App\Models\BaseModel->get_field('ID', 'level_pricing', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Level->pricing_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Level))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-11 10:42:44 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+in APPPATH\Models\BaseModel.php on line 68.
+ 1 APPPATH\Modules\Standard\Controllers\Level.php(215): App\Models\BaseModel->get_field('ID', 'level_pricing', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Level->pricing_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Level))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-11 10:44:10 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+in APPPATH\Models\BaseModel.php on line 68.
+ 1 APPPATH\Modules\Standard\Controllers\Level.php(215): App\Models\BaseModel->get_field('ID', 'level_pricing', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Level->pricing_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Level))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-11 10:46:49 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+in APPPATH\Models\BaseModel.php on line 75.
+ 1 APPPATH\Modules\Standard\Controllers\Level.php(215): App\Models\BaseModel->get_field('ID', 'level_pricing', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Level->pricing_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Level))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-11 10:46:51 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+in APPPATH\Models\BaseModel.php on line 75.
+ 1 APPPATH\Modules\Standard\Controllers\Level.php(215): App\Models\BaseModel->get_field('ID', 'level_pricing', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Level->pricing_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Level))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-11 10:48:42 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+in APPPATH\Models\BaseModel.php on line 75.
+ 1 APPPATH\Modules\Standard\Controllers\Level.php(211): App\Models\BaseModel->get_field('ID', 'level_pricing', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Level->pricing_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Level))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-11 10:50:34 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Models\BaseModel.php on line 70.
+ 1 APPPATH\Models\BaseModel.php(70): count(null)
+ 2 APPPATH\Modules\Standard\Controllers\Level.php(211): App\Models\BaseModel->get_field('ID', 'level_pricing', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Level->pricing_submit()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Level))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-11 10:50:50 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Models\BaseModel.php on line 70.
+ 1 APPPATH\Models\BaseModel.php(70): count(null)
+ 2 APPPATH\Modules\Standard\Controllers\Level.php(211): App\Models\BaseModel->get_field('ID', 'level_pricing', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Level->pricing_submit()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Level))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-11 10:51:22 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Models\BaseModel.php on line 72.
+ 1 APPPATH\Models\BaseModel.php(72): count(null)
+ 2 APPPATH\Modules\Standard\Controllers\Level.php(211): App\Models\BaseModel->get_field('ID', 'level_pricing', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Level->pricing_submit()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Level))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-11 10:51:48 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Models\BaseModel.php on line 73.
+ 1 APPPATH\Models\BaseModel.php(73): count(null)
+ 2 APPPATH\Modules\Standard\Controllers\Level.php(211): App\Models\BaseModel->get_field('ID', 'level_pricing', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Level->pricing_submit()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Level))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-11 10:51:49 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Models\BaseModel.php on line 73.
+ 1 APPPATH\Models\BaseModel.php(73): count(null)
+ 2 APPPATH\Modules\Standard\Controllers\Level.php(211): App\Models\BaseModel->get_field('ID', 'level_pricing', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Level->pricing_submit()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Level))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-11 10:51:49 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Models\BaseModel.php on line 73.
+ 1 APPPATH\Models\BaseModel.php(73): count(null)
+ 2 APPPATH\Modules\Standard\Controllers\Level.php(211): App\Models\BaseModel->get_field('ID', 'level_pricing', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Level->pricing_submit()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Level))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-11 10:52:00 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Models\BaseModel.php on line 73.
+ 1 APPPATH\Models\BaseModel.php(73): count(null)
+ 2 APPPATH\Modules\Standard\Controllers\Level.php(211): App\Models\BaseModel->get_field('ID', 'level_pricing', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Level->pricing_submit()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Level))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-11 10:52:01 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Models\BaseModel.php on line 73.
+ 1 APPPATH\Models\BaseModel.php(73): count(null)
+ 2 APPPATH\Modules\Standard\Controllers\Level.php(211): App\Models\BaseModel->get_field('ID', 'level_pricing', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Level->pricing_submit()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Level))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-11 10:53:14 --> Undefined variable $data
+in APPPATH\Models\BaseModel.php on line 63.
+ 1 APPPATH\Models\BaseModel.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\xampp\\htdocs\\dfinest\\app\\Models\\BaseModel.php', 63)
+ 2 APPPATH\Modules\Standard\Controllers\Level.php(211): App\Models\BaseModel->get_field('ID', 'level_pricing', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Level->pricing_submit()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Level))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-11 10:54:33 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Models\BaseModel.php on line 71.
+ 1 APPPATH\Models\BaseModel.php(71): count(null)
+ 2 APPPATH\Modules\Standard\Controllers\Level.php(211): App\Models\BaseModel->get_field('ID', 'level_pricing', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Level->pricing_submit()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Level))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-11 10:54:34 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Models\BaseModel.php on line 71.
+ 1 APPPATH\Models\BaseModel.php(71): count(null)
+ 2 APPPATH\Modules\Standard\Controllers\Level.php(211): App\Models\BaseModel->get_field('ID', 'level_pricing', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Level->pricing_submit()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Level))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-11 11:03:22 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH\Modules\Standard\Controllers\Level.php on line 219.
+ 1 APPPATH\Modules\Standard\Controllers\Level.php(219): count('')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Level->pricing_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Level))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-11 11:43:11 --> Undefined variable $info_sttype
+in APPPATH\Modules\Standard\Views\ftype\form.php on line 20.
+ 1 APPPATH\Modules\Standard\Views\ftype\form.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_sttype', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\ftype\\form.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\ftype\\form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\ftype\\form', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Ftype.php(120): view('Modules\\Standard\\Views\\ftype\\form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Ftype->load_form()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Ftype))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-11 11:43:13 --> Undefined variable $info_sttype
+in APPPATH\Modules\Standard\Views\ftype\form.php on line 20.
+ 1 APPPATH\Modules\Standard\Views\ftype\form.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_sttype', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\ftype\\form.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\ftype\\form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\ftype\\form', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Ftype.php(120): view('Modules\\Standard\\Views\\ftype\\form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Ftype->load_form()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Ftype))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-11 11:43:34 --> Array to string conversion
+in APPPATH\Modules\Standard\Views\ftype\form.php on line 20.
+ 1 APPPATH\Modules\Standard\Views\ftype\form.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\ftype\\form.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\ftype\\form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\ftype\\form', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Ftype.php(122): view('Modules\\Standard\\Views\\ftype\\form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Ftype->load_form()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Ftype))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-11 11:43:39 --> Array to string conversion
+in APPPATH\Modules\Standard\Views\ftype\form.php on line 20.
+ 1 APPPATH\Modules\Standard\Views\ftype\form.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\ftype\\form.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\ftype\\form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\ftype\\form', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Ftype.php(122): view('Modules\\Standard\\Views\\ftype\\form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Ftype->load_form()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Ftype))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-11 15:28:18 --> Undefined variable $page_url
+in APPPATH\Modules\Standard\Views\fabric_color\index.php on line 11.
+ 1 APPPATH\Modules\Standard\Views\fabric_color\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page_url', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\fabric_color\\index.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\fabric_color\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\fabric_color\\index', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Fabric.php(264): view('Modules\\Standard\\Views\\fabric_color\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->fabric_color()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-11 15:28:21 --> Undefined variable $page_url
+in APPPATH\Modules\Standard\Views\fabric_color\index.php on line 11.
+ 1 APPPATH\Modules\Standard\Views\fabric_color\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page_url', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\fabric_color\\index.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\fabric_color\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\fabric_color\\index', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Fabric.php(264): view('Modules\\Standard\\Views\\fabric_color\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->fabric_color()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-11 15:36:49 --> Trying to access array offset on value of type null
+in APPPATH\Modules\Standard\Controllers\Fabric.php on line 262.
+ 1 APPPATH\Modules\Standard\Controllers\Fabric.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Fabric.php', 262)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->fabric_color()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-11 15:46:57 --> Undefined array key "info_data"
+in APPPATH\Modules\Standard\Controllers\Fabric.php on line 279.
+ 1 APPPATH\Modules\Standard\Controllers\Fabric.php(279): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "info_data"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Fabric.php', 279)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->fabric_color_load_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-11 15:47:04 --> Undefined array key "info_data"
+in APPPATH\Modules\Standard\Controllers\Fabric.php on line 279.
+ 1 APPPATH\Modules\Standard\Controllers\Fabric.php(279): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "info_data"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Fabric.php', 279)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->fabric_color_load_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-11 15:48:08 --> Trying to access array offset on value of type null
+in APPPATH\Modules\Standard\Controllers\Fabric.php on line 281.
+ 1 APPPATH\Modules\Standard\Controllers\Fabric.php(281): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Fabric.php', 281)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->fabric_color_load_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-11 15:50:50 --> Undefined variable $data
+in APPPATH\Modules\Standard\Controllers\Fabric.php on line 283.
+ 1 APPPATH\Modules\Standard\Controllers\Fabric.php(283): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Fabric.php', 283)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->fabric_color_load_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-11 15:56:18 --> Invalid file: "Modules\Standard\Viewsabric_color\data.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Standard\\Viewsabric_color\\data.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Viewsabric_color\\data', [], true)
+ 3 APPPATH\Modules\Standard\Controllers\Fabric.php(285): view('Modules\\Standard\\Viewsabric_color\\data', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->fabric_color_load_data()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-11 16:14:13 --> Trying to access array offset on value of type bool
+in APPPATH\Modules\Standard\Controllers\Fabric.php on line 275.
+ 1 APPPATH\Modules\Standard\Controllers\Fabric.php(275): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type bool', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Fabric.php', 275)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->fabric_color_load_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-11 17:48:15 --> Undefined variable $page_url
+in APPPATH\Modules\Standard\Views\fabric_color\index.php on line 11.
+ 1 APPPATH\Modules\Standard\Views\fabric_color\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page_url', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\fabric_color\\index.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\fabric_color\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\fabric_color\\index', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Fabric_n.php(262): view('Modules\\Standard\\Views\\fabric_color\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric_n->fabric_color()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric_n))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-11 17:48:17 --> Undefined variable $page_url
+in APPPATH\Modules\Standard\Views\fabric_color\index.php on line 11.
+ 1 APPPATH\Modules\Standard\Views\fabric_color\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page_url', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\fabric_color\\index.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\fabric_color\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\fabric_color\\index', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Fabric_n.php(262): view('Modules\\Standard\\Views\\fabric_color\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric_n->fabric_color()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric_n))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

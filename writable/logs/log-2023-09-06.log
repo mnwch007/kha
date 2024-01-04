@@ -1,0 +1,947 @@
+CRITICAL - 2023-09-06 10:29:21 --> Invalid file: "Modules\Report\Viewsp_sales\index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Report\\Viewsp_sales\\index.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Viewsp_sales\\index', [], true)
+ 3 APPPATH\Modules\Report\Controllers\Rp_sales.php(40): view('Modules\\Report\\Viewsp_sales\\index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 10:29:22 --> Invalid file: "Modules\Report\Viewsp_sales\index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Report\\Viewsp_sales\\index.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Viewsp_sales\\index', [], true)
+ 3 APPPATH\Modules\Report\Controllers\Rp_sales.php(40): view('Modules\\Report\\Viewsp_sales\\index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 10:31:43 --> Undefined property: App\Modules\Report\Controllers\Rp_sales::$mainm
+in APPPATH\Modules\Report\Controllers\Rp_sales.php on line 43.
+ 1 APPPATH\Modules\Report\Controllers\Rp_sales.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Report\\Controllers\\Rp_sales::$mainm', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Controllers\\Rp_sales.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 10:31:44 --> Undefined property: App\Modules\Report\Controllers\Rp_sales::$mainm
+in APPPATH\Modules\Report\Controllers\Rp_sales.php on line 43.
+ 1 APPPATH\Modules\Report\Controllers\Rp_sales.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Report\\Controllers\\Rp_sales::$mainm', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Controllers\\Rp_sales.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 10:32:01 --> Undefined property: App\Modules\Report\Controllers\Rp_sales::$mainm
+in APPPATH\Modules\Report\Controllers\Rp_sales.php on line 43.
+ 1 APPPATH\Modules\Report\Controllers\Rp_sales.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Report\\Controllers\\Rp_sales::$mainm', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Controllers\\Rp_sales.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 10:32:02 --> Undefined property: App\Modules\Report\Controllers\Rp_sales::$mainm
+in APPPATH\Modules\Report\Controllers\Rp_sales.php on line 43.
+ 1 APPPATH\Modules\Report\Controllers\Rp_sales.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Report\\Controllers\\Rp_sales::$mainm', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Controllers\\Rp_sales.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 10:32:03 --> Undefined property: App\Modules\Report\Controllers\Rp_sales::$mainm
+in APPPATH\Modules\Report\Controllers\Rp_sales.php on line 43.
+ 1 APPPATH\Modules\Report\Controllers\Rp_sales.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Report\\Controllers\\Rp_sales::$mainm', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Controllers\\Rp_sales.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 10:33:51 --> Invalid file: "Modules\Report\Viewsp_sales\_title.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Report\\Viewsp_sales\\_title.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Viewsp_sales\\_title', [], true)
+ 3 APPPATH\Views\inc-header.php(98): view('Modules\\Report\\Viewsp_sales\\_title')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-header.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-header', [], true)
+ 7 APPPATH\Modules\Report\Controllers\Rp_sales.php(53): view('inc-header', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 10:33:52 --> Invalid file: "Modules\Report\Viewsp_sales\_title.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Report\\Viewsp_sales\\_title.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Viewsp_sales\\_title', [], true)
+ 3 APPPATH\Views\inc-header.php(98): view('Modules\\Report\\Viewsp_sales\\_title')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-header.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-header', [], true)
+ 7 APPPATH\Modules\Report\Controllers\Rp_sales.php(53): view('inc-header', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 10:34:06 --> Invalid file: "Modules\Report\Viewsp_sales\_title.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Report\\Viewsp_sales\\_title.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Viewsp_sales\\_title', [], true)
+ 3 APPPATH\Views\inc-header.php(98): view('Modules\\Report\\Viewsp_sales\\_title')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-header.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-header', [], true)
+ 7 APPPATH\Modules\Report\Controllers\Rp_sales.php(53): view('inc-header', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 10:34:07 --> Invalid file: "Modules\Report\Viewsp_sales\_title.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Report\\Viewsp_sales\\_title.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Viewsp_sales\\_title', [], true)
+ 3 APPPATH\Views\inc-header.php(98): view('Modules\\Report\\Viewsp_sales\\_title')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-header.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-header', [], true)
+ 7 APPPATH\Modules\Report\Controllers\Rp_sales.php(53): view('inc-header', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 10:34:08 --> Invalid file: "Modules\Report\Viewsp_sales\_title.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Report\\Viewsp_sales\\_title.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Viewsp_sales\\_title', [], true)
+ 3 APPPATH\Views\inc-header.php(98): view('Modules\\Report\\Viewsp_sales\\_title')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-header.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-header', [], true)
+ 7 APPPATH\Modules\Report\Controllers\Rp_sales.php(53): view('inc-header', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 10:35:13 --> Undefined property: App\Modules\Report\Controllers\Rp_sales::$mainm
+in APPPATH\Modules\Report\Controllers\Rp_sales.php on line 51.
+ 1 APPPATH\Modules\Report\Controllers\Rp_sales.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Report\\Controllers\\Rp_sales::$mainm', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Controllers\\Rp_sales.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 10:35:14 --> Undefined property: App\Modules\Report\Controllers\Rp_sales::$mainm
+in APPPATH\Modules\Report\Controllers\Rp_sales.php on line 51.
+ 1 APPPATH\Modules\Report\Controllers\Rp_sales.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Report\\Controllers\\Rp_sales::$mainm', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Controllers\\Rp_sales.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 10:35:20 --> Invalid file: "Modules\Report\Viewsp_sales\_title.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Report\\Viewsp_sales\\_title.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Viewsp_sales\\_title', [], true)
+ 3 APPPATH\Views\inc-header.php(98): view('Modules\\Report\\Viewsp_sales\\_title')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-header.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-header', [], true)
+ 7 APPPATH\Modules\Report\Controllers\Rp_sales.php(53): view('inc-header', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 10:35:21 --> Invalid file: "Modules\Report\Viewsp_sales\_title.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Report\\Viewsp_sales\\_title.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Viewsp_sales\\_title', [], true)
+ 3 APPPATH\Views\inc-header.php(98): view('Modules\\Report\\Viewsp_sales\\_title')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-header.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-header', [], true)
+ 7 APPPATH\Modules\Report\Controllers\Rp_sales.php(53): view('inc-header', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 10:35:21 --> Invalid file: "Modules\Report\Viewsp_sales\_title.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Report\\Viewsp_sales\\_title.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Viewsp_sales\\_title', [], true)
+ 3 APPPATH\Views\inc-header.php(98): view('Modules\\Report\\Viewsp_sales\\_title')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-header.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-header', [], true)
+ 7 APPPATH\Modules\Report\Controllers\Rp_sales.php(53): view('inc-header', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 10:35:21 --> Invalid file: "Modules\Report\Viewsp_sales\_title.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Report\\Viewsp_sales\\_title.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Viewsp_sales\\_title', [], true)
+ 3 APPPATH\Views\inc-header.php(98): view('Modules\\Report\\Viewsp_sales\\_title')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-header.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-header', [], true)
+ 7 APPPATH\Modules\Report\Controllers\Rp_sales.php(53): view('inc-header', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 10:35:30 --> Invalid file: "Modules\Report\Viewsp_sales\_title.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Report\\Viewsp_sales\\_title.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Viewsp_sales\\_title', [], true)
+ 3 APPPATH\Views\inc-header.php(98): view('Modules\\Report\\Viewsp_sales\\_title')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-header.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-header', [], true)
+ 7 APPPATH\Modules\Report\Controllers\Rp_sales.php(53): view('inc-header', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 10:35:31 --> Invalid file: "Modules\Report\Viewsp_sales\_title.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Report\\Viewsp_sales\\_title.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Viewsp_sales\\_title', [], true)
+ 3 APPPATH\Views\inc-header.php(98): view('Modules\\Report\\Viewsp_sales\\_title')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-header.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-header', [], true)
+ 7 APPPATH\Modules\Report\Controllers\Rp_sales.php(53): view('inc-header', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 10:36:01 --> Invalid file: "Modules\Report\Viewsp_sales\_title.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Report\\Viewsp_sales\\_title.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Viewsp_sales\\_title', [], true)
+ 3 APPPATH\Views\inc-header.php(98): view('Modules\\Report\\Viewsp_sales\\_title')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-header.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-header', [], true)
+ 7 APPPATH\Modules\Report\Controllers\Rp_sales.php(53): view('inc-header', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 10:36:02 --> Invalid file: "Modules\Report\Viewsp_sales\_title.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Report\\Viewsp_sales\\_title.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Viewsp_sales\\_title', [], true)
+ 3 APPPATH\Views\inc-header.php(98): view('Modules\\Report\\Viewsp_sales\\_title')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-header.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-header', [], true)
+ 7 APPPATH\Modules\Report\Controllers\Rp_sales.php(53): view('inc-header', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 10:36:23 --> Invalid file: "Modules\Report\Viewsp_sales\_title.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Report\\Viewsp_sales\\_title.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Viewsp_sales\\_title', [], true)
+ 3 APPPATH\Views\inc-header.php(98): view('Modules\\Report\\Viewsp_sales\\_title')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-header.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-header', [], true)
+ 7 APPPATH\Modules\Report\Controllers\Rp_sales.php(53): view('inc-header', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 10:36:49 --> Invalid file: "Modules\Report\Viewsp_sales\_title.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Report\\Viewsp_sales\\_title.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Viewsp_sales\\_title', [], true)
+ 3 APPPATH\Views\inc-header.php(98): view('Modules\\Report\\Viewsp_sales\\_title')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-header.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-header', [], true)
+ 7 APPPATH\Modules\Report\Controllers\Rp_sales.php(52): view('inc-header', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 10:36:50 --> Invalid file: "Modules\Report\Viewsp_sales\_title.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Report\\Viewsp_sales\\_title.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Viewsp_sales\\_title', [], true)
+ 3 APPPATH\Views\inc-header.php(98): view('Modules\\Report\\Viewsp_sales\\_title')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-header.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-header', [], true)
+ 7 APPPATH\Modules\Report\Controllers\Rp_sales.php(52): view('inc-header', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 10:37:02 --> Undefined array key "search"
+in APPPATH\Modules\Report\Controllers\Rp_sales.php on line 48.
+ 1 APPPATH\Modules\Report\Controllers\Rp_sales.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "search"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Controllers\\Rp_sales.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 10:37:29 --> Invalid file: "Modules\Report\Viewsp_sales\index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Report\\Viewsp_sales\\index.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Viewsp_sales\\index', [], true)
+ 3 APPPATH\Modules\Report\Controllers\Rp_sales.php(53): view('Modules\\Report\\Viewsp_sales\\index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 10:37:30 --> Invalid file: "Modules\Report\Viewsp_sales\index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Report\\Viewsp_sales\\index.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Viewsp_sales\\index', [], true)
+ 3 APPPATH\Modules\Report\Controllers\Rp_sales.php(53): view('Modules\\Report\\Viewsp_sales\\index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 10:37:50 --> Invalid file: "Modules\Report\Viewsp_sales\index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Report\\Viewsp_sales\\index.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Viewsp_sales\\index', [], true)
+ 3 APPPATH\Modules\Report\Controllers\Rp_sales.php(53): view('Modules\\Report\\Viewsp_sales\\index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 10:38:36 --> Invalid file: "Modules\Report\Viewsp_sales\index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Report\\Viewsp_sales\\index.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Viewsp_sales\\index', [], true)
+ 3 APPPATH\Modules\Report\Controllers\Rp_sales.php(53): view('Modules\\Report\\Viewsp_sales\\index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 10:38:37 --> Invalid file: "Modules\Report\Viewsp_sales\index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Report\\Viewsp_sales\\index.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Viewsp_sales\\index', [], true)
+ 3 APPPATH\Modules\Report\Controllers\Rp_sales.php(53): view('Modules\\Report\\Viewsp_sales\\index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 10:38:37 --> Invalid file: "Modules\Report\Viewsp_sales\index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Report\\Viewsp_sales\\index.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Viewsp_sales\\index', [], true)
+ 3 APPPATH\Modules\Report\Controllers\Rp_sales.php(53): view('Modules\\Report\\Viewsp_sales\\index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 10:40:53 --> Undefined array key 9
+in APPPATH\Modules\Report\Views\rp_sales\index.php on line 25.
+ 1 APPPATH\Modules\Report\Views\rp_sales\index.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 9', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_sales\\index.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_sales\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\Rp_sales\\index', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_sales.php(53): view('Modules\\Report\\Views\\Rp_sales\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 10:40:54 --> Undefined array key 9
+in APPPATH\Modules\Report\Views\rp_sales\index.php on line 25.
+ 1 APPPATH\Modules\Report\Views\rp_sales\index.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 9', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_sales\\index.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_sales\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\Rp_sales\\index', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_sales.php(53): view('Modules\\Report\\Views\\Rp_sales\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 10:41:25 --> Invalid file: "Modules\Report\Viewspsales\index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Report\\Viewspsales\\index.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Viewspsales\\index', [], true)
+ 3 APPPATH\Modules\Report\Controllers\Rp_sales.php(54): view('Modules\\Report\\Viewspsales\\index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 10:43:23 --> Undefined array key 9
+in APPPATH\Modules\Report\Views\Rp_sales\index.php on line 25.
+ 1 APPPATH\Modules\Report\Views\Rp_sales\index.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 9', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\Rp_sales\\index.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\Rp_sales\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\Rp_sales\\index', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_sales.php(54): view('Modules\\Report\\Views\\Rp_sales\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 10:44:38 --> Invalid file: "Modules\Report\Viewsp_sales\index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Report\\Viewsp_sales\\index.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Viewsp_sales\\index', [], true)
+ 3 APPPATH\Modules\Report\Controllers\Rp_sales.php(54): view('Modules\\Report\\Viewsp_sales\\index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 10:44:40 --> Invalid file: "Modules\Report\Viewsp_sales\index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Report\\Viewsp_sales\\index.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Viewsp_sales\\index', [], true)
+ 3 APPPATH\Modules\Report\Controllers\Rp_sales.php(54): view('Modules\\Report\\Viewsp_sales\\index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 10:45:57 --> Invalid file: "Modules\Report\Views\rp_sales\_title.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Report\\Views\\rp_sales\\_title.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_sales\\_title', [], true)
+ 3 APPPATH\Views\inc-header.php(98): view('Modules\\Report\\Views\\rp_sales\\_title')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-header.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-header', [], true)
+ 7 APPPATH\Modules\Report\Controllers\Rp_sales.php(53): view('inc-header', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 10:47:23 --> Undefined array key "mode"
+in APPPATH\Views\inc-search.php on line 3.
+ 1 APPPATH\Views\inc-search.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "mode"', 'D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-search.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-search.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-search', [], true)
+ 5 APPPATH\Modules\Report\Views\rp_sales\index.php(3): view('inc-search')
+ 6 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_sales\\index.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_sales\\index', [], true)
+ 9 APPPATH\Modules\Report\Controllers\Rp_sales.php(54): view('Modules\\Report\\Views\\rp_sales\\index', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_sales->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_sales))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 11:01:51 --> Undefined property: App\Modules\Standard\Controllers\Customer::$page_title
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 125.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Customer::$page_title', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Customer.php', 125)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_form()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 11:01:51 --> Undefined property: App\Modules\Standard\Controllers\Customer::$page_title
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 125.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Customer::$page_title', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Customer.php', 125)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_form()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 11:01:53 --> Undefined property: App\Modules\Standard\Controllers\Customer::$page_title
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 125.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Customer::$page_title', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Customer.php', 125)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_form()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 11:01:54 --> Undefined property: App\Modules\Standard\Controllers\Customer::$page_title
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 125.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Customer::$page_title', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Customer.php', 125)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_form()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 11:01:56 --> Undefined property: App\Modules\Standard\Controllers\Customer::$page_title
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 125.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Customer::$page_title', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Customer.php', 125)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_form()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 11:02:08 --> Undefined property: App\Modules\Standard\Controllers\Customer::$page_title
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 125.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Customer::$page_title', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Customer.php', 125)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_form()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 11:02:08 --> Undefined property: App\Modules\Standard\Controllers\Customer::$page_title
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 125.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Customer::$page_title', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Customer.php', 125)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_form()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 11:02:13 --> Undefined property: App\Modules\Standard\Controllers\Customer::$page_title
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 125.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Customer::$page_title', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Customer.php', 125)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_form()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 11:03:32 --> Undefined array key "BName"
+in APPPATH\Modules\Standard\Views\customer\form.php on line 64.
+ 1 APPPATH\Modules\Standard\Views\customer\form.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "BName"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\customer\\form.php', 64)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\customer\\form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\customer\\form', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Customer.php(132): view('Modules\\Standard\\Views\\customer\\form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_form()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 11:05:41 --> Undefined property: App\Modules\Standard\Controllers\Supplier::$page_title
+in APPPATH\Modules\Standard\Controllers\Supplier.php on line 119.
+ 1 APPPATH\Modules\Standard\Controllers\Supplier.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Supplier::$page_title', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Supplier.php', 119)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Supplier->load_form()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Supplier))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 11:06:05 --> Undefined property: App\Modules\Standard\Controllers\Supplier::$page_title
+in APPPATH\Modules\Standard\Controllers\Supplier.php on line 119.
+ 1 APPPATH\Modules\Standard\Controllers\Supplier.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Supplier::$page_title', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Supplier.php', 119)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Supplier->load_form()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Supplier))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 11:06:06 --> Undefined property: App\Modules\Standard\Controllers\Supplier::$page_title
+in APPPATH\Modules\Standard\Controllers\Supplier.php on line 119.
+ 1 APPPATH\Modules\Standard\Controllers\Supplier.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Supplier::$page_title', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Supplier.php', 119)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Supplier->load_form()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Supplier))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 11:06:41 --> Undefined property: App\Modules\Standard\Controllers\Supplier::$page_title
+in APPPATH\Modules\Standard\Controllers\Supplier.php on line 119.
+ 1 APPPATH\Modules\Standard\Controllers\Supplier.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Supplier::$page_title', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Supplier.php', 119)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Supplier->load_form()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Supplier))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 11:15:30 --> Undefined array key "LineID"
+in APPPATH\Modules\Standard\Views\supplier\data.php on line 18.
+ 1 APPPATH\Modules\Standard\Views\supplier\data.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "LineID"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\supplier\\data.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\supplier\\data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\supplier\\data', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Supplier.php(85): view('Modules\\Standard\\Views\\supplier\\data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Supplier->load_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Supplier))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 11:21:20 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::order_by()
+in APPPATH\Models\MainModel.php on line 29.
+ 1 APPPATH\Modules\Standard\Controllers\Supplier.php(46): App\Models\MainModel->get_counties_list()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Supplier->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Supplier))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 11:21:22 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::order_by()
+in APPPATH\Models\MainModel.php on line 29.
+ 1 APPPATH\Modules\Standard\Controllers\Supplier.php(46): App\Models\MainModel->get_counties_list()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Supplier->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Supplier))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 11:22:39 --> Undefined variable $field
+in APPPATH\Models\MainModel.php on line 31.
+ 1 APPPATH\Models\MainModel.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $field', 'D:\\xampp\\htdocs\\dfinest\\app\\Models\\MainModel.php', 31)
+ 2 APPPATH\Modules\Standard\Controllers\Supplier.php(46): App\Models\MainModel->get_counties_list()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Supplier->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Supplier))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 11:22:40 --> Undefined variable $field
+in APPPATH\Models\MainModel.php on line 31.
+ 1 APPPATH\Models\MainModel.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $field', 'D:\\xampp\\htdocs\\dfinest\\app\\Models\\MainModel.php', 31)
+ 2 APPPATH\Modules\Standard\Controllers\Supplier.php(46): App\Models\MainModel->get_counties_list()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Supplier->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Supplier))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 11:24:51 --> Undefined property: App\Modules\Standard\Controllers\Supplier::$mainm
+in APPPATH\Modules\Standard\Controllers\Supplier.php on line 72.
+ 1 APPPATH\Modules\Standard\Controllers\Supplier.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Supplier::$mainm', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Supplier.php', 72)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Supplier->load_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Supplier))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 11:24:53 --> Undefined property: App\Modules\Standard\Controllers\Supplier::$mainm
+in APPPATH\Modules\Standard\Controllers\Supplier.php on line 72.
+ 1 APPPATH\Modules\Standard\Controllers\Supplier.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Supplier::$mainm', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Supplier.php', 72)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Supplier->load_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Supplier))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 11:24:55 --> Undefined property: App\Modules\Standard\Controllers\Supplier::$mainm
+in APPPATH\Modules\Standard\Controllers\Supplier.php on line 72.
+ 1 APPPATH\Modules\Standard\Controllers\Supplier.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Supplier::$mainm', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Supplier.php', 72)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Supplier->load_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Supplier))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 11:51:15 --> Invalid file: "Modules\Standard\Viewsactory\_title.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Standard\\Viewsactory\\_title.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Viewsactory\\_title', [], true)
+ 3 APPPATH\Views\inc-header.php(98): view('Modules\\Standard\\Viewsactory\\_title')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-header.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-header', [], true)
+ 7 APPPATH\Modules\Standard\Controllers\Factory.php(46): view('inc-header', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Factory->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Factory))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 11:52:57 --> Invalid file: "Modules\Standard\Viewsactory\_title.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Standard\\Viewsactory\\_title.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Viewsactory\\_title', [], true)
+ 3 APPPATH\Views\inc-header.php(98): view('Modules\\Standard\\Viewsactory\\_title')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-header.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-header', [], true)
+ 7 APPPATH\Modules\Standard\Controllers\Factory.php(46): view('inc-header', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Factory->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Factory))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 11:52:58 --> Invalid file: "Modules\Standard\Viewsactory\_title.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Standard\\Viewsactory\\_title.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Viewsactory\\_title', [], true)
+ 3 APPPATH\Views\inc-header.php(98): view('Modules\\Standard\\Viewsactory\\_title')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-header.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-header', [], true)
+ 7 APPPATH\Modules\Standard\Controllers\Factory.php(46): view('inc-header', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Factory->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Factory))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 11:52:59 --> Invalid file: "Modules\Standard\Viewsactory\_title.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Standard\\Viewsactory\\_title.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Viewsactory\\_title', [], true)
+ 3 APPPATH\Views\inc-header.php(98): view('Modules\\Standard\\Viewsactory\\_title')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-header.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-header', [], true)
+ 7 APPPATH\Modules\Standard\Controllers\Factory.php(46): view('inc-header', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Factory->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Factory))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-06 12:35:34 --> mysqli_sql_exception: Unknown column 'BName' in 'order clause' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Standard\Models\Standard.php(88): CodeIgniter\Database\BaseBuilder->get(0, 50)
+#5 D:\xampp\htdocs\dfinest\app\Modules\Standard\Controllers\Salesperson.php(69): App\Modules\Standard\Models\Standard->get_itemlist_limit('salesperson', 'a%3A3%3A%7Bs%3A...', 'BName', 'asc', 0)
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Standard\Controllers\Salesperson->load_data()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Salesperson))
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-06 12:35:34 --> Unknown column 'BName' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `salesperson`
+WHERE `Active` = 1
+ORDER BY `BName` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `salesperson`
+WHERE `Active` = 1
+ORDER BY `BName` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `salesperson`
+WHERE `Active` = 1
+ORDER BY `BName` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `salesperson`
+WHERE `Active` = 1
+ORDER BY `BName` ASC', [], false)
+ 5 APPPATH\Modules\Standard\Models\Standard.php(88): CodeIgniter\Database\BaseBuilder->get(0, 50)
+ 6 APPPATH\Modules\Standard\Controllers\Salesperson.php(69): App\Modules\Standard\Models\Standard->get_itemlist_limit('salesperson', 'a%3A3%3A%7Bs%3A4%3A%22mode%22%3Bs%3A6%3A%22search%22%3Bs%3A8%3A%22SKeyword%22%3Bs%3A0%3A%22%22%3Bs%3A7%3A%22SupType%22%3Bi%3A2%3B%7D', 'BName', 'asc', 0)
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Salesperson->load_data()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Salesperson))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-06 12:35:36 --> mysqli_sql_exception: Unknown column 'BName' in 'order clause' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Standard\Models\Standard.php(88): CodeIgniter\Database\BaseBuilder->get(0, 50)
+#5 D:\xampp\htdocs\dfinest\app\Modules\Standard\Controllers\Salesperson.php(69): App\Modules\Standard\Models\Standard->get_itemlist_limit('salesperson', 'a%3A3%3A%7Bs%3A...', 'BName', 'asc', 0)
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Standard\Controllers\Salesperson->load_data()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Salesperson))
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-06 12:35:36 --> Unknown column 'BName' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `salesperson`
+WHERE `Active` = 1
+ORDER BY `BName` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `salesperson`
+WHERE `Active` = 1
+ORDER BY `BName` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `salesperson`
+WHERE `Active` = 1
+ORDER BY `BName` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `salesperson`
+WHERE `Active` = 1
+ORDER BY `BName` ASC', [], false)
+ 5 APPPATH\Modules\Standard\Models\Standard.php(88): CodeIgniter\Database\BaseBuilder->get(0, 50)
+ 6 APPPATH\Modules\Standard\Controllers\Salesperson.php(69): App\Modules\Standard\Models\Standard->get_itemlist_limit('salesperson', 'a%3A3%3A%7Bs%3A4%3A%22mode%22%3Bs%3A6%3A%22search%22%3Bs%3A8%3A%22SKeyword%22%3Bs%3A0%3A%22%22%3Bs%3A7%3A%22SupType%22%3Bi%3A2%3B%7D', 'BName', 'asc', 0)
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Salesperson->load_data()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Salesperson))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-06 14:20:36 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL' at line 3 in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(ID...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(ID...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(ID...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(ID...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Models\BaseModel.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Standard\Models\Standard.php(47): App\Models\BaseModel->count_rec('ID', 'salesperson', '')
+#6 D:\xampp\htdocs\dfinest\app\Modules\Standard\Controllers\Salesperson.php(39): App\Modules\Standard\Models\Standard->count_itemlist('salesperson', Array)
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Standard\Controllers\Salesperson->index()
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Salesperson))
+#9 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-09-06 14:20:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(ID) as total
+FROM `salesperson`
+WHERE  IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(ID) as total
+FROM `salesperson`
+WHERE  IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(ID) as total
+FROM `salesperson`
+WHERE  IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(ID) as total
+FROM `salesperson`
+WHERE  IS NULL', [], false)
+ 5 APPPATH\Models\BaseModel.php(53): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Standard\Models\Standard.php(47): App\Models\BaseModel->count_rec('ID', 'salesperson', '')
+ 7 APPPATH\Modules\Standard\Controllers\Salesperson.php(39): App\Modules\Standard\Models\Standard->count_itemlist('salesperson', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Salesperson->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Salesperson))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-06 14:37:34 --> mysqli_sql_exception: Unknown column 'SupType' in 'field list' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `sa...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sa...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sa...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sa...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Standard\Controllers\Salesperson.php(153): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Standard\Controllers\Salesperson->submit()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Salesperson))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-06 14:37:34 --> Unknown column 'SupType' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `salesperson` (`SupType`, `Name`, `Mobile`, `TaxID`, `UserID`, `LastUpdated`, `CreatedDate`) VALUES (2, \'test sale\', \'\', \'\', \'2\', \'2023-09-06 14:37:34\', \'2023-09-06 14:37:34\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `salesperson` (`SupType`, `Name`, `Mobile`, `TaxID`, `UserID`, `LastUpdated`, `CreatedDate`) VALUES (2, \'test sale\', \'\', \'\', \'2\', \'2023-09-06 14:37:34\', \'2023-09-06 14:37:34\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `salesperson` (`SupType`, `Name`, `Mobile`, `TaxID`, `UserID`, `LastUpdated`, `CreatedDate`) VALUES (2, \'test sale\', \'\', \'\', \'2\', \'2023-09-06 14:37:34\', \'2023-09-06 14:37:34\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `salesperson` (`SupType`, `Name`, `Mobile`, `TaxID`, `UserID`, `LastUpdated`, `CreatedDate`) VALUES (:SupType:, :Name:, :Mobile:, :TaxID:, :UserID:, :LastUpdated:, :CreatedDate:)', [...], false)
+ 5 APPPATH\Modules\Standard\Controllers\Salesperson.php(153): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Salesperson->submit()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Salesperson))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-06 14:37:36 --> mysqli_sql_exception: Unknown column 'SupType' in 'field list' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `sa...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sa...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sa...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sa...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Standard\Controllers\Salesperson.php(153): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Standard\Controllers\Salesperson->submit()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Salesperson))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-06 14:37:36 --> Unknown column 'SupType' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `salesperson` (`SupType`, `Name`, `Mobile`, `TaxID`, `UserID`, `LastUpdated`, `CreatedDate`) VALUES (2, \'test sale\', \'\', \'\', \'2\', \'2023-09-06 14:37:36\', \'2023-09-06 14:37:36\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `salesperson` (`SupType`, `Name`, `Mobile`, `TaxID`, `UserID`, `LastUpdated`, `CreatedDate`) VALUES (2, \'test sale\', \'\', \'\', \'2\', \'2023-09-06 14:37:36\', \'2023-09-06 14:37:36\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `salesperson` (`SupType`, `Name`, `Mobile`, `TaxID`, `UserID`, `LastUpdated`, `CreatedDate`) VALUES (2, \'test sale\', \'\', \'\', \'2\', \'2023-09-06 14:37:36\', \'2023-09-06 14:37:36\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `salesperson` (`SupType`, `Name`, `Mobile`, `TaxID`, `UserID`, `LastUpdated`, `CreatedDate`) VALUES (:SupType:, :Name:, :Mobile:, :TaxID:, :UserID:, :LastUpdated:, :CreatedDate:)', [...], false)
+ 5 APPPATH\Modules\Standard\Controllers\Salesperson.php(153): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Salesperson->submit()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Salesperson))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 15:04:08 --> Undefined property: App\Modules\Standard\Controllers\Customer::$mainm
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 84.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Customer::$mainm', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Customer.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 15:04:10 --> Undefined property: App\Modules\Standard\Controllers\Customer::$mainm
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 84.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Customer::$mainm', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Customer.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 15:08:34 --> Undefined property: App\Modules\Standard\Controllers\Customer::$mainm
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 85.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Customer::$mainm', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Customer.php', 85)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 15:08:35 --> Undefined property: App\Modules\Standard\Controllers\Customer::$mainm
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 85.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Customer::$mainm', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Customer.php', 85)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 15:08:50 --> Undefined variable $info_currency
+in APPPATH\Modules\Standard\Views\customer\data.php on line 21.
+ 1 APPPATH\Modules\Standard\Views\customer\data.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_currency', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\customer\\data.php', 21)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\customer\\data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\customer\\data', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Customer.php(92): view('Modules\\Standard\\Views\\customer\\data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 15:08:52 --> Undefined variable $info_currency
+in APPPATH\Modules\Standard\Views\customer\data.php on line 21.
+ 1 APPPATH\Modules\Standard\Views\customer\data.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_currency', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\customer\\data.php', 21)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\customer\\data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\customer\\data', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Customer.php(92): view('Modules\\Standard\\Views\\customer\\data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 15:14:45 --> Undefined variable $val
+in APPPATH\Modules\Standard\Views\customer\form.php on line 102.
+ 1 APPPATH\Modules\Standard\Views\customer\form.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $val', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\customer\\form.php', 102)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\customer\\form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\customer\\form', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Customer.php(134): view('Modules\\Standard\\Views\\customer\\form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_form()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 15:14:48 --> Undefined variable $val
+in APPPATH\Modules\Standard\Views\customer\form.php on line 102.
+ 1 APPPATH\Modules\Standard\Views\customer\form.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $val', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\customer\\form.php', 102)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\customer\\form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\customer\\form', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Customer.php(134): view('Modules\\Standard\\Views\\customer\\form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_form()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-06 16:28:26 --> mysqli_sql_exception: Unknown column 'AddressName' in 'field list' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `ID`, CO...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`, CO...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`, CO...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `ID`, CO...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Models\BaseModel.php(102): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Standard\Controllers\Customer.php(384): App\Models\BaseModel->get_field_arr('ID,CONCAT("- ",...', 'contact', 'CusID=40')
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->contacts()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-06 16:28:26 --> Unknown column 'AddressName' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `ID`, CONCAT("- ", `AddressName`, ", ", `FName`, ", ", Tel)Name, `Address`, `Tel`
+FROM `contact`
+WHERE `CusID` = 40', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`, CONCAT("- ", `AddressName`, ", ", `FName`, ", ", Tel)Name, `Address`, `Tel`
+FROM `contact`
+WHERE `CusID` = 40')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`, CONCAT("- ", `AddressName`, ", ", `FName`, ", ", Tel)Name, `Address`, `Tel`
+FROM `contact`
+WHERE `CusID` = 40')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `ID`, CONCAT("- ", `AddressName`, ", ", `FName`, ", ", Tel)Name, `Address`, `Tel`
+FROM `contact`
+WHERE `CusID` = 40', [], false)
+ 5 APPPATH\Models\BaseModel.php(102): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Standard\Controllers\Customer.php(384): App\Models\BaseModel->get_field_arr('ID,CONCAT("- ",AddressName,", ",FName,", ",Tel)Name,Address,Tel', 'contact', 'CusID=40')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->contacts()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 16:56:25 --> Undefined array key "tab"
+in APPPATH\Views\inc-footer.php on line 74.
+ 1 APPPATH\Views\inc-footer.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tab"', 'D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-footer.php', 74)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-footer.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-footer', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Customer.php(62): view('inc-footer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 17:54:33 --> Undefined variable $mode
+in APPPATH\Modules\Standard\Views\customer\form_other.php on line 3.
+ 1 APPPATH\Modules\Standard\Views\customer\form_other.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mode', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\customer\\form_other.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\customer\\form_other.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\customer\\form_other', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Customer.php(466): view('Modules\\Standard\\Views\\customer\\form_other', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->form_other()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 17:55:49 --> Undefined variable $mode
+in APPPATH\Modules\Standard\Views\customer\form_other.php on line 3.
+ 1 APPPATH\Modules\Standard\Views\customer\form_other.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mode', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\customer\\form_other.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\customer\\form_other.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\customer\\form_other', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Customer.php(467): view('Modules\\Standard\\Views\\customer\\form_other', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->form_other()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 18:06:02 --> Undefined property: App\Modules\Standard\Controllers\Customer::$resp
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 222.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Customer::$resp', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Customer.php', 222)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->other_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 18:06:36 --> Undefined property: App\Modules\Standard\Controllers\Customer::$resp
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 222.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Customer::$resp', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Customer.php', 222)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->other_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 18:07:44 --> Undefined property: App\Modules\Standard\Controllers\Customer::$resp
+in APPPATH\Modules\Standard\Controllers\Customer.php on line 221.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(221): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Customer::$resp', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Customer.php', 221)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->other_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

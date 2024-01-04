@@ -1,0 +1,397 @@
+CRITICAL - 2023-09-04 10:04:35 --> Undefined variable $data
+in APPPATH\Modules\Stock\Controllers\Stockin.php on line 16.
+ 1 APPPATH\Modules\Stock\Controllers\Stockin.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Controllers\\Stockin.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 10:04:37 --> Undefined variable $data
+in APPPATH\Modules\Stock\Controllers\Stockin.php on line 16.
+ 1 APPPATH\Modules\Stock\Controllers\Stockin.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Controllers\\Stockin.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 10:05:03 --> Undefined variable $data
+in APPPATH\Modules\Stock\Controllers\Stockin.php on line 16.
+ 1 APPPATH\Modules\Stock\Controllers\Stockin.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Controllers\\Stockin.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 10:05:04 --> Undefined variable $data
+in APPPATH\Modules\Stock\Controllers\Stockin.php on line 16.
+ 1 APPPATH\Modules\Stock\Controllers\Stockin.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Controllers\\Stockin.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 10:22:24 --> Invalid file: "Modules\Stock\Views\customer\_title.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Stock\\Views\\customer\\_title.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Stock\\Views\\customer\\_title', [], true)
+ 3 APPPATH\Views\inc-header.php(99): view('Modules\\Stock\\Views\\customer\\_title')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-header.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-header', [], true)
+ 7 APPPATH\Modules\Stock\Controllers\Stockin.php(26): view('inc-header', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 10:22:24 --> Invalid file: "Modules\Stock\Views\customer\_title.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Stock\\Views\\customer\\_title.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Stock\\Views\\customer\\_title', [], true)
+ 3 APPPATH\Views\inc-header.php(99): view('Modules\\Stock\\Views\\customer\\_title')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-header.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-header', [], true)
+ 7 APPPATH\Modules\Stock\Controllers\Stockin.php(26): view('inc-header', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 10:22:59 --> Invalid file: "Modules\Stock\Views\customer\_title.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Stock\\Views\\customer\\_title.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Stock\\Views\\customer\\_title', [], true)
+ 3 APPPATH\Views\inc-header.php(99): view('Modules\\Stock\\Views\\customer\\_title')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-header.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-header', [], true)
+ 7 APPPATH\Modules\Stock\Controllers\Stockin.php(26): view('inc-header', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 10:22:59 --> Invalid file: "Modules\Stock\Views\customer\_title.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Stock\\Views\\customer\\_title.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Stock\\Views\\customer\\_title', [], true)
+ 3 APPPATH\Views\inc-header.php(99): view('Modules\\Stock\\Views\\customer\\_title')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-header.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-header', [], true)
+ 7 APPPATH\Modules\Stock\Controllers\Stockin.php(26): view('inc-header', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 10:23:00 --> Invalid file: "Modules\Stock\Views\customer\_title.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Stock\\Views\\customer\\_title.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Stock\\Views\\customer\\_title', [], true)
+ 3 APPPATH\Views\inc-header.php(99): view('Modules\\Stock\\Views\\customer\\_title')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-header.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-header', [], true)
+ 7 APPPATH\Modules\Stock\Controllers\Stockin.php(26): view('inc-header', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 10:24:05 --> Invalid file: "Modules\Stock\Views\stockin\_title.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Stock\\Views\\stockin\\_title.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Stock\\Views\\stockin\\_title', [], true)
+ 3 APPPATH\Views\inc-header.php(99): view('Modules\\Stock\\Views\\stockin\\_title')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-header.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-header', [], true)
+ 7 APPPATH\Modules\Stock\Controllers\Stockin.php(26): view('inc-header', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 10:24:06 --> Invalid file: "Modules\Stock\Views\stockin\_title.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Stock\\Views\\stockin\\_title.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Stock\\Views\\stockin\\_title', [], true)
+ 3 APPPATH\Views\inc-header.php(99): view('Modules\\Stock\\Views\\stockin\\_title')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-header.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-header', [], true)
+ 7 APPPATH\Modules\Stock\Controllers\Stockin.php(26): view('inc-header', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 10:37:13 --> Undefined variable $info_data
+in APPPATH\Modules\Stock\Views\stockin\index.php on line 7.
+ 1 APPPATH\Modules\Stock\Views\stockin\index.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_data', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Views\\stockin\\index.php', 7)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Views\\stockin\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Stock\\Views\\stockin\\index', [], true)
+ 5 APPPATH\Modules\Stock\Controllers\Stockin.php(27): view('Modules\\Stock\\Views\\stockin\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 10:37:14 --> Undefined variable $info_data
+in APPPATH\Modules\Stock\Views\stockin\index.php on line 7.
+ 1 APPPATH\Modules\Stock\Views\stockin\index.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_data', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Views\\stockin\\index.php', 7)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Views\\stockin\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Stock\\Views\\stockin\\index', [], true)
+ 5 APPPATH\Modules\Stock\Controllers\Stockin.php(27): view('Modules\\Stock\\Views\\stockin\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 14:49:25 --> number_format(): Argument #1 ($num) must be of type float, string given
+in APPPATH\Helpers\general_helper.php on line 458.
+ 1 APPPATH\Helpers\general_helper.php(458): number_format('', 0)
+ 2 APPPATH\Modules\Stock\Views\stockin\index.php(60): decimal_null('')
+ 3 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Views\\stockin\\index.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Stock\\Views\\stockin\\index', [], true)
+ 6 APPPATH\Modules\Stock\Controllers\Stockin.php(36): view('Modules\\Stock\\Views\\stockin\\index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 14:49:26 --> number_format(): Argument #1 ($num) must be of type float, string given
+in APPPATH\Helpers\general_helper.php on line 458.
+ 1 APPPATH\Helpers\general_helper.php(458): number_format('', 0)
+ 2 APPPATH\Modules\Stock\Views\stockin\index.php(60): decimal_null('')
+ 3 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Views\\stockin\\index.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Stock\\Views\\stockin\\index', [], true)
+ 6 APPPATH\Modules\Stock\Controllers\Stockin.php(36): view('Modules\\Stock\\Views\\stockin\\index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 16:26:56 --> Undefined constant "App\Modules\Ajax\Controllers\lang"
+in APPPATH\Modules\Ajax\Controllers\Ajax.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->popup_inroll()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 16:26:57 --> Undefined constant "App\Modules\Ajax\Controllers\lang"
+in APPPATH\Modules\Ajax\Controllers\Ajax.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->popup_inroll()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 16:27:14 --> Undefined array key "pname"
+in APPPATH\Modules\Ajax\Controllers\Ajax.php on line 35.
+ 1 APPPATH\Modules\Ajax\Controllers\Ajax.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pname"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Controllers\\Ajax.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->popup_inroll()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 16:27:15 --> Undefined array key "pname"
+in APPPATH\Modules\Ajax\Controllers\Ajax.php on line 35.
+ 1 APPPATH\Modules\Ajax\Controllers\Ajax.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pname"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Controllers\\Ajax.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->popup_inroll()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 16:28:25 --> Undefined array key "pname"
+in APPPATH\Modules\Ajax\Controllers\Ajax.php on line 35.
+ 1 APPPATH\Modules\Ajax\Controllers\Ajax.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pname"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Controllers\\Ajax.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->popup_inroll()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 16:28:26 --> Undefined array key "pname"
+in APPPATH\Modules\Ajax\Controllers\Ajax.php on line 35.
+ 1 APPPATH\Modules\Ajax\Controllers\Ajax.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pname"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Controllers\\Ajax.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->popup_inroll()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 16:28:28 --> Undefined array key "pname"
+in APPPATH\Modules\Ajax\Controllers\Ajax.php on line 35.
+ 1 APPPATH\Modules\Ajax\Controllers\Ajax.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pname"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Controllers\\Ajax.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->popup_inroll()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 16:28:44 --> Undefined array key "pname"
+in APPPATH\Modules\Ajax\Controllers\Ajax.php on line 35.
+ 1 APPPATH\Modules\Ajax\Controllers\Ajax.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pname"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Controllers\\Ajax.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->popup_inroll()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 16:28:45 --> Undefined array key "pname"
+in APPPATH\Modules\Ajax\Controllers\Ajax.php on line 35.
+ 1 APPPATH\Modules\Ajax\Controllers\Ajax.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pname"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Controllers\\Ajax.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->popup_inroll()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 16:30:22 --> Undefined array key "pname"
+in APPPATH\Modules\Ajax\Controllers\Ajax.php on line 35.
+ 1 APPPATH\Modules\Ajax\Controllers\Ajax.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pname"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Controllers\\Ajax.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->popup_inroll()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 16:30:24 --> Undefined array key "pname"
+in APPPATH\Modules\Ajax\Controllers\Ajax.php on line 35.
+ 1 APPPATH\Modules\Ajax\Controllers\Ajax.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pname"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Controllers\\Ajax.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->popup_inroll()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 16:30:34 --> Undefined array key "pname"
+in APPPATH\Modules\Ajax\Controllers\Ajax.php on line 35.
+ 1 APPPATH\Modules\Ajax\Controllers\Ajax.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pname"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Controllers\\Ajax.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->popup_inroll()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 17:10:53 --> Cannot access offset of type string on string
+in APPPATH\Modules\Ajax\Views\popup_inroll.php on line 28.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Ajax\\Views\\popup_inroll', [], true)
+ 4 APPPATH\Modules\Ajax\Controllers\Ajax.php(46): view('Modules\\Ajax\\Views\\popup_inroll', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->popup_inroll()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 17:10:54 --> Cannot access offset of type string on string
+in APPPATH\Modules\Ajax\Views\popup_inroll.php on line 28.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Ajax\\Views\\popup_inroll', [], true)
+ 4 APPPATH\Modules\Ajax\Controllers\Ajax.php(46): view('Modules\\Ajax\\Views\\popup_inroll', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->popup_inroll()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 17:10:55 --> Cannot access offset of type string on string
+in APPPATH\Modules\Ajax\Views\popup_inroll.php on line 28.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Ajax\\Views\\popup_inroll', [], true)
+ 4 APPPATH\Modules\Ajax\Controllers\Ajax.php(46): view('Modules\\Ajax\\Views\\popup_inroll', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->popup_inroll()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 17:10:56 --> Cannot access offset of type string on string
+in APPPATH\Modules\Ajax\Views\popup_inroll.php on line 28.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Ajax\\Views\\popup_inroll', [], true)
+ 4 APPPATH\Modules\Ajax\Controllers\Ajax.php(46): view('Modules\\Ajax\\Views\\popup_inroll', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->popup_inroll()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 17:15:41 --> foreach() argument must be of type array|object, null given
+in APPPATH\Modules\Ajax\Views\popup_inroll.php on line 24.
+ 1 APPPATH\Modules\Ajax\Views\popup_inroll.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Views\\popup_inroll.php', 24)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Views\\popup_inroll.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Ajax\\Views\\popup_inroll', [], true)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(47): view('Modules\\Ajax\\Views\\popup_inroll', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->popup_inroll()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 17:15:41 --> foreach() argument must be of type array|object, null given
+in APPPATH\Modules\Ajax\Views\popup_inroll.php on line 24.
+ 1 APPPATH\Modules\Ajax\Views\popup_inroll.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Views\\popup_inroll.php', 24)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Views\\popup_inroll.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Ajax\\Views\\popup_inroll', [], true)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(47): view('Modules\\Ajax\\Views\\popup_inroll', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->popup_inroll()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 17:15:44 --> foreach() argument must be of type array|object, null given
+in APPPATH\Modules\Ajax\Views\popup_inroll.php on line 24.
+ 1 APPPATH\Modules\Ajax\Views\popup_inroll.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Views\\popup_inroll.php', 24)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Views\\popup_inroll.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Ajax\\Views\\popup_inroll', [], true)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(47): view('Modules\\Ajax\\Views\\popup_inroll', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->popup_inroll()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 17:24:00 --> foreach() argument must be of type array|object, null given
+in APPPATH\Modules\Ajax\Views\popup_inroll.php on line 24.
+ 1 APPPATH\Modules\Ajax\Views\popup_inroll.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Views\\popup_inroll.php', 24)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Views\\popup_inroll.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Ajax\\Views\\popup_inroll', [], true)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(47): view('Modules\\Ajax\\Views\\popup_inroll', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->popup_inroll()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 18:23:22 --> Call to undefined method CodeIgniter\Router\Router::getRoute()
+in APPPATH\Modules\Stock\Controllers\Stockin.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 18:23:38 --> Call to undefined method CodeIgniter\Router\Router::getRoute()
+in APPPATH\Modules\Stock\Controllers\Stockin.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 18:23:50 --> Call to undefined method CodeIgniter\Router\Router::getRoute()
+in APPPATH\Modules\Stock\Controllers\Stockin.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 18:24:06 --> Call to undefined method CodeIgniter\Router\Router::getRoute()
+in APPPATH\Modules\Stock\Controllers\Stockin.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 18:24:12 --> Call to undefined method CodeIgniter\Router\Router::getRoute()
+in APPPATH\Modules\Stock\Controllers\Stockin.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 18:24:58 --> Call to undefined method CodeIgniter\Router\Router::getRoute()
+in APPPATH\Modules\Stock\Controllers\Stockin.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Stockin->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Stockin))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 18:33:58 --> Object of class CodeIgniter\Router\RouteCollection could not be converted to string
+in APPPATH\Config\Routes.php on line 72.
+ 1 SYSTEMPATH\Router\RouteCollection.php(267): require()
+ 2 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 18:35:54 --> Too few arguments to function CodeIgniter\Router\RouteCollection::presenter(), 0 passed in D:\xampp\htdocs\dfinest\app\Config\Routes.php on line 43 and at least 1 expected
+in SYSTEMPATH\Router\RouteCollection.php on line 825.
+ 1 APPPATH\Config\Routes.php(43): CodeIgniter\Router\RouteCollection->presenter()
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('D:\\xampp\\htdocs\\dfinest\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 18:35:55 --> Too few arguments to function CodeIgniter\Router\RouteCollection::presenter(), 0 passed in D:\xampp\htdocs\dfinest\app\Config\Routes.php on line 43 and at least 1 expected
+in SYSTEMPATH\Router\RouteCollection.php on line 825.
+ 1 APPPATH\Config\Routes.php(43): CodeIgniter\Router\RouteCollection->presenter()
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('D:\\xampp\\htdocs\\dfinest\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 18:37:04 --> Call to undefined method CodeIgniter\Router\RouteCollection::routes()
+in APPPATH\Config\Routes.php on line 73.
+ 1 SYSTEMPATH\Router\RouteCollection.php(267): require()
+ 2 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

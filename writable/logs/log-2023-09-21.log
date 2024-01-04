@@ -1,0 +1,11 @@
+CRITICAL - 2023-09-21 17:16:04 --> Undefined array key 9
+in APPPATH\Modules\Create_or\Views\create_or\index.php on line 82.
+ 1 APPPATH\Modules\Create_or\Views\create_or\index.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 9', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\create_or\\index.php', 82)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\create_or\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Create_or\\Views\\create_or\\index', [], true)
+ 5 APPPATH\Modules\Create_or\Controllers\Create_or.php(55): view('Modules\\Create_or\\Views\\create_or\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_or->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_or))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

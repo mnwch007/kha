@@ -1,0 +1,136 @@
+CRITICAL - 2023-08-21 08:53:41 --> Undefined property: App\Modules\Login\Controllers\LoginController::$input
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 14.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Login\\Controllers\\LoginController::$input', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Login\\Controllers\\LoginController.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\dfinest\\public\\index.php')
+CRITICAL - 2023-08-21 08:53:42 --> Undefined property: App\Modules\Login\Controllers\LoginController::$input
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 14.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Login\\Controllers\\LoginController::$input', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Login\\Controllers\\LoginController.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\dfinest\\public\\index.php')
+CRITICAL - 2023-08-21 08:54:08 --> Undefined property: App\Modules\Login\Controllers\LoginController::$input
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 14.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Login\\Controllers\\LoginController::$input', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Login\\Controllers\\LoginController.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\dfinest\\public\\index.php')
+CRITICAL - 2023-08-21 08:56:36 --> Undefined property: App\Modules\Login\Controllers\LoginController::$input
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 14.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Login\\Controllers\\LoginController::$input', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Login\\Controllers\\LoginController.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\dfinest\\public\\index.php')
+CRITICAL - 2023-08-21 08:56:37 --> Undefined property: App\Modules\Login\Controllers\LoginController::$input
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 14.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Login\\Controllers\\LoginController::$input', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Login\\Controllers\\LoginController.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\dfinest\\public\\index.php')
+CRITICAL - 2023-08-21 08:56:37 --> Undefined property: App\Modules\Login\Controllers\LoginController::$input
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 14.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Login\\Controllers\\LoginController::$input', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Login\\Controllers\\LoginController.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\dfinest\\public\\index.php')
+CRITICAL - 2023-08-21 09:03:20 --> Undefined variable $request
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 14.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Login\\Controllers\\LoginController.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\dfinest\\public\\index.php')
+CRITICAL - 2023-08-21 09:03:21 --> Undefined variable $request
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 14.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Login\\Controllers\\LoginController.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\dfinest\\public\\index.php')
+CRITICAL - 2023-08-21 10:00:36 --> Undefined property: App\Modules\Login\Controllers\LoginController::$input
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 15.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Login\\Controllers\\LoginController::$input', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Login\\Controllers\\LoginController.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\dfinest\\public\\index.php')
+CRITICAL - 2023-08-21 10:00:38 --> Undefined property: App\Modules\Login\Controllers\LoginController::$input
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 15.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Login\\Controllers\\LoginController::$input', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Login\\Controllers\\LoginController.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\dfinest\\public\\index.php')
+CRITICAL - 2023-08-21 10:00:53 --> Undefined variable $request
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 14.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Login\\Controllers\\LoginController.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\dfinest\\public\\index.php')
+CRITICAL - 2023-08-21 10:02:00 --> Undefined variable $request
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 14.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Login\\Controllers\\LoginController.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\dfinest\\public\\index.php')
+CRITICAL - 2023-08-21 10:02:53 --> Undefined property: App\Modules\Login\Controllers\LoginController::$input
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 15.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Login\\Controllers\\LoginController::$input', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Login\\Controllers\\LoginController.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\dfinest\\public\\index.php')
+CRITICAL - 2023-08-21 10:02:54 --> Undefined property: App\Modules\Login\Controllers\LoginController::$input
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 15.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Login\\Controllers\\LoginController::$input', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Login\\Controllers\\LoginController.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\dfinest\\public\\index.php')
+CRITICAL - 2023-08-21 10:02:54 --> Undefined property: App\Modules\Login\Controllers\LoginController::$input
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 15.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Login\\Controllers\\LoginController::$input', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Login\\Controllers\\LoginController.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\dfinest\\public\\index.php')
+CRITICAL - 2023-08-21 10:03:09 --> Undefined property: App\Modules\Login\Controllers\LoginController::$input
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 15.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Login\\Controllers\\LoginController::$input', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Login\\Controllers\\LoginController.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\dfinest\\public\\index.php')
+CRITICAL - 2023-08-21 10:06:49 --> Undefined array key "txtUsername"
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 14.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "txtUsername"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Login\\Controllers\\LoginController.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\dfinest\\public\\index.php')

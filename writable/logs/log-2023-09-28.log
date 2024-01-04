@@ -1,0 +1,44 @@
+CRITICAL - 2023-09-28 15:55:56 --> Undefined variable $location
+in APPPATH\Modules\Ajax\Views\popup_outrolls_data.php on line 5.
+ 1 APPPATH\Modules\Ajax\Views\popup_outrolls_data.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $location', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Views\\popup_outrolls_data.php', 5)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Views\\popup_outrolls_data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Ajax\\Views\\popup_outrolls_data', [], true)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(202): view('Modules\\Ajax\\Views\\popup_outrolls_data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->popup_outrolls_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 16:02:50 --> Undefined variable $info_loc
+in APPPATH\Modules\Ajax\Views\popup_outrolls_data.php on line 7.
+ 1 APPPATH\Modules\Ajax\Views\popup_outrolls_data.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_loc', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Views\\popup_outrolls_data.php', 7)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Views\\popup_outrolls_data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Ajax\\Views\\popup_outrolls_data', [], true)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(202): view('Modules\\Ajax\\Views\\popup_outrolls_data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->popup_outrolls_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 16:04:02 --> Undefined variable $info_loc
+in APPPATH\Modules\Ajax\Views\popup_outrolls_data.php on line 7.
+ 1 APPPATH\Modules\Ajax\Views\popup_outrolls_data.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_loc', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Views\\popup_outrolls_data.php', 7)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Views\\popup_outrolls_data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Ajax\\Views\\popup_outrolls_data', [], true)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(203): view('Modules\\Ajax\\Views\\popup_outrolls_data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->popup_outrolls_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 16:04:28 --> Undefined variable $info_loc
+in APPPATH\Modules\Ajax\Views\popup_outrolls_data.php on line 8.
+ 1 APPPATH\Modules\Ajax\Views\popup_outrolls_data.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_loc', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Views\\popup_outrolls_data.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Views\\popup_outrolls_data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Ajax\\Views\\popup_outrolls_data', [], true)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(203): view('Modules\\Ajax\\Views\\popup_outrolls_data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->popup_outrolls_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

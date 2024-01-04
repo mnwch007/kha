@@ -1,0 +1,22 @@
+CRITICAL - 2023-09-13 15:19:11 --> Undefined variable $row
+in APPPATH\Modules\Standard\Views\fabric\form.php on line 45.
+ 1 APPPATH\Modules\Standard\Views\fabric\form.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\fabric\\form.php', 45)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\fabric\\form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\fabric\\form', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Fabric.php(150): view('Modules\\Standard\\Views\\fabric\\form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->load_form()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-13 15:19:12 --> Undefined variable $row
+in APPPATH\Modules\Standard\Views\fabric\form.php on line 45.
+ 1 APPPATH\Modules\Standard\Views\fabric\form.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\fabric\\form.php', 45)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\fabric\\form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\fabric\\form', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Fabric.php(150): view('Modules\\Standard\\Views\\fabric\\form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->load_form()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

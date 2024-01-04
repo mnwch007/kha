@@ -1,0 +1,673 @@
+CRITICAL - 2023-10-05 15:14:35 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+in APPPATH\Modules\Ajax\Models\Ajax.php on line 59.
+ 1 APPPATH\Modules\Ajax\Controllers\Ajax.php(44): App\Modules\Ajax\Models\Ajax->loadProductItem([...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->auto_complete()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 15:14:38 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+in APPPATH\Modules\Ajax\Models\Ajax.php on line 59.
+ 1 APPPATH\Modules\Ajax\Controllers\Ajax.php(44): App\Modules\Ajax\Models\Ajax->loadProductItem([...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->auto_complete()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 15:14:39 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+in APPPATH\Modules\Ajax\Models\Ajax.php on line 59.
+ 1 APPPATH\Modules\Ajax\Controllers\Ajax.php(44): App\Modules\Ajax\Models\Ajax->loadProductItem([...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->auto_complete()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 15:54:25 --> Undefined property: App\Modules\Report\Controllers\Rp_stock::$sttype
+in APPPATH\Modules\Report\Controllers\Rp_stock.php on line 93.
+ 1 APPPATH\Modules\Report\Controllers\Rp_stock.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Report\\Controllers\\Rp_stock::$sttype', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Controllers\\Rp_stock.php', 93)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stock->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stock))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-05 16:11:07 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' IN(1) ORDER BY p.PCode ASC,p.PColor ASC) t' at line 9 in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(ID...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(ID...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(ID...')
+#3 D:\xampp\htdocs\dfinest\app\Modules\Report\Models\Report.php(11): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(ID...')
+#4 D:\xampp\htdocs\dfinest\app\Modules\Report\Controllers\Rp_stock.php(76): App\Modules\Report\Models\Report->count_itemlist('SELECT COUNT(ID...')
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stock->index()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stock))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-05 16:11:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' IN(1) ORDER BY p.PCode ASC,p.PColor ASC) t' at line 9
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(ID) total FROM (SELECT p.*, s.TRoll, s.TYQty, s.TMQty,s.Cost FROM product p  INNER JOIN  (SELECT PID, COUNT(ID) TRoll,SUM(Qty*UCost) Cost,SUM(CASE Unit
+                        WHEN "M" THEN Qty
+                        WHEN "Y" THEN ROUND(Qty*0.9144, 2)
+                        ELSE 0
+                    END) AS TMQty,SUM(CASE Unit
+                        WHEN "Y" THEN Qty
+                        WHEN "M" THEN ROUND(Qty/0.9144, 2)
+                        ELSE 0
+                    END) AS TYQty FROM stock   WHERE  Qty>0 GROUP BY PID) s ON p.ID=s.PID  WHERE p.Active=1 AND p.StType\' IN(1) ORDER BY p.PCode ASC,p.PColor ASC) t', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(ID) total FROM (SELECT p.*, s.TRoll, s.TYQty, s.TMQty,s.Cost FROM product p  INNER JOIN  (SELECT PID, COUNT(ID) TRoll,SUM(Qty*UCost) Cost,SUM(CASE Unit
+                        WHEN "M" THEN Qty
+                        WHEN "Y" THEN ROUND(Qty*0.9144, 2)
+                        ELSE 0
+                    END) AS TMQty,SUM(CASE Unit
+                        WHEN "Y" THEN Qty
+                        WHEN "M" THEN ROUND(Qty/0.9144, 2)
+                        ELSE 0
+                    END) AS TYQty FROM stock   WHERE  Qty>0 GROUP BY PID) s ON p.ID=s.PID  WHERE p.Active=1 AND p.StType\' IN(1) ORDER BY p.PCode ASC,p.PColor ASC) t')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(ID) total FROM (SELECT p.*, s.TRoll, s.TYQty, s.TMQty,s.Cost FROM product p  INNER JOIN  (SELECT PID, COUNT(ID) TRoll,SUM(Qty*UCost) Cost,SUM(CASE Unit
+                        WHEN "M" THEN Qty
+                        WHEN "Y" THEN ROUND(Qty*0.9144, 2)
+                        ELSE 0
+                    END) AS TMQty,SUM(CASE Unit
+                        WHEN "Y" THEN Qty
+                        WHEN "M" THEN ROUND(Qty/0.9144, 2)
+                        ELSE 0
+                    END) AS TYQty FROM stock   WHERE  Qty>0 GROUP BY PID) s ON p.ID=s.PID  WHERE p.Active=1 AND p.StType\' IN(1) ORDER BY p.PCode ASC,p.PColor ASC) t')
+ 4 APPPATH\Modules\Report\Models\Report.php(11): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(ID) total FROM (SELECT p.*, s.TRoll, s.TYQty, s.TMQty,s.Cost FROM product p  INNER JOIN  (SELECT PID, COUNT(ID) TRoll,SUM(Qty*UCost) Cost,SUM(CASE Unit
+                        WHEN "M" THEN Qty
+                        WHEN "Y" THEN ROUND(Qty*0.9144, 2)
+                        ELSE 0
+                    END) AS TMQty,SUM(CASE Unit
+                        WHEN "Y" THEN Qty
+                        WHEN "M" THEN ROUND(Qty/0.9144, 2)
+                        ELSE 0
+                    END) AS TYQty FROM stock   WHERE  Qty>0 GROUP BY PID) s ON p.ID=s.PID  WHERE p.Active=1 AND p.StType\' IN(1) ORDER BY p.PCode ASC,p.PColor ASC) t')
+ 5 APPPATH\Modules\Report\Controllers\Rp_stock.php(76): App\Modules\Report\Models\Report->count_itemlist('SELECT COUNT(ID) total FROM (SELECT p.*, s.TRoll, s.TYQty, s.TMQty,s.Cost FROM product p  INNER JOIN  (SELECT PID, COUNT(ID) TRoll,SUM(Qty*UCost) Cost,SUM(CASE Unit
+                        WHEN "M" THEN Qty
+                        WHEN "Y" THEN ROUND(Qty*0.9144, 2)
+                        ELSE 0
+                    END) AS TMQty,SUM(CASE Unit
+                        WHEN "Y" THEN Qty
+                        WHEN "M" THEN ROUND(Qty/0.9144, 2)
+                        ELSE 0
+                    END) AS TYQty FROM stock   WHERE  Qty>0 GROUP BY PID) s ON p.ID=s.PID  WHERE p.Active=1 AND p.StType\' IN(1) ORDER BY p.PCode ASC,p.PColor ASC) t')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stock->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stock))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 16:22:18 --> Array to string conversion
+in APPPATH\Modules\Report\Controllers\Rp_stock.php on line 164.
+ 1 APPPATH\Modules\Report\Controllers\Rp_stock.php(164): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Controllers\\Rp_stock.php', 164)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stock->load_detail()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stock))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 16:22:20 --> Array to string conversion
+in APPPATH\Modules\Report\Controllers\Rp_stock.php on line 164.
+ 1 APPPATH\Modules\Report\Controllers\Rp_stock.php(164): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Controllers\\Rp_stock.php', 164)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stock->load_detail()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stock))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 16:22:21 --> Array to string conversion
+in APPPATH\Modules\Report\Controllers\Rp_stock.php on line 164.
+ 1 APPPATH\Modules\Report\Controllers\Rp_stock.php(164): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Controllers\\Rp_stock.php', 164)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stock->load_detail()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stock))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-05 16:23:47 --> mysqli_sql_exception: Column 'Location' in where clause is ambiguous in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Report\Controllers\Rp_stock.php(180): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stock->load_detail()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stock))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-05 16:23:47 --> Column 'Location' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`, `s`.`InID`, `s`.`Barcode`, `s`.`FLOT`, `s`.`Location`, `s`.`RackID`, `s`.`Note`, `s`.`UCost`, `s`.`PID`, `a`.`InDate`, `a`.`InNo`, "0" `TQty`, (CASE s.Unit
+                        WHEN "M" THEN s.OrQty
+                        WHEN "Y" THEN ROUND(s.OrQty*0.9144, 2)
+                        ELSE 0
+                    END) AS MOrQty, (CASE s.Unit
+                        WHEN "Y" THEN s.OrQty
+                        WHEN "M" THEN ROUND(s.OrQty/0.9144, 2)
+                        ELSE 0
+                    END) AS YOrQty, (CASE s.Unit
+                        WHEN "M" THEN s.Qty
+                        WHEN "Y" THEN ROUND(s.Qty*0.9144, 2)
+                        ELSE 0
+                    END) AS MQty, (CASE s.Unit
+                        WHEN "Y" THEN s.Qty
+                        WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                        ELSE 0
+                    END) AS YQty
+FROM `stock` `s`
+INNER JOIN `stockin` `a` ON `s`.`InID`=`a`.`ID`
+WHERE `s`.`Location` > \'0\'
+AND `s`.`Qty` >0 AND `s`.`PID` = 1 AND  `Location` IN(3)
+ORDER BY `s`.`ID` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`, `s`.`InID`, `s`.`Barcode`, `s`.`FLOT`, `s`.`Location`, `s`.`RackID`, `s`.`Note`, `s`.`UCost`, `s`.`PID`, `a`.`InDate`, `a`.`InNo`, "0" `TQty`, (CASE s.Unit
+                        WHEN "M" THEN s.OrQty
+                        WHEN "Y" THEN ROUND(s.OrQty*0.9144, 2)
+                        ELSE 0
+                    END) AS MOrQty, (CASE s.Unit
+                        WHEN "Y" THEN s.OrQty
+                        WHEN "M" THEN ROUND(s.OrQty/0.9144, 2)
+                        ELSE 0
+                    END) AS YOrQty, (CASE s.Unit
+                        WHEN "M" THEN s.Qty
+                        WHEN "Y" THEN ROUND(s.Qty*0.9144, 2)
+                        ELSE 0
+                    END) AS MQty, (CASE s.Unit
+                        WHEN "Y" THEN s.Qty
+                        WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                        ELSE 0
+                    END) AS YQty
+FROM `stock` `s`
+INNER JOIN `stockin` `a` ON `s`.`InID`=`a`.`ID`
+WHERE `s`.`Location` > \'0\'
+AND `s`.`Qty` >0 AND `s`.`PID` = 1 AND  `Location` IN(3)
+ORDER BY `s`.`ID` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`, `s`.`InID`, `s`.`Barcode`, `s`.`FLOT`, `s`.`Location`, `s`.`RackID`, `s`.`Note`, `s`.`UCost`, `s`.`PID`, `a`.`InDate`, `a`.`InNo`, "0" `TQty`, (CASE s.Unit
+                        WHEN "M" THEN s.OrQty
+                        WHEN "Y" THEN ROUND(s.OrQty*0.9144, 2)
+                        ELSE 0
+                    END) AS MOrQty, (CASE s.Unit
+                        WHEN "Y" THEN s.OrQty
+                        WHEN "M" THEN ROUND(s.OrQty/0.9144, 2)
+                        ELSE 0
+                    END) AS YOrQty, (CASE s.Unit
+                        WHEN "M" THEN s.Qty
+                        WHEN "Y" THEN ROUND(s.Qty*0.9144, 2)
+                        ELSE 0
+                    END) AS MQty, (CASE s.Unit
+                        WHEN "Y" THEN s.Qty
+                        WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                        ELSE 0
+                    END) AS YQty
+FROM `stock` `s`
+INNER JOIN `stockin` `a` ON `s`.`InID`=`a`.`ID`
+WHERE `s`.`Location` > \'0\'
+AND `s`.`Qty` >0 AND `s`.`PID` = 1 AND  `Location` IN(3)
+ORDER BY `s`.`ID` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`, `s`.`InID`, `s`.`Barcode`, `s`.`FLOT`, `s`.`Location`, `s`.`RackID`, `s`.`Note`, `s`.`UCost`, `s`.`PID`, `a`.`InDate`, `a`.`InNo`, "0" `TQty`, (CASE s.Unit
+                        WHEN "M" THEN s.OrQty
+                        WHEN "Y" THEN ROUND(s.OrQty*0.9144, 2)
+                        ELSE 0
+                    END) AS MOrQty, (CASE s.Unit
+                        WHEN "Y" THEN s.OrQty
+                        WHEN "M" THEN ROUND(s.OrQty/0.9144, 2)
+                        ELSE 0
+                    END) AS YOrQty, (CASE s.Unit
+                        WHEN "M" THEN s.Qty
+                        WHEN "Y" THEN ROUND(s.Qty*0.9144, 2)
+                        ELSE 0
+                    END) AS MQty, (CASE s.Unit
+                        WHEN "Y" THEN s.Qty
+                        WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                        ELSE 0
+                    END) AS YQty
+FROM `stock` `s`
+INNER JOIN `stockin` `a` ON `s`.`InID`=`a`.`ID`
+WHERE `s`.`Location` > :s.Location:
+AND `s`.`Qty` >0 AND `s`.`PID` = 1 AND  `Location` IN(3)
+ORDER BY `s`.`ID` ASC', [...], false)
+ 5 APPPATH\Modules\Report\Controllers\Rp_stock.php(180): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stock->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stock))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-05 16:23:48 --> mysqli_sql_exception: Column 'Location' in where clause is ambiguous in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Report\Controllers\Rp_stock.php(180): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stock->load_detail()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stock))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-05 16:23:48 --> Column 'Location' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`, `s`.`InID`, `s`.`Barcode`, `s`.`FLOT`, `s`.`Location`, `s`.`RackID`, `s`.`Note`, `s`.`UCost`, `s`.`PID`, `a`.`InDate`, `a`.`InNo`, "0" `TQty`, (CASE s.Unit
+                        WHEN "M" THEN s.OrQty
+                        WHEN "Y" THEN ROUND(s.OrQty*0.9144, 2)
+                        ELSE 0
+                    END) AS MOrQty, (CASE s.Unit
+                        WHEN "Y" THEN s.OrQty
+                        WHEN "M" THEN ROUND(s.OrQty/0.9144, 2)
+                        ELSE 0
+                    END) AS YOrQty, (CASE s.Unit
+                        WHEN "M" THEN s.Qty
+                        WHEN "Y" THEN ROUND(s.Qty*0.9144, 2)
+                        ELSE 0
+                    END) AS MQty, (CASE s.Unit
+                        WHEN "Y" THEN s.Qty
+                        WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                        ELSE 0
+                    END) AS YQty
+FROM `stock` `s`
+INNER JOIN `stockin` `a` ON `s`.`InID`=`a`.`ID`
+WHERE `s`.`Location` > \'0\'
+AND `s`.`Qty` >0 AND `s`.`PID` = 3 AND  `Location` IN(3)
+ORDER BY `s`.`ID` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`, `s`.`InID`, `s`.`Barcode`, `s`.`FLOT`, `s`.`Location`, `s`.`RackID`, `s`.`Note`, `s`.`UCost`, `s`.`PID`, `a`.`InDate`, `a`.`InNo`, "0" `TQty`, (CASE s.Unit
+                        WHEN "M" THEN s.OrQty
+                        WHEN "Y" THEN ROUND(s.OrQty*0.9144, 2)
+                        ELSE 0
+                    END) AS MOrQty, (CASE s.Unit
+                        WHEN "Y" THEN s.OrQty
+                        WHEN "M" THEN ROUND(s.OrQty/0.9144, 2)
+                        ELSE 0
+                    END) AS YOrQty, (CASE s.Unit
+                        WHEN "M" THEN s.Qty
+                        WHEN "Y" THEN ROUND(s.Qty*0.9144, 2)
+                        ELSE 0
+                    END) AS MQty, (CASE s.Unit
+                        WHEN "Y" THEN s.Qty
+                        WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                        ELSE 0
+                    END) AS YQty
+FROM `stock` `s`
+INNER JOIN `stockin` `a` ON `s`.`InID`=`a`.`ID`
+WHERE `s`.`Location` > \'0\'
+AND `s`.`Qty` >0 AND `s`.`PID` = 3 AND  `Location` IN(3)
+ORDER BY `s`.`ID` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`, `s`.`InID`, `s`.`Barcode`, `s`.`FLOT`, `s`.`Location`, `s`.`RackID`, `s`.`Note`, `s`.`UCost`, `s`.`PID`, `a`.`InDate`, `a`.`InNo`, "0" `TQty`, (CASE s.Unit
+                        WHEN "M" THEN s.OrQty
+                        WHEN "Y" THEN ROUND(s.OrQty*0.9144, 2)
+                        ELSE 0
+                    END) AS MOrQty, (CASE s.Unit
+                        WHEN "Y" THEN s.OrQty
+                        WHEN "M" THEN ROUND(s.OrQty/0.9144, 2)
+                        ELSE 0
+                    END) AS YOrQty, (CASE s.Unit
+                        WHEN "M" THEN s.Qty
+                        WHEN "Y" THEN ROUND(s.Qty*0.9144, 2)
+                        ELSE 0
+                    END) AS MQty, (CASE s.Unit
+                        WHEN "Y" THEN s.Qty
+                        WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                        ELSE 0
+                    END) AS YQty
+FROM `stock` `s`
+INNER JOIN `stockin` `a` ON `s`.`InID`=`a`.`ID`
+WHERE `s`.`Location` > \'0\'
+AND `s`.`Qty` >0 AND `s`.`PID` = 3 AND  `Location` IN(3)
+ORDER BY `s`.`ID` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`, `s`.`InID`, `s`.`Barcode`, `s`.`FLOT`, `s`.`Location`, `s`.`RackID`, `s`.`Note`, `s`.`UCost`, `s`.`PID`, `a`.`InDate`, `a`.`InNo`, "0" `TQty`, (CASE s.Unit
+                        WHEN "M" THEN s.OrQty
+                        WHEN "Y" THEN ROUND(s.OrQty*0.9144, 2)
+                        ELSE 0
+                    END) AS MOrQty, (CASE s.Unit
+                        WHEN "Y" THEN s.OrQty
+                        WHEN "M" THEN ROUND(s.OrQty/0.9144, 2)
+                        ELSE 0
+                    END) AS YOrQty, (CASE s.Unit
+                        WHEN "M" THEN s.Qty
+                        WHEN "Y" THEN ROUND(s.Qty*0.9144, 2)
+                        ELSE 0
+                    END) AS MQty, (CASE s.Unit
+                        WHEN "Y" THEN s.Qty
+                        WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                        ELSE 0
+                    END) AS YQty
+FROM `stock` `s`
+INNER JOIN `stockin` `a` ON `s`.`InID`=`a`.`ID`
+WHERE `s`.`Location` > :s.Location:
+AND `s`.`Qty` >0 AND `s`.`PID` = 3 AND  `Location` IN(3)
+ORDER BY `s`.`ID` ASC', [...], false)
+ 5 APPPATH\Modules\Report\Controllers\Rp_stock.php(180): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stock->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stock))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-05 16:23:49 --> mysqli_sql_exception: Column 'Location' in where clause is ambiguous in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Report\Controllers\Rp_stock.php(180): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stock->load_detail()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stock))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-05 16:23:49 --> Column 'Location' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`, `s`.`InID`, `s`.`Barcode`, `s`.`FLOT`, `s`.`Location`, `s`.`RackID`, `s`.`Note`, `s`.`UCost`, `s`.`PID`, `a`.`InDate`, `a`.`InNo`, "0" `TQty`, (CASE s.Unit
+                        WHEN "M" THEN s.OrQty
+                        WHEN "Y" THEN ROUND(s.OrQty*0.9144, 2)
+                        ELSE 0
+                    END) AS MOrQty, (CASE s.Unit
+                        WHEN "Y" THEN s.OrQty
+                        WHEN "M" THEN ROUND(s.OrQty/0.9144, 2)
+                        ELSE 0
+                    END) AS YOrQty, (CASE s.Unit
+                        WHEN "M" THEN s.Qty
+                        WHEN "Y" THEN ROUND(s.Qty*0.9144, 2)
+                        ELSE 0
+                    END) AS MQty, (CASE s.Unit
+                        WHEN "Y" THEN s.Qty
+                        WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                        ELSE 0
+                    END) AS YQty
+FROM `stock` `s`
+INNER JOIN `stockin` `a` ON `s`.`InID`=`a`.`ID`
+WHERE `s`.`Location` > \'0\'
+AND `s`.`Qty` >0 AND `s`.`PID` = 3 AND  `Location` IN(3)
+ORDER BY `s`.`ID` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`, `s`.`InID`, `s`.`Barcode`, `s`.`FLOT`, `s`.`Location`, `s`.`RackID`, `s`.`Note`, `s`.`UCost`, `s`.`PID`, `a`.`InDate`, `a`.`InNo`, "0" `TQty`, (CASE s.Unit
+                        WHEN "M" THEN s.OrQty
+                        WHEN "Y" THEN ROUND(s.OrQty*0.9144, 2)
+                        ELSE 0
+                    END) AS MOrQty, (CASE s.Unit
+                        WHEN "Y" THEN s.OrQty
+                        WHEN "M" THEN ROUND(s.OrQty/0.9144, 2)
+                        ELSE 0
+                    END) AS YOrQty, (CASE s.Unit
+                        WHEN "M" THEN s.Qty
+                        WHEN "Y" THEN ROUND(s.Qty*0.9144, 2)
+                        ELSE 0
+                    END) AS MQty, (CASE s.Unit
+                        WHEN "Y" THEN s.Qty
+                        WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                        ELSE 0
+                    END) AS YQty
+FROM `stock` `s`
+INNER JOIN `stockin` `a` ON `s`.`InID`=`a`.`ID`
+WHERE `s`.`Location` > \'0\'
+AND `s`.`Qty` >0 AND `s`.`PID` = 3 AND  `Location` IN(3)
+ORDER BY `s`.`ID` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`, `s`.`InID`, `s`.`Barcode`, `s`.`FLOT`, `s`.`Location`, `s`.`RackID`, `s`.`Note`, `s`.`UCost`, `s`.`PID`, `a`.`InDate`, `a`.`InNo`, "0" `TQty`, (CASE s.Unit
+                        WHEN "M" THEN s.OrQty
+                        WHEN "Y" THEN ROUND(s.OrQty*0.9144, 2)
+                        ELSE 0
+                    END) AS MOrQty, (CASE s.Unit
+                        WHEN "Y" THEN s.OrQty
+                        WHEN "M" THEN ROUND(s.OrQty/0.9144, 2)
+                        ELSE 0
+                    END) AS YOrQty, (CASE s.Unit
+                        WHEN "M" THEN s.Qty
+                        WHEN "Y" THEN ROUND(s.Qty*0.9144, 2)
+                        ELSE 0
+                    END) AS MQty, (CASE s.Unit
+                        WHEN "Y" THEN s.Qty
+                        WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                        ELSE 0
+                    END) AS YQty
+FROM `stock` `s`
+INNER JOIN `stockin` `a` ON `s`.`InID`=`a`.`ID`
+WHERE `s`.`Location` > \'0\'
+AND `s`.`Qty` >0 AND `s`.`PID` = 3 AND  `Location` IN(3)
+ORDER BY `s`.`ID` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`, `s`.`InID`, `s`.`Barcode`, `s`.`FLOT`, `s`.`Location`, `s`.`RackID`, `s`.`Note`, `s`.`UCost`, `s`.`PID`, `a`.`InDate`, `a`.`InNo`, "0" `TQty`, (CASE s.Unit
+                        WHEN "M" THEN s.OrQty
+                        WHEN "Y" THEN ROUND(s.OrQty*0.9144, 2)
+                        ELSE 0
+                    END) AS MOrQty, (CASE s.Unit
+                        WHEN "Y" THEN s.OrQty
+                        WHEN "M" THEN ROUND(s.OrQty/0.9144, 2)
+                        ELSE 0
+                    END) AS YOrQty, (CASE s.Unit
+                        WHEN "M" THEN s.Qty
+                        WHEN "Y" THEN ROUND(s.Qty*0.9144, 2)
+                        ELSE 0
+                    END) AS MQty, (CASE s.Unit
+                        WHEN "Y" THEN s.Qty
+                        WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                        ELSE 0
+                    END) AS YQty
+FROM `stock` `s`
+INNER JOIN `stockin` `a` ON `s`.`InID`=`a`.`ID`
+WHERE `s`.`Location` > :s.Location:
+AND `s`.`Qty` >0 AND `s`.`PID` = 3 AND  `Location` IN(3)
+ORDER BY `s`.`ID` ASC', [...], false)
+ 5 APPPATH\Modules\Report\Controllers\Rp_stock.php(180): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stock->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stock))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 16:32:44 --> Undefined variable $info_width
+in APPPATH\Modules\Report\Views\rp_stock\_search.php on line 9.
+ 1 APPPATH\Modules\Report\Views\rp_stock\_search.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_width', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stock\\_search.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stock\\_search.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_stock\\_search', [], true)
+ 5 APPPATH\Views\inc-search_mob.php(12): view('Modules\\Report\\Views\\rp_stock\\_search')
+ 6 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-search_mob.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-search_mob', [], true)
+ 9 APPPATH\Modules\Report\Controllers\Rp_stock.php(103): view('inc-search_mob', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stock->load_form_search()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stock))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 16:32:45 --> Undefined variable $info_width
+in APPPATH\Modules\Report\Views\rp_stock\_search.php on line 9.
+ 1 APPPATH\Modules\Report\Views\rp_stock\_search.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_width', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stock\\_search.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stock\\_search.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_stock\\_search', [], true)
+ 5 APPPATH\Views\inc-search_mob.php(12): view('Modules\\Report\\Views\\rp_stock\\_search')
+ 6 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-search_mob.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-search_mob', [], true)
+ 9 APPPATH\Modules\Report\Controllers\Rp_stock.php(103): view('inc-search_mob', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stock->load_form_search()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stock))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 16:32:45 --> Undefined variable $info_width
+in APPPATH\Modules\Report\Views\rp_stock\_search.php on line 9.
+ 1 APPPATH\Modules\Report\Views\rp_stock\_search.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_width', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stock\\_search.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stock\\_search.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_stock\\_search', [], true)
+ 5 APPPATH\Views\inc-search_mob.php(12): view('Modules\\Report\\Views\\rp_stock\\_search')
+ 6 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-search_mob.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-search_mob', [], true)
+ 9 APPPATH\Modules\Report\Controllers\Rp_stock.php(103): view('inc-search_mob', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stock->load_form_search()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stock))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 16:32:46 --> Undefined variable $info_width
+in APPPATH\Modules\Report\Views\rp_stock\_search.php on line 9.
+ 1 APPPATH\Modules\Report\Views\rp_stock\_search.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_width', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stock\\_search.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stock\\_search.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_stock\\_search', [], true)
+ 5 APPPATH\Views\inc-search_mob.php(12): view('Modules\\Report\\Views\\rp_stock\\_search')
+ 6 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-search_mob.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-search_mob', [], true)
+ 9 APPPATH\Modules\Report\Controllers\Rp_stock.php(103): view('inc-search_mob', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stock->load_form_search()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stock))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 16:32:46 --> Undefined variable $info_width
+in APPPATH\Modules\Report\Views\rp_stock\_search.php on line 9.
+ 1 APPPATH\Modules\Report\Views\rp_stock\_search.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_width', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stock\\_search.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stock\\_search.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_stock\\_search', [], true)
+ 5 APPPATH\Views\inc-search_mob.php(12): view('Modules\\Report\\Views\\rp_stock\\_search')
+ 6 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-search_mob.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-search_mob', [], true)
+ 9 APPPATH\Modules\Report\Controllers\Rp_stock.php(103): view('inc-search_mob', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stock->load_form_search()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stock))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 16:32:46 --> Undefined variable $info_width
+in APPPATH\Modules\Report\Views\rp_stock\_search.php on line 9.
+ 1 APPPATH\Modules\Report\Views\rp_stock\_search.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_width', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stock\\_search.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stock\\_search.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_stock\\_search', [], true)
+ 5 APPPATH\Views\inc-search_mob.php(12): view('Modules\\Report\\Views\\rp_stock\\_search')
+ 6 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-search_mob.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-search_mob', [], true)
+ 9 APPPATH\Modules\Report\Controllers\Rp_stock.php(103): view('inc-search_mob', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stock->load_form_search()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stock))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 16:32:46 --> Undefined variable $info_width
+in APPPATH\Modules\Report\Views\rp_stock\_search.php on line 9.
+ 1 APPPATH\Modules\Report\Views\rp_stock\_search.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_width', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stock\\_search.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stock\\_search.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_stock\\_search', [], true)
+ 5 APPPATH\Views\inc-search_mob.php(12): view('Modules\\Report\\Views\\rp_stock\\_search')
+ 6 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-search_mob.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-search_mob', [], true)
+ 9 APPPATH\Modules\Report\Controllers\Rp_stock.php(103): view('inc-search_mob', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stock->load_form_search()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stock))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 16:32:49 --> Undefined variable $info_width
+in APPPATH\Modules\Report\Views\rp_stock\_search.php on line 9.
+ 1 APPPATH\Modules\Report\Views\rp_stock\_search.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_width', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stock\\_search.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stock\\_search.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_stock\\_search', [], true)
+ 5 APPPATH\Views\inc-search_mob.php(12): view('Modules\\Report\\Views\\rp_stock\\_search')
+ 6 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-search_mob.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-search_mob', [], true)
+ 9 APPPATH\Modules\Report\Controllers\Rp_stock.php(103): view('inc-search_mob', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stock->load_form_search()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stock))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 16:32:50 --> Undefined variable $info_width
+in APPPATH\Modules\Report\Views\rp_stock\_search.php on line 9.
+ 1 APPPATH\Modules\Report\Views\rp_stock\_search.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_width', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stock\\_search.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stock\\_search.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_stock\\_search', [], true)
+ 5 APPPATH\Views\inc-search_mob.php(12): view('Modules\\Report\\Views\\rp_stock\\_search')
+ 6 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-search_mob.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-search_mob', [], true)
+ 9 APPPATH\Modules\Report\Controllers\Rp_stock.php(103): view('inc-search_mob', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stock->load_form_search()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stock))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 16:32:50 --> Undefined variable $info_width
+in APPPATH\Modules\Report\Views\rp_stock\_search.php on line 9.
+ 1 APPPATH\Modules\Report\Views\rp_stock\_search.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_width', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stock\\_search.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stock\\_search.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_stock\\_search', [], true)
+ 5 APPPATH\Views\inc-search_mob.php(12): view('Modules\\Report\\Views\\rp_stock\\_search')
+ 6 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-search_mob.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-search_mob', [], true)
+ 9 APPPATH\Modules\Report\Controllers\Rp_stock.php(103): view('inc-search_mob', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stock->load_form_search()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stock))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 16:32:52 --> Undefined variable $info_width
+in APPPATH\Modules\Report\Views\rp_stock\_search.php on line 9.
+ 1 APPPATH\Modules\Report\Views\rp_stock\_search.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_width', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stock\\_search.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stock\\_search.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_stock\\_search', [], true)
+ 5 APPPATH\Views\inc-search_mob.php(12): view('Modules\\Report\\Views\\rp_stock\\_search')
+ 6 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-search_mob.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-search_mob', [], true)
+ 9 APPPATH\Modules\Report\Controllers\Rp_stock.php(103): view('inc-search_mob', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stock->load_form_search()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stock))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 16:32:53 --> Undefined variable $info_width
+in APPPATH\Modules\Report\Views\rp_stock\_search.php on line 9.
+ 1 APPPATH\Modules\Report\Views\rp_stock\_search.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_width', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stock\\_search.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stock\\_search.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_stock\\_search', [], true)
+ 5 APPPATH\Views\inc-search_mob.php(12): view('Modules\\Report\\Views\\rp_stock\\_search')
+ 6 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-search_mob.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-search_mob', [], true)
+ 9 APPPATH\Modules\Report\Controllers\Rp_stock.php(103): view('inc-search_mob', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stock->load_form_search()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stock))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 16:32:56 --> Undefined variable $info_width
+in APPPATH\Modules\Report\Views\rp_stock\_search.php on line 9.
+ 1 APPPATH\Modules\Report\Views\rp_stock\_search.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_width', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stock\\_search.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stock\\_search.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_stock\\_search', [], true)
+ 5 APPPATH\Views\inc-search_mob.php(12): view('Modules\\Report\\Views\\rp_stock\\_search')
+ 6 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-search_mob.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-search_mob', [], true)
+ 9 APPPATH\Modules\Report\Controllers\Rp_stock.php(103): view('inc-search_mob', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stock->load_form_search()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stock))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 16:32:57 --> Undefined variable $info_width
+in APPPATH\Modules\Report\Views\rp_stock\_search.php on line 9.
+ 1 APPPATH\Modules\Report\Views\rp_stock\_search.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_width', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stock\\_search.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stock\\_search.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_stock\\_search', [], true)
+ 5 APPPATH\Views\inc-search_mob.php(12): view('Modules\\Report\\Views\\rp_stock\\_search')
+ 6 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-search_mob.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-search_mob', [], true)
+ 9 APPPATH\Modules\Report\Controllers\Rp_stock.php(103): view('inc-search_mob', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stock->load_form_search()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stock))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 16:32:58 --> Undefined variable $info_width
+in APPPATH\Modules\Report\Views\rp_stock\_search.php on line 9.
+ 1 APPPATH\Modules\Report\Views\rp_stock\_search.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_width', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stock\\_search.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stock\\_search.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_stock\\_search', [], true)
+ 5 APPPATH\Views\inc-search_mob.php(12): view('Modules\\Report\\Views\\rp_stock\\_search')
+ 6 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-search_mob.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-search_mob', [], true)
+ 9 APPPATH\Modules\Report\Controllers\Rp_stock.php(103): view('inc-search_mob', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stock->load_form_search()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stock))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 16:32:58 --> Undefined variable $info_width
+in APPPATH\Modules\Report\Views\rp_stock\_search.php on line 9.
+ 1 APPPATH\Modules\Report\Views\rp_stock\_search.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_width', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stock\\_search.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stock\\_search.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_stock\\_search', [], true)
+ 5 APPPATH\Views\inc-search_mob.php(12): view('Modules\\Report\\Views\\rp_stock\\_search')
+ 6 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-search_mob.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-search_mob', [], true)
+ 9 APPPATH\Modules\Report\Controllers\Rp_stock.php(103): view('inc-search_mob', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stock->load_form_search()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stock))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

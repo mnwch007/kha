@@ -1,0 +1,399 @@
+CRITICAL - 2023-09-18 11:41:30 --> Undefined array key "SInStatus"
+in APPPATH\Libraries\Condition.php on line 648.
+ 1 APPPATH\Libraries\Condition.php(648): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "SInStatus"', 'D:\\xampp\\htdocs\\dfinest\\app\\Libraries\\Condition.php', 648)
+ 2 APPPATH\Libraries\Sql.php(90): App\Libraries\Condition->conRpIn([...])
+ 3 APPPATH\Modules\Report\Controllers\Rp_stockin.php(89): App\Libraries\Sql->sqlRpIn('a%3A2%3A%7Bs%3A4%3A%22mode%22%3Bs%3A6%3A%22search%22%3Bs%3A8%3A%22SKeyword%22%3Bs%3A0%3A%22%22%3B%7D', 'query')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stockin->load_data()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stockin))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 11:41:32 --> Undefined array key "SInStatus"
+in APPPATH\Libraries\Condition.php on line 648.
+ 1 APPPATH\Libraries\Condition.php(648): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "SInStatus"', 'D:\\xampp\\htdocs\\dfinest\\app\\Libraries\\Condition.php', 648)
+ 2 APPPATH\Libraries\Sql.php(90): App\Libraries\Condition->conRpIn([...])
+ 3 APPPATH\Modules\Report\Controllers\Rp_stockin.php(89): App\Libraries\Sql->sqlRpIn('a%3A2%3A%7Bs%3A4%3A%22mode%22%3Bs%3A6%3A%22search%22%3Bs%3A8%3A%22SKeyword%22%3Bs%3A0%3A%22%22%3B%7D', 'query')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stockin->load_data()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stockin))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 11:41:39 --> Undefined array key "SInStatus"
+in APPPATH\Libraries\Condition.php on line 648.
+ 1 APPPATH\Libraries\Condition.php(648): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "SInStatus"', 'D:\\xampp\\htdocs\\dfinest\\app\\Libraries\\Condition.php', 648)
+ 2 APPPATH\Libraries\Sql.php(90): App\Libraries\Condition->conRpIn([...])
+ 3 APPPATH\Modules\Report\Controllers\Rp_stockin.php(89): App\Libraries\Sql->sqlRpIn('a%3A2%3A%7Bs%3A4%3A%22mode%22%3Bs%3A6%3A%22search%22%3Bs%3A8%3A%22SKeyword%22%3Bs%3A0%3A%22%22%3B%7D', 'query')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stockin->load_data()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stockin))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 11:42:38 --> Undefined array key "SInStatus"
+in APPPATH\Libraries\Condition.php on line 648.
+ 1 APPPATH\Libraries\Condition.php(648): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "SInStatus"', 'D:\\xampp\\htdocs\\dfinest\\app\\Libraries\\Condition.php', 648)
+ 2 APPPATH\Libraries\Sql.php(90): App\Libraries\Condition->conRpIn([...])
+ 3 APPPATH\Modules\Report\Controllers\Rp_stockin.php(89): App\Libraries\Sql->sqlRpIn('a%3A2%3A%7Bs%3A4%3A%22mode%22%3Bs%3A6%3A%22search%22%3Bs%3A8%3A%22SKeyword%22%3Bs%3A0%3A%22%22%3B%7D', 'query')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stockin->load_data()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stockin))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 11:43:43 --> Undefined array key "SInStatus"
+in APPPATH\Libraries\Condition.php on line 648.
+ 1 APPPATH\Libraries\Condition.php(648): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "SInStatus"', 'D:\\xampp\\htdocs\\dfinest\\app\\Libraries\\Condition.php', 648)
+ 2 APPPATH\Libraries\Sql.php(90): App\Libraries\Condition->conRpIn([...])
+ 3 APPPATH\Modules\Report\Controllers\Rp_stockin.php(89): App\Libraries\Sql->sqlRpIn('a%3A2%3A%7Bs%3A4%3A%22mode%22%3Bs%3A6%3A%22search%22%3Bs%3A8%3A%22SKeyword%22%3Bs%3A0%3A%22%22%3B%7D', 'query')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stockin->load_data()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stockin))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 11:43:44 --> Undefined array key "SInStatus"
+in APPPATH\Libraries\Condition.php on line 648.
+ 1 APPPATH\Libraries\Condition.php(648): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "SInStatus"', 'D:\\xampp\\htdocs\\dfinest\\app\\Libraries\\Condition.php', 648)
+ 2 APPPATH\Libraries\Sql.php(90): App\Libraries\Condition->conRpIn([...])
+ 3 APPPATH\Modules\Report\Controllers\Rp_stockin.php(89): App\Libraries\Sql->sqlRpIn('a%3A2%3A%7Bs%3A4%3A%22mode%22%3Bs%3A6%3A%22search%22%3Bs%3A8%3A%22SKeyword%22%3Bs%3A0%3A%22%22%3B%7D', 'query')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stockin->load_data()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stockin))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 11:46:21 --> Invalid file: "Modules\Report\Views\rp_stockin\data.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Report\\Views\\rp_stockin\\data.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_stockin\\data', [], true)
+ 3 APPPATH\Modules\Report\Controllers\Rp_stockin.php(106): view('Modules\\Report\\Views\\rp_stockin\\data', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stockin->load_data()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stockin))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 11:56:16 --> Undefined array key "SInStatus"
+in APPPATH\Libraries\Condition.php on line 648.
+ 1 APPPATH\Libraries\Condition.php(648): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "SInStatus"', 'D:\\xampp\\htdocs\\dfinest\\app\\Libraries\\Condition.php', 648)
+ 2 APPPATH\Libraries\Sql.php(90): App\Libraries\Condition->conRpIn([...])
+ 3 APPPATH\Modules\Report\Controllers\Rp_stockin.php(85): App\Libraries\Sql->sqlRpIn('a%3A2%3A%7Bs%3A4%3A%22mode%22%3Bs%3A6%3A%22search%22%3Bs%3A8%3A%22SKeyword%22%3Bs%3A0%3A%22%22%3B%7D', 'query')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stockin->load_data()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stockin))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 11:56:17 --> Undefined array key "SInStatus"
+in APPPATH\Libraries\Condition.php on line 648.
+ 1 APPPATH\Libraries\Condition.php(648): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "SInStatus"', 'D:\\xampp\\htdocs\\dfinest\\app\\Libraries\\Condition.php', 648)
+ 2 APPPATH\Libraries\Sql.php(90): App\Libraries\Condition->conRpIn([...])
+ 3 APPPATH\Modules\Report\Controllers\Rp_stockin.php(85): App\Libraries\Sql->sqlRpIn('a%3A2%3A%7Bs%3A4%3A%22mode%22%3Bs%3A6%3A%22search%22%3Bs%3A8%3A%22SKeyword%22%3Bs%3A0%3A%22%22%3B%7D', 'query')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stockin->load_data()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stockin))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 11:59:00 --> Class "AppLibraries\Condition" not found
+in APPPATH\Libraries\Sql.php on line 6.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(314): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\dfinest\\app\\Libraries\\Sql.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\Sql')
+ 4 APPPATH\Modules\Report\Controllers\Rp_stockin.php(23): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\Sql')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Modules\Report\Controllers\Rp_stockin->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 12:01:17 --> Undefined variable $arr
+in APPPATH\Libraries\Sql.php on line 88.
+ 1 APPPATH\Libraries\Sql.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $arr', 'D:\\xampp\\htdocs\\dfinest\\app\\Libraries\\Sql.php', 88)
+ 2 APPPATH\Modules\Report\Controllers\Rp_stockin.php(85): App\Libraries\Sql->sqlRpIn('a%3A2%3A%7Bs%3A4%3A%22mode%22%3Bs%3A6%3A%22search%22%3Bs%3A8%3A%22SKeyword%22%3Bs%3A0%3A%22%22%3B%7D', 'query')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stockin->load_data()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stockin))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 12:03:44 --> Undefined variable $arr
+in APPPATH\Libraries\Sql.php on line 88.
+ 1 APPPATH\Libraries\Sql.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $arr', 'D:\\xampp\\htdocs\\dfinest\\app\\Libraries\\Sql.php', 88)
+ 2 APPPATH\Modules\Report\Controllers\Rp_stockin.php(85): App\Libraries\Sql->sqlRpIn('a%3A2%3A%7Bs%3A4%3A%22mode%22%3Bs%3A6%3A%22search%22%3Bs%3A8%3A%22SKeyword%22%3Bs%3A0%3A%22%22%3B%7D', 'query')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stockin->load_data()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stockin))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 12:05:20 --> Undefined variable $arr
+in APPPATH\Libraries\Sql.php on line 88.
+ 1 APPPATH\Libraries\Sql.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $arr', 'D:\\xampp\\htdocs\\dfinest\\app\\Libraries\\Sql.php', 88)
+ 2 APPPATH\Modules\Report\Controllers\Rp_stockin.php(85): App\Libraries\Sql->sqlRpIn('a%3A2%3A%7Bs%3A4%3A%22mode%22%3Bs%3A6%3A%22search%22%3Bs%3A8%3A%22SKeyword%22%3Bs%3A0%3A%22%22%3B%7D', 'query')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stockin->load_data()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stockin))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 12:05:21 --> Undefined variable $arr
+in APPPATH\Libraries\Sql.php on line 88.
+ 1 APPPATH\Libraries\Sql.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $arr', 'D:\\xampp\\htdocs\\dfinest\\app\\Libraries\\Sql.php', 88)
+ 2 APPPATH\Modules\Report\Controllers\Rp_stockin.php(85): App\Libraries\Sql->sqlRpIn('a%3A2%3A%7Bs%3A4%3A%22mode%22%3Bs%3A6%3A%22search%22%3Bs%3A8%3A%22SKeyword%22%3Bs%3A0%3A%22%22%3B%7D', 'query')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stockin->load_data()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stockin))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 12:06:44 --> Undefined variable $arr
+in APPPATH\Libraries\Sql.php on line 88.
+ 1 APPPATH\Libraries\Sql.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $arr', 'D:\\xampp\\htdocs\\dfinest\\app\\Libraries\\Sql.php', 88)
+ 2 APPPATH\Modules\Report\Controllers\Rp_stockin.php(85): App\Libraries\Sql->sqlRpIn('a%3A2%3A%7Bs%3A4%3A%22mode%22%3Bs%3A6%3A%22search%22%3Bs%3A8%3A%22SKeyword%22%3Bs%3A0%3A%22%22%3B%7D', 'query')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stockin->load_data()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stockin))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 12:14:52 --> Undefined variable $index
+in APPPATH\Modules\Report\Controllers\Rp_stockin.php on line 86.
+ 1 APPPATH\Modules\Report\Controllers\Rp_stockin.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $index', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Controllers\\Rp_stockin.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stockin->load_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stockin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 13:17:57 --> Undefined variable $index
+in APPPATH\Modules\Report\Controllers\Rp_stockin.php on line 86.
+ 1 APPPATH\Modules\Report\Controllers\Rp_stockin.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $index', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Controllers\\Rp_stockin.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stockin->load_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stockin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 13:20:44 --> Undefined variable $index
+in APPPATH\Modules\Report\Controllers\Rp_stockin.php on line 90.
+ 1 APPPATH\Modules\Report\Controllers\Rp_stockin.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $index', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Controllers\\Rp_stockin.php', 90)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stockin->load_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stockin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 13:21:03 --> Undefined variable $index
+in APPPATH\Modules\Report\Controllers\Rp_stockin.php on line 91.
+ 1 APPPATH\Modules\Report\Controllers\Rp_stockin.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $index', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Controllers\\Rp_stockin.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stockin->load_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stockin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 13:32:04 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Modules\Report\Views\rp_stockin\data.php on line 16.
+ 1 APPPATH\Modules\Report\Views\rp_stockin\data.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stockin\\data.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stockin\\data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_stockin\\data', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_stockin.php(95): view('Modules\\Report\\Views\\rp_stockin\\data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stockin->load_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stockin))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 13:32:05 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Modules\Report\Views\rp_stockin\data.php on line 16.
+ 1 APPPATH\Modules\Report\Views\rp_stockin\data.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stockin\\data.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stockin\\data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_stockin\\data', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_stockin.php(95): view('Modules\\Report\\Views\\rp_stockin\\data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stockin->load_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stockin))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 13:32:44 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Modules\Report\Views\rp_stockin\data.php on line 16.
+ 1 APPPATH\Modules\Report\Views\rp_stockin\data.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stockin\\data.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stockin\\data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_stockin\\data', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_stockin.php(98): view('Modules\\Report\\Views\\rp_stockin\\data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stockin->load_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stockin))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 13:33:04 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Modules\Report\Views\rp_stockin\data.php on line 16.
+ 1 APPPATH\Modules\Report\Views\rp_stockin\data.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stockin\\data.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stockin\\data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_stockin\\data', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_stockin.php(98): view('Modules\\Report\\Views\\rp_stockin\\data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stockin->load_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stockin))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 13:33:05 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Modules\Report\Views\rp_stockin\data.php on line 16.
+ 1 APPPATH\Modules\Report\Views\rp_stockin\data.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stockin\\data.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stockin\\data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_stockin\\data', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_stockin.php(98): view('Modules\\Report\\Views\\rp_stockin\\data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stockin->load_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stockin))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 13:33:09 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Modules\Report\Views\rp_stockin\data.php on line 16.
+ 1 APPPATH\Modules\Report\Views\rp_stockin\data.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stockin\\data.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stockin\\data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_stockin\\data', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_stockin.php(98): view('Modules\\Report\\Views\\rp_stockin\\data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stockin->load_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stockin))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 13:33:09 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Modules\Report\Views\rp_stockin\data.php on line 16.
+ 1 APPPATH\Modules\Report\Views\rp_stockin\data.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stockin\\data.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stockin\\data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_stockin\\data', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_stockin.php(98): view('Modules\\Report\\Views\\rp_stockin\\data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stockin->load_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stockin))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 13:35:35 --> Undefined constant Config\Services::session
+in APPPATH\Modules\Report\Views\rp_stockin\data.php on line 16.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_stockin\\data', [], true)
+ 4 APPPATH\Modules\Report\Controllers\Rp_stockin.php(98): view('Modules\\Report\\Views\\rp_stockin\\data', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stockin->load_data()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stockin))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 13:35:36 --> Undefined constant Config\Services::session
+in APPPATH\Modules\Report\Views\rp_stockin\data.php on line 16.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_stockin\\data', [], true)
+ 4 APPPATH\Modules\Report\Controllers\Rp_stockin.php(98): view('Modules\\Report\\Views\\rp_stockin\\data', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stockin->load_data()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stockin))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 13:36:21 --> Undefined constant Config\Services::session
+in APPPATH\Modules\Report\Views\rp_stockin\data.php on line 16.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_stockin\\data', [], true)
+ 4 APPPATH\Modules\Report\Controllers\Rp_stockin.php(98): view('Modules\\Report\\Views\\rp_stockin\\data', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stockin->load_data()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stockin))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 14:20:33 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Modules\Stock\Models\Stockin.php on line 190.
+ 1 APPPATH\Modules\Report\Controllers\Rp_stockin.php(107): App\Modules\Stock\Models\Stockin->get_data('4')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stockin->load_detail()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stockin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 14:20:34 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Modules\Stock\Models\Stockin.php on line 190.
+ 1 APPPATH\Modules\Report\Controllers\Rp_stockin.php(107): App\Modules\Stock\Models\Stockin->get_data('7')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stockin->load_detail()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stockin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 14:20:34 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Modules\Stock\Models\Stockin.php on line 190.
+ 1 APPPATH\Modules\Report\Controllers\Rp_stockin.php(107): App\Modules\Stock\Models\Stockin->get_data('7')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stockin->load_detail()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stockin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 14:20:35 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Modules\Stock\Models\Stockin.php on line 190.
+ 1 APPPATH\Modules\Report\Controllers\Rp_stockin.php(107): App\Modules\Stock\Models\Stockin->get_data('5')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stockin->load_detail()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stockin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 14:20:36 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Modules\Stock\Models\Stockin.php on line 190.
+ 1 APPPATH\Modules\Report\Controllers\Rp_stockin.php(107): App\Modules\Stock\Models\Stockin->get_data('5')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stockin->load_detail()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stockin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 14:20:36 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Modules\Stock\Models\Stockin.php on line 190.
+ 1 APPPATH\Modules\Report\Controllers\Rp_stockin.php(107): App\Modules\Stock\Models\Stockin->get_data('5')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stockin->load_detail()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stockin))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 14:48:26 --> Undefined property: CodeIgniter\View\View::$lang
+in APPPATH\Modules\Report\Views\rp_stockin\detail.php on line 29.
+ 1 APPPATH\Modules\Report\Views\rp_stockin\detail.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$lang', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stockin\\detail.php', 29)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stockin\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_stockin\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_stockin.php(116): view('Modules\\Report\\Views\\rp_stockin\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stockin->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stockin))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 14:48:27 --> Undefined property: CodeIgniter\View\View::$lang
+in APPPATH\Modules\Report\Views\rp_stockin\detail.php on line 29.
+ 1 APPPATH\Modules\Report\Views\rp_stockin\detail.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$lang', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stockin\\detail.php', 29)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stockin\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_stockin\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_stockin.php(116): view('Modules\\Report\\Views\\rp_stockin\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stockin->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stockin))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 14:48:27 --> Undefined property: CodeIgniter\View\View::$lang
+in APPPATH\Modules\Report\Views\rp_stockin\detail.php on line 29.
+ 1 APPPATH\Modules\Report\Views\rp_stockin\detail.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$lang', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stockin\\detail.php', 29)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stockin\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_stockin\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_stockin.php(116): view('Modules\\Report\\Views\\rp_stockin\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stockin->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stockin))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 14:48:28 --> Undefined property: CodeIgniter\View\View::$lang
+in APPPATH\Modules\Report\Views\rp_stockin\detail.php on line 29.
+ 1 APPPATH\Modules\Report\Views\rp_stockin\detail.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$lang', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stockin\\detail.php', 29)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stockin\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_stockin\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_stockin.php(116): view('Modules\\Report\\Views\\rp_stockin\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stockin->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stockin))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 14:48:28 --> Undefined property: CodeIgniter\View\View::$lang
+in APPPATH\Modules\Report\Views\rp_stockin\detail.php on line 29.
+ 1 APPPATH\Modules\Report\Views\rp_stockin\detail.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$lang', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stockin\\detail.php', 29)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_stockin\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_stockin\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_stockin.php(116): view('Modules\\Report\\Views\\rp_stockin\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_stockin->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_stockin))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 17:51:37 --> Class "App\Modules\Report\Controllers\refmodel" not found
+in APPPATH\Modules\Report\Controllers\Rp_stock.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Modules\Report\Controllers\Rp_stock->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 17:53:08 --> Class "App\Modules\Report\Controllers\refmodel" not found
+in APPPATH\Modules\Report\Controllers\Rp_stock.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Modules\Report\Controllers\Rp_stock->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 17:54:07 --> Class "App\Modules\Report\Controllers\refmodel" not found
+in APPPATH\Modules\Report\Controllers\Rp_stock.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Modules\Report\Controllers\Rp_stock->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 17:54:08 --> Class "App\Modules\Report\Controllers\refmodel" not found
+in APPPATH\Modules\Report\Controllers\Rp_stock.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Modules\Report\Controllers\Rp_stock->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 17:55:15 --> Class "App\Modules\Report\Controllers\refmodel" not found
+in APPPATH\Modules\Report\Controllers\Rp_stock.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Modules\Report\Controllers\Rp_stock->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 17:55:16 --> Class "App\Modules\Report\Controllers\refmodel" not found
+in APPPATH\Modules\Report\Controllers\Rp_stock.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Modules\Report\Controllers\Rp_stock->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

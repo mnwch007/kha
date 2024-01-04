@@ -1,0 +1,764 @@
+CRITICAL - 2023-08-18 03:19:01 --> App\Controllers\Home::index(): Return value must be of type string, none returned
+in APPPATH\Controllers\Home.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\dfinest\\public\\index.php')
+CRITICAL - 2023-08-18 04:38:10 --> App\Controllers\Home::index(): Return value must be of type string, none returned
+in APPPATH\Controllers\Home.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\dfinest\\public\\index.php')
+CRITICAL - 2023-08-18 05:08:54 --> scandir(D:\xampp\htdocs\dfinest\Modules/): The system cannot find the file specifi (code: 2)
+in APPPATH\Config\Routes.php on line 53.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'scandir(D:\\xampp\\htdocs\\dfinest\\Modules/): The system cannot find the file specifi (code: 2)', 'D:\\xampp\\htdocs\\dfinest\\app\\Config\\Routes.php', 53)
+ 2 APPPATH\Config\Routes.php(53): scandir('D:\\xampp\\htdocs\\dfinest\\Modules/')
+ 3 SYSTEMPATH\Router\RouteCollection.php(267): require('D:\\xampp\\htdocs\\dfinest\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\dfinest\\public\\index.php')
+CRITICAL - 2023-08-18 05:08:55 --> scandir(D:\xampp\htdocs\dfinest\Modules/): The system cannot find the file specifi (code: 2)
+in APPPATH\Config\Routes.php on line 53.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'scandir(D:\\xampp\\htdocs\\dfinest\\Modules/): The system cannot find the file specifi (code: 2)', 'D:\\xampp\\htdocs\\dfinest\\app\\Config\\Routes.php', 53)
+ 2 APPPATH\Config\Routes.php(53): scandir('D:\\xampp\\htdocs\\dfinest\\Modules/')
+ 3 SYSTEMPATH\Router\RouteCollection.php(267): require('D:\\xampp\\htdocs\\dfinest\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\dfinest\\public\\index.php')
+CRITICAL - 2023-08-18 05:10:36 --> scandir(D:\xampp\htdocs\dfinest\Modules/): The system cannot find the file specifi (code: 2)
+in APPPATH\Config\Routes.php on line 53.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'scandir(D:\\xampp\\htdocs\\dfinest\\Modules/): The system cannot find the file specifi (code: 2)', 'D:\\xampp\\htdocs\\dfinest\\app\\Config\\Routes.php', 53)
+ 2 APPPATH\Config\Routes.php(53): scandir('D:\\xampp\\htdocs\\dfinest\\Modules/')
+ 3 SYSTEMPATH\Router\RouteCollection.php(267): require('D:\\xampp\\htdocs\\dfinest\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\dfinest\\public\\index.php')
+CRITICAL - 2023-08-18 05:10:37 --> scandir(D:\xampp\htdocs\dfinest\Modules/): The system cannot find the file specifi (code: 2)
+in APPPATH\Config\Routes.php on line 53.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'scandir(D:\\xampp\\htdocs\\dfinest\\Modules/): The system cannot find the file specifi (code: 2)', 'D:\\xampp\\htdocs\\dfinest\\app\\Config\\Routes.php', 53)
+ 2 APPPATH\Config\Routes.php(53): scandir('D:\\xampp\\htdocs\\dfinest\\Modules/')
+ 3 SYSTEMPATH\Router\RouteCollection.php(267): require('D:\\xampp\\htdocs\\dfinest\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\dfinest\\public\\index.php')
+CRITICAL - 2023-08-18 05:10:37 --> scandir(D:\xampp\htdocs\dfinest\Modules/): The system cannot find the file specifi (code: 2)
+in APPPATH\Config\Routes.php on line 53.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'scandir(D:\\xampp\\htdocs\\dfinest\\Modules/): The system cannot find the file specifi (code: 2)', 'D:\\xampp\\htdocs\\dfinest\\app\\Config\\Routes.php', 53)
+ 2 APPPATH\Config\Routes.php(53): scandir('D:\\xampp\\htdocs\\dfinest\\Modules/')
+ 3 SYSTEMPATH\Router\RouteCollection.php(267): require('D:\\xampp\\htdocs\\dfinest\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\dfinest\\public\\index.php')
+CRITICAL - 2023-08-18 05:11:43 --> scandir(D:\xampp\htdocs\dfinest\Modules/): The system cannot find the file specifi (code: 2)
+in APPPATH\Config\Routes.php on line 53.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'scandir(D:\\xampp\\htdocs\\dfinest\\Modules/): The system cannot find the file specifi (code: 2)', 'D:\\xampp\\htdocs\\dfinest\\app\\Config\\Routes.php', 53)
+ 2 APPPATH\Config\Routes.php(53): scandir('D:\\xampp\\htdocs\\dfinest\\Modules/')
+ 3 SYSTEMPATH\Router\RouteCollection.php(267): require('D:\\xampp\\htdocs\\dfinest\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\dfinest\\public\\index.php')
+CRITICAL - 2023-08-18 05:11:44 --> scandir(D:\xampp\htdocs\dfinest\Modules/): The system cannot find the file specifi (code: 2)
+in APPPATH\Config\Routes.php on line 53.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'scandir(D:\\xampp\\htdocs\\dfinest\\Modules/): The system cannot find the file specifi (code: 2)', 'D:\\xampp\\htdocs\\dfinest\\app\\Config\\Routes.php', 53)
+ 2 APPPATH\Config\Routes.php(53): scandir('D:\\xampp\\htdocs\\dfinest\\Modules/')
+ 3 SYSTEMPATH\Router\RouteCollection.php(267): require('D:\\xampp\\htdocs\\dfinest\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\dfinest\\public\\index.php')
+CRITICAL - 2023-08-18 05:12:40 --> Array to string conversion
+in APPPATH\Config\Routes.php on line 53.
+ 1 APPPATH\Config\Routes.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\dfinest\\app\\Config\\Routes.php', 53)
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('D:\\xampp\\htdocs\\dfinest\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\dfinest\\public\\index.php')
+CRITICAL - 2023-08-18 05:12:41 --> Array to string conversion
+in APPPATH\Config\Routes.php on line 53.
+ 1 APPPATH\Config\Routes.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\dfinest\\app\\Config\\Routes.php', 53)
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('D:\\xampp\\htdocs\\dfinest\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\dfinest\\public\\index.php')
+CRITICAL - 2023-08-18 06:44:24 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Modules/Main::index"
+in SYSTEMPATH\Router\Router.php on line 477.
+ 1 SYSTEMPATH\Router\Router.php(477): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Modules/Main::index')
+ 2 SYSTEMPATH\Router\Router.php(184): CodeIgniter\Router\Router->checkRoutes('test-a')
+ 3 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('test-a')
+ 4 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 06:44:25 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Modules/Main::index"
+in SYSTEMPATH\Router\Router.php on line 477.
+ 1 SYSTEMPATH\Router\Router.php(477): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Modules/Main::index')
+ 2 SYSTEMPATH\Router\Router.php(184): CodeIgniter\Router\Router->checkRoutes('test-a')
+ 3 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('test-a')
+ 4 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:14:28 --> Invalid file: "index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(9): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:14:29 --> Invalid file: "index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(9): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:14:29 --> Invalid file: "index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(9): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:14:29 --> Invalid file: "index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(9): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:14:30 --> Invalid file: "index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(9): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:14:46 --> Invalid file: "main/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('main/index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('main/index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(9): view('main/index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:14:47 --> Invalid file: "main/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('main/index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('main/index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(9): view('main/index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:14:57 --> Invalid file: "Modules/main/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules/main/index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Modules/main/index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(9): view('Modules/main/index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:14:58 --> Invalid file: "Modules/main/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules/main/index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Modules/main/index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(9): view('Modules/main/index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:16:35 --> Invalid file: "Main/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Main/index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Main/index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(9): view('Main/index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:16:36 --> Invalid file: "Main/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Main/index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Main/index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(9): view('Main/index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:16:36 --> Invalid file: "Main/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Main/index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Main/index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(9): view('Main/index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:16:54 --> Invalid file: "index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(9): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:16:55 --> Invalid file: "index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(9): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:17:17 --> Invalid file: "Modules/Main/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules/Main/index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Modules/Main/index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(9): view('Modules/Main/index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:17:18 --> Invalid file: "Modules/Main/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules/Main/index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Modules/Main/index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(9): view('Modules/Main/index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:17:18 --> Invalid file: "Modules/Main/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules/Main/index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Modules/Main/index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(9): view('Modules/Main/index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:17:43 --> Invalid file: "../Main/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../Main/index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('../Main/index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(9): view('../Main/index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:17:44 --> Invalid file: "../Main/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../Main/index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('../Main/index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(9): view('../Main/index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:17:44 --> Invalid file: "../Main/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../Main/index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('../Main/index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(9): view('../Main/index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:18:04 --> Invalid file: "../Main/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../Main/index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('../Main/index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(9): view('../Main/index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:18:05 --> Invalid file: "../Main/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../Main/index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('../Main/index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(9): view('../Main/index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:20:29 --> Invalid file: "Views/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Views/index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Views/index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(10): view('Views/index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:20:29 --> Invalid file: "Views/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Views/index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Views/index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(10): view('Views/index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:20:30 --> Invalid file: "Views/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Views/index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Views/index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(10): view('Views/index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:20:54 --> Invalid file: "Views\index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Views\\index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Views\\index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(10): view('Views\\index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:20:55 --> Invalid file: "Views\index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Views\\index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Views\\index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(10): view('Views\\index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:21:09 --> Invalid file: "Main\Views\index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Main\\Views\\index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Main\\Views\\index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(10): view('Main\\Views\\index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:21:10 --> Invalid file: "Main\Views\index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Main\\Views\\index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Main\\Views\\index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(10): view('Main\\Views\\index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:21:50 --> Invalid file: "..\Main\Views\index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('..\\Main\\Views\\index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('..\\Main\\Views\\index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(10): view('..\\Main\\Views\\index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:21:51 --> Invalid file: "..\Main\Views\index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('..\\Main\\Views\\index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('..\\Main\\Views\\index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(10): view('..\\Main\\Views\\index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:21:58 --> Invalid file: "..\Views\index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('..\\Views\\index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('..\\Views\\index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(10): view('..\\Views\\index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:21:59 --> Invalid file: "..\Views\index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('..\\Views\\index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('..\\Views\\index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(10): view('..\\Views\\index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:22:10 --> Invalid file: "../Views/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../Views/index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('../Views/index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(10): view('../Views/index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:22:10 --> Invalid file: "../Views/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../Views/index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('../Views/index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(10): view('../Views/index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:23:52 --> Invalid file: "../Views/main_index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../Views/main_index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('../Views/main_index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(10): view('../Views/main_index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:23:53 --> Invalid file: "../Views/main_index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../Views/main_index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('../Views/main_index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(10): view('../Views/main_index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:24:03 --> Invalid file: "main_index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('main_index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('main_index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(10): view('main_index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:24:04 --> Invalid file: "main_index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('main_index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('main_index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(10): view('main_index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:24:04 --> Invalid file: "main_index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('main_index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('main_index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(10): view('main_index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:24:54 --> Invalid file: "/main_index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/main_index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/main_index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(10): view('/main_index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:24:55 --> Invalid file: "/main_index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/main_index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/main_index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(10): view('/main_index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:25:03 --> Invalid file: "main/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('main/index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('main/index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(10): view('main/index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:25:04 --> Invalid file: "main/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('main/index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('main/index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(10): view('main/index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:25:47 --> Invalid file: "main_index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('main_index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('main_index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(10): view('main_index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:25:47 --> Invalid file: "main_index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('main_index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('main_index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(10): view('main_index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:27:25 --> Invalid file: "Modules/Login/Views/login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules/Login/Views/login.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Modules/Login/Views/login', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(10): view('Modules/Login/Views/login')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:28:09 --> Invalid file: "Modules/Login/Views/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules/Login/Views/index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Modules/Login/Views/index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(10): view('Modules/Login/Views/index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:28:09 --> Invalid file: "Modules/Login/Views/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules/Login/Views/index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Modules/Login/Views/index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(10): view('Modules/Login/Views/index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:28:18 --> Invalid file: "index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(10): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:28:19 --> Invalid file: "index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(10): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:29:34 --> Invalid file: "Views\index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Views\\index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Views\\index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(10): view('Views\\index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:29:34 --> Invalid file: "Views\index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Views\\index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Views\\index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(10): view('Views\\index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:30:11 --> Invalid file: "Modules\Main\Views\index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Main\\Views\\index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Modules\\Main\\Views\\index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(10): view('Modules\\Main\\Views\\index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:30:12 --> Invalid file: "Modules\Main\Views\index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Main\\Views\\index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Modules\\Main\\Views\\index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(10): view('Modules\\Main\\Views\\index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:31:12 --> Invalid file: "Modules\Main\Views\index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Main\\Views\\index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Modules\\Main\\Views\\index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(10): view('Modules\\Main\\Views\\index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:32:27 --> Invalid file: "index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(11): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:32:28 --> Invalid file: "index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(11): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:32:34 --> Invalid file: "Views\index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Views\\index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Views\\index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(11): view('Views\\index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:32:43 --> Invalid file: "Main\Views\index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Main\\Views\\index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Main\\Views\\index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(11): view('Main\\Views\\index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:33:03 --> Invalid file: "Modules/Main/Views/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules/Main/Views/index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Modules/Main/Views/index', [], true)
+ 3 APPPATH\Modules\Main\Controllers\MainController.php(11): view('Modules/Main/Views/index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:51:53 --> Invalid file: "Modules\LoginViews\index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\LoginViews\\index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Modules\\LoginViews\\index', [], true)
+ 3 APPPATH\Controllers\Home.php(11): view('Modules\\LoginViews\\index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:51:53 --> Invalid file: "Modules\LoginViews\index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\LoginViews\\index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Modules\\LoginViews\\index', [], true)
+ 3 APPPATH\Controllers\Home.php(11): view('Modules\\LoginViews\\index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:51:53 --> Invalid file: "Modules\LoginViews\index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\LoginViews\\index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Modules\\LoginViews\\index', [], true)
+ 3 APPPATH\Controllers\Home.php(11): view('Modules\\LoginViews\\index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:51:54 --> Invalid file: "Modules\LoginViews\index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\LoginViews\\index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Modules\\LoginViews\\index', [], true)
+ 3 APPPATH\Controllers\Home.php(11): view('Modules\\LoginViews\\index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:51:54 --> Invalid file: "Modules\LoginViews\index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\LoginViews\\index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Modules\\LoginViews\\index', [], true)
+ 3 APPPATH\Controllers\Home.php(11): view('Modules\\LoginViews\\index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:51:54 --> Invalid file: "Modules\LoginViews\index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\LoginViews\\index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Modules\\LoginViews\\index', [], true)
+ 3 APPPATH\Controllers\Home.php(11): view('Modules\\LoginViews\\index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:53:51 --> Invalid file: "Views\index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Views\\index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Views\\index', [], true)
+ 3 APPPATH\Controllers\Home.php(11): view('Views\\index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:53:52 --> Invalid file: "Views\index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Views\\index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Views\\index', [], true)
+ 3 APPPATH\Controllers\Home.php(11): view('Views\\index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:54:05 --> Invalid file: "Login\Views\index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Login\\Views\\index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Login\\Views\\index', [], true)
+ 3 APPPATH\Controllers\Home.php(11): view('Login\\Views\\index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 07:54:06 --> Invalid file: "Login\Views\index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Login\\Views\\index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Login\\Views\\index', [], true)
+ 3 APPPATH\Controllers\Home.php(11): view('Login\\Views\\index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-18 08:13:11 --> Too few arguments to function App\Modules\Main\Controllers\MainController::show2(), 0 passed in D:\xampp\htdocs\dfinest\system\CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH\Modules\Main\Controllers\MainController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Main\Controllers\MainController->show2()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Main\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\dfinest\\public\\index.php')

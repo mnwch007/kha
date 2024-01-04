@@ -1,0 +1,1710 @@
+CRITICAL - 2023-09-26 09:57:37 --> Undefined variable $row
+in APPPATH\Modules\Stock\Views\transfer\form.php on line 2.
+ 1 APPPATH\Modules\Stock\Views\transfer\form.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Views\\transfer\\form.php', 2)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Views\\transfer\\form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Stock\\Views\\transfer\\form', [], true)
+ 5 APPPATH\Modules\Stock\Views\transfer\index.php(62): view('Modules\\Stock\\Views\\transfer\\form')
+ 6 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Stock\\Views\\transfer\\index.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Stock\\Views\\transfer\\index', [], true)
+ 9 APPPATH\Modules\Stock\Controllers\Transfer.php(50): view('Modules\\Stock\\Views\\transfer\\index', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Transfer->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Transfer))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-26 11:09:45 --> mysqli_sql_exception: Unknown column 's.PID' in 'on clause' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `p`.`ID`...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`ID`...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`ID`...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`ID`...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Models\Ajax.php(110): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Controllers\Ajax.php(76): App\Modules\Ajax\Models\Ajax->get_pcolor_stock_list('1', 0, 'cus')
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->ajax_get_data_json()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-26 11:09:45 --> Unknown column 's.PID' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PSColor`, `p`.`PColor`, `p`.`PShade`, COALESCE(p.Photo, "") Photo, `Unit`, `UnitSub`, `UnitConvert`, `s`.`StQty`
+FROM `product` `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` =0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = 1
+AND `p`.`PCID` = \'1\'
+ORDER BY `PColor` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PSColor`, `p`.`PColor`, `p`.`PShade`, COALESCE(p.Photo, "") Photo, `Unit`, `UnitSub`, `UnitConvert`, `s`.`StQty`
+FROM `product` `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` =0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = 1
+AND `p`.`PCID` = \'1\'
+ORDER BY `PColor` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PSColor`, `p`.`PColor`, `p`.`PShade`, COALESCE(p.Photo, "") Photo, `Unit`, `UnitSub`, `UnitConvert`, `s`.`StQty`
+FROM `product` `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` =0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = 1
+AND `p`.`PCID` = \'1\'
+ORDER BY `PColor` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PSColor`, `p`.`PColor`, `p`.`PShade`, COALESCE(p.Photo, "") Photo, `Unit`, `UnitSub`, `UnitConvert`, `s`.`StQty`
+FROM `product` `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` =0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = :p.Active:
+AND `p`.`PCID` = :p.PCID:
+ORDER BY `PColor` ASC', [...], false)
+ 5 APPPATH\Modules\Ajax\Models\Ajax.php(110): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Ajax\Controllers\Ajax.php(76): App\Modules\Ajax\Models\Ajax->get_pcolor_stock_list('1', 0, 'cus')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->ajax_get_data_json()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-26 11:10:37 --> mysqli_sql_exception: Unknown column 's.PID' in 'on clause' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `p`.`ID`...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`ID`...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`ID`...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`ID`...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Models\Ajax.php(110): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Controllers\Ajax.php(76): App\Modules\Ajax\Models\Ajax->get_pcolor_stock_list('1', 0, 'cus')
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->ajax_get_data_json()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-26 11:10:37 --> Unknown column 's.PID' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PSColor`, `p`.`PColor`, `p`.`PShade`, COALESCE(p.Photo, "") Photo, `Unit`, `UnitSub`, `UnitConvert`, `s`.`StQty`
+FROM `product` `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` =0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = 1
+AND `p`.`PCID` = \'1\'
+ORDER BY `PColor` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PSColor`, `p`.`PColor`, `p`.`PShade`, COALESCE(p.Photo, "") Photo, `Unit`, `UnitSub`, `UnitConvert`, `s`.`StQty`
+FROM `product` `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` =0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = 1
+AND `p`.`PCID` = \'1\'
+ORDER BY `PColor` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PSColor`, `p`.`PColor`, `p`.`PShade`, COALESCE(p.Photo, "") Photo, `Unit`, `UnitSub`, `UnitConvert`, `s`.`StQty`
+FROM `product` `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` =0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = 1
+AND `p`.`PCID` = \'1\'
+ORDER BY `PColor` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PSColor`, `p`.`PColor`, `p`.`PShade`, COALESCE(p.Photo, "") Photo, `Unit`, `UnitSub`, `UnitConvert`, `s`.`StQty`
+FROM `product` `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` =0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = :p.Active:
+AND `p`.`PCID` = :p.PCID:
+ORDER BY `PColor` ASC', [...], false)
+ 5 APPPATH\Modules\Ajax\Models\Ajax.php(110): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Ajax\Controllers\Ajax.php(76): App\Modules\Ajax\Models\Ajax->get_pcolor_stock_list('1', 0, 'cus')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->ajax_get_data_json()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-26 11:11:37 --> mysqli_sql_exception: Unknown column 's.PID' in 'on clause' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `p`.`ID`...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`ID`...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`ID`...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`ID`...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Models\Ajax.php(110): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Controllers\Ajax.php(63): App\Modules\Ajax\Models\Ajax->get_pcolor_stock_list(1, 1, 'cus')
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->test()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-26 11:11:37 --> Unknown column 's.PID' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PSColor`, `p`.`PColor`, `p`.`PShade`, COALESCE(p.Photo, "") Photo, `Unit`, `UnitSub`, `UnitConvert`, `s`.`StQty`
+FROM `product` `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = 1
+AND `p`.`PCID` = 1
+ORDER BY `PColor` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PSColor`, `p`.`PColor`, `p`.`PShade`, COALESCE(p.Photo, "") Photo, `Unit`, `UnitSub`, `UnitConvert`, `s`.`StQty`
+FROM `product` `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = 1
+AND `p`.`PCID` = 1
+ORDER BY `PColor` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PSColor`, `p`.`PColor`, `p`.`PShade`, COALESCE(p.Photo, "") Photo, `Unit`, `UnitSub`, `UnitConvert`, `s`.`StQty`
+FROM `product` `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = 1
+AND `p`.`PCID` = 1
+ORDER BY `PColor` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PSColor`, `p`.`PColor`, `p`.`PShade`, COALESCE(p.Photo, "") Photo, `Unit`, `UnitSub`, `UnitConvert`, `s`.`StQty`
+FROM `product` `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = :p.Active:
+AND `p`.`PCID` = :p.PCID:
+ORDER BY `PColor` ASC', [...], false)
+ 5 APPPATH\Modules\Ajax\Models\Ajax.php(110): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Ajax\Controllers\Ajax.php(63): App\Modules\Ajax\Models\Ajax->get_pcolor_stock_list(1, 1, 'cus')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->test()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-26 11:14:10 --> mysqli_sql_exception: Unknown column 's.PID' in 'on clause' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `p`.`ID`...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`ID`...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`ID`...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`ID`...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Models\Ajax.php(112): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Controllers\Ajax.php(63): App\Modules\Ajax\Models\Ajax->get_pcolor_stock_list(1, 1, 'cus')
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->test()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-26 11:14:10 --> Unknown column 's.PID' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PColor`, `p`.`PShade`, COALESCE(p.Photo, "") Photo, `Unit`, `s`.`StQty`
+FROM `product` as `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = 1
+AND `p`.`PCID` = 1
+ORDER BY `PColor` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PColor`, `p`.`PShade`, COALESCE(p.Photo, "") Photo, `Unit`, `s`.`StQty`
+FROM `product` as `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = 1
+AND `p`.`PCID` = 1
+ORDER BY `PColor` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PColor`, `p`.`PShade`, COALESCE(p.Photo, "") Photo, `Unit`, `s`.`StQty`
+FROM `product` as `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = 1
+AND `p`.`PCID` = 1
+ORDER BY `PColor` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PColor`, `p`.`PShade`, COALESCE(p.Photo, "") Photo, `Unit`, `s`.`StQty`
+FROM `product` as `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = :p.Active:
+AND `p`.`PCID` = :p.PCID:
+ORDER BY `PColor` ASC', [...], false)
+ 5 APPPATH\Modules\Ajax\Models\Ajax.php(112): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Ajax\Controllers\Ajax.php(63): App\Modules\Ajax\Models\Ajax->get_pcolor_stock_list(1, 1, 'cus')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->test()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-26 11:14:11 --> mysqli_sql_exception: Unknown column 's.PID' in 'on clause' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `p`.`ID`...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`ID`...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`ID`...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`ID`...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Models\Ajax.php(112): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Controllers\Ajax.php(63): App\Modules\Ajax\Models\Ajax->get_pcolor_stock_list(1, 1, 'cus')
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->test()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-26 11:14:11 --> Unknown column 's.PID' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PColor`, `p`.`PShade`, COALESCE(p.Photo, "") Photo, `Unit`, `s`.`StQty`
+FROM `product` as `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = 1
+AND `p`.`PCID` = 1
+ORDER BY `PColor` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PColor`, `p`.`PShade`, COALESCE(p.Photo, "") Photo, `Unit`, `s`.`StQty`
+FROM `product` as `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = 1
+AND `p`.`PCID` = 1
+ORDER BY `PColor` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PColor`, `p`.`PShade`, COALESCE(p.Photo, "") Photo, `Unit`, `s`.`StQty`
+FROM `product` as `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = 1
+AND `p`.`PCID` = 1
+ORDER BY `PColor` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PColor`, `p`.`PShade`, COALESCE(p.Photo, "") Photo, `Unit`, `s`.`StQty`
+FROM `product` as `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = :p.Active:
+AND `p`.`PCID` = :p.PCID:
+ORDER BY `PColor` ASC', [...], false)
+ 5 APPPATH\Modules\Ajax\Models\Ajax.php(112): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Ajax\Controllers\Ajax.php(63): App\Modules\Ajax\Models\Ajax->get_pcolor_stock_list(1, 1, 'cus')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->test()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-26 11:15:13 --> mysqli_sql_exception: Unknown column 's.PID' in 'on clause' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `p`.`ID`...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`ID`...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`ID`...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`ID`...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Models\Ajax.php(110): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Controllers\Ajax.php(63): App\Modules\Ajax\Models\Ajax->get_pcolor_stock_list(1, 1, 'cus')
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->test()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-26 11:15:13 --> Unknown column 's.PID' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PColor`, COALESCE(p.Photo, "") Photo, `p`.`Unit`, `s`.`StQty`
+FROM `product` as `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = 1
+AND `p`.`PCID` = 1
+ORDER BY `PColor` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PColor`, COALESCE(p.Photo, "") Photo, `p`.`Unit`, `s`.`StQty`
+FROM `product` as `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = 1
+AND `p`.`PCID` = 1
+ORDER BY `PColor` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PColor`, COALESCE(p.Photo, "") Photo, `p`.`Unit`, `s`.`StQty`
+FROM `product` as `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = 1
+AND `p`.`PCID` = 1
+ORDER BY `PColor` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PColor`, COALESCE(p.Photo, "") Photo, `p`.`Unit`, `s`.`StQty`
+FROM `product` as `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = :p.Active:
+AND `p`.`PCID` = :p.PCID:
+ORDER BY `PColor` ASC', [...], false)
+ 5 APPPATH\Modules\Ajax\Models\Ajax.php(110): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Ajax\Controllers\Ajax.php(63): App\Modules\Ajax\Models\Ajax->get_pcolor_stock_list(1, 1, 'cus')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->test()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-26 11:15:14 --> mysqli_sql_exception: Unknown column 's.PID' in 'on clause' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `p`.`ID`...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`ID`...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`ID`...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`ID`...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Models\Ajax.php(110): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Controllers\Ajax.php(63): App\Modules\Ajax\Models\Ajax->get_pcolor_stock_list(1, 1, 'cus')
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->test()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-26 11:15:14 --> Unknown column 's.PID' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PColor`, COALESCE(p.Photo, "") Photo, `p`.`Unit`, `s`.`StQty`
+FROM `product` as `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = 1
+AND `p`.`PCID` = 1
+ORDER BY `PColor` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PColor`, COALESCE(p.Photo, "") Photo, `p`.`Unit`, `s`.`StQty`
+FROM `product` as `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = 1
+AND `p`.`PCID` = 1
+ORDER BY `PColor` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PColor`, COALESCE(p.Photo, "") Photo, `p`.`Unit`, `s`.`StQty`
+FROM `product` as `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = 1
+AND `p`.`PCID` = 1
+ORDER BY `PColor` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PColor`, COALESCE(p.Photo, "") Photo, `p`.`Unit`, `s`.`StQty`
+FROM `product` as `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = :p.Active:
+AND `p`.`PCID` = :p.PCID:
+ORDER BY `PColor` ASC', [...], false)
+ 5 APPPATH\Modules\Ajax\Models\Ajax.php(110): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Ajax\Controllers\Ajax.php(63): App\Modules\Ajax\Models\Ajax->get_pcolor_stock_list(1, 1, 'cus')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->test()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-26 11:15:14 --> mysqli_sql_exception: Unknown column 's.PID' in 'on clause' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `p`.`ID`...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`ID`...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`ID`...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`ID`...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Models\Ajax.php(110): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Controllers\Ajax.php(63): App\Modules\Ajax\Models\Ajax->get_pcolor_stock_list(1, 1, 'cus')
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->test()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-26 11:15:14 --> Unknown column 's.PID' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PColor`, COALESCE(p.Photo, "") Photo, `p`.`Unit`, `s`.`StQty`
+FROM `product` as `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = 1
+AND `p`.`PCID` = 1
+ORDER BY `PColor` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PColor`, COALESCE(p.Photo, "") Photo, `p`.`Unit`, `s`.`StQty`
+FROM `product` as `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = 1
+AND `p`.`PCID` = 1
+ORDER BY `PColor` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PColor`, COALESCE(p.Photo, "") Photo, `p`.`Unit`, `s`.`StQty`
+FROM `product` as `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = 1
+AND `p`.`PCID` = 1
+ORDER BY `PColor` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PColor`, COALESCE(p.Photo, "") Photo, `p`.`Unit`, `s`.`StQty`
+FROM `product` as `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = :p.Active:
+AND `p`.`PCID` = :p.PCID:
+ORDER BY `PColor` ASC', [...], false)
+ 5 APPPATH\Modules\Ajax\Models\Ajax.php(110): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Ajax\Controllers\Ajax.php(63): App\Modules\Ajax\Models\Ajax->get_pcolor_stock_list(1, 1, 'cus')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->test()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-26 11:15:44 --> mysqli_sql_exception: Unknown column 's.PID' in 'on clause' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `p`.`ID`...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`ID`...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`ID`...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`ID`...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Models\Ajax.php(110): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Controllers\Ajax.php(63): App\Modules\Ajax\Models\Ajax->get_pcolor_stock_list(1, 1, 'cus')
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->test()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-26 11:15:44 --> Unknown column 's.PID' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PColor`, COALESCE(p.Photo, "") Photo, `p`.`Unit`, `s`.`StQty`
+FROM `product` as `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = 1
+AND `p`.`PCID` = 1
+ORDER BY `PColor` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PColor`, COALESCE(p.Photo, "") Photo, `p`.`Unit`, `s`.`StQty`
+FROM `product` as `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = 1
+AND `p`.`PCID` = 1
+ORDER BY `PColor` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PColor`, COALESCE(p.Photo, "") Photo, `p`.`Unit`, `s`.`StQty`
+FROM `product` as `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = 1
+AND `p`.`PCID` = 1
+ORDER BY `PColor` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PColor`, COALESCE(p.Photo, "") Photo, `p`.`Unit`, `s`.`StQty`
+FROM `product` as `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = :p.Active:
+AND `p`.`PCID` = :p.PCID:
+ORDER BY `PColor` ASC', [...], false)
+ 5 APPPATH\Modules\Ajax\Models\Ajax.php(110): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Ajax\Controllers\Ajax.php(63): App\Modules\Ajax\Models\Ajax->get_pcolor_stock_list(1, 1, 'cus')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->test()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-26 11:16:01 --> mysqli_sql_exception: Unknown column 's.PID' in 'on clause' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `p`.`ID`...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`ID`...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`ID`...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`ID`...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Models\Ajax.php(110): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Controllers\Ajax.php(63): App\Modules\Ajax\Models\Ajax->get_pcolor_stock_list(1, 1, 'cus')
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->test()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-26 11:16:01 --> Unknown column 's.PID' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PColor`, `s`.`StQty`
+FROM `product` as `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = 1
+AND `p`.`PCID` = 1
+ORDER BY `PColor` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PColor`, `s`.`StQty`
+FROM `product` as `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = 1
+AND `p`.`PCID` = 1
+ORDER BY `PColor` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PColor`, `s`.`StQty`
+FROM `product` as `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = 1
+AND `p`.`PCID` = 1
+ORDER BY `PColor` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PColor`, `s`.`StQty`
+FROM `product` as `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = :p.Active:
+AND `p`.`PCID` = :p.PCID:
+ORDER BY `PColor` ASC', [...], false)
+ 5 APPPATH\Modules\Ajax\Models\Ajax.php(110): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Ajax\Controllers\Ajax.php(63): App\Modules\Ajax\Models\Ajax->get_pcolor_stock_list(1, 1, 'cus')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->test()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-26 11:16:02 --> mysqli_sql_exception: Unknown column 's.PID' in 'on clause' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `p`.`ID`...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`ID`...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`ID`...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`ID`...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Models\Ajax.php(110): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Controllers\Ajax.php(63): App\Modules\Ajax\Models\Ajax->get_pcolor_stock_list(1, 1, 'cus')
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->test()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-26 11:16:02 --> Unknown column 's.PID' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PColor`, `s`.`StQty`
+FROM `product` as `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = 1
+AND `p`.`PCID` = 1
+ORDER BY `PColor` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PColor`, `s`.`StQty`
+FROM `product` as `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = 1
+AND `p`.`PCID` = 1
+ORDER BY `PColor` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PColor`, `s`.`StQty`
+FROM `product` as `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = 1
+AND `p`.`PCID` = 1
+ORDER BY `PColor` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PColor`, `s`.`StQty`
+FROM `product` as `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = :p.Active:
+AND `p`.`PCID` = :p.PCID:
+ORDER BY `PColor` ASC', [...], false)
+ 5 APPPATH\Modules\Ajax\Models\Ajax.php(110): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Ajax\Controllers\Ajax.php(63): App\Modules\Ajax\Models\Ajax->get_pcolor_stock_list(1, 1, 'cus')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->test()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-26 11:16:08 --> mysqli_sql_exception: Unknown column 's.PID' in 'on clause' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `p`.`ID`...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`ID`...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`ID`...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`ID`...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Models\Ajax.php(110): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Controllers\Ajax.php(63): App\Modules\Ajax\Models\Ajax->get_pcolor_stock_list(1, 1, 'cus')
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->test()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-26 11:16:08 --> Unknown column 's.PID' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PColor`, `s`.`StQty`
+FROM `product` as `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = 1
+ORDER BY `PColor` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PColor`, `s`.`StQty`
+FROM `product` as `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = 1
+ORDER BY `PColor` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PColor`, `s`.`StQty`
+FROM `product` as `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = 1
+ORDER BY `PColor` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PColor`, `s`.`StQty`
+FROM `product` as `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = :p.Active:
+ORDER BY `PColor` ASC', [...], false)
+ 5 APPPATH\Modules\Ajax\Models\Ajax.php(110): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Ajax\Controllers\Ajax.php(63): App\Modules\Ajax\Models\Ajax->get_pcolor_stock_list(1, 1, 'cus')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->test()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-26 11:16:08 --> mysqli_sql_exception: Unknown column 's.PID' in 'on clause' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `p`.`ID`...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`ID`...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`ID`...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`ID`...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Models\Ajax.php(110): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Controllers\Ajax.php(63): App\Modules\Ajax\Models\Ajax->get_pcolor_stock_list(1, 1, 'cus')
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->test()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-26 11:16:08 --> Unknown column 's.PID' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PColor`, `s`.`StQty`
+FROM `product` as `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = 1
+ORDER BY `PColor` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PColor`, `s`.`StQty`
+FROM `product` as `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = 1
+ORDER BY `PColor` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PColor`, `s`.`StQty`
+FROM `product` as `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = 1
+ORDER BY `PColor` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PColor`, `s`.`StQty`
+FROM `product` as `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = :p.Active:
+ORDER BY `PColor` ASC', [...], false)
+ 5 APPPATH\Modules\Ajax\Models\Ajax.php(110): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Ajax\Controllers\Ajax.php(63): App\Modules\Ajax\Models\Ajax->get_pcolor_stock_list(1, 1, 'cus')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->test()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-26 11:16:22 --> mysqli_sql_exception: Unknown column 's.PID' in 'on clause' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `p`.`ID`...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`ID`...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`ID`...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`ID`...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Models\Ajax.php(110): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Controllers\Ajax.php(63): App\Modules\Ajax\Models\Ajax->get_pcolor_stock_list(1, 1, 'cus')
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->test()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-26 11:16:22 --> Unknown column 's.PID' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PColor`
+FROM `product` as `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = 1
+AND `p`.`PCID` = 1
+ORDER BY `PColor` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PColor`
+FROM `product` as `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = 1
+AND `p`.`PCID` = 1
+ORDER BY `PColor` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PColor`
+FROM `product` as `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = 1
+AND `p`.`PCID` = 1
+ORDER BY `PColor` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PColor`
+FROM `product` as `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = :p.Active:
+AND `p`.`PCID` = :p.PCID:
+ORDER BY `PColor` ASC', [...], false)
+ 5 APPPATH\Modules\Ajax\Models\Ajax.php(110): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Ajax\Controllers\Ajax.php(63): App\Modules\Ajax\Models\Ajax->get_pcolor_stock_list(1, 1, 'cus')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->test()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-26 11:16:23 --> mysqli_sql_exception: Unknown column 's.PID' in 'on clause' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `p`.`ID`...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`ID`...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`ID`...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`ID`...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Models\Ajax.php(110): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Controllers\Ajax.php(63): App\Modules\Ajax\Models\Ajax->get_pcolor_stock_list(1, 1, 'cus')
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->test()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-26 11:16:23 --> Unknown column 's.PID' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PColor`
+FROM `product` as `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = 1
+AND `p`.`PCID` = 1
+ORDER BY `PColor` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PColor`
+FROM `product` as `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = 1
+AND `p`.`PCID` = 1
+ORDER BY `PColor` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PColor`
+FROM `product` as `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = 1
+AND `p`.`PCID` = 1
+ORDER BY `PColor` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PColor`
+FROM `product` as `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = :p.Active:
+AND `p`.`PCID` = :p.PCID:
+ORDER BY `PColor` ASC', [...], false)
+ 5 APPPATH\Modules\Ajax\Models\Ajax.php(110): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Ajax\Controllers\Ajax.php(63): App\Modules\Ajax\Models\Ajax->get_pcolor_stock_list(1, 1, 'cus')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->test()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-26 11:16:43 --> mysqli_sql_exception: Unknown column 's.PID' in 'on clause' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `p`.`ID`...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`ID`...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`ID`...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`ID`...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Models\Ajax.php(110): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Controllers\Ajax.php(63): App\Modules\Ajax\Models\Ajax->get_pcolor_stock_list(1, 1, 'cus')
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->test()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-26 11:16:43 --> Unknown column 's.PID' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PColor`, COALESCE(p.Photo, "") Photo, `p`.`Unit`, `s`.`StQty`
+FROM `product` as `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = 1
+AND `p`.`PCID` = 1
+ORDER BY `PColor` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PColor`, COALESCE(p.Photo, "") Photo, `p`.`Unit`, `s`.`StQty`
+FROM `product` as `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = 1
+AND `p`.`PCID` = 1
+ORDER BY `PColor` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PColor`, COALESCE(p.Photo, "") Photo, `p`.`Unit`, `s`.`StQty`
+FROM `product` as `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = 1
+AND `p`.`PCID` = 1
+ORDER BY `PColor` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PColor`, COALESCE(p.Photo, "") Photo, `p`.`Unit`, `s`.`StQty`
+FROM `product` as `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = :p.Active:
+AND `p`.`PCID` = :p.PCID:
+ORDER BY `PColor` ASC', [...], false)
+ 5 APPPATH\Modules\Ajax\Models\Ajax.php(110): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Ajax\Controllers\Ajax.php(63): App\Modules\Ajax\Models\Ajax->get_pcolor_stock_list(1, 1, 'cus')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->test()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-26 11:16:44 --> mysqli_sql_exception: Unknown column 's.PID' in 'on clause' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `p`.`ID`...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`ID`...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`ID`...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`ID`...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Models\Ajax.php(110): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Controllers\Ajax.php(63): App\Modules\Ajax\Models\Ajax->get_pcolor_stock_list(1, 1, 'cus')
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->test()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-26 11:16:44 --> Unknown column 's.PID' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PColor`, COALESCE(p.Photo, "") Photo, `p`.`Unit`, `s`.`StQty`
+FROM `product` as `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = 1
+AND `p`.`PCID` = 1
+ORDER BY `PColor` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PColor`, COALESCE(p.Photo, "") Photo, `p`.`Unit`, `s`.`StQty`
+FROM `product` as `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = 1
+AND `p`.`PCID` = 1
+ORDER BY `PColor` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PColor`, COALESCE(p.Photo, "") Photo, `p`.`Unit`, `s`.`StQty`
+FROM `product` as `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = 1
+AND `p`.`PCID` = 1
+ORDER BY `PColor` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`ID`, `PColor` as `Name`, `p`.`PColor`, COALESCE(p.Photo, "") Photo, `p`.`Unit`, `s`.`StQty`
+FROM `product` as `p`
+INNER JOIN (SELECT `PCID`, SUM(Qty) StQty
+FROM `stock`
+WHERE `Location` >0
+AND `Qty` >0
+GROUP BY `PCID`) as s ON `p`.`ID`=`s`.`PID`
+WHERE `p`.`Active` = :p.Active:
+AND `p`.`PCID` = :p.PCID:
+ORDER BY `PColor` ASC', [...], false)
+ 5 APPPATH\Modules\Ajax\Models\Ajax.php(110): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Ajax\Controllers\Ajax.php(63): App\Modules\Ajax\Models\Ajax->get_pcolor_stock_list(1, 1, 'cus')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->test()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-26 12:35:32 --> Undefined property: CodeIgniter\View\View::$lang
+in APPPATH\Modules\Ajax\Views\popup_outrolls.php on line 68.
+ 1 APPPATH\Modules\Ajax\Views\popup_outrolls.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$lang', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Views\\popup_outrolls.php', 68)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Views\\popup_outrolls.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Ajax\\Views\\popup_outrolls', [], true)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(171): view('Modules\\Ajax\\Views\\popup_outrolls', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->popup_outrolls()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-26 12:35:33 --> Undefined property: CodeIgniter\View\View::$lang
+in APPPATH\Modules\Ajax\Views\popup_outrolls.php on line 68.
+ 1 APPPATH\Modules\Ajax\Views\popup_outrolls.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$lang', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Views\\popup_outrolls.php', 68)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Views\\popup_outrolls.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Ajax\\Views\\popup_outrolls', [], true)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(171): view('Modules\\Ajax\\Views\\popup_outrolls', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->popup_outrolls()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-26 13:24:47 --> Undefined property: CodeIgniter\View\View::$lang
+in APPPATH\Modules\Ajax\Views\popup_outrolls.php on line 68.
+ 1 APPPATH\Modules\Ajax\Views\popup_outrolls.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$lang', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Views\\popup_outrolls.php', 68)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Views\\popup_outrolls.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Ajax\\Views\\popup_outrolls', [], true)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(171): view('Modules\\Ajax\\Views\\popup_outrolls', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->popup_outrolls()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-26 14:49:00 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 APPPATH\Modules\Stock\Models\Transfer.php(104): CodeIgniter\Database\BaseConnection->table(null)
+ 2 APPPATH\Modules\Stock\Models\Transfer.php(47): App\Modules\Stock\Models\Transfer->add_list(1, [...])
+ 3 APPPATH\Modules\Stock\Controllers\Transfer.php(62): App\Modules\Stock\Models\Transfer->add()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Transfer->submit()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Transfer))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-26 14:51:43 --> mysqli_sql_exception: Unknown column 'DiscountType' in 'field list' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `Discoun...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Discoun...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Discoun...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `Discoun...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Models\BaseModel.php(120): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Stock\Models\Transfer.php(114): App\Models\BaseModel->get_field_arr1('DiscountType,PD...', 'transfer', 'ID=2')
+#6 D:\xampp\htdocs\dfinest\app\Modules\Stock\Models\Transfer.php(51): App\Modules\Stock\Models\Transfer->check_balance(2)
+#7 D:\xampp\htdocs\dfinest\app\Modules\Stock\Controllers\Transfer.php(62): App\Modules\Stock\Models\Transfer->add()
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Stock\Controllers\Transfer->submit()
+#9 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Transfer))
+#10 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-26 14:51:43 --> Unknown column 'DiscountType' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `DiscountType`, `PDiscount`, `Discount`, `VATType`, `PVAT`, `OtCost`, `PmStatus`, `InStatus`, `BLStatus`
+FROM `transfer`
+WHERE `ID` = 2
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DiscountType`, `PDiscount`, `Discount`, `VATType`, `PVAT`, `OtCost`, `PmStatus`, `InStatus`, `BLStatus`
+FROM `transfer`
+WHERE `ID` = 2
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DiscountType`, `PDiscount`, `Discount`, `VATType`, `PVAT`, `OtCost`, `PmStatus`, `InStatus`, `BLStatus`
+FROM `transfer`
+WHERE `ID` = 2
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `DiscountType`, `PDiscount`, `Discount`, `VATType`, `PVAT`, `OtCost`, `PmStatus`, `InStatus`, `BLStatus`
+FROM `transfer`
+WHERE `ID` = 2
+ LIMIT 1', [], false)
+ 5 APPPATH\Models\BaseModel.php(120): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Stock\Models\Transfer.php(114): App\Models\BaseModel->get_field_arr1('DiscountType,PDiscount,Discount,VATType,PVAT,OtCost, PmStatus, InStatus,BLStatus', 'transfer', 'ID=2')
+ 7 APPPATH\Modules\Stock\Models\Transfer.php(51): App\Modules\Stock\Models\Transfer->check_balance(2)
+ 8 APPPATH\Modules\Stock\Controllers\Transfer.php(62): App\Modules\Stock\Models\Transfer->add()
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Transfer->submit()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Transfer))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-26 14:59:03 --> Call to undefined method App\Modules\Stock\Models\Transfer::sum_rec
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Modules\Stock\Models\Transfer.php(114): CodeIgniter\Model->__call('sum_rec', [...])
+ 2 APPPATH\Modules\Stock\Models\Transfer.php(51): App\Modules\Stock\Models\Transfer->check_balance(3)
+ 3 APPPATH\Modules\Stock\Controllers\Transfer.php(62): App\Modules\Stock\Models\Transfer->add()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Transfer->submit()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Transfer))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-26 14:59:42 --> Call to undefined method App\Modules\Stock\Models\Transfer::sum_rec
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Modules\Stock\Models\Transfer.php(116): CodeIgniter\Model->__call('sum_rec', [...])
+ 2 APPPATH\Modules\Stock\Models\Transfer.php(19): App\Modules\Stock\Models\Transfer->check_balance(3)
+ 3 APPPATH\Modules\Stock\Controllers\Transfer.php(19): App\Modules\Stock\Models\Transfer->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Modules\Stock\Controllers\Transfer->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-26 15:00:03 --> Call to undefined method App\Modules\Stock\Models\Transfer::sum_rec
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Modules\Stock\Models\Transfer.php(116): CodeIgniter\Model->__call('sum_rec', [...])
+ 2 APPPATH\Modules\Stock\Models\Transfer.php(19): App\Modules\Stock\Models\Transfer->check_balance(3)
+ 3 APPPATH\Modules\Stock\Controllers\Transfer.php(19): App\Modules\Stock\Models\Transfer->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Modules\Stock\Controllers\Transfer->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-26 15:34:55 --> mysqli_sql_exception: Not unique table/alias: 'a' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `a`.*, `...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*, `...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*, `...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Stock\Models\Transfer.php(154): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Stock\Models\Transfer.php(19): App\Modules\Stock\Models\Transfer->get_data(5)
+#6 D:\xampp\htdocs\dfinest\app\Modules\Stock\Controllers\Transfer.php(19): App\Modules\Stock\Models\Transfer->__construct()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(904): App\Modules\Stock\Controllers\Transfer->__construct()
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#9 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-09-26 15:34:55 --> Not unique table/alias: 'a'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `a`.*, `s`.`FLOT`
+FROM (`transfer_roll` `a`, `transfer_roll` `a`)
+INNER JOIN `stock` `s` ON `a`.`StID`=`s`.`ID`
+WHERE `a`.`TrID` = 5
+ORDER BY `a`.`ID` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*, `s`.`FLOT`
+FROM (`transfer_roll` `a`, `transfer_roll` `a`)
+INNER JOIN `stock` `s` ON `a`.`StID`=`s`.`ID`
+WHERE `a`.`TrID` = 5
+ORDER BY `a`.`ID` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*, `s`.`FLOT`
+FROM (`transfer_roll` `a`, `transfer_roll` `a`)
+INNER JOIN `stock` `s` ON `a`.`StID`=`s`.`ID`
+WHERE `a`.`TrID` = 5
+ORDER BY `a`.`ID` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `s`.`FLOT`
+FROM (`transfer_roll` `a`, `transfer_roll` `a`)
+INNER JOIN `stock` `s` ON `a`.`StID`=`s`.`ID`
+WHERE `a`.`TrID` = :a.TrID:
+ORDER BY `a`.`ID` ASC', [...], false)
+ 5 APPPATH\Modules\Stock\Models\Transfer.php(154): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Stock\Models\Transfer.php(19): App\Modules\Stock\Models\Transfer->get_data(5)
+ 7 APPPATH\Modules\Stock\Controllers\Transfer.php(19): App\Modules\Stock\Models\Transfer->__construct()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Modules\Stock\Controllers\Transfer->__construct()
+ 9 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-26 15:40:47 --> Undefined array key "OrNo"
+in APPPATH\Modules\Report\Views\rp_transfer\data.php on line 15.
+ 1 APPPATH\Modules\Report\Views\rp_transfer\data.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "OrNo"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_transfer\\data.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_transfer\\data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_transfer\\data', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_transfer.php(109): view('Modules\\Report\\Views\\rp_transfer\\data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_transfer->load_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_transfer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-26 15:40:50 --> Undefined array key "OrNo"
+in APPPATH\Modules\Report\Views\rp_transfer\data.php on line 15.
+ 1 APPPATH\Modules\Report\Views\rp_transfer\data.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "OrNo"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_transfer\\data.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_transfer\\data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_transfer\\data', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_transfer.php(109): view('Modules\\Report\\Views\\rp_transfer\\data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_transfer->load_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_transfer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-26 15:44:54 --> Undefined variable $table
+in APPPATH\Modules\Ajax\Controllers\Ajax.php on line 208.
+ 1 APPPATH\Modules\Ajax\Controllers\Ajax.php(208): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $table', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Controllers\\Ajax.php', 208)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->edit_remark()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-26 15:45:57 --> Undefined array key "UPrice"
+in APPPATH\Modules\Report\Views\rp_transfer\detail.php on line 18.
+ 1 APPPATH\Modules\Report\Views\rp_transfer\detail.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "UPrice"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_transfer\\detail.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_transfer\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_transfer\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_transfer.php(123): view('Modules\\Report\\Views\\rp_transfer\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_transfer->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_transfer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-26 15:45:58 --> Undefined array key "UPrice"
+in APPPATH\Modules\Report\Views\rp_transfer\detail.php on line 18.
+ 1 APPPATH\Modules\Report\Views\rp_transfer\detail.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "UPrice"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_transfer\\detail.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_transfer\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_transfer\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_transfer.php(123): view('Modules\\Report\\Views\\rp_transfer\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_transfer->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_transfer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-26 15:51:19 --> Undefined array key "rolls_arr"
+in APPPATH\Modules\Report\Views\rp_transfer\detail.php on line 23.
+ 1 APPPATH\Modules\Report\Views\rp_transfer\detail.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rolls_arr"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_transfer\\detail.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_transfer\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_transfer\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_transfer.php(123): view('Modules\\Report\\Views\\rp_transfer\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_transfer->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_transfer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-26 15:51:19 --> Undefined array key "rolls_arr"
+in APPPATH\Modules\Report\Views\rp_transfer\detail.php on line 23.
+ 1 APPPATH\Modules\Report\Views\rp_transfer\detail.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rolls_arr"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_transfer\\detail.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_transfer\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_transfer\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_transfer.php(123): view('Modules\\Report\\Views\\rp_transfer\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_transfer->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_transfer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-26 15:51:20 --> Undefined array key "rolls_arr"
+in APPPATH\Modules\Report\Views\rp_transfer\detail.php on line 23.
+ 1 APPPATH\Modules\Report\Views\rp_transfer\detail.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rolls_arr"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_transfer\\detail.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_transfer\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_transfer\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_transfer.php(123): view('Modules\\Report\\Views\\rp_transfer\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_transfer->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_transfer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-26 16:15:21 --> Cannot access offset of type string on string
+in APPPATH\Helpers\general_helper.php on line 614.
+ 1 APPPATH\Modules\Report\Views\rp_transfer\detail.php(27): gen_html_rolls([...])
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_transfer\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_transfer\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_transfer.php(123): view('Modules\\Report\\Views\\rp_transfer\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_transfer->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_transfer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-26 16:15:22 --> Cannot access offset of type string on string
+in APPPATH\Helpers\general_helper.php on line 614.
+ 1 APPPATH\Modules\Report\Views\rp_transfer\detail.php(27): gen_html_rolls([...])
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_transfer\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_transfer\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_transfer.php(123): view('Modules\\Report\\Views\\rp_transfer\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_transfer->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_transfer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-26 16:15:23 --> Cannot access offset of type string on string
+in APPPATH\Helpers\general_helper.php on line 614.
+ 1 APPPATH\Modules\Report\Views\rp_transfer\detail.php(27): gen_html_rolls([...])
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_transfer\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_transfer\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_transfer.php(123): view('Modules\\Report\\Views\\rp_transfer\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_transfer->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_transfer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-26 16:15:24 --> Cannot access offset of type string on string
+in APPPATH\Helpers\general_helper.php on line 614.
+ 1 APPPATH\Modules\Report\Views\rp_transfer\detail.php(27): gen_html_rolls([...])
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_transfer\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_transfer\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_transfer.php(123): view('Modules\\Report\\Views\\rp_transfer\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_transfer->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_transfer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-26 16:19:47 --> Cannot access offset of type string on string
+in APPPATH\Helpers\general_helper.php on line 614.
+ 1 APPPATH\Modules\Report\Views\rp_transfer\detail.php(27): gen_html_rolls([...])
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_transfer\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_transfer\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_transfer.php(122): view('Modules\\Report\\Views\\rp_transfer\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_transfer->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_transfer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-26 16:19:48 --> Cannot access offset of type string on string
+in APPPATH\Helpers\general_helper.php on line 614.
+ 1 APPPATH\Modules\Report\Views\rp_transfer\detail.php(27): gen_html_rolls([...])
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_transfer\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_transfer\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_transfer.php(122): view('Modules\\Report\\Views\\rp_transfer\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_transfer->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_transfer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-26 16:19:49 --> Cannot access offset of type string on string
+in APPPATH\Helpers\general_helper.php on line 614.
+ 1 APPPATH\Modules\Report\Views\rp_transfer\detail.php(27): gen_html_rolls([...])
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_transfer\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_transfer\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_transfer.php(122): view('Modules\\Report\\Views\\rp_transfer\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_transfer->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_transfer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-26 16:26:40 --> Cannot access offset of type string on string
+in APPPATH\Helpers\general_helper.php on line 614.
+ 1 APPPATH\Modules\Report\Views\rp_transfer\detail.php(27): gen_html_rolls([...])
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_transfer\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_transfer\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_transfer.php(122): view('Modules\\Report\\Views\\rp_transfer\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_transfer->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_transfer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-26 16:26:41 --> Cannot access offset of type string on string
+in APPPATH\Helpers\general_helper.php on line 614.
+ 1 APPPATH\Modules\Report\Views\rp_transfer\detail.php(27): gen_html_rolls([...])
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_transfer\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_transfer\\detail', [], true)
+ 5 APPPATH\Modules\Report\Controllers\Rp_transfer.php(122): view('Modules\\Report\\Views\\rp_transfer\\detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_transfer->load_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_transfer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-26 16:28:00 --> Undefined array key "Qty"
+in APPPATH\Helpers\general_helper.php on line 635.
+ 1 APPPATH\Helpers\general_helper.php(635): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Qty"', 'D:\\xampp\\htdocs\\dfinest\\app\\Helpers\\general_helper.php', 635)
+ 2 APPPATH\Modules\Report\Views\rp_transfer\detail.php(27): gen_html_rolls([...])
+ 3 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_transfer\\detail.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_transfer\\detail', [], true)
+ 6 APPPATH\Modules\Report\Controllers\Rp_transfer.php(122): view('Modules\\Report\\Views\\rp_transfer\\detail', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_transfer->load_detail()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_transfer))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-26 16:28:00 --> Undefined array key "Qty"
+in APPPATH\Helpers\general_helper.php on line 635.
+ 1 APPPATH\Helpers\general_helper.php(635): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Qty"', 'D:\\xampp\\htdocs\\dfinest\\app\\Helpers\\general_helper.php', 635)
+ 2 APPPATH\Modules\Report\Views\rp_transfer\detail.php(27): gen_html_rolls([...])
+ 3 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_transfer\\detail.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_transfer\\detail', [], true)
+ 6 APPPATH\Modules\Report\Controllers\Rp_transfer.php(122): view('Modules\\Report\\Views\\rp_transfer\\detail', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_transfer->load_detail()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_transfer))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-26 16:40:34 --> Undefined variable $info_location
+in APPPATH\Modules\Report\Views\rp_transfer\_search.php on line 16.
+ 1 APPPATH\Modules\Report\Views\rp_transfer\_search.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_location', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_transfer\\_search.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_transfer\\_search.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_transfer\\_search', [], true)
+ 5 APPPATH\Views\inc-search.php(5): view('Modules\\Report\\Views\\rp_transfer\\_search')
+ 6 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-search.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-search', [], true)
+ 9 APPPATH\Modules\Report\Views\rp_transfer\index.php(3): view('inc-search')
+10 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Report\\Views\\rp_transfer\\index.php')
+11 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Report\\Views\\rp_transfer\\index', [], true)
+13 APPPATH\Modules\Report\Controllers\Rp_transfer.php(70): view('Modules\\Report\\Views\\rp_transfer\\index', [...])
+14 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_transfer->index()
+15 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_transfer))
+16 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-26 16:45:14 --> mysqli_sql_exception: Unknown column 'p.SPColor' in 'where clause' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(ID...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(ID...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(ID...')
+#3 D:\xampp\htdocs\dfinest\app\Modules\Report\Models\Report.php(11): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(ID...')
+#4 D:\xampp\htdocs\dfinest\app\Modules\Report\Controllers\Rp_transfer.php(57): App\Modules\Report\Models\Report->count_itemlist('SELECT COUNT(ID...')
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_transfer->index()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_transfer))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-26 16:45:14 --> Unknown column 'p.SPColor' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(ID) total FROM transfer  WHERE  ID IN (SELECT a.TrID FROM transfer_roll a INNER JOIN product p ON a.PID=p.ID WHERE  (  p.PColor LIKE \'01-ขาว\'  OR  p.SPColor LIKE \'01-ขาว\'  ))', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(ID) total FROM transfer  WHERE  ID IN (SELECT a.TrID FROM transfer_roll a INNER JOIN product p ON a.PID=p.ID WHERE  (  p.PColor LIKE \'01-ขาว\'  OR  p.SPColor LIKE \'01-ขาว\'  ))')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(ID) total FROM transfer  WHERE  ID IN (SELECT a.TrID FROM transfer_roll a INNER JOIN product p ON a.PID=p.ID WHERE  (  p.PColor LIKE \'01-ขาว\'  OR  p.SPColor LIKE \'01-ขาว\'  ))')
+ 4 APPPATH\Modules\Report\Models\Report.php(11): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(ID) total FROM transfer  WHERE  ID IN (SELECT a.TrID FROM transfer_roll a INNER JOIN product p ON a.PID=p.ID WHERE  (  p.PColor LIKE \'01-ขาว\'  OR  p.SPColor LIKE \'01-ขาว\'  ))')
+ 5 APPPATH\Modules\Report\Controllers\Rp_transfer.php(57): App\Modules\Report\Models\Report->count_itemlist('SELECT COUNT(ID) total FROM transfer  WHERE  ID IN (SELECT a.TrID FROM transfer_roll a INNER JOIN product p ON a.PID=p.ID WHERE  (  p.PColor LIKE \'01-ขาว\'  OR  p.SPColor LIKE \'01-ขาว\'  ))')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Report\Controllers\Rp_transfer->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Report\Controllers\Rp_transfer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-26 16:54:30 --> Trying to access array offset on value of type null
+in APPPATH\Modules\Ajax\Controllers\Ajax.php on line 148.
+ 1 APPPATH\Modules\Ajax\Controllers\Ajax.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Controllers\\Ajax.php', 148)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->popup_outrolls()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-26 16:54:32 --> Trying to access array offset on value of type null
+in APPPATH\Modules\Ajax\Controllers\Ajax.php on line 148.
+ 1 APPPATH\Modules\Ajax\Controllers\Ajax.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Controllers\\Ajax.php', 148)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->popup_outrolls()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-26 16:54:34 --> Trying to access array offset on value of type null
+in APPPATH\Modules\Ajax\Controllers\Ajax.php on line 148.
+ 1 APPPATH\Modules\Ajax\Controllers\Ajax.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Controllers\\Ajax.php', 148)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->popup_outrolls()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-26 16:56:16 --> Array to string conversion
+in APPPATH\Modules\Ajax\Models\Ajax.php on line 128.
+ 1 APPPATH\Modules\Ajax\Models\Ajax.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Models\\Ajax.php', 128)
+ 2 APPPATH\Modules\Ajax\Controllers\Ajax.php(163): App\Modules\Ajax\Models\Ajax->get_popup_rolls([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->popup_outrolls()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-26 16:56:17 --> Array to string conversion
+in APPPATH\Modules\Ajax\Models\Ajax.php on line 128.
+ 1 APPPATH\Modules\Ajax\Models\Ajax.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Models\\Ajax.php', 128)
+ 2 APPPATH\Modules\Ajax\Controllers\Ajax.php(163): App\Modules\Ajax\Models\Ajax->get_popup_rolls([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->popup_outrolls()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-26 17:01:44 --> Call to undefined function show_total_records()
+in APPPATH\Modules\Standard\Views\width\index.php on line 8.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\width\\index', [], true)
+ 4 APPPATH\Modules\Standard\Controllers\Width.php(49): view('Modules\\Standard\\Views\\width\\index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Width->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Width))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-26 17:01:47 --> Call to undefined function show_total_records()
+in APPPATH\Modules\Standard\Views\width\index.php on line 8.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\width\\index', [], true)
+ 4 APPPATH\Modules\Standard\Controllers\Width.php(49): view('Modules\\Standard\\Views\\width\\index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Width->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Width))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-26 17:01:52 --> Call to undefined function show_total_records()
+in APPPATH\Modules\Standard\Views\normal\index.php on line 8.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\normal\\index', [], true)
+ 4 APPPATH\Modules\Standard\Controllers\Composition.php(49): view('Modules\\Standard\\Views\\normal\\index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Composition->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Composition))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-26 17:01:54 --> Call to undefined function show_total_records()
+in APPPATH\Modules\Standard\Views\supplier\index.php on line 8.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\supplier\\index', [], true)
+ 4 APPPATH\Modules\Standard\Controllers\Supplier.php(53): view('Modules\\Standard\\Views\\supplier\\index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Supplier->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Supplier))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-26 17:01:55 --> Call to undefined function show_total_records()
+in APPPATH\Modules\Standard\Views\supplier\index.php on line 8.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\supplier\\index', [], true)
+ 4 APPPATH\Modules\Standard\Controllers\Supplier.php(53): view('Modules\\Standard\\Views\\supplier\\index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Supplier->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Supplier))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-26 17:02:05 --> Call to undefined function show_total_records()
+in APPPATH\Modules\Standard\Views\level\index.php on line 8.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\level\\index', [], true)
+ 4 APPPATH\Modules\Standard\Controllers\Level.php(47): view('Modules\\Standard\\Views\\level\\index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Level->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Level))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-26 17:02:07 --> Call to undefined function show_total_records()
+in APPPATH\Modules\Standard\Views\supplier\index.php on line 8.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\supplier\\index', [], true)
+ 4 APPPATH\Modules\Standard\Controllers\Supplier.php(53): view('Modules\\Standard\\Views\\supplier\\index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Supplier->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Supplier))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-26 17:02:10 --> Call to undefined function show_total_records()
+in APPPATH\Modules\Standard\Views\width\index.php on line 8.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\width\\index', [], true)
+ 4 APPPATH\Modules\Standard\Controllers\Width.php(49): view('Modules\\Standard\\Views\\width\\index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Width->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Width))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-26 17:02:14 --> Call to undefined function show_total_records()
+in APPPATH\Modules\Standard\Views\width\index.php on line 8.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\width\\index', [], true)
+ 4 APPPATH\Modules\Standard\Controllers\Width.php(49): view('Modules\\Standard\\Views\\width\\index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Width->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Width))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-26 17:02:31 --> Call to undefined function show_total_records()
+in APPPATH\Modules\Standard\Views\width\index.php on line 8.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\width\\index', [], true)
+ 4 APPPATH\Modules\Standard\Controllers\Width.php(49): view('Modules\\Standard\\Views\\width\\index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Width->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Width))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-26 17:02:35 --> Call to undefined function show_total_records()
+in APPPATH\Modules\Standard\Views\width\index.php on line 8.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\width\\index', [], true)
+ 4 APPPATH\Modules\Standard\Controllers\Width.php(49): view('Modules\\Standard\\Views\\width\\index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Width->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Width))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-26 17:02:41 --> Call to undefined function show_total_records()
+in APPPATH\Modules\Standard\Views\ftype\index.php on line 8.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\ftype\\index', [], true)
+ 4 APPPATH\Modules\Standard\Controllers\Ftype.php(51): view('Modules\\Standard\\Views\\ftype\\index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Ftype->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Ftype))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-26 17:02:44 --> Call to undefined function show_total_records()
+in APPPATH\Modules\Standard\Views\fabric\index.php on line 8.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\fabric\\index', [], true)
+ 4 APPPATH\Modules\Standard\Controllers\Fabric_n.php(66): view('Modules\\Standard\\Views\\fabric\\index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric_n->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric_n))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-26 17:03:03 --> Call to undefined function show_total_records()
+in APPPATH\Modules\Standard\Views\fabric\index.php on line 8.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\fabric\\index', [], true)
+ 4 APPPATH\Modules\Standard\Controllers\Fabric_n.php(66): view('Modules\\Standard\\Views\\fabric\\index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric_n->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric_n))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-26 17:03:49 --> Call to undefined function show_total_records()
+in APPPATH\Modules\Standard\Views\factory\index.php on line 8.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\factory\\index', [], true)
+ 4 APPPATH\Modules\Standard\Controllers\Factory.php(52): view('Modules\\Standard\\Views\\factory\\index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Factory->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Factory))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-26 17:03:51 --> Call to undefined function show_total_records()
+in APPPATH\Modules\Standard\Views\supplier\index.php on line 8.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\supplier\\index', [], true)
+ 4 APPPATH\Modules\Standard\Controllers\Supplier.php(53): view('Modules\\Standard\\Views\\supplier\\index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Supplier->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Supplier))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-26 17:03:56 --> Call to undefined function show_total_records()
+in APPPATH\Modules\Standard\Views\supplier\index.php on line 8.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\supplier\\index', [], true)
+ 4 APPPATH\Modules\Standard\Controllers\Supplier.php(53): view('Modules\\Standard\\Views\\supplier\\index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Supplier->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Supplier))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-26 17:05:05 --> Call to undefined function show_total_records()
+in APPPATH\Modules\Standard\Views\supplier\index.php on line 8.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\supplier\\index', [], true)
+ 4 APPPATH\Modules\Standard\Controllers\Supplier.php(53): view('Modules\\Standard\\Views\\supplier\\index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Supplier->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Supplier))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-26 17:05:06 --> Call to undefined function show_total_records()
+in APPPATH\Modules\Standard\Views\supplier\index.php on line 8.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\supplier\\index', [], true)
+ 4 APPPATH\Modules\Standard\Controllers\Supplier.php(53): view('Modules\\Standard\\Views\\supplier\\index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Supplier->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Supplier))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-26 17:05:16 --> Call to undefined function show_total_records()
+in APPPATH\Modules\Standard\Views\supplier\index.php on line 8.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\supplier\\index', [], true)
+ 4 APPPATH\Modules\Standard\Controllers\Supplier.php(53): view('Modules\\Standard\\Views\\supplier\\index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Supplier->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Supplier))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-26 17:05:50 --> Call to undefined function show_total_records()
+in APPPATH\Modules\Standard\Views\supplier\index.php on line 8.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\supplier\\index', [], true)
+ 4 APPPATH\Modules\Standard\Controllers\Supplier.php(53): view('Modules\\Standard\\Views\\supplier\\index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Supplier->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Supplier))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-26 17:05:58 --> Call to undefined function show_total_records()
+in APPPATH\Modules\Standard\Views\supplier\index.php on line 8.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\supplier\\index', [], true)
+ 4 APPPATH\Modules\Standard\Controllers\Supplier.php(53): view('Modules\\Standard\\Views\\supplier\\index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Supplier->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Supplier))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-26 17:53:45 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Modules\Create_or\Controllers\Prepare_or.php on line 146.
+ 1 APPPATH\Modules\Create_or\Controllers\Prepare_or.php(146): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Prepare_or->get_barcode()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Prepare_or))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

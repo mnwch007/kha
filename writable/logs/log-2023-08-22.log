@@ -1,0 +1,1430 @@
+CRITICAL - 2023-08-22 04:57:33 --> Undefined variable $request
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 15.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Login\\Controllers\\LoginController.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 05:00:49 --> Undefined variable $request
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 15.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Login\\Controllers\\LoginController.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 05:25:29 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\RespModel.php(62): CodeIgniter\Model->__get('session')
+ 4 APPPATH\Modules\Login\Controllers\LoginController.php(29): App\Models\RespModel->show('login', 2)
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 05:28:22 --> Class "App\Modules\Login\Controllers\RespModel" not found
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 05:28:46 --> Non-static method App\Models\RespModel::show() cannot be called statically
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 05:28:48 --> Non-static method App\Models\RespModel::show() cannot be called statically
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 06:25:50 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Models\RespModel.php on line 6.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-08-22 06:31:14 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\RespModel.php(62): CodeIgniter\Model->__get('session')
+ 4 APPPATH\Modules\Login\Controllers\LoginController.php(29): App\Models\RespModel->show('login', 2)
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 06:37:26 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\RespModel.php(62): CodeIgniter\Model->__get('session')
+ 4 APPPATH\Modules\Login\Controllers\LoginController.php(29): App\Models\RespModel->show('login', 2)
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 06:47:52 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+in APPPATH\Models\RespModel.php on line 62.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(29): App\Models\RespModel->show('login', 2)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 06:48:28 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+in APPPATH\Models\RespModel.php on line 62.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(29): App\Models\RespModel->show('login', 2)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 06:48:30 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+in APPPATH\Models\RespModel.php on line 62.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(29): App\Models\RespModel->show('login', 2)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 06:51:08 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\RespModel.php(63): CodeIgniter\Model->__get('session')
+ 4 APPPATH\Modules\Login\Controllers\LoginController.php(29): App\Models\RespModel->show('login', 2)
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 06:56:23 --> Undefined variable $mmodel
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 37.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mmodel', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Login\\Controllers\\LoginController.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 06:56:24 --> Undefined variable $mmodel
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 37.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mmodel', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Login\\Controllers\\LoginController.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 06:56:45 --> Undefined variable $mmodel
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 37.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mmodel', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Login\\Controllers\\LoginController.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 06:56:46 --> Undefined variable $mmodel
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 37.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mmodel', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Login\\Controllers\\LoginController.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 07:03:40 --> Cannot call constructor
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Modules\Login\Controllers\LoginController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 07:03:41 --> Cannot call constructor
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Modules\Login\Controllers\LoginController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 07:05:12 --> Cannot call constructor
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Modules\Login\Controllers\LoginController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 07:05:14 --> Cannot call constructor
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Modules\Login\Controllers\LoginController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 07:05:43 --> Cannot call constructor
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Modules\Login\Controllers\LoginController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 07:09:08 --> Cannot call constructor
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Modules\Login\Controllers\LoginController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 07:09:29 --> Class "App\Modules\Login\Controllers\App\Controllers\BaseController" not found
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 8.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(314): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Login\\Controllers\\LoginController.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Modules\\Login\\Controllers\\LoginController')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Modules\\Login\\Controllers\\LoginController')
+ 5 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Modules\\Login\\Controllers\\LoginController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 07:10:02 --> Undefined variable $mmodel
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 34.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mmodel', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Login\\Controllers\\LoginController.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 07:10:04 --> Undefined variable $mmodel
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 34.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mmodel', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Login\\Controllers\\LoginController.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 07:18:14 --> Call to a member function select() on null
+in APPPATH\Modules\Login\Models\LoginModel.php on line 119.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(38): App\Modules\Login\Models\LoginModel->test()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 07:18:15 --> Call to a member function select() on null
+in APPPATH\Modules\Login\Models\LoginModel.php on line 119.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(38): App\Modules\Login\Models\LoginModel->test()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 07:20:33 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Modules\Login\Models\LoginModel.php on line 119.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(38): App\Modules\Login\Models\LoginModel->test()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 07:20:33 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Modules\Login\Models\LoginModel.php on line 119.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(38): App\Modules\Login\Models\LoginModel->test()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 07:21:58 --> Call to a member function select() on null
+in APPPATH\Modules\Login\Models\LoginModel.php on line 119.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(38): App\Modules\Login\Models\LoginModel->test()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 07:21:59 --> Call to a member function select() on null
+in APPPATH\Modules\Login\Models\LoginModel.php on line 119.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(38): App\Modules\Login\Models\LoginModel->test()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 07:27:17 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Modules\Login\Models\LoginModel.php on line 119.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(38): App\Modules\Login\Models\LoginModel->test()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 07:27:18 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Modules\Login\Models\LoginModel.php on line 119.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(38): App\Modules\Login\Models\LoginModel->test()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 07:27:18 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Modules\Login\Models\LoginModel.php on line 119.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(38): App\Modules\Login\Models\LoginModel->test()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 07:29:02 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Modules\Login\Models\LoginModel.php on line 119.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(38): App\Modules\Login\Models\LoginModel->test()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 07:29:02 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Modules\Login\Models\LoginModel.php on line 119.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(38): App\Modules\Login\Models\LoginModel->test()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 07:30:44 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Modules\Login\Models\LoginModel.php on line 119.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(38): App\Modules\Login\Models\LoginModel->test()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 07:30:45 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Modules\Login\Models\LoginModel.php on line 119.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(38): App\Modules\Login\Models\LoginModel->test()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 07:31:09 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Modules\Login\Models\LoginModel.php on line 119.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(38): App\Modules\Login\Models\LoginModel->test()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 07:38:58 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\BaseModel.php(12): CodeIgniter\Model->__get('defaultGroup')
+ 4 APPPATH\Modules\Login\Controllers\LoginController.php(12): App\Models\BaseModel->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Modules\Login\Controllers\LoginController->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 07:40:15 --> Object of class CodeIgniter\Database\MySQLi\Connection could not be converted to string
+in APPPATH\Models\BaseModel.php on line 12.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(12): App\Models\BaseModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Modules\Login\Controllers\LoginController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 07:40:16 --> Object of class CodeIgniter\Database\MySQLi\Connection could not be converted to string
+in APPPATH\Models\BaseModel.php on line 12.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(12): App\Models\BaseModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Modules\Login\Controllers\LoginController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 07:41:55 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Modules\Login\Models\LoginModel.php on line 119.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(38): App\Modules\Login\Models\LoginModel->test()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 07:45:42 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Modules\Login\Models\LoginModel.php on line 120.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(38): App\Modules\Login\Models\LoginModel->test()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 07:45:43 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Modules\Login\Models\LoginModel.php on line 120.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(38): App\Modules\Login\Models\LoginModel->test()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 07:52:03 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Modules\Login\Models\LoginModel.php on line 120.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(38): App\Modules\Login\Models\LoginModel->test()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 08:03:32 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Modules\Login\Models\LoginModel.php on line 120.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(38): App\Modules\Login\Models\LoginModel->test()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 08:03:33 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Modules\Login\Models\LoginModel.php on line 120.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(38): App\Modules\Login\Models\LoginModel->test()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 08:04:27 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Modules\Login\Models\LoginModel.php on line 120.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(38): App\Modules\Login\Models\LoginModel->test()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 08:04:32 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Modules\Login\Models\LoginModel.php on line 120.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(38): App\Modules\Login\Models\LoginModel->test()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 08:04:39 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Modules\Login\Models\LoginModel.php on line 120.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(38): App\Modules\Login\Models\LoginModel->test()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-22 08:11:36 --> mysqli_sql_exception: Not unique table/alias: 'admin_users' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tID`\nFR...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tID`\nFR...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tID`\nFR...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tID`\nFR...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Login\Models\LoginModel.php(122): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Login\Controllers\LoginController.php(38): App\Modules\Login\Models\LoginModel->test()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-22 08:11:36 --> Not unique table/alias: 'admin_users'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tID`
+FROM `admin_users`, `admin_users`
+WHERE `Username` = \'kiss\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tID`
+FROM `admin_users`, `admin_users`
+WHERE `Username` = \'kiss\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tID`
+FROM `admin_users`, `admin_users`
+WHERE `Username` = \'kiss\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tID`
+FROM `admin_users`, `admin_users`
+WHERE `Username` = :Username:', [...], false)
+ 5 APPPATH\Modules\Login\Models\LoginModel.php(122): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Login\Controllers\LoginController.php(38): App\Modules\Login\Models\LoginModel->test()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-22 08:11:37 --> mysqli_sql_exception: Not unique table/alias: 'admin_users' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tID`\nFR...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tID`\nFR...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tID`\nFR...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tID`\nFR...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Login\Models\LoginModel.php(122): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Login\Controllers\LoginController.php(38): App\Modules\Login\Models\LoginModel->test()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-22 08:11:37 --> Not unique table/alias: 'admin_users'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tID`
+FROM `admin_users`, `admin_users`
+WHERE `Username` = \'kiss\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tID`
+FROM `admin_users`, `admin_users`
+WHERE `Username` = \'kiss\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tID`
+FROM `admin_users`, `admin_users`
+WHERE `Username` = \'kiss\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tID`
+FROM `admin_users`, `admin_users`
+WHERE `Username` = :Username:', [...], false)
+ 5 APPPATH\Modules\Login\Models\LoginModel.php(122): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Login\Controllers\LoginController.php(38): App\Modules\Login\Models\LoginModel->test()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-22 08:12:36 --> mysqli_sql_exception: Table 'dfinest.mytable' doesn't exist in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Login\Models\LoginModel.php(122): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Login\Controllers\LoginController.php(38): App\Modules\Login\Models\LoginModel->test()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-22 08:12:36 --> Table 'dfinest.mytable' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `mytable`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `mytable`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `mytable`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mytable`', [], false)
+ 5 APPPATH\Modules\Login\Models\LoginModel.php(122): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Login\Controllers\LoginController.php(38): App\Modules\Login\Models\LoginModel->test()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 08:19:07 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::resultArray()
+in APPPATH\Modules\Login\Models\LoginModel.php on line 122.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(38): App\Modules\Login\Models\LoginModel->test()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 08:19:08 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::resultArray()
+in APPPATH\Modules\Login\Models\LoginModel.php on line 122.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(38): App\Modules\Login\Models\LoginModel->test()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 08:21:36 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Modules\Login\Models\LoginModel.php on line 123.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(38): App\Modules\Login\Models\LoginModel->test()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-22 08:26:51 --> mysqli_sql_exception: Not unique table/alias: 'admin_users' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `ID`\nFRO...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`\nFRO...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`\nFRO...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `ID`\nFRO...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Login\Models\LoginModel.php(122): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Login\Controllers\LoginController.php(38): App\Modules\Login\Models\LoginModel->test()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-22 08:26:51 --> Not unique table/alias: 'admin_users'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `ID`
+FROM `admin_users`, `admin_users`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`
+FROM `admin_users`, `admin_users`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`
+FROM `admin_users`, `admin_users`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `ID`
+FROM `admin_users`, `admin_users`', [], false)
+ 5 APPPATH\Modules\Login\Models\LoginModel.php(122): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Login\Controllers\LoginController.php(38): App\Modules\Login\Models\LoginModel->test()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-22 08:26:52 --> mysqli_sql_exception: Not unique table/alias: 'admin_users' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `ID`\nFRO...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`\nFRO...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`\nFRO...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `ID`\nFRO...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Login\Models\LoginModel.php(122): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Login\Controllers\LoginController.php(38): App\Modules\Login\Models\LoginModel->test()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-22 08:26:52 --> Not unique table/alias: 'admin_users'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `ID`
+FROM `admin_users`, `admin_users`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`
+FROM `admin_users`, `admin_users`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`
+FROM `admin_users`, `admin_users`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `ID`
+FROM `admin_users`, `admin_users`', [], false)
+ 5 APPPATH\Modules\Login\Models\LoginModel.php(122): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Login\Controllers\LoginController.php(38): App\Modules\Login\Models\LoginModel->test()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-22 08:27:03 --> mysqli_sql_exception: Not unique table/alias: 'admin_users' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `ID`\nFRO...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`\nFRO...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`\nFRO...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `ID`\nFRO...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Login\Models\LoginModel.php(122): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Login\Controllers\LoginController.php(38): App\Modules\Login\Models\LoginModel->test()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-22 08:27:03 --> Not unique table/alias: 'admin_users'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `ID`
+FROM `admin_users`, `admin_users`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`
+FROM `admin_users`, `admin_users`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`
+FROM `admin_users`, `admin_users`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `ID`
+FROM `admin_users`, `admin_users`', [], false)
+ 5 APPPATH\Modules\Login\Models\LoginModel.php(122): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Login\Controllers\LoginController.php(38): App\Modules\Login\Models\LoginModel->test()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-22 08:27:04 --> mysqli_sql_exception: Not unique table/alias: 'admin_users' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `ID`\nFRO...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`\nFRO...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`\nFRO...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `ID`\nFRO...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Login\Models\LoginModel.php(122): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Login\Controllers\LoginController.php(38): App\Modules\Login\Models\LoginModel->test()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-22 08:27:04 --> Not unique table/alias: 'admin_users'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `ID`
+FROM `admin_users`, `admin_users`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`
+FROM `admin_users`, `admin_users`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`
+FROM `admin_users`, `admin_users`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `ID`
+FROM `admin_users`, `admin_users`', [], false)
+ 5 APPPATH\Modules\Login\Models\LoginModel.php(122): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Login\Controllers\LoginController.php(38): App\Modules\Login\Models\LoginModel->test()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-22 08:29:07 --> mysqli_sql_exception: Not unique table/alias: 'admin_users' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `ID`\nFRO...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`\nFRO...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`\nFRO...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `ID`\nFRO...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Login\Models\LoginModel.php(131): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Login\Controllers\LoginController.php(38): App\Modules\Login\Models\LoginModel->test()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-22 08:29:07 --> Not unique table/alias: 'admin_users'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `ID`
+FROM `admin_users`, `admin_users`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`
+FROM `admin_users`, `admin_users`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`
+FROM `admin_users`, `admin_users`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `ID`
+FROM `admin_users`, `admin_users`', [], false)
+ 5 APPPATH\Modules\Login\Models\LoginModel.php(131): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Login\Controllers\LoginController.php(38): App\Modules\Login\Models\LoginModel->test()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-22 08:29:08 --> mysqli_sql_exception: Not unique table/alias: 'admin_users' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `ID`\nFRO...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`\nFRO...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`\nFRO...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `ID`\nFRO...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Login\Models\LoginModel.php(131): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Login\Controllers\LoginController.php(38): App\Modules\Login\Models\LoginModel->test()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-22 08:29:08 --> Not unique table/alias: 'admin_users'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `ID`
+FROM `admin_users`, `admin_users`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`
+FROM `admin_users`, `admin_users`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`
+FROM `admin_users`, `admin_users`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `ID`
+FROM `admin_users`, `admin_users`', [], false)
+ 5 APPPATH\Modules\Login\Models\LoginModel.php(131): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Login\Controllers\LoginController.php(38): App\Modules\Login\Models\LoginModel->test()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-22 08:29:50 --> mysqli_sql_exception: Not unique table/alias: 'admin_users' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `ID`\nFRO...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`\nFRO...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`\nFRO...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `ID`\nFRO...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Login\Models\LoginModel.php(131): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Login\Controllers\LoginController.php(38): App\Modules\Login\Models\LoginModel->test()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-22 08:29:50 --> Not unique table/alias: 'admin_users'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `ID`
+FROM `admin_users`, `admin_users`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`
+FROM `admin_users`, `admin_users`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`
+FROM `admin_users`, `admin_users`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `ID`
+FROM `admin_users`, `admin_users`', [], false)
+ 5 APPPATH\Modules\Login\Models\LoginModel.php(131): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Login\Controllers\LoginController.php(38): App\Modules\Login\Models\LoginModel->test()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-22 08:30:32 --> mysqli_sql_exception: Table 'dfinest.mytable' doesn't exist in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `ID`\nFRO...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`\nFRO...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`\nFRO...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `ID`\nFRO...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Login\Models\LoginModel.php(131): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Login\Controllers\LoginController.php(38): App\Modules\Login\Models\LoginModel->test()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-22 08:30:32 --> Table 'dfinest.mytable' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `ID`
+FROM `admin_users`, `mytable`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`
+FROM `admin_users`, `mytable`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`
+FROM `admin_users`, `mytable`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `ID`
+FROM `admin_users`, `mytable`', [], false)
+ 5 APPPATH\Modules\Login\Models\LoginModel.php(131): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Login\Controllers\LoginController.php(38): App\Modules\Login\Models\LoginModel->test()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-22 08:30:33 --> mysqli_sql_exception: Table 'dfinest.mytable' doesn't exist in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `ID`\nFRO...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`\nFRO...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`\nFRO...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `ID`\nFRO...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Login\Models\LoginModel.php(131): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Login\Controllers\LoginController.php(38): App\Modules\Login\Models\LoginModel->test()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-22 08:30:33 --> Table 'dfinest.mytable' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `ID`
+FROM `admin_users`, `mytable`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`
+FROM `admin_users`, `mytable`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`
+FROM `admin_users`, `mytable`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `ID`
+FROM `admin_users`, `mytable`', [], false)
+ 5 APPPATH\Modules\Login\Models\LoginModel.php(131): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Login\Controllers\LoginController.php(38): App\Modules\Login\Models\LoginModel->test()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-22 08:32:08 --> mysqli_sql_exception: Column 'ID' in field list is ambiguous in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `ID`\nFRO...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`\nFRO...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`\nFRO...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `ID`\nFRO...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Login\Models\LoginModel.php(131): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Login\Controllers\LoginController.php(38): App\Modules\Login\Models\LoginModel->test()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-22 08:32:08 --> Column 'ID' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `ID`
+FROM `admin_users`, `permission`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`
+FROM `admin_users`, `permission`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`
+FROM `admin_users`, `permission`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `ID`
+FROM `admin_users`, `permission`', [], false)
+ 5 APPPATH\Modules\Login\Models\LoginModel.php(131): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Login\Controllers\LoginController.php(38): App\Modules\Login\Models\LoginModel->test()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-22 08:32:09 --> mysqli_sql_exception: Column 'ID' in field list is ambiguous in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `ID`\nFRO...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`\nFRO...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`\nFRO...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `ID`\nFRO...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Login\Models\LoginModel.php(131): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Login\Controllers\LoginController.php(38): App\Modules\Login\Models\LoginModel->test()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-22 08:32:09 --> Column 'ID' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `ID`
+FROM `admin_users`, `permission`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`
+FROM `admin_users`, `permission`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`
+FROM `admin_users`, `permission`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `ID`
+FROM `admin_users`, `permission`', [], false)
+ 5 APPPATH\Modules\Login\Models\LoginModel.php(131): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Login\Controllers\LoginController.php(38): App\Modules\Login\Models\LoginModel->test()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->test()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 08:40:53 --> Trying to access array offset on value of type null
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 31.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Login\\Controllers\\LoginController.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 08:52:42 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\MenuModel.php(19): CodeIgniter\Model->__get('lang')
+ 4 APPPATH\Modules\Login\Models\LoginModel.php(50): App\Models\MenuModel->__construct()
+ 5 APPPATH\Modules\Login\Controllers\LoginController.php(29): App\Modules\Login\Models\LoginModel->auth('kiss', 'kiss')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 08:52:43 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\MenuModel.php(19): CodeIgniter\Model->__get('lang')
+ 4 APPPATH\Modules\Login\Models\LoginModel.php(50): App\Models\MenuModel->__construct()
+ 5 APPPATH\Modules\Login\Controllers\LoginController.php(29): App\Modules\Login\Models\LoginModel->auth('kiss', 'kiss')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 09:07:16 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\MenuModel.php(19): CodeIgniter\Model->__get('session')
+ 4 APPPATH\Modules\Login\Models\LoginModel.php(50): App\Models\MenuModel->__construct()
+ 5 APPPATH\Modules\Login\Controllers\LoginController.php(29): App\Modules\Login\Models\LoginModel->auth('kiss', 'kiss')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 09:07:17 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\MenuModel.php(19): CodeIgniter\Model->__get('session')
+ 4 APPPATH\Modules\Login\Models\LoginModel.php(50): App\Models\MenuModel->__construct()
+ 5 APPPATH\Modules\Login\Controllers\LoginController.php(29): App\Modules\Login\Models\LoginModel->auth('kiss', 'kiss')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 09:09:55 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Modules\Login\Models\LoginModel.php(85): CodeIgniter\Model->__call('now', [])
+ 4 APPPATH\Modules\Login\Controllers\LoginController.php(29): App\Modules\Login\Models\LoginModel->auth('kiss', 'kiss')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 09:11:35 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Modules\Login\Models\LoginModel.php(86): CodeIgniter\Model->__get('input')
+ 4 APPPATH\Modules\Login\Controllers\LoginController.php(29): App\Modules\Login\Models\LoginModel->auth('kiss', 'kiss')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 09:14:04 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Modules\Login\Models\LoginModel.php(86): CodeIgniter\Model->__get('request')
+ 4 APPPATH\Modules\Login\Controllers\LoginController.php(29): App\Modules\Login\Models\LoginModel->auth('kiss', 'kiss')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 09:19:30 --> Attempt to read property "proxyIPs" on null
+in SYSTEMPATH\HTTP\Request.php on line 45.
+ 1 SYSTEMPATH\HTTP\Request.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "proxyIPs" on null', 'D:\\xampp\\htdocs\\dfinest\\system\\HTTP\\Request.php', 45)
+ 2 APPPATH\Modules\Login\Models\LoginModel.php(83): CodeIgniter\HTTP\Request->__construct()
+ 3 APPPATH\Modules\Login\Controllers\LoginController.php(29): App\Modules\Login\Models\LoginModel->auth('kiss', 'kiss')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 09:19:36 --> Attempt to read property "proxyIPs" on null
+in SYSTEMPATH\HTTP\Request.php on line 45.
+ 1 SYSTEMPATH\HTTP\Request.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "proxyIPs" on null', 'D:\\xampp\\htdocs\\dfinest\\system\\HTTP\\Request.php', 45)
+ 2 APPPATH\Modules\Login\Models\LoginModel.php(83): CodeIgniter\HTTP\Request->__construct()
+ 3 APPPATH\Modules\Login\Controllers\LoginController.php(29): App\Modules\Login\Models\LoginModel->auth('kiss', 'kiss')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 09:22:32 --> Attempt to read property "proxyIPs" on null
+in SYSTEMPATH\HTTP\Request.php on line 45.
+ 1 SYSTEMPATH\HTTP\Request.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "proxyIPs" on null', 'D:\\xampp\\htdocs\\dfinest\\system\\HTTP\\Request.php', 45)
+ 2 APPPATH\Modules\Login\Models\LoginModel.php(85): CodeIgniter\HTTP\Request->__construct()
+ 3 APPPATH\Modules\Login\Controllers\LoginController.php(29): App\Modules\Login\Models\LoginModel->auth('kiss', 'kiss')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 09:24:06 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Modules\Login\Models\LoginModel.php(90): CodeIgniter\Model->__get('request')
+ 4 APPPATH\Modules\Login\Controllers\LoginController.php(29): App\Modules\Login\Models\LoginModel->auth('kiss', 'kiss')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 09:28:30 --> Call to undefined method CodeIgniter\HTTP\URI::getIPAddress()
+in APPPATH\Modules\Login\Models\LoginModel.php on line 90.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(29): App\Modules\Login\Models\LoginModel->auth('kiss', 'kiss')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 09:33:42 --> Call to undefined method CodeIgniter\HTTP\URI::getIPAddress()
+in APPPATH\Modules\Login\Models\LoginModel.php on line 89.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(29): App\Modules\Login\Models\LoginModel->auth('kiss', 'kiss')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 09:46:09 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Modules\Login\Models\LoginModel.php(88): CodeIgniter\Model->__call('now', [])
+ 4 APPPATH\Modules\Login\Controllers\LoginController.php(29): App\Modules\Login\Models\LoginModel->auth('kiss', 'kiss')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 09:46:10 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Modules\Login\Models\LoginModel.php(88): CodeIgniter\Model->__call('now', [])
+ 4 APPPATH\Modules\Login\Controllers\LoginController.php(29): App\Modules\Login\Models\LoginModel->auth('kiss', 'kiss')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 09:47:10 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Modules\Login\Models\LoginModel.php(90): CodeIgniter\Model->__call('now', [])
+ 4 APPPATH\Modules\Login\Controllers\LoginController.php(29): App\Modules\Login\Models\LoginModel->auth('kiss', 'kiss')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 09:47:11 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Modules\Login\Models\LoginModel.php(90): CodeIgniter\Model->__call('now', [])
+ 4 APPPATH\Modules\Login\Controllers\LoginController.php(29): App\Modules\Login\Models\LoginModel->auth('kiss', 'kiss')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 09:47:11 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Modules\Login\Models\LoginModel.php(90): CodeIgniter\Model->__call('now', [])
+ 4 APPPATH\Modules\Login\Controllers\LoginController.php(29): App\Modules\Login\Models\LoginModel->auth('kiss', 'kiss')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 09:47:11 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Modules\Login\Models\LoginModel.php(90): CodeIgniter\Model->__call('now', [])
+ 4 APPPATH\Modules\Login\Controllers\LoginController.php(29): App\Modules\Login\Models\LoginModel->auth('kiss', 'kiss')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 09:47:11 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Modules\Login\Models\LoginModel.php(90): CodeIgniter\Model->__call('now', [])
+ 4 APPPATH\Modules\Login\Controllers\LoginController.php(29): App\Modules\Login\Models\LoginModel->auth('kiss', 'kiss')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 09:47:13 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Modules\Login\Models\LoginModel.php(90): CodeIgniter\Model->__call('now', [])
+ 4 APPPATH\Modules\Login\Controllers\LoginController.php(29): App\Modules\Login\Models\LoginModel->auth('kiss', 'kiss')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 09:47:19 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Modules\Login\Models\LoginModel.php(90): CodeIgniter\Model->__call('now', [])
+ 4 APPPATH\Modules\Login\Controllers\LoginController.php(29): App\Modules\Login\Models\LoginModel->auth('kiss', 'kiss')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 09:47:35 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Modules\Login\Models\LoginModel.php(90): CodeIgniter\Model->__call('now', [])
+ 4 APPPATH\Modules\Login\Controllers\LoginController.php(29): App\Modules\Login\Models\LoginModel->auth('kiss', 'kiss')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 09:47:37 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Modules\Login\Models\LoginModel.php(90): CodeIgniter\Model->__call('now', [])
+ 4 APPPATH\Modules\Login\Controllers\LoginController.php(29): App\Modules\Login\Models\LoginModel->auth('kiss', 'kiss')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 09:54:08 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+in APPPATH\Modules\Login\Models\LoginModel.php on line 94.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(29): App\Modules\Login\Models\LoginModel->auth('kiss', 'kiss')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 09:58:22 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+in APPPATH\Modules\Login\Models\LoginModel.php on line 94.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(29): App\Modules\Login\Models\LoginModel->auth('kiss', 'kiss')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->auth()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 17:12:06 --> Call to undefined method CodeIgniter\Session\Session::all_userdata()
+in APPPATH\Modules\Login\Models\LoginModel.php on line 97.
+ 1 APPPATH\Modules\Login\Controllers\LoginController.php(43): App\Modules\Login\Models\LoginModel->logout()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->logout()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 17:24:01 --> The route for "http://localhost:8080/dfinest/public/" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost:8080/dfinest/public/')
+ 2 SYSTEMPATH\Common.php(876): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Modules\Login\Controllers\LoginController.php(45): redirect('http://localhost:8080/dfinest/public/')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->logout()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 17:24:02 --> The route for "http://localhost:8080/dfinest/public/" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost:8080/dfinest/public/')
+ 2 SYSTEMPATH\Common.php(876): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Modules\Login\Controllers\LoginController.php(45): redirect('http://localhost:8080/dfinest/public/')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->logout()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 17:25:06 --> The route for "http://localhost:8080/dfinest/public/" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost:8080/dfinest/public/')
+ 2 SYSTEMPATH\Common.php(876): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Modules\Login\Controllers\LoginController.php(47): redirect('http://localhost:8080/dfinest/public/')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->logout()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 17:25:07 --> The route for "http://localhost:8080/dfinest/public/" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost:8080/dfinest/public/')
+ 2 SYSTEMPATH\Common.php(876): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Modules\Login\Controllers\LoginController.php(47): redirect('http://localhost:8080/dfinest/public/')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->logout()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 17:25:08 --> The route for "http://localhost:8080/dfinest/public/" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost:8080/dfinest/public/')
+ 2 SYSTEMPATH\Common.php(876): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Modules\Login\Controllers\LoginController.php(47): redirect('http://localhost:8080/dfinest/public/')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->logout()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 17:28:37 --> The route for "http://localhost:8080/dfinest/public/" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost:8080/dfinest/public/')
+ 2 SYSTEMPATH\Common.php(876): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Modules\Login\Controllers\LoginController.php(47): redirect('http://localhost:8080/dfinest/public/')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->logout()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 17:28:38 --> The route for "http://localhost:8080/dfinest/public/" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost:8080/dfinest/public/')
+ 2 SYSTEMPATH\Common.php(876): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Modules\Login\Controllers\LoginController.php(47): redirect('http://localhost:8080/dfinest/public/')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->logout()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 17:29:38 --> The route for "http://localhost:8080/dfinest/public/" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost:8080/dfinest/public/')
+ 2 SYSTEMPATH\Common.php(876): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Modules\Login\Controllers\LoginController.php(47): redirect('http://localhost:8080/dfinest/public/')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->logout()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 17:29:39 --> The route for "http://localhost:8080/dfinest/public/" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost:8080/dfinest/public/')
+ 2 SYSTEMPATH\Common.php(876): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Modules\Login\Controllers\LoginController.php(47): redirect('http://localhost:8080/dfinest/public/')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->logout()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 17:43:47 --> App\Modules\Login\Controllers\LoginController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 17:43:48 --> App\Modules\Login\Controllers\LoginController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 17:44:08 --> App\Modules\Login\Controllers\LoginController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 17:44:49 --> App\Modules\Login\Controllers\LoginController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 17:44:50 --> App\Modules\Login\Controllers\LoginController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 17:45:11 --> App\Modules\Login\Controllers\LoginController::index(): Return value must be of type string, none returned
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 17:45:12 --> App\Modules\Login\Controllers\LoginController::index(): Return value must be of type string, none returned
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 17:45:13 --> App\Modules\Login\Controllers\LoginController::index(): Return value must be of type string, none returned
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 17:45:14 --> App\Modules\Login\Controllers\LoginController::index(): Return value must be of type string, none returned
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 17:46:36 --> App\Modules\Login\Controllers\LoginController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 17:46:40 --> App\Modules\Login\Controllers\LoginController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 17:47:04 --> App\Modules\Login\Controllers\LoginController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 17:47:05 --> App\Modules\Login\Controllers\LoginController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 17:47:12 --> App\Modules\Login\Controllers\LoginController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 17:47:58 --> App\Modules\Login\Controllers\LoginController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 17:47:59 --> App\Modules\Login\Controllers\LoginController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 17:48:40 --> App\Modules\Login\Controllers\LoginController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 17:48:41 --> App\Modules\Login\Controllers\LoginController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 17:49:49 --> App\Modules\Login\Controllers\LoginController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 17:49:50 --> App\Modules\Login\Controllers\LoginController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 17:50:56 --> App\Modules\Login\Controllers\LoginController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 17:51:21 --> App\Modules\Login\Controllers\LoginController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 17:51:22 --> App\Modules\Login\Controllers\LoginController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 17:51:22 --> App\Modules\Login\Controllers\LoginController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 17:52:18 --> App\Modules\Login\Controllers\LoginController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 17:52:19 --> App\Modules\Login\Controllers\LoginController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 17:53:28 --> App\Modules\Login\Controllers\LoginController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 17:53:29 --> App\Modules\Login\Controllers\LoginController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 17:54:26 --> The route for "Main" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('Main')
+ 2 SYSTEMPATH\Common.php(877): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Modules\Login\Controllers\LoginController.php(21): redirect('Main')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 17:54:49 --> App\Modules\Login\Controllers\LoginController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 17:54:50 --> App\Modules\Login\Controllers\LoginController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 17:54:50 --> App\Modules\Login\Controllers\LoginController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 17:54:57 --> App\Modules\Login\Controllers\LoginController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 17:54:58 --> App\Modules\Login\Controllers\LoginController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 17:55:25 --> App\Modules\Login\Controllers\LoginController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 17:55:26 --> App\Modules\Login\Controllers\LoginController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 17:55:35 --> App\Modules\Login\Controllers\LoginController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 17:55:50 --> App\Modules\Login\Controllers\LoginController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 17:55:51 --> App\Modules\Login\Controllers\LoginController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 17:56:21 --> The route for "http://localhost:8080/dfinest/public/index.php" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost:8080/dfinest/public/index.php')
+ 2 SYSTEMPATH\Common.php(877): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Modules\Login\Controllers\LoginController.php(21): redirect('http://localhost:8080/dfinest/public/index.php')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 17:56:21 --> The route for "http://localhost:8080/dfinest/public/index.php" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost:8080/dfinest/public/index.php')
+ 2 SYSTEMPATH\Common.php(877): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Modules\Login\Controllers\LoginController.php(21): redirect('http://localhost:8080/dfinest/public/index.php')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 17:56:30 --> The route for "http://localhost:8080/dfinest/public/index.php/main" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost:8080/dfinest/public/index.php/main')
+ 2 SYSTEMPATH\Common.php(877): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Modules\Login\Controllers\LoginController.php(21): redirect('http://localhost:8080/dfinest/public/index.php/main')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 17:56:41 --> App\Modules\Login\Controllers\LoginController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 17:58:01 --> App\Modules\Login\Controllers\LoginController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 17:58:02 --> App\Modules\Login\Controllers\LoginController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+in APPPATH\Modules\Login\Controllers\LoginController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Login\Controllers\LoginController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Login\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,147 @@
+@font-face {
+  font-family: "Sukhumvit Set";
+  src: url("../fonts/SukhumvitSet-Medium.eot");
+  src: url("../fonts/SukhumvitSet-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/SukhumvitSet-Medium.woff2") format("woff2"),
+    url("../fonts/SukhumvitSet-Medium.woff") format("woff"),
+    url("../fonts/SukhumvitSet-Medium.ttf") format("truetype"),
+    url("../fonts/SukhumvitSet-Medium.svg#SukhumvitSet-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DB Helvethaica X Med Ext";
+  src: url("../fonts/DBHelvethaicaX-MedExt.eot");
+  src: url("../fonts/DBHelvethaicaX-MedExt.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/DBHelvethaicaX-MedExt.woff2") format("woff2"),
+    url("../fonts/DBHelvethaicaX-MedExt.woff") format("woff"),
+    url("../fonts/DBHelvethaicaX-MedExt.ttf") format("truetype"),
+    url("../fonts/DBHelvethaicaX-MedExt.svg#DBHelvethaicaX-MedExt")
+      format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DB Helvethaica X Ext";
+  src: url("../fonts/DBHelvethaicaX-Ext.eot");
+  src: url("../fonts/DBHelvethaicaX-Ext.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/DBHelvethaicaX-Ext.woff2") format("woff2"),
+    url("../fonts/DBHelvethaicaX-Ext.woff") format("woff"),
+    url("../fonts/DBHelvethaicaX-Ext.ttf") format("truetype"),
+    url("../fonts/DBHelvethaicaX-Ext.svg#DBHelvethaicaX-Ext") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Sukhumvit Set";
+  src: url("../fonts/SukhumvitSet-Light.eot");
+  src: url("../fonts/SukhumvitSet-Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/SukhumvitSet-Light.woff2") format("woff2"),
+    url("../fonts/SukhumvitSet-Light.woff") format("woff"),
+    url("../fonts/SukhumvitSet-Light.ttf") format("truetype"),
+    url("../fonts/SukhumvitSet-Light.svg#SukhumvitSet-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DB Helvethaica X Med";
+  src: url("../fonts/DBHelvethaicaX-Med.eot");
+  src: url("../fonts/DBHelvethaicaX-Med.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/DBHelvethaicaX-Med.woff2") format("woff2"),
+    url("../fonts/DBHelvethaicaX-Med.woff") format("woff"),
+    url("../fonts/DBHelvethaicaX-Med.ttf") format("truetype"),
+    url("../fonts/DBHelvethaicaX-Med.svg#DBHelvethaicaX-Med") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Sukhumvit Set";
+  src: url("../fonts/SukhumvitSet-Bold.eot");
+  src: url("../fonts/SukhumvitSet-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/SukhumvitSet-Bold.woff2") format("woff2"),
+    url("../fonts/SukhumvitSet-Bold.woff") format("woff"),
+    url("../fonts/SukhumvitSet-Bold.ttf") format("truetype"),
+    url("../fonts/SukhumvitSet-Bold.svg#SukhumvitSet-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DB Helvethaica X Reg";
+  src: url("../fonts/DBHelvethaicaX-Reg.eot");
+  src: url("../fonts/DBHelvethaicaX-Reg.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/DBHelvethaicaX-Reg.woff2") format("woff2"),
+    url("../fonts/DBHelvethaicaX-Reg.woff") format("woff"),
+    url("../fonts/DBHelvethaicaX-Reg.ttf") format("truetype"),
+    url("../fonts/DBHelvethaicaX-Reg.svg#DBHelvethaicaX-Reg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DB Helvethaica X Reg";
+  src: url("../fonts/DBHelvethaicaX-Bd.eot");
+  src: url("../fonts/DBHelvethaicaX-Bd.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/DBHelvethaicaX-Bd.woff2") format("woff2"),
+    url("../fonts/DBHelvethaicaX-Bd.woff") format("woff"),
+    url("../fonts/DBHelvethaicaX-Bd.ttf") format("truetype"),
+    url("../fonts/DBHelvethaicaX-Bd.svg#DBHelvethaicaX-Bd") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Sukhumvit Set";
+  src: url("../fonts/SukhumvitSet-SemiBold.eot");
+  src: url("../fonts/SukhumvitSet-SemiBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/SukhumvitSet-SemiBold.woff2") format("woff2"),
+    url("../fonts/SukhumvitSet-SemiBold.woff") format("woff"),
+    url("../fonts/SukhumvitSet-SemiBold.ttf") format("truetype"),
+    url("../fonts/SukhumvitSet-SemiBold.svg#SukhumvitSet-SemiBold")
+      format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Sukhumvit Set";
+  src: url("../fonts/SukhumvitSet-Text.eot");
+  src: url("../fonts/SukhumvitSet-Text.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/SukhumvitSet-Text.woff2") format("woff2"),
+    url("../fonts/SukhumvitSet-Text.woff") format("woff"),
+    url("../fonts/SukhumvitSet-Text.ttf") format("truetype"),
+    url("../fonts/SukhumvitSet-Text.svg#SukhumvitSet-Text") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Sukhumvit Set";
+  src: url("../fonts/SukhumvitSet-Thin.eot");
+  src: url("../fonts/SukhumvitSet-Thin.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/SukhumvitSet-Thin.woff2") format("woff2"),
+    url("../fonts/SukhumvitSet-Thin.woff") format("woff"),
+    url("../fonts/SukhumvitSet-Thin.ttf") format("truetype"),
+    url("../fonts/SukhumvitSet-Thin.svg#SukhumvitSet-Thin") format("svg");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}

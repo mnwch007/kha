@@ -1,0 +1,211 @@
+CRITICAL - 2023-10-04 14:05:32 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\MainModel.php on line 307.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(153): App\Models\MainModel->get_salesperson_list()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_form()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 14:05:33 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\MainModel.php on line 307.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(153): App\Models\MainModel->get_salesperson_list()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_form()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 14:05:53 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\MainModel.php on line 307.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(153): App\Models\MainModel->get_salesperson_list()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_form()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 14:05:54 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\MainModel.php on line 307.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(153): App\Models\MainModel->get_salesperson_list()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_form()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 14:05:55 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\MainModel.php on line 307.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(153): App\Models\MainModel->get_salesperson_list()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_form()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 14:05:55 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\MainModel.php on line 307.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(153): App\Models\MainModel->get_salesperson_list()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_form()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 14:05:55 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\MainModel.php on line 307.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(153): App\Models\MainModel->get_salesperson_list()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_form()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 14:06:04 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\MainModel.php on line 307.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(153): App\Models\MainModel->get_salesperson_list()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_form()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 14:06:05 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\MainModel.php on line 307.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(153): App\Models\MainModel->get_salesperson_list()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_form()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 14:06:06 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\MainModel.php on line 307.
+ 1 APPPATH\Modules\Standard\Controllers\Customer.php(153): App\Models\MainModel->get_salesperson_list()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_form()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 14:08:42 --> Cannot access offset of type string on string
+in APPPATH\Helpers\general_helper.php on line 725.
+ 1 APPPATH\Modules\Standard\Views\customer\form.php(65): gen_dropdown_base(0, [...], 'drpSaleID', '', '', 'class="select2" style="width:120px;" ', '')
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\customer\\form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\customer\\form', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Customer.php(155): view('Modules\\Standard\\Views\\customer\\form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_form()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 14:08:45 --> Cannot access offset of type string on string
+in APPPATH\Helpers\general_helper.php on line 725.
+ 1 APPPATH\Modules\Standard\Views\customer\form.php(65): gen_dropdown_base(0, [...], 'drpSaleID', '', '', 'class="select2" style="width:120px;" ', '')
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\customer\\form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\customer\\form', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Customer.php(155): view('Modules\\Standard\\Views\\customer\\form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_form()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 15:08:09 --> Undefined property: App\Modules\Standard\Controllers\Ftype::$mainm
+in APPPATH\Modules\Standard\Controllers\Ftype.php on line 129.
+ 1 APPPATH\Modules\Standard\Controllers\Ftype.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Ftype::$mainm', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Ftype.php', 129)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Ftype->test()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Ftype))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 15:12:08 --> Undefined variable $id
+in APPPATH\Modules\Standard\Controllers\Ftype.php on line 128.
+ 1 APPPATH\Modules\Standard\Controllers\Ftype.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Ftype.php', 128)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Ftype->test()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Ftype))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 15:12:09 --> Undefined variable $id
+in APPPATH\Modules\Standard\Controllers\Ftype.php on line 128.
+ 1 APPPATH\Modules\Standard\Controllers\Ftype.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Ftype.php', 128)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Ftype->test()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Ftype))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 16:27:14 --> Undefined property: App\Modules\Standard\Controllers\Ftype_n::$mainm
+in APPPATH\Modules\Standard\Controllers\Ftype_n.php on line 175.
+ 1 APPPATH\Modules\Standard\Controllers\Ftype_n.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Ftype_n::$mainm', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Ftype_n.php', 175)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Ftype_n->submit()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Ftype_n))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 16:27:16 --> Undefined property: App\Modules\Standard\Controllers\Ftype_n::$mainm
+in APPPATH\Modules\Standard\Controllers\Ftype_n.php on line 175.
+ 1 APPPATH\Modules\Standard\Controllers\Ftype_n.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Ftype_n::$mainm', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Ftype_n.php', 175)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Ftype_n->submit()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Ftype_n))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 16:46:39 --> Undefined variable $mode
+in APPPATH\Modules\Standard\Views\level\pricing.php on line 80.
+ 1 APPPATH\Modules\Standard\Views\level\pricing.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mode', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\level\\pricing.php', 80)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\level\\pricing.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\level\\pricing', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Level.php(227): view('Modules\\Standard\\Views\\level\\pricing', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Level->load_pricing()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Level))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 16:46:40 --> Undefined variable $mode
+in APPPATH\Modules\Standard\Views\level\pricing.php on line 80.
+ 1 APPPATH\Modules\Standard\Views\level\pricing.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mode', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\level\\pricing.php', 80)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\level\\pricing.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\level\\pricing', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Level.php(227): view('Modules\\Standard\\Views\\level\\pricing', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Level->load_pricing()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Level))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 16:46:42 --> Undefined variable $mode
+in APPPATH\Modules\Standard\Views\level\pricing.php on line 80.
+ 1 APPPATH\Modules\Standard\Views\level\pricing.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mode', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\level\\pricing.php', 80)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\level\\pricing.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\level\\pricing', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Level.php(227): view('Modules\\Standard\\Views\\level\\pricing', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Level->load_pricing()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Level))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 16:53:43 --> Undefined property: App\Modules\Standard\Controllers\Level::$mainm
+in APPPATH\Modules\Standard\Controllers\Level.php on line 276.
+ 1 APPPATH\Modules\Standard\Controllers\Level.php(276): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Level::$mainm', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Level.php', 276)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Level->test()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Level))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 16:53:52 --> Undefined property: App\Modules\Standard\Controllers\Level::$mainm
+in APPPATH\Modules\Standard\Controllers\Level.php on line 276.
+ 1 APPPATH\Modules\Standard\Controllers\Level.php(276): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Level::$mainm', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Level.php', 276)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Level->test()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Level))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 16:53:53 --> Undefined property: App\Modules\Standard\Controllers\Level::$mainm
+in APPPATH\Modules\Standard\Controllers\Level.php on line 276.
+ 1 APPPATH\Modules\Standard\Controllers\Level.php(276): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Level::$mainm', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Level.php', 276)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Level->test()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Level))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 16:54:03 --> Undefined property: App\Modules\Standard\Controllers\Level::$mainm
+in APPPATH\Modules\Standard\Controllers\Level.php on line 276.
+ 1 APPPATH\Modules\Standard\Controllers\Level.php(276): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Level::$mainm', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Level.php', 276)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Level->test()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Level))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 16:54:04 --> Undefined property: App\Modules\Standard\Controllers\Level::$mainm
+in APPPATH\Modules\Standard\Controllers\Level.php on line 276.
+ 1 APPPATH\Modules\Standard\Controllers\Level.php(276): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Level::$mainm', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Level.php', 276)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Level->test()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Level))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 17:17:00 --> Undefined array key "WPrice"
+in APPPATH\Models\MainModel.php on line 518.
+ 1 APPPATH\Models\MainModel.php(518): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "WPrice"', 'D:\\xampp\\htdocs\\dfinest\\app\\Models\\MainModel.php', 518)
+ 2 APPPATH\Modules\Standard\Controllers\Level.php(264): App\Models\MainModel->update_customer_pricing(2)
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Level->test()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Level))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 17:17:20 --> Undefined array key "WPrice"
+in APPPATH\Models\MainModel.php on line 518.
+ 1 APPPATH\Models\MainModel.php(518): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "WPrice"', 'D:\\xampp\\htdocs\\dfinest\\app\\Models\\MainModel.php', 518)
+ 2 APPPATH\Modules\Standard\Controllers\Level.php(264): App\Models\MainModel->update_customer_pricing(2)
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Level->test()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Level))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

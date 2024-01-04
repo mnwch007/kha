@@ -1,0 +1,1001 @@
+CRITICAL - 2023-09-07 10:01:51 --> Undefined variable $f
+in APPPATH\Modules\Standard\Views\billing_address\form.php on line 32.
+ 1 APPPATH\Modules\Standard\Views\billing_address\form.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $f', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\billing_address\\form.php', 32)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\billing_address\\form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\billing_address\\form', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Customer.php(351): view('Modules\\Standard\\Views\\billing_address\\form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->billing_form()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 10:01:51 --> Undefined variable $f
+in APPPATH\Modules\Standard\Views\billing_address\form.php on line 32.
+ 1 APPPATH\Modules\Standard\Views\billing_address\form.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $f', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\billing_address\\form.php', 32)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\billing_address\\form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\billing_address\\form', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Customer.php(351): view('Modules\\Standard\\Views\\billing_address\\form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->billing_form()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 10:01:53 --> Undefined variable $f
+in APPPATH\Modules\Standard\Views\billing_address\form.php on line 32.
+ 1 APPPATH\Modules\Standard\Views\billing_address\form.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $f', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\billing_address\\form.php', 32)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\billing_address\\form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\billing_address\\form', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Customer.php(351): view('Modules\\Standard\\Views\\billing_address\\form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->billing_form()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 10:05:56 --> Undefined variable $f
+in APPPATH\Modules\Standard\Views\billing_address\form.php on line 32.
+ 1 APPPATH\Modules\Standard\Views\billing_address\form.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $f', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\billing_address\\form.php', 32)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\billing_address\\form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\billing_address\\form', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Customer.php(350): view('Modules\\Standard\\Views\\billing_address\\form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->billing_form()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 10:05:57 --> Undefined variable $f
+in APPPATH\Modules\Standard\Views\billing_address\form.php on line 32.
+ 1 APPPATH\Modules\Standard\Views\billing_address\form.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $f', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\billing_address\\form.php', 32)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\billing_address\\form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\billing_address\\form', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Customer.php(350): view('Modules\\Standard\\Views\\billing_address\\form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->billing_form()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 10:06:56 --> Undefined variable $f
+in APPPATH\Modules\Standard\Views\billing_address\form.php on line 32.
+ 1 APPPATH\Modules\Standard\Views\billing_address\form.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $f', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\billing_address\\form.php', 32)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\billing_address\\form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\billing_address\\form', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Customer.php(350): view('Modules\\Standard\\Views\\billing_address\\form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->billing_form()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 10:06:56 --> Undefined variable $f
+in APPPATH\Modules\Standard\Views\billing_address\form.php on line 32.
+ 1 APPPATH\Modules\Standard\Views\billing_address\form.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $f', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\billing_address\\form.php', 32)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\billing_address\\form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\billing_address\\form', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Customer.php(350): view('Modules\\Standard\\Views\\billing_address\\form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->billing_form()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 10:06:58 --> Undefined variable $f
+in APPPATH\Modules\Standard\Views\billing_address\form.php on line 32.
+ 1 APPPATH\Modules\Standard\Views\billing_address\form.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $f', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\billing_address\\form.php', 32)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\billing_address\\form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\billing_address\\form', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Customer.php(350): view('Modules\\Standard\\Views\\billing_address\\form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->billing_form()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 10:06:59 --> Undefined variable $f
+in APPPATH\Modules\Standard\Views\billing_address\form.php on line 32.
+ 1 APPPATH\Modules\Standard\Views\billing_address\form.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $f', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\billing_address\\form.php', 32)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\billing_address\\form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\billing_address\\form', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Customer.php(350): view('Modules\\Standard\\Views\\billing_address\\form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->billing_form()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 10:07:00 --> Undefined variable $f
+in APPPATH\Modules\Standard\Views\billing_address\form.php on line 32.
+ 1 APPPATH\Modules\Standard\Views\billing_address\form.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $f', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\billing_address\\form.php', 32)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\billing_address\\form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\billing_address\\form', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Customer.php(350): view('Modules\\Standard\\Views\\billing_address\\form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->billing_form()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 10:07:01 --> Undefined variable $f
+in APPPATH\Modules\Standard\Views\billing_address\form.php on line 32.
+ 1 APPPATH\Modules\Standard\Views\billing_address\form.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $f', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\billing_address\\form.php', 32)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\billing_address\\form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\billing_address\\form', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Customer.php(350): view('Modules\\Standard\\Views\\billing_address\\form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->billing_form()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 10:07:01 --> Undefined variable $f
+in APPPATH\Modules\Standard\Views\billing_address\form.php on line 32.
+ 1 APPPATH\Modules\Standard\Views\billing_address\form.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $f', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\billing_address\\form.php', 32)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\billing_address\\form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\billing_address\\form', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Customer.php(350): view('Modules\\Standard\\Views\\billing_address\\form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->billing_form()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 10:09:11 --> Undefined variable $amphures
+in APPPATH\Modules\Standard\Views\billing_address\form.php on line 36.
+ 1 APPPATH\Modules\Standard\Views\billing_address\form.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $amphures', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\billing_address\\form.php', 36)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\billing_address\\form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\billing_address\\form', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Customer.php(350): view('Modules\\Standard\\Views\\billing_address\\form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->billing_form()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 10:09:12 --> Undefined variable $amphures
+in APPPATH\Modules\Standard\Views\billing_address\form.php on line 36.
+ 1 APPPATH\Modules\Standard\Views\billing_address\form.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $amphures', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\billing_address\\form.php', 36)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\billing_address\\form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\billing_address\\form', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Customer.php(350): view('Modules\\Standard\\Views\\billing_address\\form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->billing_form()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 10:33:04 --> Undefined variable $info_province
+in APPPATH\Modules\Standard\Views\customer\_search.php on line 9.
+ 1 APPPATH\Modules\Standard\Views\customer\_search.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_province', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\customer\\_search.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\customer\\_search.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\customer\\_search', [], true)
+ 5 APPPATH\Views\inc-search_mob.php(11): view('Modules\\Standard\\Views\\customer\\_search')
+ 6 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-search_mob.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-search_mob', [], true)
+ 9 APPPATH\Modules\Standard\Controllers\Customer.php(106): view('inc-search_mob', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->load_form_search()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 10:40:37 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH\Libraries\Condition.php on line 138.
+ 1 APPPATH\Libraries\Condition.php(138): count('0')
+ 2 APPPATH\Modules\Standard\Models\Standard.php(21): App\Libraries\Condition->conCustomer([...])
+ 3 APPPATH\Modules\Standard\Models\Standard.php(50): App\Modules\Standard\Models\Standard->get_condition('customer', [...])
+ 4 APPPATH\Modules\Standard\Controllers\Customer.php(50): App\Modules\Standard\Models\Standard->count_itemlist('customer', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Customer->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Customer))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 10:49:39 --> Invalid file: "Modules\Standard\Viewstype\_title.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Standard\\Viewstype\\_title.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Viewstype\\_title', [], true)
+ 3 APPPATH\Views\inc-header.php(98): view('Modules\\Standard\\Viewstype\\_title')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-header.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-header', [], true)
+ 7 APPPATH\Modules\Standard\Controllers\Ftype.php(45): view('inc-header', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Ftype->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Ftype))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 10:50:07 --> Invalid file: "Modules\Standard\Viewstype\_title.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Standard\\Viewstype\\_title.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Viewstype\\_title', [], true)
+ 3 APPPATH\Views\inc-header.php(98): view('Modules\\Standard\\Viewstype\\_title')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-header.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-header', [], true)
+ 7 APPPATH\Modules\Standard\Controllers\Ftype.php(45): view('inc-header', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Ftype->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Ftype))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 10:50:08 --> Invalid file: "Modules\Standard\Viewstype\_title.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Standard\\Viewstype\\_title.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Viewstype\\_title', [], true)
+ 3 APPPATH\Views\inc-header.php(98): view('Modules\\Standard\\Viewstype\\_title')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-header.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-header', [], true)
+ 7 APPPATH\Modules\Standard\Controllers\Ftype.php(45): view('inc-header', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Ftype->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Ftype))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-07 11:10:50 --> mysqli_sql_exception: Unknown column 'WidthID' in 'where clause' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(ID...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(ID...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(ID...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(ID...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Models\BaseModel.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Standard\Models\Standard.php(160): App\Models\BaseModel->count_rec('ID', 'product', 'WidthID=3')
+#6 D:\xampp\htdocs\dfinest\app\Modules\Standard\Models\Standard.php(103): App\Modules\Standard\Models\Standard->check_before_delete('width', '3')
+#7 D:\xampp\htdocs\dfinest\app\Modules\Standard\Controllers\Width.php(164): App\Modules\Standard\Models\Standard->delete('width', '3')
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Standard\Controllers\Width->submit()
+#9 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Width))
+#10 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-07 11:10:50 --> Unknown column 'WidthID' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(ID) as total
+FROM `product`
+WHERE `WidthID` = 3', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(ID) as total
+FROM `product`
+WHERE `WidthID` = 3')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(ID) as total
+FROM `product`
+WHERE `WidthID` = 3')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(ID) as total
+FROM `product`
+WHERE `WidthID` = 3', [], false)
+ 5 APPPATH\Models\BaseModel.php(53): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Standard\Models\Standard.php(160): App\Models\BaseModel->count_rec('ID', 'product', 'WidthID=3')
+ 7 APPPATH\Modules\Standard\Models\Standard.php(103): App\Modules\Standard\Models\Standard->check_before_delete('width', '3')
+ 8 APPPATH\Modules\Standard\Controllers\Width.php(164): App\Modules\Standard\Models\Standard->delete('width', '3')
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Width->submit()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Width))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-07 11:10:57 --> mysqli_sql_exception: Unknown column 'WidthID' in 'where clause' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(ID...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(ID...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(ID...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(ID...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Models\BaseModel.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Standard\Models\Standard.php(160): App\Models\BaseModel->count_rec('ID', 'product', 'WidthID=3')
+#6 D:\xampp\htdocs\dfinest\app\Modules\Standard\Models\Standard.php(103): App\Modules\Standard\Models\Standard->check_before_delete('width', '3')
+#7 D:\xampp\htdocs\dfinest\app\Modules\Standard\Controllers\Width.php(164): App\Modules\Standard\Models\Standard->delete('width', '3')
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Standard\Controllers\Width->submit()
+#9 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Width))
+#10 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-07 11:10:57 --> Unknown column 'WidthID' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(ID) as total
+FROM `product`
+WHERE `WidthID` = 3', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(ID) as total
+FROM `product`
+WHERE `WidthID` = 3')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(ID) as total
+FROM `product`
+WHERE `WidthID` = 3')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(ID) as total
+FROM `product`
+WHERE `WidthID` = 3', [], false)
+ 5 APPPATH\Models\BaseModel.php(53): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Standard\Models\Standard.php(160): App\Models\BaseModel->count_rec('ID', 'product', 'WidthID=3')
+ 7 APPPATH\Modules\Standard\Models\Standard.php(103): App\Modules\Standard\Models\Standard->check_before_delete('width', '3')
+ 8 APPPATH\Modules\Standard\Controllers\Width.php(164): App\Modules\Standard\Models\Standard->delete('width', '3')
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Width->submit()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Width))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-07 11:12:36 --> mysqli_sql_exception: Unknown column 'WidthID' in 'where clause' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(ID...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(ID...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(ID...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(ID...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Models\BaseModel.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Standard\Models\Standard.php(160): App\Models\BaseModel->count_rec('ID', 'product', 'WidthID=3')
+#6 D:\xampp\htdocs\dfinest\app\Modules\Standard\Models\Standard.php(103): App\Modules\Standard\Models\Standard->check_before_delete('width', '3')
+#7 D:\xampp\htdocs\dfinest\app\Modules\Standard\Controllers\Width.php(164): App\Modules\Standard\Models\Standard->delete('width', '3')
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Standard\Controllers\Width->submit()
+#9 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Width))
+#10 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-07 11:12:36 --> Unknown column 'WidthID' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(ID) as total
+FROM `product`
+WHERE `WidthID` = 3', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(ID) as total
+FROM `product`
+WHERE `WidthID` = 3')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(ID) as total
+FROM `product`
+WHERE `WidthID` = 3')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(ID) as total
+FROM `product`
+WHERE `WidthID` = 3', [], false)
+ 5 APPPATH\Models\BaseModel.php(53): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Standard\Models\Standard.php(160): App\Models\BaseModel->count_rec('ID', 'product', 'WidthID=3')
+ 7 APPPATH\Modules\Standard\Models\Standard.php(103): App\Modules\Standard\Models\Standard->check_before_delete('width', '3')
+ 8 APPPATH\Modules\Standard\Controllers\Width.php(164): App\Modules\Standard\Models\Standard->delete('width', '3')
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Width->submit()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Width))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-07 11:12:47 --> mysqli_sql_exception: Unknown column 'WidthID' in 'where clause' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(ID...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(ID...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(ID...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(ID...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Models\BaseModel.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Standard\Models\Standard.php(160): App\Models\BaseModel->count_rec('ID', 'product', 'WidthID=3')
+#6 D:\xampp\htdocs\dfinest\app\Modules\Standard\Models\Standard.php(103): App\Modules\Standard\Models\Standard->check_before_delete('width', '3')
+#7 D:\xampp\htdocs\dfinest\app\Modules\Standard\Controllers\Width.php(164): App\Modules\Standard\Models\Standard->delete('width', '3')
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Standard\Controllers\Width->submit()
+#9 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Width))
+#10 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-07 11:12:47 --> Unknown column 'WidthID' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(ID) as total
+FROM `product`
+WHERE `WidthID` = 3', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(ID) as total
+FROM `product`
+WHERE `WidthID` = 3')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(ID) as total
+FROM `product`
+WHERE `WidthID` = 3')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(ID) as total
+FROM `product`
+WHERE `WidthID` = 3', [], false)
+ 5 APPPATH\Models\BaseModel.php(53): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Standard\Models\Standard.php(160): App\Models\BaseModel->count_rec('ID', 'product', 'WidthID=3')
+ 7 APPPATH\Modules\Standard\Models\Standard.php(103): App\Modules\Standard\Models\Standard->check_before_delete('width', '3')
+ 8 APPPATH\Modules\Standard\Controllers\Width.php(164): App\Modules\Standard\Models\Standard->delete('width', '3')
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Width->submit()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Width))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-07 11:52:30 --> mysqli_sql_exception: Unknown column 'Name' in 'order clause' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Standard\Models\Standard.php(95): CodeIgniter\Database\BaseBuilder->get(0, 50)
+#5 D:\xampp\htdocs\dfinest\app\Modules\Standard\Controllers\Fabric.php(73): App\Modules\Standard\Models\Standard->get_itemlist_limit('product_item', 'a%3A2%3A%7Bs%3A...', 'Name', 'asc', 0)
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->load_data()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-07 11:52:30 --> Unknown column 'Name' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `product_item`
+WHERE `ID` >0
+ORDER BY `Name` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `product_item`
+WHERE `ID` >0
+ORDER BY `Name` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `product_item`
+WHERE `ID` >0
+ORDER BY `Name` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `product_item`
+WHERE `ID` >0
+ORDER BY `Name` ASC', [], false)
+ 5 APPPATH\Modules\Standard\Models\Standard.php(95): CodeIgniter\Database\BaseBuilder->get(0, 50)
+ 6 APPPATH\Modules\Standard\Controllers\Fabric.php(73): App\Modules\Standard\Models\Standard->get_itemlist_limit('product_item', 'a%3A2%3A%7Bs%3A4%3A%22mode%22%3Bs%3A6%3A%22search%22%3Bs%3A8%3A%22SKeyword%22%3Bs%3A0%3A%22%22%3B%7D', 'Name', 'asc', 0)
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->load_data()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-07 11:52:32 --> mysqli_sql_exception: Unknown column 'Name' in 'order clause' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Standard\Models\Standard.php(95): CodeIgniter\Database\BaseBuilder->get(0, 50)
+#5 D:\xampp\htdocs\dfinest\app\Modules\Standard\Controllers\Fabric.php(73): App\Modules\Standard\Models\Standard->get_itemlist_limit('product_item', 'a%3A2%3A%7Bs%3A...', 'Name', 'asc', 0)
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->load_data()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-07 11:52:32 --> Unknown column 'Name' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `product_item`
+WHERE `ID` >0
+ORDER BY `Name` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `product_item`
+WHERE `ID` >0
+ORDER BY `Name` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `product_item`
+WHERE `ID` >0
+ORDER BY `Name` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `product_item`
+WHERE `ID` >0
+ORDER BY `Name` ASC', [], false)
+ 5 APPPATH\Modules\Standard\Models\Standard.php(95): CodeIgniter\Database\BaseBuilder->get(0, 50)
+ 6 APPPATH\Modules\Standard\Controllers\Fabric.php(73): App\Modules\Standard\Models\Standard->get_itemlist_limit('product_item', 'a%3A2%3A%7Bs%3A4%3A%22mode%22%3Bs%3A6%3A%22search%22%3Bs%3A8%3A%22SKeyword%22%3Bs%3A0%3A%22%22%3B%7D', 'Name', 'asc', 0)
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->load_data()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-07 11:53:04 --> mysqli_sql_exception: Unknown column 'Name' in 'order clause' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Standard\Models\Standard.php(95): CodeIgniter\Database\BaseBuilder->get(0, 50)
+#5 D:\xampp\htdocs\dfinest\app\Modules\Standard\Controllers\Fabric.php(73): App\Modules\Standard\Models\Standard->get_itemlist_limit('product_item', 'a%3A2%3A%7Bs%3A...', 'Name', 'asc', 0)
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->load_data()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-07 11:53:04 --> Unknown column 'Name' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `product_item`
+WHERE `ID` >0
+ORDER BY `Name` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `product_item`
+WHERE `ID` >0
+ORDER BY `Name` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `product_item`
+WHERE `ID` >0
+ORDER BY `Name` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `product_item`
+WHERE `ID` >0
+ORDER BY `Name` ASC', [], false)
+ 5 APPPATH\Modules\Standard\Models\Standard.php(95): CodeIgniter\Database\BaseBuilder->get(0, 50)
+ 6 APPPATH\Modules\Standard\Controllers\Fabric.php(73): App\Modules\Standard\Models\Standard->get_itemlist_limit('product_item', 'a%3A2%3A%7Bs%3A4%3A%22mode%22%3Bs%3A6%3A%22search%22%3Bs%3A8%3A%22SKeyword%22%3Bs%3A0%3A%22%22%3B%7D', 'Name', 'asc', 0)
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->load_data()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-07 11:53:30 --> mysqli_sql_exception: Unknown column 'Name' in 'order clause' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Standard\Models\Standard.php(95): CodeIgniter\Database\BaseBuilder->get(0, 50)
+#5 D:\xampp\htdocs\dfinest\app\Modules\Standard\Controllers\Fabric.php(73): App\Modules\Standard\Models\Standard->get_itemlist_limit('product_item', 'a%3A2%3A%7Bs%3A...', 'Name', 'asc', 0)
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->load_data()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-07 11:53:30 --> Unknown column 'Name' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `product_item`
+WHERE `ID` >0
+ORDER BY `Name` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `product_item`
+WHERE `ID` >0
+ORDER BY `Name` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `product_item`
+WHERE `ID` >0
+ORDER BY `Name` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `product_item`
+WHERE `ID` >0
+ORDER BY `Name` ASC', [], false)
+ 5 APPPATH\Modules\Standard\Models\Standard.php(95): CodeIgniter\Database\BaseBuilder->get(0, 50)
+ 6 APPPATH\Modules\Standard\Controllers\Fabric.php(73): App\Modules\Standard\Models\Standard->get_itemlist_limit('product_item', 'a%3A2%3A%7Bs%3A4%3A%22mode%22%3Bs%3A6%3A%22search%22%3Bs%3A8%3A%22SKeyword%22%3Bs%3A0%3A%22%22%3B%7D', 'Name', 'asc', 0)
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->load_data()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-07 11:53:32 --> mysqli_sql_exception: Unknown column 'Name' in 'order clause' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Standard\Models\Standard.php(95): CodeIgniter\Database\BaseBuilder->get(0, 50)
+#5 D:\xampp\htdocs\dfinest\app\Modules\Standard\Controllers\Fabric.php(73): App\Modules\Standard\Models\Standard->get_itemlist_limit('product_item', 'a%3A2%3A%7Bs%3A...', 'Name', 'asc', 0)
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->load_data()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-07 11:53:32 --> Unknown column 'Name' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `product_item`
+WHERE `ID` >0
+ORDER BY `Name` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `product_item`
+WHERE `ID` >0
+ORDER BY `Name` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `product_item`
+WHERE `ID` >0
+ORDER BY `Name` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `product_item`
+WHERE `ID` >0
+ORDER BY `Name` ASC', [], false)
+ 5 APPPATH\Modules\Standard\Models\Standard.php(95): CodeIgniter\Database\BaseBuilder->get(0, 50)
+ 6 APPPATH\Modules\Standard\Controllers\Fabric.php(73): App\Modules\Standard\Models\Standard->get_itemlist_limit('product_item', 'a%3A2%3A%7Bs%3A4%3A%22mode%22%3Bs%3A6%3A%22search%22%3Bs%3A8%3A%22SKeyword%22%3Bs%3A0%3A%22%22%3B%7D', 'Name', 'asc', 0)
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->load_data()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 11:54:52 --> Undefined array key "Name"
+in APPPATH\Modules\Standard\Views\fabric\data.php on line 14.
+ 1 APPPATH\Modules\Standard\Views\fabric\data.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Name"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\fabric\\data.php', 14)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\fabric\\data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\fabric\\data', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Fabric.php(84): view('Modules\\Standard\\Views\\fabric\\data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->load_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 11:54:53 --> Undefined array key "Name"
+in APPPATH\Modules\Standard\Views\fabric\data.php on line 14.
+ 1 APPPATH\Modules\Standard\Views\fabric\data.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Name"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\fabric\\data.php', 14)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\fabric\\data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\fabric\\data', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Fabric.php(84): view('Modules\\Standard\\Views\\fabric\\data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->load_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 12:03:45 --> Undefined variable $index
+in APPPATH\Modules\Standard\Controllers\Fabric.php on line 78.
+ 1 APPPATH\Modules\Standard\Controllers\Fabric.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $index', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Fabric.php', 78)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->load_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 12:03:46 --> Undefined variable $index
+in APPPATH\Modules\Standard\Controllers\Fabric.php on line 78.
+ 1 APPPATH\Modules\Standard\Controllers\Fabric.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $index', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Fabric.php', 78)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->load_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 12:05:44 --> Undefined variable $info_data
+in APPPATH\Modules\Standard\Views\fabric\data.php on line 3.
+ 1 APPPATH\Modules\Standard\Views\fabric\data.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_data', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\fabric\\data.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\fabric\\data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\fabric\\data', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Fabric.php(88): view('Modules\\Standard\\Views\\fabric\\data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->load_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 12:17:29 --> Undefined array key "Name"
+in APPPATH\Modules\Standard\Views\fabric\form.php on line 26.
+ 1 APPPATH\Modules\Standard\Views\fabric\form.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Name"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\fabric\\form.php', 26)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\fabric\\form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\fabric\\form', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Fabric.php(139): view('Modules\\Standard\\Views\\fabric\\form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->load_form()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 12:17:32 --> Undefined array key "Name"
+in APPPATH\Modules\Standard\Views\fabric\form.php on line 26.
+ 1 APPPATH\Modules\Standard\Views\fabric\form.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Name"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\fabric\\form.php', 26)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\fabric\\form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\fabric\\form', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Fabric.php(139): view('Modules\\Standard\\Views\\fabric\\form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->load_form()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 13:26:33 --> Undefined variable $info_ctype
+in APPPATH\Modules\Standard\Views\fabric\_search.php on line 25.
+ 1 APPPATH\Modules\Standard\Views\fabric\_search.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_ctype', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\fabric\\_search.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\fabric\\_search.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\fabric\\_search', [], true)
+ 5 APPPATH\Views\inc-search.php(4): view('Modules\\Standard\\Views\\fabric\\_search')
+ 6 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-search.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-search', [], true)
+ 9 APPPATH\Modules\Standard\Views\fabric\index.php(3): view('inc-search')
+10 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\fabric\\index.php')
+11 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\fabric\\index', [], true)
+13 APPPATH\Modules\Standard\Controllers\Fabric.php(54): view('Modules\\Standard\\Views\\fabric\\index', [...])
+14 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->index()
+15 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+16 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 13:27:00 --> Undefined variable $info_ctype
+in APPPATH\Modules\Standard\Views\fabric\_search.php on line 25.
+ 1 APPPATH\Modules\Standard\Views\fabric\_search.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_ctype', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\fabric\\_search.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\fabric\\_search.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\fabric\\_search', [], true)
+ 5 APPPATH\Views\inc-search.php(4): view('Modules\\Standard\\Views\\fabric\\_search')
+ 6 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-search.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-search', [], true)
+ 9 APPPATH\Modules\Standard\Views\fabric\index.php(3): view('inc-search')
+10 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\fabric\\index.php')
+11 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\fabric\\index', [], true)
+13 APPPATH\Modules\Standard\Controllers\Fabric.php(54): view('Modules\\Standard\\Views\\fabric\\index', [...])
+14 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->index()
+15 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+16 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 13:27:01 --> Undefined variable $info_ctype
+in APPPATH\Modules\Standard\Views\fabric\_search.php on line 25.
+ 1 APPPATH\Modules\Standard\Views\fabric\_search.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_ctype', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\fabric\\_search.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\fabric\\_search.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\fabric\\_search', [], true)
+ 5 APPPATH\Views\inc-search.php(4): view('Modules\\Standard\\Views\\fabric\\_search')
+ 6 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-search.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-search', [], true)
+ 9 APPPATH\Modules\Standard\Views\fabric\index.php(3): view('inc-search')
+10 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\fabric\\index.php')
+11 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\fabric\\index', [], true)
+13 APPPATH\Modules\Standard\Controllers\Fabric.php(54): view('Modules\\Standard\\Views\\fabric\\index', [...])
+14 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->index()
+15 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+16 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 13:58:44 --> Undefined variable $product_info
+in APPPATH\Modules\Standard\Controllers\Fabric.php on line 231.
+ 1 APPPATH\Modules\Standard\Controllers\Fabric.php(231): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product_info', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Fabric.php', 231)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->fabric_color()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 13:59:03 --> Undefined variable $product_info
+in APPPATH\Modules\Standard\Controllers\Fabric.php on line 234.
+ 1 APPPATH\Modules\Standard\Controllers\Fabric.php(234): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product_info', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Fabric.php', 234)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->fabric_color()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 13:59:45 --> Undefined variable $product_info
+in APPPATH\Modules\Standard\Controllers\Fabric.php on line 234.
+ 1 APPPATH\Modules\Standard\Controllers\Fabric.php(234): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product_info', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Fabric.php', 234)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->fabric_color()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 13:59:50 --> Undefined variable $product_info
+in APPPATH\Modules\Standard\Controllers\Fabric.php on line 234.
+ 1 APPPATH\Modules\Standard\Controllers\Fabric.php(234): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product_info', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Fabric.php', 234)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->fabric_color()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 14:00:19 --> Undefined variable $product_info
+in APPPATH\Modules\Standard\Controllers\Fabric.php on line 235.
+ 1 APPPATH\Modules\Standard\Controllers\Fabric.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product_info', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Fabric.php', 235)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->fabric_color()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 14:00:20 --> Undefined variable $product_info
+in APPPATH\Modules\Standard\Controllers\Fabric.php on line 235.
+ 1 APPPATH\Modules\Standard\Controllers\Fabric.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product_info', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Fabric.php', 235)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->fabric_color()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 14:00:21 --> Undefined variable $product_info
+in APPPATH\Modules\Standard\Controllers\Fabric.php on line 235.
+ 1 APPPATH\Modules\Standard\Controllers\Fabric.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product_info', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Fabric.php', 235)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->fabric_color()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 14:00:41 --> Undefined variable $product_info
+in APPPATH\Modules\Standard\Controllers\Fabric.php on line 235.
+ 1 APPPATH\Modules\Standard\Controllers\Fabric.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product_info', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Fabric.php', 235)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->fabric_color()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 14:01:06 --> Invalid file: "Modules\Standard\Viewsabric_color\index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Standard\\Viewsabric_color\\index.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Viewsabric_color\\index', [], true)
+ 3 APPPATH\Modules\Standard\Controllers\Fabric.php(238): view('Modules\\Standard\\Viewsabric_color\\index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->fabric_color()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 14:01:41 --> Undefined variable $product_info
+in APPPATH\Modules\Standard\Controllers\Fabric.php on line 235.
+ 1 APPPATH\Modules\Standard\Controllers\Fabric.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product_info', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Fabric.php', 235)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->fabric_color()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 14:04:40 --> Undefined array key "PCode"
+in APPPATH\Modules\Standard\Views\fabric_color\index.php on line 10.
+ 1 APPPATH\Modules\Standard\Views\fabric_color\index.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "PCode"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\fabric_color\\index.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\fabric_color\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\fabric_color\\index', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Fabric.php(233): view('Modules\\Standard\\Views\\fabric_color\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->fabric_color()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 14:32:21 --> Undefined array key 3
+in APPPATH\Modules\Standard\Views\fabric_color\index.php on line 35.
+ 1 APPPATH\Modules\Standard\Views\fabric_color\index.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 3', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\fabric_color\\index.php', 35)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\fabric_color\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\fabric_color\\index', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Fabric.php(239): view('Modules\\Standard\\Views\\fabric_color\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Fabric->fabric_color()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Fabric))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 16:31:00 --> Undefined array key "Name"
+in APPPATH\Modules\Standard\Views\shade\index.php on line 10.
+ 1 APPPATH\Modules\Standard\Views\shade\index.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Name"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\shade\\index.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\shade\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\shade\\index', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Ftype.php(194): view('Modules\\Standard\\Views\\shade\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Ftype->shade()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Ftype))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 16:31:01 --> Undefined array key "Name"
+in APPPATH\Modules\Standard\Views\shade\index.php on line 10.
+ 1 APPPATH\Modules\Standard\Views\shade\index.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Name"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\shade\\index.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\shade\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\shade\\index', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Ftype.php(194): view('Modules\\Standard\\Views\\shade\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Ftype->shade()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Ftype))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 16:31:38 --> Trying to access array offset on value of type null
+in APPPATH\Modules\Standard\Views\shade\index.php on line 10.
+ 1 APPPATH\Modules\Standard\Views\shade\index.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\shade\\index.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\shade\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\shade\\index', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Ftype.php(194): view('Modules\\Standard\\Views\\shade\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Ftype->shade()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Ftype))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 16:32:44 --> Trying to access array offset on value of type null
+in APPPATH\Modules\Standard\Views\shade\index.php on line 10.
+ 1 APPPATH\Modules\Standard\Views\shade\index.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\shade\\index.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\shade\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\shade\\index', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Ftype.php(194): view('Modules\\Standard\\Views\\shade\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Ftype->shade()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Ftype))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 17:12:32 --> array_count_values(): Argument #1 ($array) must be of type array, null given
+in APPPATH\Modules\Standard\Controllers\Ftype.php on line 207.
+ 1 APPPATH\Modules\Standard\Controllers\Ftype.php(207): array_count_values(null)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Ftype->shade_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Ftype))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-07 17:12:55 --> mysqli_sql_exception: Unknown column 'BName' in 'field list' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ps...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ps...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ps...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ps...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Standard\Controllers\Ftype.php(222): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Standard\Controllers\Ftype->shade_submit()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Ftype))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-07 17:12:55 --> Unknown column 'BName' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pshade` (`PTypeID`, `BName`, `UserID`, `CreatedDate`, `LastUpdated`) VALUES (\'1\', \'\', \'2\', \'2023-09-07 17:12:55\', \'2023-09-07 17:12:55\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pshade` (`PTypeID`, `BName`, `UserID`, `CreatedDate`, `LastUpdated`) VALUES (\'1\', \'\', \'2\', \'2023-09-07 17:12:55\', \'2023-09-07 17:12:55\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pshade` (`PTypeID`, `BName`, `UserID`, `CreatedDate`, `LastUpdated`) VALUES (\'1\', \'\', \'2\', \'2023-09-07 17:12:55\', \'2023-09-07 17:12:55\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pshade` (`PTypeID`, `BName`, `UserID`, `CreatedDate`, `LastUpdated`) VALUES (:PTypeID:, :BName:, :UserID:, :CreatedDate:, :LastUpdated:)', [...], false)
+ 5 APPPATH\Modules\Standard\Controllers\Ftype.php(222): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Ftype->shade_submit()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Ftype))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 17:20:29 --> Trying to access array offset on value of type int
+in APPPATH\Modules\Standard\Views\shade\index.php on line 30.
+ 1 APPPATH\Modules\Standard\Views\shade\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\shade\\index.php', 30)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\shade\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\shade\\index', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Ftype.php(203): view('Modules\\Standard\\Views\\shade\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Ftype->shade()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Ftype))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 17:20:30 --> Trying to access array offset on value of type int
+in APPPATH\Modules\Standard\Views\shade\index.php on line 30.
+ 1 APPPATH\Modules\Standard\Views\shade\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\shade\\index.php', 30)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\shade\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\shade\\index', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Ftype.php(203): view('Modules\\Standard\\Views\\shade\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Ftype->shade()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Ftype))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 17:45:17 --> Undefined property: App\Modules\Standard\Controllers\Ftype::$input
+in APPPATH\Modules\Standard\Controllers\Ftype.php on line 251.
+ 1 APPPATH\Modules\Standard\Controllers\Ftype.php(251): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Ftype::$input', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Ftype.php', 251)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Ftype->shade_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Ftype))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 17:46:32 --> Undefined property: App\Modules\Standard\Controllers\Ftype::$input
+in APPPATH\Modules\Standard\Controllers\Ftype.php on line 251.
+ 1 APPPATH\Modules\Standard\Controllers\Ftype.php(251): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Ftype::$input', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Ftype.php', 251)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Ftype->shade_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Ftype))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 17:47:33 --> Undefined property: App\Modules\Standard\Controllers\Ftype::$input
+in APPPATH\Modules\Standard\Controllers\Ftype.php on line 251.
+ 1 APPPATH\Modules\Standard\Controllers\Ftype.php(251): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Ftype::$input', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Ftype.php', 251)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Ftype->shade_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Ftype))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 17:48:47 --> Undefined property: App\Modules\Standard\Controllers\Ftype::$input
+in APPPATH\Modules\Standard\Controllers\Ftype.php on line 251.
+ 1 APPPATH\Modules\Standard\Controllers\Ftype.php(251): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Ftype::$input', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Ftype.php', 251)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Ftype->shade_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Ftype))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 17:49:40 --> Undefined property: App\Modules\Standard\Controllers\Ftype::$input
+in APPPATH\Modules\Standard\Controllers\Ftype.php on line 252.
+ 1 APPPATH\Modules\Standard\Controllers\Ftype.php(252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Ftype::$input', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Ftype.php', 252)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Ftype->shade_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Ftype))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 17:49:43 --> Undefined variable $ptypeid
+in APPPATH\Modules\Standard\Controllers\Ftype.php on line 264.
+ 1 APPPATH\Modules\Standard\Controllers\Ftype.php(264): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ptypeid', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Ftype.php', 264)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Ftype->shade_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Ftype))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 17:50:15 --> Undefined property: App\Modules\Standard\Controllers\Ftype::$input
+in APPPATH\Modules\Standard\Controllers\Ftype.php on line 252.
+ 1 APPPATH\Modules\Standard\Controllers\Ftype.php(252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Ftype::$input', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Ftype.php', 252)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Ftype->shade_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Ftype))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 17:50:34 --> Undefined property: App\Modules\Standard\Controllers\Ftype::$input
+in APPPATH\Modules\Standard\Controllers\Ftype.php on line 252.
+ 1 APPPATH\Modules\Standard\Controllers\Ftype.php(252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Ftype::$input', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Ftype.php', 252)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Ftype->shade_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Ftype))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 17:51:05 --> Undefined property: App\Modules\Standard\Controllers\Ftype::$input
+in APPPATH\Modules\Standard\Controllers\Ftype.php on line 252.
+ 1 APPPATH\Modules\Standard\Controllers\Ftype.php(252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Ftype::$input', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Ftype.php', 252)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Ftype->shade_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Ftype))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 17:51:50 --> Undefined property: App\Modules\Standard\Controllers\Ftype::$input
+in APPPATH\Modules\Standard\Controllers\Ftype.php on line 252.
+ 1 APPPATH\Modules\Standard\Controllers\Ftype.php(252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Ftype::$input', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Ftype.php', 252)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Ftype->shade_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Ftype))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 17:52:12 --> Trying to access array offset on value of type null
+in APPPATH\Modules\Standard\Views\shade\index.php on line 10.
+ 1 APPPATH\Modules\Standard\Views\shade\index.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\shade\\index.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\shade\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\shade\\index', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Ftype.php(205): view('Modules\\Standard\\Views\\shade\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Ftype->shade()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Ftype))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 17:52:22 --> Trying to access array offset on value of type null
+in APPPATH\Modules\Standard\Views\shade\index.php on line 10.
+ 1 APPPATH\Modules\Standard\Views\shade\index.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\shade\\index.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Views\\shade\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Standard\\Views\\shade\\index', [], true)
+ 5 APPPATH\Modules\Standard\Controllers\Ftype.php(205): view('Modules\\Standard\\Views\\shade\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Ftype->shade()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Ftype))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 17:56:30 --> Undefined variable $id
+in APPPATH\Modules\Standard\Controllers\Ftype.php on line 252.
+ 1 APPPATH\Modules\Standard\Controllers\Ftype.php(252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Ftype.php', 252)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Ftype->shade_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Ftype))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 17:56:33 --> Undefined variable $id
+in APPPATH\Modules\Standard\Controllers\Ftype.php on line 252.
+ 1 APPPATH\Modules\Standard\Controllers\Ftype.php(252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Ftype.php', 252)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Ftype->shade_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Ftype))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 17:56:49 --> Undefined variable $id
+in APPPATH\Modules\Standard\Controllers\Ftype.php on line 252.
+ 1 APPPATH\Modules\Standard\Controllers\Ftype.php(252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Ftype.php', 252)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Ftype->shade_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Ftype))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 17:57:34 --> Undefined property: App\Modules\Standard\Controllers\Ftype::$input
+in APPPATH\Modules\Standard\Controllers\Ftype.php on line 251.
+ 1 APPPATH\Modules\Standard\Controllers\Ftype.php(251): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Ftype::$input', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Ftype.php', 251)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Ftype->shade_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Ftype))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 17:57:37 --> Undefined property: App\Modules\Standard\Controllers\Ftype::$input
+in APPPATH\Modules\Standard\Controllers\Ftype.php on line 251.
+ 1 APPPATH\Modules\Standard\Controllers\Ftype.php(251): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Ftype::$input', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Ftype.php', 251)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Ftype->shade_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Ftype))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 17:58:10 --> Undefined property: App\Modules\Standard\Controllers\Ftype::$input
+in APPPATH\Modules\Standard\Controllers\Ftype.php on line 251.
+ 1 APPPATH\Modules\Standard\Controllers\Ftype.php(251): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Modules\\Standard\\Controllers\\Ftype::$input', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Standard\\Controllers\\Ftype.php', 251)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Standard\Controllers\Ftype->shade_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Standard\Controllers\Ftype))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

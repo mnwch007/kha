@@ -1,0 +1,2635 @@
+ERROR - 2023-09-29 11:48:26 --> mysqli_sql_exception: Column 'Unit' in field list is ambiguous in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Controllers\Ajax.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-29 11:48:26 --> Column 'Unit' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty, `p`.`PCode`, `p`.`Color`
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = \'1\'
+AND `s`.`ID` IN (\'7\')
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty, `p`.`PCode`, `p`.`Color`
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = \'1\'
+AND `s`.`ID` IN (\'7\')
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty, `p`.`PCode`, `p`.`Color`
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = \'1\'
+AND `s`.`ID` IN (\'7\')
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty, `p`.`PCode`, `p`.`Color`
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > :s.Qty:
+AND `s`.`PID` = :s.PID:
+AND `s`.`ID` IN :s.ID:
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC', [...], false)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-29 11:48:27 --> mysqli_sql_exception: Column 'Unit' in field list is ambiguous in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Controllers\Ajax.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-29 11:48:27 --> Column 'Unit' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty, `p`.`PCode`, `p`.`Color`
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = \'1\'
+AND `s`.`ID` IN (\'7\')
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty, `p`.`PCode`, `p`.`Color`
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = \'1\'
+AND `s`.`ID` IN (\'7\')
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty, `p`.`PCode`, `p`.`Color`
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = \'1\'
+AND `s`.`ID` IN (\'7\')
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty, `p`.`PCode`, `p`.`Color`
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > :s.Qty:
+AND `s`.`PID` = :s.PID:
+AND `s`.`ID` IN :s.ID:
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC', [...], false)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-29 11:50:44 --> mysqli_sql_exception: Column 'Unit' in field list is ambiguous in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Controllers\Ajax.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-29 11:50:44 --> Column 'Unit' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = \'1\'
+AND `s`.`ID` IN (\'7\',\'8\')
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = \'1\'
+AND `s`.`ID` IN (\'7\',\'8\')
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = \'1\'
+AND `s`.`ID` IN (\'7\',\'8\')
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > :s.Qty:
+AND `s`.`PID` = :s.PID:
+AND `s`.`ID` IN :s.ID:
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC', [...], false)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-29 11:52:00 --> mysqli_sql_exception: Column 'Unit' in field list is ambiguous in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Controllers\Ajax.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-29 11:52:00 --> Column 'Unit' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = \'1\'
+AND `s`.`ID` IN (\'7\',\'8\')
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = \'1\'
+AND `s`.`ID` IN (\'7\',\'8\')
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = \'1\'
+AND `s`.`ID` IN (\'7\',\'8\')
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > :s.Qty:
+AND `s`.`PID` = :s.PID:
+AND `s`.`ID` IN :s.ID:
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC', [...], false)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-29 11:52:10 --> mysqli_sql_exception: Column 'Unit' in field list is ambiguous in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Controllers\Ajax.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-29 11:52:10 --> Column 'Unit' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+LEFT JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = \'1\'
+AND `s`.`ID` IN (\'7\',\'8\')
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+LEFT JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = \'1\'
+AND `s`.`ID` IN (\'7\',\'8\')
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+LEFT JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = \'1\'
+AND `s`.`ID` IN (\'7\',\'8\')
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+LEFT JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > :s.Qty:
+AND `s`.`PID` = :s.PID:
+AND `s`.`ID` IN :s.ID:
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC', [...], false)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-29 11:52:42 --> mysqli_sql_exception: Column 'Unit' in field list is ambiguous in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Controllers\Ajax.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-29 11:52:42 --> Column 'Unit' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = \'1\'
+AND `s`.`ID` IN (\'7\',\'8\')
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = \'1\'
+AND `s`.`ID` IN (\'7\',\'8\')
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = \'1\'
+AND `s`.`ID` IN (\'7\',\'8\')
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > :s.Qty:
+AND `s`.`PID` = :s.PID:
+AND `s`.`ID` IN :s.ID:
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC', [...], false)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-29 11:53:33 --> mysqli_sql_exception: Column 'Unit' in field list is ambiguous in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Controllers\Ajax.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-29 11:53:33 --> Column 'Unit' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = \'1\'
+AND `s`.`ID` IN (\'7\',\'8\')
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = \'1\'
+AND `s`.`ID` IN (\'7\',\'8\')
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = \'1\'
+AND `s`.`ID` IN (\'7\',\'8\')
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > :s.Qty:
+AND `s`.`PID` = :s.PID:
+AND `s`.`ID` IN :s.ID:
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC', [...], false)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-29 11:53:57 --> mysqli_sql_exception: Column 'Unit' in field list is ambiguous in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Controllers\Ajax.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-29 11:53:57 --> Column 'Unit' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = \'1\'
+AND `s`.`ID` IN (\'18\')
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = \'1\'
+AND `s`.`ID` IN (\'18\')
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = \'1\'
+AND `s`.`ID` IN (\'18\')
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > :s.Qty:
+AND `s`.`PID` = :s.PID:
+AND `s`.`ID` IN :s.ID:
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC', [...], false)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-29 11:56:19 --> mysqli_sql_exception: Column 'Unit' in field list is ambiguous in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Controllers\Ajax.php(243): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-29 11:56:19 --> Column 'Unit' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = \'1\'
+AND `s`.`ID` IN (\'7\')
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = \'1\'
+AND `s`.`ID` IN (\'7\')
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = \'1\'
+AND `s`.`ID` IN (\'7\')
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > :s.Qty:
+AND `s`.`PID` = :s.PID:
+AND `s`.`ID` IN :s.ID:
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC', [...], false)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(243): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-29 11:56:36 --> mysqli_sql_exception: Column 'Unit' in field list is ambiguous in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Controllers\Ajax.php(243): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-29 11:56:36 --> Column 'Unit' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = \'1\'
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = \'1\'
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = \'1\'
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > :s.Qty:
+AND `s`.`PID` = :s.PID:
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC', [...], false)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(243): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 11:57:13 --> Cannot redeclare App\Modules\Ajax\Controllers\Ajax::test()
+in APPPATH\Modules\Ajax\Controllers\Ajax.php on line 209.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2023-09-29 12:01:18 --> mysqli_sql_exception: Column 'Unit' in field list is ambiguous in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Controllers\Ajax.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-29 12:01:18 --> Column 'Unit' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = \'1\'
+AND `s`.`ID` IN (\'7\')
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = \'1\'
+AND `s`.`ID` IN (\'7\')
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = \'1\'
+AND `s`.`ID` IN (\'7\')
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > :s.Qty:
+AND `s`.`PID` = :s.PID:
+AND `s`.`ID` IN :s.ID:
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC', [...], false)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-29 12:01:22 --> mysqli_sql_exception: Column 'Unit' in field list is ambiguous in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Controllers\Ajax.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-29 12:01:22 --> Column 'Unit' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = \'1\'
+AND `s`.`ID` IN (\'7\')
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = \'1\'
+AND `s`.`ID` IN (\'7\')
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = \'1\'
+AND `s`.`ID` IN (\'7\')
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > :s.Qty:
+AND `s`.`PID` = :s.PID:
+AND `s`.`ID` IN :s.ID:
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC', [...], false)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-29 12:01:33 --> mysqli_sql_exception: Column 'Unit' in field list is ambiguous in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Controllers\Ajax.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-29 12:01:33 --> Column 'Unit' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = \'1\'
+AND `s`.`ID` IN (\'7\')
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = \'1\'
+AND `s`.`ID` IN (\'7\')
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = \'1\'
+AND `s`.`ID` IN (\'7\')
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > :s.Qty:
+AND `s`.`PID` = :s.PID:
+AND `s`.`ID` IN :s.ID:
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC', [...], false)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-29 12:02:36 --> mysqli_sql_exception: Column 'Unit' in field list is ambiguous in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Controllers\Ajax.php(246): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-29 12:02:36 --> Column 'Unit' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = 1
+AND `s`.`ID` IN (7,8,4)
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = 1
+AND `s`.`ID` IN (7,8,4)
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = 1
+AND `s`.`ID` IN (7,8,4)
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > :s.Qty:
+AND `s`.`PID` = :s.PID:
+AND `s`.`ID` IN :s.ID:
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC', [...], false)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(246): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-29 12:03:18 --> mysqli_sql_exception: Column 'Unit' in field list is ambiguous in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Controllers\Ajax.php(247): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-29 12:03:18 --> Column 'Unit' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = 1
+AND `s`.`ID` IN (7,8,4)
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = 1
+AND `s`.`ID` IN (7,8,4)
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = 1
+AND `s`.`ID` IN (7,8,4)
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > :s.Qty:
+AND `s`.`PID` = :s.PID:
+AND `s`.`ID` IN :s.ID:
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC', [...], false)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(247): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-29 12:03:18 --> mysqli_sql_exception: Column 'Unit' in field list is ambiguous in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Controllers\Ajax.php(247): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-29 12:03:18 --> Column 'Unit' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = 1
+AND `s`.`ID` IN (7,8,4)
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = 1
+AND `s`.`ID` IN (7,8,4)
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = 1
+AND `s`.`ID` IN (7,8,4)
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+INNER JOIN `product` as `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > :s.Qty:
+AND `s`.`PID` = :s.PID:
+AND `s`.`ID` IN :s.ID:
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC', [...], false)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(247): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-29 12:05:25 --> mysqli_sql_exception: Column 'Unit' in field list is ambiguous in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Controllers\Ajax.php(247): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-29 12:05:25 --> Column 'Unit' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+JOIN `product` `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = 1
+AND `s`.`ID` IN (7,8,4)
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+JOIN `product` `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = 1
+AND `s`.`ID` IN (7,8,4)
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+JOIN `product` `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = 1
+AND `s`.`ID` IN (7,8,4)
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+JOIN `product` `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > :s.Qty:
+AND `s`.`PID` = :s.PID:
+AND `s`.`ID` IN :s.ID:
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC', [...], false)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(247): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-29 12:05:26 --> mysqli_sql_exception: Column 'Unit' in field list is ambiguous in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Controllers\Ajax.php(247): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-29 12:05:26 --> Column 'Unit' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+JOIN `product` `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = 1
+AND `s`.`ID` IN (7,8,4)
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+JOIN `product` `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = 1
+AND `s`.`ID` IN (7,8,4)
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+JOIN `product` `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = 1
+AND `s`.`ID` IN (7,8,4)
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+JOIN `product` `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > :s.Qty:
+AND `s`.`PID` = :s.PID:
+AND `s`.`ID` IN :s.ID:
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC', [...], false)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(247): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-29 12:05:26 --> mysqli_sql_exception: Column 'Unit' in field list is ambiguous in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Controllers\Ajax.php(247): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-29 12:05:26 --> Column 'Unit' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+JOIN `product` `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = 1
+AND `s`.`ID` IN (7,8,4)
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+JOIN `product` `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = 1
+AND `s`.`ID` IN (7,8,4)
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+JOIN `product` `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = 1
+AND `s`.`ID` IN (7,8,4)
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+JOIN `product` `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > :s.Qty:
+AND `s`.`PID` = :s.PID:
+AND `s`.`ID` IN :s.ID:
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC', [...], false)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(247): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-29 12:06:26 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'p ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = 1
+AND `s`.`ID` IN (7' at line 9 in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Controllers\Ajax.php(247): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-29 12:06:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'p ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = 1
+AND `s`.`ID` IN (7' at line 9
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+JOIN (product) p ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = 1
+AND `s`.`ID` IN (7,8,4)
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+JOIN (product) p ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = 1
+AND `s`.`ID` IN (7,8,4)
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+JOIN (product) p ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = 1
+AND `s`.`ID` IN (7,8,4)
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+JOIN (product) p ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > :s.Qty:
+AND `s`.`PID` = :s.PID:
+AND `s`.`ID` IN :s.ID:
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC', [...], false)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(247): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-29 12:06:27 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'p ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = 1
+AND `s`.`ID` IN (7' at line 9 in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Controllers\Ajax.php(247): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-29 12:06:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'p ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = 1
+AND `s`.`ID` IN (7' at line 9
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+JOIN (product) p ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = 1
+AND `s`.`ID` IN (7,8,4)
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+JOIN (product) p ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = 1
+AND `s`.`ID` IN (7,8,4)
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+JOIN (product) p ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = 1
+AND `s`.`ID` IN (7,8,4)
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` as `s`
+JOIN (product) p ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > :s.Qty:
+AND `s`.`PID` = :s.PID:
+AND `s`.`ID` IN :s.ID:
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC', [...], false)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(247): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 12:09:25 --> Undefined variable $f
+in APPPATH\Modules\Ajax\Controllers\Ajax.php on line 250.
+ 1 APPPATH\Modules\Ajax\Controllers\Ajax.php(250): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $f', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Controllers\\Ajax.php', 250)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 12:09:26 --> Undefined variable $f
+in APPPATH\Modules\Ajax\Controllers\Ajax.php on line 250.
+ 1 APPPATH\Modules\Ajax\Controllers\Ajax.php(250): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $f', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Controllers\\Ajax.php', 250)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 12:09:26 --> Undefined variable $f
+in APPPATH\Modules\Ajax\Controllers\Ajax.php on line 250.
+ 1 APPPATH\Modules\Ajax\Controllers\Ajax.php(250): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $f', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Controllers\\Ajax.php', 250)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-29 12:11:08 --> mysqli_sql_exception: Column 'Unit' in field list is ambiguous in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *, IF(s....', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, IF(s....')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, IF(s....')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *, IF(s....', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Controllers\Ajax.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-29 12:11:08 --> Column 'Unit' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` `s`
+INNER JOIN `product` `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > \'0\'
+ORDER BY `s`.`ID` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` `s`
+INNER JOIN `product` `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > \'0\'
+ORDER BY `s`.`ID` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` `s`
+INNER JOIN `product` `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > \'0\'
+ORDER BY `s`.`ID` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` `s`
+INNER JOIN `product` `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > :s.Qty:
+ORDER BY `s`.`ID` ASC', [...], false)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-29 12:11:26 --> mysqli_sql_exception: Column 'Unit' in field list is ambiguous in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *, IF(s....', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, IF(s....')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, IF(s....')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *, IF(s....', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Controllers\Ajax.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-29 12:11:26 --> Column 'Unit' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` `s`
+INNER JOIN `product` `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > \'0\'
+ORDER BY `s`.`ID` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` `s`
+INNER JOIN `product` `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > \'0\'
+ORDER BY `s`.`ID` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` `s`
+INNER JOIN `product` `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > \'0\'
+ORDER BY `s`.`ID` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` `s`
+INNER JOIN `product` `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > :s.Qty:
+ORDER BY `s`.`ID` ASC', [...], false)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-29 12:11:27 --> mysqli_sql_exception: Column 'Unit' in field list is ambiguous in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *, IF(s....', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, IF(s....')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, IF(s....')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *, IF(s....', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Controllers\Ajax.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-29 12:11:27 --> Column 'Unit' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` `s`
+INNER JOIN `product` `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > \'0\'
+ORDER BY `s`.`ID` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` `s`
+INNER JOIN `product` `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > \'0\'
+ORDER BY `s`.`ID` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` `s`
+INNER JOIN `product` `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > \'0\'
+ORDER BY `s`.`ID` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` `s`
+INNER JOIN `product` `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > :s.Qty:
+ORDER BY `s`.`ID` ASC', [...], false)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-29 12:11:59 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'p ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = 1
+AND `s`.`ID` IN (7' at line 3 in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Controllers\Ajax.php(246): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-29 12:11:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'p ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = 1
+AND `s`.`ID` IN (7' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`
+FROM `stock` as `s`
+JOIN (product) p ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = 1
+AND `s`.`ID` IN (7,8,4)
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`
+FROM `stock` as `s`
+JOIN (product) p ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = 1
+AND `s`.`ID` IN (7,8,4)
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`
+FROM `stock` as `s`
+JOIN (product) p ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = 1
+AND `s`.`ID` IN (7,8,4)
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`
+FROM `stock` as `s`
+JOIN (product) p ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > :s.Qty:
+AND `s`.`PID` = :s.PID:
+AND `s`.`ID` IN :s.ID:
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC', [...], false)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(246): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-29 12:12:00 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'p ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = 1
+AND `s`.`ID` IN (7' at line 3 in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Controllers\Ajax.php(246): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-29 12:12:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'p ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = 1
+AND `s`.`ID` IN (7' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`
+FROM `stock` as `s`
+JOIN (product) p ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = 1
+AND `s`.`ID` IN (7,8,4)
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`
+FROM `stock` as `s`
+JOIN (product) p ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = 1
+AND `s`.`ID` IN (7,8,4)
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`
+FROM `stock` as `s`
+JOIN (product) p ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = 1
+AND `s`.`ID` IN (7,8,4)
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`
+FROM `stock` as `s`
+JOIN (product) p ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > :s.Qty:
+AND `s`.`PID` = :s.PID:
+AND `s`.`ID` IN :s.ID:
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC', [...], false)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(246): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-29 12:12:00 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'p ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = 1
+AND `s`.`ID` IN (7' at line 3 in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Controllers\Ajax.php(246): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-29 12:12:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'p ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = 1
+AND `s`.`ID` IN (7' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`
+FROM `stock` as `s`
+JOIN (product) p ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = 1
+AND `s`.`ID` IN (7,8,4)
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`
+FROM `stock` as `s`
+JOIN (product) p ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = 1
+AND `s`.`ID` IN (7,8,4)
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`
+FROM `stock` as `s`
+JOIN (product) p ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = 1
+AND `s`.`ID` IN (7,8,4)
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`
+FROM `stock` as `s`
+JOIN (product) p ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > :s.Qty:
+AND `s`.`PID` = :s.PID:
+AND `s`.`ID` IN :s.ID:
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC', [...], false)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(246): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-29 12:12:02 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'p ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = 1
+AND `s`.`ID` IN (7' at line 3 in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Controllers\Ajax.php(246): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-29 12:12:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'p ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = 1
+AND `s`.`ID` IN (7' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`
+FROM `stock` as `s`
+JOIN (product) p ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = 1
+AND `s`.`ID` IN (7,8,4)
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`
+FROM `stock` as `s`
+JOIN (product) p ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = 1
+AND `s`.`ID` IN (7,8,4)
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`
+FROM `stock` as `s`
+JOIN (product) p ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = 1
+AND `s`.`ID` IN (7,8,4)
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`
+FROM `stock` as `s`
+JOIN (product) p ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > :s.Qty:
+AND `s`.`PID` = :s.PID:
+AND `s`.`ID` IN :s.ID:
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC', [...], false)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(246): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-29 12:12:24 --> mysqli_sql_exception: Column 'Unit' in field list is ambiguous in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *, IF(s....', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, IF(s....')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, IF(s....')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *, IF(s....', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Controllers\Ajax.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-29 12:12:24 --> Column 'Unit' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` `s`
+INNER JOIN `product` `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > \'0\'
+ORDER BY `s`.`ID` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` `s`
+INNER JOIN `product` `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > \'0\'
+ORDER BY `s`.`ID` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` `s`
+INNER JOIN `product` `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > \'0\'
+ORDER BY `s`.`ID` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *, IF(s.Unit="Y", `s`.`Qty`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)
+            ) as Qty
+FROM `stock` `s`
+INNER JOIN `product` `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > :s.Qty:
+ORDER BY `s`.`ID` ASC', [...], false)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-29 12:14:56 --> mysqli_sql_exception: Column 'Unit' in field list is ambiguous in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Controllers\Ajax.php(257): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-29 12:14:56 --> Column 'Unit' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)Qty
+FROM `stock` `s`
+INNER JOIN `product` `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = 1
+AND `s`.`ID` IN (7,8,4)
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)Qty
+FROM `stock` `s`
+INNER JOIN `product` `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = 1
+AND `s`.`ID` IN (7,8,4)
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)Qty
+FROM `stock` `s`
+INNER JOIN `product` `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = 1
+AND `s`.`ID` IN (7,8,4)
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)Qty
+FROM `stock` `s`
+INNER JOIN `product` `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > :s.Qty:
+AND `s`.`PID` = :s.PID:
+AND `s`.`ID` IN :s.ID:
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC', [...], false)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(257): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-29 12:14:57 --> mysqli_sql_exception: Column 'Unit' in field list is ambiguous in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Ajax\Controllers\Ajax.php(257): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-29 12:14:57 --> Column 'Unit' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)Qty
+FROM `stock` `s`
+INNER JOIN `product` `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = 1
+AND `s`.`ID` IN (7,8,4)
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)Qty
+FROM `stock` `s`
+INNER JOIN `product` `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = 1
+AND `s`.`ID` IN (7,8,4)
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)Qty
+FROM `stock` `s`
+INNER JOIN `product` `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > 0
+AND `s`.`PID` = 1
+AND `s`.`ID` IN (7,8,4)
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`ID`, `s`.`PID`, `s`.`Barcode`, `s`.`Unit`, `s`.`FLOT`, `s`.`Note`, `s`.`Location`, (
+            CASE Unit
+                WHEN "Y" THEN s.Qty
+                WHEN "M" THEN ROUND(s.Qty/0.9144, 2)
+                ELSE "0"
+            END)Qty
+FROM `stock` `s`
+INNER JOIN `product` `p` ON `s`.`PID`=`p`.`ID`
+WHERE `s`.`Qty` > :s.Qty:
+AND `s`.`PID` = :s.PID:
+AND `s`.`ID` IN :s.ID:
+ORDER BY `s`.`Location` ASC, `s`.`Qty` ASC', [...], false)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(257): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->gen_frm_outrolls()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 13:56:15 --> Undefined array key "stid_arr"
+in APPPATH\Modules\Ajax\Views\popup_outrolls_data.php on line 15.
+ 1 APPPATH\Modules\Ajax\Views\popup_outrolls_data.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "stid_arr"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Views\\popup_outrolls_data.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Views\\popup_outrolls_data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Ajax\\Views\\popup_outrolls_data', [], true)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(196): view('Modules\\Ajax\\Views\\popup_outrolls_data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->popup_outrolls_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 13:57:16 --> Undefined array key "stid_arr"
+in APPPATH\Modules\Ajax\Views\popup_outrolls_data.php on line 15.
+ 1 APPPATH\Modules\Ajax\Views\popup_outrolls_data.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "stid_arr"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Views\\popup_outrolls_data.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Views\\popup_outrolls_data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Ajax\\Views\\popup_outrolls_data', [], true)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(196): view('Modules\\Ajax\\Views\\popup_outrolls_data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->popup_outrolls_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 13:57:17 --> Undefined array key "stid_arr"
+in APPPATH\Modules\Ajax\Views\popup_outrolls_data.php on line 15.
+ 1 APPPATH\Modules\Ajax\Views\popup_outrolls_data.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "stid_arr"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Views\\popup_outrolls_data.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Views\\popup_outrolls_data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Ajax\\Views\\popup_outrolls_data', [], true)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(196): view('Modules\\Ajax\\Views\\popup_outrolls_data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->popup_outrolls_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 13:57:18 --> Undefined array key "stid_arr"
+in APPPATH\Modules\Ajax\Views\popup_outrolls_data.php on line 15.
+ 1 APPPATH\Modules\Ajax\Views\popup_outrolls_data.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "stid_arr"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Views\\popup_outrolls_data.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Views\\popup_outrolls_data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Ajax\\Views\\popup_outrolls_data', [], true)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(196): view('Modules\\Ajax\\Views\\popup_outrolls_data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->popup_outrolls_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 13:57:25 --> Undefined array key "stid_arr"
+in APPPATH\Modules\Ajax\Views\popup_outrolls_data.php on line 15.
+ 1 APPPATH\Modules\Ajax\Views\popup_outrolls_data.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "stid_arr"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Views\\popup_outrolls_data.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Views\\popup_outrolls_data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Ajax\\Views\\popup_outrolls_data', [], true)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(196): view('Modules\\Ajax\\Views\\popup_outrolls_data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->popup_outrolls_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 13:57:33 --> Undefined array key "stid_arr"
+in APPPATH\Modules\Ajax\Views\popup_outrolls_data.php on line 15.
+ 1 APPPATH\Modules\Ajax\Views\popup_outrolls_data.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "stid_arr"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Views\\popup_outrolls_data.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Views\\popup_outrolls_data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Ajax\\Views\\popup_outrolls_data', [], true)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(196): view('Modules\\Ajax\\Views\\popup_outrolls_data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->popup_outrolls_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 13:57:43 --> Undefined array key "stid_arr"
+in APPPATH\Modules\Ajax\Views\popup_outrolls_data.php on line 15.
+ 1 APPPATH\Modules\Ajax\Views\popup_outrolls_data.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "stid_arr"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Views\\popup_outrolls_data.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Views\\popup_outrolls_data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Ajax\\Views\\popup_outrolls_data', [], true)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(196): view('Modules\\Ajax\\Views\\popup_outrolls_data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->popup_outrolls_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 13:57:45 --> Undefined array key "stid_arr"
+in APPPATH\Modules\Ajax\Views\popup_outrolls_data.php on line 15.
+ 1 APPPATH\Modules\Ajax\Views\popup_outrolls_data.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "stid_arr"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Views\\popup_outrolls_data.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Views\\popup_outrolls_data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Ajax\\Views\\popup_outrolls_data', [], true)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(196): view('Modules\\Ajax\\Views\\popup_outrolls_data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->popup_outrolls_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 13:58:19 --> Undefined array key "stid_arr"
+in APPPATH\Modules\Ajax\Views\popup_outrolls_data.php on line 15.
+ 1 APPPATH\Modules\Ajax\Views\popup_outrolls_data.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "stid_arr"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Views\\popup_outrolls_data.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Views\\popup_outrolls_data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Ajax\\Views\\popup_outrolls_data', [], true)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(196): view('Modules\\Ajax\\Views\\popup_outrolls_data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->popup_outrolls_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 14:00:35 --> Undefined array key "stid_arr"
+in APPPATH\Modules\Ajax\Views\popup_outrolls_data.php on line 15.
+ 1 APPPATH\Modules\Ajax\Views\popup_outrolls_data.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "stid_arr"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Views\\popup_outrolls_data.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Views\\popup_outrolls_data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Ajax\\Views\\popup_outrolls_data', [], true)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(198): view('Modules\\Ajax\\Views\\popup_outrolls_data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->popup_outrolls_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 14:00:42 --> Undefined array key "stid_arr"
+in APPPATH\Modules\Ajax\Views\popup_outrolls_data.php on line 15.
+ 1 APPPATH\Modules\Ajax\Views\popup_outrolls_data.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "stid_arr"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Views\\popup_outrolls_data.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Views\\popup_outrolls_data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Ajax\\Views\\popup_outrolls_data', [], true)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(198): view('Modules\\Ajax\\Views\\popup_outrolls_data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->popup_outrolls_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 14:02:08 --> Undefined array key "stid_arr"
+in APPPATH\Modules\Ajax\Views\popup_outrolls_data.php on line 15.
+ 1 APPPATH\Modules\Ajax\Views\popup_outrolls_data.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "stid_arr"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Views\\popup_outrolls_data.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Views\\popup_outrolls_data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Ajax\\Views\\popup_outrolls_data', [], true)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(198): view('Modules\\Ajax\\Views\\popup_outrolls_data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->popup_outrolls_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 14:03:28 --> Undefined array key "stid_arr"
+in APPPATH\Modules\Ajax\Views\popup_outrolls_data.php on line 15.
+ 1 APPPATH\Modules\Ajax\Views\popup_outrolls_data.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "stid_arr"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Views\\popup_outrolls_data.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Views\\popup_outrolls_data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Ajax\\Views\\popup_outrolls_data', [], true)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(198): view('Modules\\Ajax\\Views\\popup_outrolls_data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->popup_outrolls_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 14:03:29 --> Undefined array key "stid_arr"
+in APPPATH\Modules\Ajax\Views\popup_outrolls_data.php on line 15.
+ 1 APPPATH\Modules\Ajax\Views\popup_outrolls_data.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "stid_arr"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Views\\popup_outrolls_data.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Views\\popup_outrolls_data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Ajax\\Views\\popup_outrolls_data', [], true)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(198): view('Modules\\Ajax\\Views\\popup_outrolls_data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->popup_outrolls_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 14:03:38 --> Undefined array key "stid_arr"
+in APPPATH\Modules\Ajax\Views\popup_outrolls_data.php on line 15.
+ 1 APPPATH\Modules\Ajax\Views\popup_outrolls_data.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "stid_arr"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Views\\popup_outrolls_data.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Views\\popup_outrolls_data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Ajax\\Views\\popup_outrolls_data', [], true)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(198): view('Modules\\Ajax\\Views\\popup_outrolls_data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->popup_outrolls_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 14:03:38 --> Undefined array key "stid_arr"
+in APPPATH\Modules\Ajax\Views\popup_outrolls_data.php on line 15.
+ 1 APPPATH\Modules\Ajax\Views\popup_outrolls_data.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "stid_arr"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Views\\popup_outrolls_data.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Views\\popup_outrolls_data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Ajax\\Views\\popup_outrolls_data', [], true)
+ 5 APPPATH\Modules\Ajax\Controllers\Ajax.php(198): view('Modules\\Ajax\\Views\\popup_outrolls_data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->popup_outrolls_data()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 14:03:46 --> Undefined variable $arr
+in APPPATH\Modules\Ajax\Controllers\Ajax.php on line 195.
+ 1 APPPATH\Modules\Ajax\Controllers\Ajax.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $arr', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Ajax\\Controllers\\Ajax.php', 195)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Ajax\Controllers\Ajax->popup_outrolls_data()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Ajax\Controllers\Ajax))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 14:03:53 --> Cannot use [] for reading
+in APPPATH\Modules\Ajax\Controllers\Ajax.php on line 192.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-29 14:57:55 --> array_merge(): Argument #1 must be of type array, null given
+in APPPATH\Modules\Create_or\Models\Prepare_or.php on line 206.
+ 1 APPPATH\Modules\Create_or\Models\Prepare_or.php(206): array_merge(null, [...])
+ 2 APPPATH\Modules\Create_or\Models\Prepare_or.php(19): App\Modules\Create_or\Models\Prepare_or->check_balance(2)
+ 3 APPPATH\Modules\Create_or\Controllers\Prepare_or.php(23): App\Modules\Create_or\Models\Prepare_or->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Modules\Create_or\Controllers\Prepare_or->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 15:27:55 --> Undefined array key " invoice"
+in APPPATH\Models\MainModel.php on line 408.
+ 1 APPPATH\Models\MainModel.php(408): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key " invoice"', 'D:\\xampp\\htdocs\\dfinest\\app\\Models\\MainModel.php', 408)
+ 2 APPPATH\Modules\Create_or\Controllers\Create_inv.php(49): App\Models\MainModel->gen_docno(' invoice')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_inv->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_inv))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 15:27:56 --> Undefined array key " invoice"
+in APPPATH\Models\MainModel.php on line 408.
+ 1 APPPATH\Models\MainModel.php(408): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key " invoice"', 'D:\\xampp\\htdocs\\dfinest\\app\\Models\\MainModel.php', 408)
+ 2 APPPATH\Modules\Create_or\Controllers\Create_inv.php(49): App\Models\MainModel->gen_docno(' invoice')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_inv->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_inv))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 15:28:12 --> Undefined array key " invoice"
+in APPPATH\Models\MainModel.php on line 408.
+ 1 APPPATH\Models\MainModel.php(408): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key " invoice"', 'D:\\xampp\\htdocs\\dfinest\\app\\Models\\MainModel.php', 408)
+ 2 APPPATH\Modules\Create_or\Controllers\Create_inv.php(49): App\Models\MainModel->gen_docno(' invoice')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_inv->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_inv))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 15:28:13 --> Undefined array key " invoice"
+in APPPATH\Models\MainModel.php on line 408.
+ 1 APPPATH\Models\MainModel.php(408): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key " invoice"', 'D:\\xampp\\htdocs\\dfinest\\app\\Models\\MainModel.php', 408)
+ 2 APPPATH\Modules\Create_or\Controllers\Create_inv.php(49): App\Models\MainModel->gen_docno(' invoice')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_inv->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_inv))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 15:30:08 --> Undefined array key " invoice"
+in APPPATH\Models\MainModel.php on line 408.
+ 1 APPPATH\Models\MainModel.php(408): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key " invoice"', 'D:\\xampp\\htdocs\\dfinest\\app\\Models\\MainModel.php', 408)
+ 2 APPPATH\Modules\Create_or\Controllers\Create_inv.php(49): App\Models\MainModel->gen_docno(' invoice')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_inv->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_inv))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 15:30:09 --> Undefined array key " invoice"
+in APPPATH\Models\MainModel.php on line 408.
+ 1 APPPATH\Models\MainModel.php(408): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key " invoice"', 'D:\\xampp\\htdocs\\dfinest\\app\\Models\\MainModel.php', 408)
+ 2 APPPATH\Modules\Create_or\Controllers\Create_inv.php(49): App\Models\MainModel->gen_docno(' invoice')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_inv->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_inv))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 15:30:33 --> Undefined array key " invoice"
+in APPPATH\Models\MainModel.php on line 408.
+ 1 APPPATH\Models\MainModel.php(408): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key " invoice"', 'D:\\xampp\\htdocs\\dfinest\\app\\Models\\MainModel.php', 408)
+ 2 APPPATH\Modules\Create_or\Controllers\Create_inv.php(49): App\Models\MainModel->gen_docno(' invoice')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_inv->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_inv))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 15:30:34 --> Undefined array key " invoice"
+in APPPATH\Models\MainModel.php on line 408.
+ 1 APPPATH\Models\MainModel.php(408): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key " invoice"', 'D:\\xampp\\htdocs\\dfinest\\app\\Models\\MainModel.php', 408)
+ 2 APPPATH\Modules\Create_or\Controllers\Create_inv.php(49): App\Models\MainModel->gen_docno(' invoice')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_inv->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_inv))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 15:31:10 --> Undefined array key " invoice"
+in APPPATH\Models\MainModel.php on line 409.
+ 1 APPPATH\Models\MainModel.php(409): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key " invoice"', 'D:\\xampp\\htdocs\\dfinest\\app\\Models\\MainModel.php', 409)
+ 2 APPPATH\Modules\Create_or\Controllers\Create_inv.php(49): App\Models\MainModel->gen_docno(' invoice')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_inv->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_inv))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 15:31:11 --> Undefined array key " invoice"
+in APPPATH\Models\MainModel.php on line 409.
+ 1 APPPATH\Models\MainModel.php(409): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key " invoice"', 'D:\\xampp\\htdocs\\dfinest\\app\\Models\\MainModel.php', 409)
+ 2 APPPATH\Modules\Create_or\Controllers\Create_inv.php(49): App\Models\MainModel->gen_docno(' invoice')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_inv->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_inv))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 15:31:11 --> Undefined array key " invoice"
+in APPPATH\Models\MainModel.php on line 409.
+ 1 APPPATH\Models\MainModel.php(409): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key " invoice"', 'D:\\xampp\\htdocs\\dfinest\\app\\Models\\MainModel.php', 409)
+ 2 APPPATH\Modules\Create_or\Controllers\Create_inv.php(49): App\Models\MainModel->gen_docno(' invoice')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_inv->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_inv))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 15:31:43 --> Undefined array key " invoice"
+in APPPATH\Models\MainModel.php on line 410.
+ 1 APPPATH\Models\MainModel.php(410): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key " invoice"', 'D:\\xampp\\htdocs\\dfinest\\app\\Models\\MainModel.php', 410)
+ 2 APPPATH\Modules\Create_or\Controllers\Create_inv.php(49): App\Models\MainModel->gen_docno(' invoice')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_inv->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_inv))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 15:32:13 --> Undefined array key " invoice"
+in APPPATH\Models\MainModel.php on line 410.
+ 1 APPPATH\Models\MainModel.php(410): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key " invoice"', 'D:\\xampp\\htdocs\\dfinest\\app\\Models\\MainModel.php', 410)
+ 2 APPPATH\Modules\Create_or\Controllers\Create_inv.php(49): App\Models\MainModel->gen_docno(' invoice')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_inv->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_inv))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 15:32:24 --> Undefined array key " invoice"
+in APPPATH\Models\MainModel.php on line 410.
+ 1 APPPATH\Models\MainModel.php(410): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key " invoice"', 'D:\\xampp\\htdocs\\dfinest\\app\\Models\\MainModel.php', 410)
+ 2 APPPATH\Modules\Create_or\Controllers\Create_inv.php(49): App\Models\MainModel->gen_docno(' invoice')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_inv->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_inv))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 15:32:25 --> Undefined array key " invoice"
+in APPPATH\Models\MainModel.php on line 410.
+ 1 APPPATH\Models\MainModel.php(410): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key " invoice"', 'D:\\xampp\\htdocs\\dfinest\\app\\Models\\MainModel.php', 410)
+ 2 APPPATH\Modules\Create_or\Controllers\Create_inv.php(49): App\Models\MainModel->gen_docno(' invoice')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_inv->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_inv))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 15:32:30 --> Undefined array key " invoice"
+in APPPATH\Models\MainModel.php on line 410.
+ 1 APPPATH\Models\MainModel.php(410): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key " invoice"', 'D:\\xampp\\htdocs\\dfinest\\app\\Models\\MainModel.php', 410)
+ 2 APPPATH\Modules\Create_or\Controllers\Create_inv.php(49): App\Models\MainModel->gen_docno(' invoice')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_inv->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_inv))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 15:33:07 --> Undefined array key " invoice"
+in APPPATH\Models\MainModel.php on line 410.
+ 1 APPPATH\Models\MainModel.php(410): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key " invoice"', 'D:\\xampp\\htdocs\\dfinest\\app\\Models\\MainModel.php', 410)
+ 2 APPPATH\Modules\Create_or\Controllers\Create_inv.php(49): App\Models\MainModel->gen_docno(' invoice')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_inv->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_inv))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 15:33:08 --> Undefined array key " invoice"
+in APPPATH\Models\MainModel.php on line 410.
+ 1 APPPATH\Models\MainModel.php(410): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key " invoice"', 'D:\\xampp\\htdocs\\dfinest\\app\\Models\\MainModel.php', 410)
+ 2 APPPATH\Modules\Create_or\Controllers\Create_inv.php(49): App\Models\MainModel->gen_docno(' invoice')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_inv->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_inv))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 15:34:19 --> Undefined array key " invoice"
+in APPPATH\Models\MainModel.php on line 409.
+ 1 APPPATH\Models\MainModel.php(409): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key " invoice"', 'D:\\xampp\\htdocs\\dfinest\\app\\Models\\MainModel.php', 409)
+ 2 APPPATH\Modules\Create_or\Controllers\Create_inv.php(49): App\Models\MainModel->gen_docno(' invoice')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_inv->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_inv))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 15:34:31 --> Undefined array key " invoice"
+in APPPATH\Models\MainModel.php on line 409.
+ 1 APPPATH\Models\MainModel.php(409): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key " invoice"', 'D:\\xampp\\htdocs\\dfinest\\app\\Models\\MainModel.php', 409)
+ 2 APPPATH\Modules\Create_or\Controllers\Create_inv.php(49): App\Models\MainModel->gen_docno(' invoice')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_inv->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_inv))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 15:34:32 --> Undefined array key " invoice"
+in APPPATH\Models\MainModel.php on line 409.
+ 1 APPPATH\Models\MainModel.php(409): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key " invoice"', 'D:\\xampp\\htdocs\\dfinest\\app\\Models\\MainModel.php', 409)
+ 2 APPPATH\Modules\Create_or\Controllers\Create_inv.php(49): App\Models\MainModel->gen_docno(' invoice')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_inv->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_inv))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 15:34:32 --> Undefined array key " invoice"
+in APPPATH\Models\MainModel.php on line 409.
+ 1 APPPATH\Models\MainModel.php(409): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key " invoice"', 'D:\\xampp\\htdocs\\dfinest\\app\\Models\\MainModel.php', 409)
+ 2 APPPATH\Modules\Create_or\Controllers\Create_inv.php(49): App\Models\MainModel->gen_docno(' invoice')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_inv->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_inv))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 15:34:34 --> Undefined array key " invoice"
+in APPPATH\Models\MainModel.php on line 409.
+ 1 APPPATH\Models\MainModel.php(409): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key " invoice"', 'D:\\xampp\\htdocs\\dfinest\\app\\Models\\MainModel.php', 409)
+ 2 APPPATH\Modules\Create_or\Controllers\Create_inv.php(49): App\Models\MainModel->gen_docno(' invoice')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_inv->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_inv))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 15:42:14 --> Undefined array key 9
+in APPPATH\Modules\Create_or\Views\create_inv\order_detail.php on line 22.
+ 1 APPPATH\Modules\Create_or\Views\create_inv\order_detail.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 9', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\create_inv\\order_detail.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\create_inv\\order_detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Create_or\\Views\\create_inv\\order_detail', [], true)
+ 5 APPPATH\Modules\Create_or\Controllers\Create_inv.php(113): view('Modules\\Create_or\\Views\\create_inv\\order_detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_inv->get_order_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_inv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 15:42:45 --> Undefined array key 9
+in APPPATH\Modules\Create_or\Views\create_inv\order_detail.php on line 22.
+ 1 APPPATH\Modules\Create_or\Views\create_inv\order_detail.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 9', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\create_inv\\order_detail.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\create_inv\\order_detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Create_or\\Views\\create_inv\\order_detail', [], true)
+ 5 APPPATH\Modules\Create_or\Controllers\Create_inv.php(114): view('Modules\\Create_or\\Views\\create_inv\\order_detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_inv->get_order_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_inv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 15:43:01 --> Undefined array key 9
+in APPPATH\Modules\Create_or\Views\create_inv\order_detail.php on line 22.
+ 1 APPPATH\Modules\Create_or\Views\create_inv\order_detail.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 9', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\create_inv\\order_detail.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\create_inv\\order_detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Create_or\\Views\\create_inv\\order_detail', [], true)
+ 5 APPPATH\Modules\Create_or\Controllers\Create_inv.php(114): view('Modules\\Create_or\\Views\\create_inv\\order_detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_inv->get_order_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_inv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 16:36:12 --> Undefined variable $data_arr
+in APPPATH\Modules\Create_or\Controllers\Create_inv.php on line 104.
+ 1 APPPATH\Modules\Create_or\Controllers\Create_inv.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_arr', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Controllers\\Create_inv.php', 104)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_inv->get_order_detail()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_inv))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-29 17:05:01 --> mysqli_sql_exception: Unknown column 'MinQty' in 'order clause' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Models\MainModel.php(205): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Controllers\Create_inv.php(97): App\Models\MainModel->get_ptype_price()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_inv->get_order_detail()
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_inv))
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-29 17:05:01 --> Unknown column 'MinQty' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `ptype`
+ORDER BY `MinQty` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `ptype`
+ORDER BY `MinQty` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `ptype`
+ORDER BY `MinQty` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ptype`
+ORDER BY `MinQty` ASC', [], false)
+ 5 APPPATH\Models\MainModel.php(205): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Create_or\Controllers\Create_inv.php(97): App\Models\MainModel->get_ptype_price()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_inv->get_order_detail()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_inv))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 17:14:31 --> Undefined array key "price1"
+in APPPATH\Modules\Create_or\Controllers\Create_inv.php on line 120.
+ 1 APPPATH\Modules\Create_or\Controllers\Create_inv.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price1"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Controllers\\Create_inv.php', 120)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_inv->get_order_detail()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_inv))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 17:15:07 --> Undefined array key "price1"
+in APPPATH\Modules\Create_or\Controllers\Create_inv.php on line 120.
+ 1 APPPATH\Modules\Create_or\Controllers\Create_inv.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price1"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Controllers\\Create_inv.php', 120)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_inv->get_order_detail()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_inv))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 17:19:56 --> Undefined array key "price1"
+in APPPATH\Modules\Create_or\Controllers\Create_inv.php on line 120.
+ 1 APPPATH\Modules\Create_or\Controllers\Create_inv.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price1"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Controllers\\Create_inv.php', 120)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_inv->get_order_detail()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_inv))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-29 17:47:24 --> mysqli_sql_exception: Unknown column 'OrID' in 'where clause' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Models\BaseModel.php(111): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Models\Create_inv.php(81): App\Models\BaseModel->get_field_arr('*', 'porder', 'OrID=1', 'SaleType,ID asc')
+#6 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Models\Create_inv.php(45): App\Modules\Create_or\Models\Create_inv->gen_invoice_doc('1')
+#7 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Controllers\Create_inv.php(194): App\Modules\Create_or\Models\Create_inv->add()
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_inv->submit()
+#9 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_inv))
+#10 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-29 17:47:24 --> Unknown column 'OrID' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `porder`
+WHERE `OrID` = 1
+ORDER BY `SaleType`, `ID` asc', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `porder`
+WHERE `OrID` = 1
+ORDER BY `SaleType`, `ID` asc')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `porder`
+WHERE `OrID` = 1
+ORDER BY `SaleType`, `ID` asc')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `porder`
+WHERE `OrID` = 1
+ORDER BY `SaleType`, `ID` asc', [], false)
+ 5 APPPATH\Models\BaseModel.php(111): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Modules\Create_or\Models\Create_inv.php(81): App\Models\BaseModel->get_field_arr('*', 'porder', 'OrID=1', 'SaleType,ID asc')
+ 7 APPPATH\Modules\Create_or\Models\Create_inv.php(45): App\Modules\Create_or\Models\Create_inv->gen_invoice_doc('1')
+ 8 APPPATH\Modules\Create_or\Controllers\Create_inv.php(194): App\Modules\Create_or\Models\Create_inv->add()
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Create_inv->submit()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Create_inv))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

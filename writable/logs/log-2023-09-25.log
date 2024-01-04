@@ -1,0 +1,1170 @@
+CRITICAL - 2023-09-25 10:07:47 --> Undefined variable $info_term
+in APPPATH\Modules\Create_or\Views\prepare_or\index.php on line 21.
+ 1 APPPATH\Modules\Create_or\Views\prepare_or\index.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_term', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\prepare_or\\index.php', 21)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\prepare_or\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\create_or\\Views\\prepare_or\\index', [], true)
+ 5 APPPATH\Modules\Create_or\Controllers\Prepare_or.php(55): view('Modules\\create_or\\Views\\prepare_or\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Prepare_or->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Prepare_or))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-25 10:07:48 --> Undefined variable $info_term
+in APPPATH\Modules\Create_or\Views\prepare_or\index.php on line 21.
+ 1 APPPATH\Modules\Create_or\Views\prepare_or\index.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_term', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\prepare_or\\index.php', 21)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\prepare_or\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\create_or\\Views\\prepare_or\\index', [], true)
+ 5 APPPATH\Modules\Create_or\Controllers\Prepare_or.php(55): view('Modules\\create_or\\Views\\prepare_or\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Prepare_or->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Prepare_or))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-25 10:08:52 --> Undefined variable $info_discount
+in APPPATH\Modules\Create_or\Views\prepare_or\index.php on line 79.
+ 1 APPPATH\Modules\Create_or\Views\prepare_or\index.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_discount', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\prepare_or\\index.php', 79)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\prepare_or\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\create_or\\Views\\prepare_or\\index', [], true)
+ 5 APPPATH\Modules\Create_or\Controllers\Prepare_or.php(51): view('Modules\\create_or\\Views\\prepare_or\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Prepare_or->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Prepare_or))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-25 10:08:53 --> Undefined variable $info_discount
+in APPPATH\Modules\Create_or\Views\prepare_or\index.php on line 79.
+ 1 APPPATH\Modules\Create_or\Views\prepare_or\index.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_discount', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\prepare_or\\index.php', 79)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\prepare_or\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\create_or\\Views\\prepare_or\\index', [], true)
+ 5 APPPATH\Modules\Create_or\Controllers\Prepare_or.php(51): view('Modules\\create_or\\Views\\prepare_or\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Prepare_or->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Prepare_or))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-25 10:08:54 --> Undefined variable $info_discount
+in APPPATH\Modules\Create_or\Views\prepare_or\index.php on line 79.
+ 1 APPPATH\Modules\Create_or\Views\prepare_or\index.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_discount', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\prepare_or\\index.php', 79)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\prepare_or\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\create_or\\Views\\prepare_or\\index', [], true)
+ 5 APPPATH\Modules\Create_or\Controllers\Prepare_or.php(51): view('Modules\\create_or\\Views\\prepare_or\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Prepare_or->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Prepare_or))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-25 10:10:16 --> Undefined variable $info_discount
+in APPPATH\Modules\Create_or\Views\prepare_or\index.php on line 79.
+ 1 APPPATH\Modules\Create_or\Views\prepare_or\index.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_discount', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\prepare_or\\index.php', 79)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\prepare_or\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\create_or\\Views\\prepare_or\\index', [], true)
+ 5 APPPATH\Modules\Create_or\Controllers\Prepare_or.php(51): view('Modules\\create_or\\Views\\prepare_or\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Prepare_or->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Prepare_or))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-25 10:10:17 --> Undefined variable $info_discount
+in APPPATH\Modules\Create_or\Views\prepare_or\index.php on line 79.
+ 1 APPPATH\Modules\Create_or\Views\prepare_or\index.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_discount', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\prepare_or\\index.php', 79)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\prepare_or\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\create_or\\Views\\prepare_or\\index', [], true)
+ 5 APPPATH\Modules\Create_or\Controllers\Prepare_or.php(51): view('Modules\\create_or\\Views\\prepare_or\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Prepare_or->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Prepare_or))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-25 10:11:03 --> Undefined variable $info_discount
+in APPPATH\Modules\Create_or\Views\prepare_or\index.php on line 80.
+ 1 APPPATH\Modules\Create_or\Views\prepare_or\index.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_discount', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\prepare_or\\index.php', 80)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\prepare_or\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\create_or\\Views\\prepare_or\\index', [], true)
+ 5 APPPATH\Modules\Create_or\Controllers\Prepare_or.php(51): view('Modules\\create_or\\Views\\prepare_or\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Prepare_or->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Prepare_or))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-25 10:11:04 --> Undefined variable $info_discount
+in APPPATH\Modules\Create_or\Views\prepare_or\index.php on line 80.
+ 1 APPPATH\Modules\Create_or\Views\prepare_or\index.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_discount', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\prepare_or\\index.php', 80)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\prepare_or\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\create_or\\Views\\prepare_or\\index', [], true)
+ 5 APPPATH\Modules\Create_or\Controllers\Prepare_or.php(51): view('Modules\\create_or\\Views\\prepare_or\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Prepare_or->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Prepare_or))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-25 10:11:06 --> Undefined variable $info_discount
+in APPPATH\Modules\Create_or\Views\prepare_or\index.php on line 80.
+ 1 APPPATH\Modules\Create_or\Views\prepare_or\index.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_discount', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\prepare_or\\index.php', 80)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\prepare_or\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\create_or\\Views\\prepare_or\\index', [], true)
+ 5 APPPATH\Modules\Create_or\Controllers\Prepare_or.php(51): view('Modules\\create_or\\Views\\prepare_or\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Prepare_or->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Prepare_or))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-25 10:12:54 --> Undefined variable $info_discount
+in APPPATH\Modules\Create_or\Views\prepare_or\index.php on line 80.
+ 1 APPPATH\Modules\Create_or\Views\prepare_or\index.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_discount', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\prepare_or\\index.php', 80)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\prepare_or\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\create_or\\Views\\prepare_or\\index', [], true)
+ 5 APPPATH\Modules\Create_or\Controllers\Prepare_or.php(51): view('Modules\\create_or\\Views\\prepare_or\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Prepare_or->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Prepare_or))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-25 10:13:10 --> Undefined variable $info_discount
+in APPPATH\Modules\Create_or\Views\prepare_or\index.php on line 80.
+ 1 APPPATH\Modules\Create_or\Views\prepare_or\index.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_discount', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\prepare_or\\index.php', 80)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\prepare_or\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\create_or\\Views\\prepare_or\\index', [], true)
+ 5 APPPATH\Modules\Create_or\Controllers\Prepare_or.php(51): view('Modules\\create_or\\Views\\prepare_or\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Prepare_or->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Prepare_or))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-25 10:13:11 --> Undefined variable $info_discount
+in APPPATH\Modules\Create_or\Views\prepare_or\index.php on line 80.
+ 1 APPPATH\Modules\Create_or\Views\prepare_or\index.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_discount', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\prepare_or\\index.php', 80)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\prepare_or\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\create_or\\Views\\prepare_or\\index', [], true)
+ 5 APPPATH\Modules\Create_or\Controllers\Prepare_or.php(51): view('Modules\\create_or\\Views\\prepare_or\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Prepare_or->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Prepare_or))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-25 10:13:13 --> Undefined variable $info_discount
+in APPPATH\Modules\Create_or\Views\prepare_or\index.php on line 80.
+ 1 APPPATH\Modules\Create_or\Views\prepare_or\index.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_discount', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\prepare_or\\index.php', 80)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\prepare_or\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\create_or\\Views\\prepare_or\\index', [], true)
+ 5 APPPATH\Modules\Create_or\Controllers\Prepare_or.php(51): view('Modules\\create_or\\Views\\prepare_or\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Prepare_or->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Prepare_or))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-25 10:13:43 --> Undefined variable $info_discount
+in APPPATH\Modules\Create_or\Views\prepare_or\index.php on line 80.
+ 1 APPPATH\Modules\Create_or\Views\prepare_or\index.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_discount', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\prepare_or\\index.php', 80)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\prepare_or\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\create_or\\Views\\prepare_or\\index', [], true)
+ 5 APPPATH\Modules\Create_or\Controllers\Prepare_or.php(51): view('Modules\\create_or\\Views\\prepare_or\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Prepare_or->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Prepare_or))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-25 10:14:47 --> Undefined variable $info_discount
+in APPPATH\Modules\Create_or\Views\prepare_or\index.php on line 80.
+ 1 APPPATH\Modules\Create_or\Views\prepare_or\index.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_discount', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\prepare_or\\index.php', 80)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\prepare_or\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\create_or\\Views\\prepare_or\\index', [], true)
+ 5 APPPATH\Modules\Create_or\Controllers\Prepare_or.php(51): view('Modules\\create_or\\Views\\prepare_or\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Prepare_or->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Prepare_or))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-25 10:14:48 --> Undefined variable $info_discount
+in APPPATH\Modules\Create_or\Views\prepare_or\index.php on line 80.
+ 1 APPPATH\Modules\Create_or\Views\prepare_or\index.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_discount', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\prepare_or\\index.php', 80)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\prepare_or\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\create_or\\Views\\prepare_or\\index', [], true)
+ 5 APPPATH\Modules\Create_or\Controllers\Prepare_or.php(51): view('Modules\\create_or\\Views\\prepare_or\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Prepare_or->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Prepare_or))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-25 10:15:13 --> Undefined variable $info_discount
+in APPPATH\Modules\Create_or\Views\prepare_or\index.php on line 80.
+ 1 APPPATH\Modules\Create_or\Views\prepare_or\index.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info_discount', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\prepare_or\\index.php', 80)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\prepare_or\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\create_or\\Views\\prepare_or\\index', [], true)
+ 5 APPPATH\Modules\Create_or\Controllers\Prepare_or.php(51): view('Modules\\create_or\\Views\\prepare_or\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Prepare_or->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Prepare_or))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-25 10:39:31 --> Undefined variable $query
+in APPPATH\Modules\Create_or\Controllers\Prepare_or.php on line 67.
+ 1 APPPATH\Modules\Create_or\Controllers\Prepare_or.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $query', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Controllers\\Prepare_or.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Prepare_or->get_order()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Prepare_or))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-25 10:52:14 --> mysqli_sql_exception: Unknown table 'dfinest.a' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `a`.*, `...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*, `...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*, `...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Controllers\Prepare_or.php(96): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Prepare_or->get_order_detail()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Prepare_or))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-25 10:52:14 --> Unknown table 'dfinest.a'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `a`.*, `p`.`PCID`, `p`.`PCode`, `p`.`PColor`, `p`.`PSCode`, `p`.`PSColor`, `p`.`PName`, `p`.`Photo`, `p`.`StType`, `p`.`NoColor`, `p`.`Unit` as `StUnit`, `p`.`UnitConvert`, (SELECT Name FROM ptype WHERE ID=p.PTypeID) PType, (SELECT Name FROM width WHERE ID=p.PWidth) PWidth, (SELECT Name FROM weight WHERE ID=p.PWeight) PWeight, (SELECT Name FROM composition WHERE ID=p.PCompo) PCompo, (SELECT Name FROM pshade WHERE ID=p.PShade) PShade
+FROM `porder_detail`
+INNER JOIN `product` as `p` ON `a`.`PID` = `p`.`ID`
+WHERE `a`.`OrID` = 2
+ORDER BY `a`.`ID` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*, `p`.`PCID`, `p`.`PCode`, `p`.`PColor`, `p`.`PSCode`, `p`.`PSColor`, `p`.`PName`, `p`.`Photo`, `p`.`StType`, `p`.`NoColor`, `p`.`Unit` as `StUnit`, `p`.`UnitConvert`, (SELECT Name FROM ptype WHERE ID=p.PTypeID) PType, (SELECT Name FROM width WHERE ID=p.PWidth) PWidth, (SELECT Name FROM weight WHERE ID=p.PWeight) PWeight, (SELECT Name FROM composition WHERE ID=p.PCompo) PCompo, (SELECT Name FROM pshade WHERE ID=p.PShade) PShade
+FROM `porder_detail`
+INNER JOIN `product` as `p` ON `a`.`PID` = `p`.`ID`
+WHERE `a`.`OrID` = 2
+ORDER BY `a`.`ID` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*, `p`.`PCID`, `p`.`PCode`, `p`.`PColor`, `p`.`PSCode`, `p`.`PSColor`, `p`.`PName`, `p`.`Photo`, `p`.`StType`, `p`.`NoColor`, `p`.`Unit` as `StUnit`, `p`.`UnitConvert`, (SELECT Name FROM ptype WHERE ID=p.PTypeID) PType, (SELECT Name FROM width WHERE ID=p.PWidth) PWidth, (SELECT Name FROM weight WHERE ID=p.PWeight) PWeight, (SELECT Name FROM composition WHERE ID=p.PCompo) PCompo, (SELECT Name FROM pshade WHERE ID=p.PShade) PShade
+FROM `porder_detail`
+INNER JOIN `product` as `p` ON `a`.`PID` = `p`.`ID`
+WHERE `a`.`OrID` = 2
+ORDER BY `a`.`ID` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `p`.`PCID`, `p`.`PCode`, `p`.`PColor`, `p`.`PSCode`, `p`.`PSColor`, `p`.`PName`, `p`.`Photo`, `p`.`StType`, `p`.`NoColor`, `p`.`Unit` as `StUnit`, `p`.`UnitConvert`, (SELECT Name FROM ptype WHERE ID=p.PTypeID) PType, (SELECT Name FROM width WHERE ID=p.PWidth) PWidth, (SELECT Name FROM weight WHERE ID=p.PWeight) PWeight, (SELECT Name FROM composition WHERE ID=p.PCompo) PCompo, (SELECT Name FROM pshade WHERE ID=p.PShade) PShade
+FROM `porder_detail`
+INNER JOIN `product` as `p` ON `a`.`PID` = `p`.`ID`
+WHERE `a`.`OrID` = :a.OrID:
+ORDER BY `a`.`ID` ASC', [...], false)
+ 5 APPPATH\Modules\Create_or\Controllers\Prepare_or.php(96): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Prepare_or->get_order_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Prepare_or))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-25 10:52:14 --> mysqli_sql_exception: Unknown table 'dfinest.a' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `a`.*, `...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*, `...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*, `...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Controllers\Prepare_or.php(96): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Prepare_or->get_order_detail()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Prepare_or))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-25 10:52:14 --> Unknown table 'dfinest.a'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `a`.*, `p`.`PCID`, `p`.`PCode`, `p`.`PColor`, `p`.`PSCode`, `p`.`PSColor`, `p`.`PName`, `p`.`Photo`, `p`.`StType`, `p`.`NoColor`, `p`.`Unit` as `StUnit`, `p`.`UnitConvert`, (SELECT Name FROM ptype WHERE ID=p.PTypeID) PType, (SELECT Name FROM width WHERE ID=p.PWidth) PWidth, (SELECT Name FROM weight WHERE ID=p.PWeight) PWeight, (SELECT Name FROM composition WHERE ID=p.PCompo) PCompo, (SELECT Name FROM pshade WHERE ID=p.PShade) PShade
+FROM `porder_detail`
+INNER JOIN `product` as `p` ON `a`.`PID` = `p`.`ID`
+WHERE `a`.`OrID` = 2
+ORDER BY `a`.`ID` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*, `p`.`PCID`, `p`.`PCode`, `p`.`PColor`, `p`.`PSCode`, `p`.`PSColor`, `p`.`PName`, `p`.`Photo`, `p`.`StType`, `p`.`NoColor`, `p`.`Unit` as `StUnit`, `p`.`UnitConvert`, (SELECT Name FROM ptype WHERE ID=p.PTypeID) PType, (SELECT Name FROM width WHERE ID=p.PWidth) PWidth, (SELECT Name FROM weight WHERE ID=p.PWeight) PWeight, (SELECT Name FROM composition WHERE ID=p.PCompo) PCompo, (SELECT Name FROM pshade WHERE ID=p.PShade) PShade
+FROM `porder_detail`
+INNER JOIN `product` as `p` ON `a`.`PID` = `p`.`ID`
+WHERE `a`.`OrID` = 2
+ORDER BY `a`.`ID` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*, `p`.`PCID`, `p`.`PCode`, `p`.`PColor`, `p`.`PSCode`, `p`.`PSColor`, `p`.`PName`, `p`.`Photo`, `p`.`StType`, `p`.`NoColor`, `p`.`Unit` as `StUnit`, `p`.`UnitConvert`, (SELECT Name FROM ptype WHERE ID=p.PTypeID) PType, (SELECT Name FROM width WHERE ID=p.PWidth) PWidth, (SELECT Name FROM weight WHERE ID=p.PWeight) PWeight, (SELECT Name FROM composition WHERE ID=p.PCompo) PCompo, (SELECT Name FROM pshade WHERE ID=p.PShade) PShade
+FROM `porder_detail`
+INNER JOIN `product` as `p` ON `a`.`PID` = `p`.`ID`
+WHERE `a`.`OrID` = 2
+ORDER BY `a`.`ID` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `p`.`PCID`, `p`.`PCode`, `p`.`PColor`, `p`.`PSCode`, `p`.`PSColor`, `p`.`PName`, `p`.`Photo`, `p`.`StType`, `p`.`NoColor`, `p`.`Unit` as `StUnit`, `p`.`UnitConvert`, (SELECT Name FROM ptype WHERE ID=p.PTypeID) PType, (SELECT Name FROM width WHERE ID=p.PWidth) PWidth, (SELECT Name FROM weight WHERE ID=p.PWeight) PWeight, (SELECT Name FROM composition WHERE ID=p.PCompo) PCompo, (SELECT Name FROM pshade WHERE ID=p.PShade) PShade
+FROM `porder_detail`
+INNER JOIN `product` as `p` ON `a`.`PID` = `p`.`ID`
+WHERE `a`.`OrID` = :a.OrID:
+ORDER BY `a`.`ID` ASC', [...], false)
+ 5 APPPATH\Modules\Create_or\Controllers\Prepare_or.php(96): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Prepare_or->get_order_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Prepare_or))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-25 10:54:26 --> mysqli_sql_exception: Unknown table 'dfinest.a' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `a`.*, `...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*, `...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*, `...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Controllers\Prepare_or.php(98): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Prepare_or->get_order_detail()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Prepare_or))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-25 10:54:26 --> Unknown table 'dfinest.a'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `a`.*, `p`.`PCID`, `p`.`PCode`, `p`.`PColor`, `p`.`PSCode`, `p`.`PSColor`, `p`.`PName`, `p`.`Photo`, `p`.`StType`, `p`.`NoColor`, `p`.`Unit` as `StUnit`, `p`.`UnitConvert`, (SELECT Name FROM ptype WHERE ID=p.PTypeID) PType, (SELECT Name FROM width WHERE ID=p.PWidth) PWidth, (SELECT Name FROM weight WHERE ID=p.PWeight) PWeight, (SELECT Name FROM composition WHERE ID=p.PCompo) PCompo, (SELECT Name FROM pshade WHERE ID=p.PShade) PShade
+FROM `porder_detail` as `d`
+INNER JOIN `product` as `p` ON `a`.`PID` = `p`.`ID`
+WHERE `a`.`OrID` = 2
+ORDER BY `a`.`ID` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*, `p`.`PCID`, `p`.`PCode`, `p`.`PColor`, `p`.`PSCode`, `p`.`PSColor`, `p`.`PName`, `p`.`Photo`, `p`.`StType`, `p`.`NoColor`, `p`.`Unit` as `StUnit`, `p`.`UnitConvert`, (SELECT Name FROM ptype WHERE ID=p.PTypeID) PType, (SELECT Name FROM width WHERE ID=p.PWidth) PWidth, (SELECT Name FROM weight WHERE ID=p.PWeight) PWeight, (SELECT Name FROM composition WHERE ID=p.PCompo) PCompo, (SELECT Name FROM pshade WHERE ID=p.PShade) PShade
+FROM `porder_detail` as `d`
+INNER JOIN `product` as `p` ON `a`.`PID` = `p`.`ID`
+WHERE `a`.`OrID` = 2
+ORDER BY `a`.`ID` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*, `p`.`PCID`, `p`.`PCode`, `p`.`PColor`, `p`.`PSCode`, `p`.`PSColor`, `p`.`PName`, `p`.`Photo`, `p`.`StType`, `p`.`NoColor`, `p`.`Unit` as `StUnit`, `p`.`UnitConvert`, (SELECT Name FROM ptype WHERE ID=p.PTypeID) PType, (SELECT Name FROM width WHERE ID=p.PWidth) PWidth, (SELECT Name FROM weight WHERE ID=p.PWeight) PWeight, (SELECT Name FROM composition WHERE ID=p.PCompo) PCompo, (SELECT Name FROM pshade WHERE ID=p.PShade) PShade
+FROM `porder_detail` as `d`
+INNER JOIN `product` as `p` ON `a`.`PID` = `p`.`ID`
+WHERE `a`.`OrID` = 2
+ORDER BY `a`.`ID` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `p`.`PCID`, `p`.`PCode`, `p`.`PColor`, `p`.`PSCode`, `p`.`PSColor`, `p`.`PName`, `p`.`Photo`, `p`.`StType`, `p`.`NoColor`, `p`.`Unit` as `StUnit`, `p`.`UnitConvert`, (SELECT Name FROM ptype WHERE ID=p.PTypeID) PType, (SELECT Name FROM width WHERE ID=p.PWidth) PWidth, (SELECT Name FROM weight WHERE ID=p.PWeight) PWeight, (SELECT Name FROM composition WHERE ID=p.PCompo) PCompo, (SELECT Name FROM pshade WHERE ID=p.PShade) PShade
+FROM `porder_detail` as `d`
+INNER JOIN `product` as `p` ON `a`.`PID` = `p`.`ID`
+WHERE `a`.`OrID` = :a.OrID:
+ORDER BY `a`.`ID` ASC', [...], false)
+ 5 APPPATH\Modules\Create_or\Controllers\Prepare_or.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Prepare_or->get_order_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Prepare_or))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-25 10:54:26 --> mysqli_sql_exception: Unknown table 'dfinest.a' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `a`.*, `...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*, `...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*, `...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Controllers\Prepare_or.php(98): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Prepare_or->get_order_detail()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Prepare_or))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-25 10:54:26 --> Unknown table 'dfinest.a'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `a`.*, `p`.`PCID`, `p`.`PCode`, `p`.`PColor`, `p`.`PSCode`, `p`.`PSColor`, `p`.`PName`, `p`.`Photo`, `p`.`StType`, `p`.`NoColor`, `p`.`Unit` as `StUnit`, `p`.`UnitConvert`, (SELECT Name FROM ptype WHERE ID=p.PTypeID) PType, (SELECT Name FROM width WHERE ID=p.PWidth) PWidth, (SELECT Name FROM weight WHERE ID=p.PWeight) PWeight, (SELECT Name FROM composition WHERE ID=p.PCompo) PCompo, (SELECT Name FROM pshade WHERE ID=p.PShade) PShade
+FROM `porder_detail` as `d`
+INNER JOIN `product` as `p` ON `a`.`PID` = `p`.`ID`
+WHERE `a`.`OrID` = 2
+ORDER BY `a`.`ID` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*, `p`.`PCID`, `p`.`PCode`, `p`.`PColor`, `p`.`PSCode`, `p`.`PSColor`, `p`.`PName`, `p`.`Photo`, `p`.`StType`, `p`.`NoColor`, `p`.`Unit` as `StUnit`, `p`.`UnitConvert`, (SELECT Name FROM ptype WHERE ID=p.PTypeID) PType, (SELECT Name FROM width WHERE ID=p.PWidth) PWidth, (SELECT Name FROM weight WHERE ID=p.PWeight) PWeight, (SELECT Name FROM composition WHERE ID=p.PCompo) PCompo, (SELECT Name FROM pshade WHERE ID=p.PShade) PShade
+FROM `porder_detail` as `d`
+INNER JOIN `product` as `p` ON `a`.`PID` = `p`.`ID`
+WHERE `a`.`OrID` = 2
+ORDER BY `a`.`ID` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*, `p`.`PCID`, `p`.`PCode`, `p`.`PColor`, `p`.`PSCode`, `p`.`PSColor`, `p`.`PName`, `p`.`Photo`, `p`.`StType`, `p`.`NoColor`, `p`.`Unit` as `StUnit`, `p`.`UnitConvert`, (SELECT Name FROM ptype WHERE ID=p.PTypeID) PType, (SELECT Name FROM width WHERE ID=p.PWidth) PWidth, (SELECT Name FROM weight WHERE ID=p.PWeight) PWeight, (SELECT Name FROM composition WHERE ID=p.PCompo) PCompo, (SELECT Name FROM pshade WHERE ID=p.PShade) PShade
+FROM `porder_detail` as `d`
+INNER JOIN `product` as `p` ON `a`.`PID` = `p`.`ID`
+WHERE `a`.`OrID` = 2
+ORDER BY `a`.`ID` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `p`.`PCID`, `p`.`PCode`, `p`.`PColor`, `p`.`PSCode`, `p`.`PSColor`, `p`.`PName`, `p`.`Photo`, `p`.`StType`, `p`.`NoColor`, `p`.`Unit` as `StUnit`, `p`.`UnitConvert`, (SELECT Name FROM ptype WHERE ID=p.PTypeID) PType, (SELECT Name FROM width WHERE ID=p.PWidth) PWidth, (SELECT Name FROM weight WHERE ID=p.PWeight) PWeight, (SELECT Name FROM composition WHERE ID=p.PCompo) PCompo, (SELECT Name FROM pshade WHERE ID=p.PShade) PShade
+FROM `porder_detail` as `d`
+INNER JOIN `product` as `p` ON `a`.`PID` = `p`.`ID`
+WHERE `a`.`OrID` = :a.OrID:
+ORDER BY `a`.`ID` ASC', [...], false)
+ 5 APPPATH\Modules\Create_or\Controllers\Prepare_or.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Prepare_or->get_order_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Prepare_or))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-25 10:54:27 --> mysqli_sql_exception: Unknown table 'dfinest.a' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `a`.*, `...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*, `...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*, `...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Controllers\Prepare_or.php(98): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Prepare_or->get_order_detail()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Prepare_or))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-25 10:54:27 --> Unknown table 'dfinest.a'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `a`.*, `p`.`PCID`, `p`.`PCode`, `p`.`PColor`, `p`.`PSCode`, `p`.`PSColor`, `p`.`PName`, `p`.`Photo`, `p`.`StType`, `p`.`NoColor`, `p`.`Unit` as `StUnit`, `p`.`UnitConvert`, (SELECT Name FROM ptype WHERE ID=p.PTypeID) PType, (SELECT Name FROM width WHERE ID=p.PWidth) PWidth, (SELECT Name FROM weight WHERE ID=p.PWeight) PWeight, (SELECT Name FROM composition WHERE ID=p.PCompo) PCompo, (SELECT Name FROM pshade WHERE ID=p.PShade) PShade
+FROM `porder_detail` as `d`
+INNER JOIN `product` as `p` ON `a`.`PID` = `p`.`ID`
+WHERE `a`.`OrID` = 2
+ORDER BY `a`.`ID` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*, `p`.`PCID`, `p`.`PCode`, `p`.`PColor`, `p`.`PSCode`, `p`.`PSColor`, `p`.`PName`, `p`.`Photo`, `p`.`StType`, `p`.`NoColor`, `p`.`Unit` as `StUnit`, `p`.`UnitConvert`, (SELECT Name FROM ptype WHERE ID=p.PTypeID) PType, (SELECT Name FROM width WHERE ID=p.PWidth) PWidth, (SELECT Name FROM weight WHERE ID=p.PWeight) PWeight, (SELECT Name FROM composition WHERE ID=p.PCompo) PCompo, (SELECT Name FROM pshade WHERE ID=p.PShade) PShade
+FROM `porder_detail` as `d`
+INNER JOIN `product` as `p` ON `a`.`PID` = `p`.`ID`
+WHERE `a`.`OrID` = 2
+ORDER BY `a`.`ID` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*, `p`.`PCID`, `p`.`PCode`, `p`.`PColor`, `p`.`PSCode`, `p`.`PSColor`, `p`.`PName`, `p`.`Photo`, `p`.`StType`, `p`.`NoColor`, `p`.`Unit` as `StUnit`, `p`.`UnitConvert`, (SELECT Name FROM ptype WHERE ID=p.PTypeID) PType, (SELECT Name FROM width WHERE ID=p.PWidth) PWidth, (SELECT Name FROM weight WHERE ID=p.PWeight) PWeight, (SELECT Name FROM composition WHERE ID=p.PCompo) PCompo, (SELECT Name FROM pshade WHERE ID=p.PShade) PShade
+FROM `porder_detail` as `d`
+INNER JOIN `product` as `p` ON `a`.`PID` = `p`.`ID`
+WHERE `a`.`OrID` = 2
+ORDER BY `a`.`ID` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `p`.`PCID`, `p`.`PCode`, `p`.`PColor`, `p`.`PSCode`, `p`.`PSColor`, `p`.`PName`, `p`.`Photo`, `p`.`StType`, `p`.`NoColor`, `p`.`Unit` as `StUnit`, `p`.`UnitConvert`, (SELECT Name FROM ptype WHERE ID=p.PTypeID) PType, (SELECT Name FROM width WHERE ID=p.PWidth) PWidth, (SELECT Name FROM weight WHERE ID=p.PWeight) PWeight, (SELECT Name FROM composition WHERE ID=p.PCompo) PCompo, (SELECT Name FROM pshade WHERE ID=p.PShade) PShade
+FROM `porder_detail` as `d`
+INNER JOIN `product` as `p` ON `a`.`PID` = `p`.`ID`
+WHERE `a`.`OrID` = :a.OrID:
+ORDER BY `a`.`ID` ASC', [...], false)
+ 5 APPPATH\Modules\Create_or\Controllers\Prepare_or.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Prepare_or->get_order_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Prepare_or))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-25 10:55:03 --> mysqli_sql_exception: Unknown table 'dfinest.a' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `a`.*, `...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*, `...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*, `...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Controllers\Prepare_or.php(98): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Prepare_or->get_order_detail()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Prepare_or))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-25 10:55:03 --> Unknown table 'dfinest.a'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `a`.*, `p`.`PCID`, `p`.`PCode`, `p`.`PColor`, `p`.`PSCode`, `p`.`PSColor`, `p`.`PName`, `p`.`Photo`, `p`.`StType`, `p`.`NoColor`, `p`.`Unit` as `StUnit`, `p`.`UnitConvert`, (SELECT Name FROM ptype WHERE ID=p.PTypeID) PType, (SELECT Name FROM width WHERE ID=p.PWidth) PWidth, (SELECT Name FROM weight WHERE ID=p.PWeight) PWeight, (SELECT Name FROM composition WHERE ID=p.PCompo) PCompo, (SELECT Name FROM pshade WHERE ID=p.PShade) PShade
+FROM `porder_detail` as `d`
+LEFT JOIN `product` as `p` ON `a`.`PID` = `p`.`ID`
+WHERE `a`.`OrID` = 2
+ORDER BY `a`.`ID` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*, `p`.`PCID`, `p`.`PCode`, `p`.`PColor`, `p`.`PSCode`, `p`.`PSColor`, `p`.`PName`, `p`.`Photo`, `p`.`StType`, `p`.`NoColor`, `p`.`Unit` as `StUnit`, `p`.`UnitConvert`, (SELECT Name FROM ptype WHERE ID=p.PTypeID) PType, (SELECT Name FROM width WHERE ID=p.PWidth) PWidth, (SELECT Name FROM weight WHERE ID=p.PWeight) PWeight, (SELECT Name FROM composition WHERE ID=p.PCompo) PCompo, (SELECT Name FROM pshade WHERE ID=p.PShade) PShade
+FROM `porder_detail` as `d`
+LEFT JOIN `product` as `p` ON `a`.`PID` = `p`.`ID`
+WHERE `a`.`OrID` = 2
+ORDER BY `a`.`ID` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*, `p`.`PCID`, `p`.`PCode`, `p`.`PColor`, `p`.`PSCode`, `p`.`PSColor`, `p`.`PName`, `p`.`Photo`, `p`.`StType`, `p`.`NoColor`, `p`.`Unit` as `StUnit`, `p`.`UnitConvert`, (SELECT Name FROM ptype WHERE ID=p.PTypeID) PType, (SELECT Name FROM width WHERE ID=p.PWidth) PWidth, (SELECT Name FROM weight WHERE ID=p.PWeight) PWeight, (SELECT Name FROM composition WHERE ID=p.PCompo) PCompo, (SELECT Name FROM pshade WHERE ID=p.PShade) PShade
+FROM `porder_detail` as `d`
+LEFT JOIN `product` as `p` ON `a`.`PID` = `p`.`ID`
+WHERE `a`.`OrID` = 2
+ORDER BY `a`.`ID` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `p`.`PCID`, `p`.`PCode`, `p`.`PColor`, `p`.`PSCode`, `p`.`PSColor`, `p`.`PName`, `p`.`Photo`, `p`.`StType`, `p`.`NoColor`, `p`.`Unit` as `StUnit`, `p`.`UnitConvert`, (SELECT Name FROM ptype WHERE ID=p.PTypeID) PType, (SELECT Name FROM width WHERE ID=p.PWidth) PWidth, (SELECT Name FROM weight WHERE ID=p.PWeight) PWeight, (SELECT Name FROM composition WHERE ID=p.PCompo) PCompo, (SELECT Name FROM pshade WHERE ID=p.PShade) PShade
+FROM `porder_detail` as `d`
+LEFT JOIN `product` as `p` ON `a`.`PID` = `p`.`ID`
+WHERE `a`.`OrID` = :a.OrID:
+ORDER BY `a`.`ID` ASC', [...], false)
+ 5 APPPATH\Modules\Create_or\Controllers\Prepare_or.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Prepare_or->get_order_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Prepare_or))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-25 10:55:28 --> mysqli_sql_exception: Unknown table 'dfinest.a' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `a`.*, `...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*, `...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*, `...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Controllers\Prepare_or.php(98): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Prepare_or->get_order_detail()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Prepare_or))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-25 10:55:28 --> Unknown table 'dfinest.a'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `a`.*, `p`.`PCID`, `p`.`PCode`, `p`.`PColor`, `p`.`PSCode`, `p`.`PSColor`, `p`.`PName`, `p`.`Photo`, `p`.`StType`, `p`.`NoColor`, `p`.`Unit` as `StUnit`, `p`.`UnitConvert`, (SELECT Name FROM ptype WHERE ID=p.PTypeID) PType, (SELECT Name FROM width WHERE ID=p.PWidth) PWidth, (SELECT Name FROM weight WHERE ID=p.PWeight) PWeight, (SELECT Name FROM composition WHERE ID=p.PCompo) PCompo, (SELECT Name FROM pshade WHERE ID=p.PShade) PShade
+FROM `porder_detail` as `d`
+INNER JOIN `product` as `p` ON `a`.`PID` = `p`.`ID`
+WHERE `a`.`OrID` = 2
+ORDER BY `a`.`ID` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*, `p`.`PCID`, `p`.`PCode`, `p`.`PColor`, `p`.`PSCode`, `p`.`PSColor`, `p`.`PName`, `p`.`Photo`, `p`.`StType`, `p`.`NoColor`, `p`.`Unit` as `StUnit`, `p`.`UnitConvert`, (SELECT Name FROM ptype WHERE ID=p.PTypeID) PType, (SELECT Name FROM width WHERE ID=p.PWidth) PWidth, (SELECT Name FROM weight WHERE ID=p.PWeight) PWeight, (SELECT Name FROM composition WHERE ID=p.PCompo) PCompo, (SELECT Name FROM pshade WHERE ID=p.PShade) PShade
+FROM `porder_detail` as `d`
+INNER JOIN `product` as `p` ON `a`.`PID` = `p`.`ID`
+WHERE `a`.`OrID` = 2
+ORDER BY `a`.`ID` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*, `p`.`PCID`, `p`.`PCode`, `p`.`PColor`, `p`.`PSCode`, `p`.`PSColor`, `p`.`PName`, `p`.`Photo`, `p`.`StType`, `p`.`NoColor`, `p`.`Unit` as `StUnit`, `p`.`UnitConvert`, (SELECT Name FROM ptype WHERE ID=p.PTypeID) PType, (SELECT Name FROM width WHERE ID=p.PWidth) PWidth, (SELECT Name FROM weight WHERE ID=p.PWeight) PWeight, (SELECT Name FROM composition WHERE ID=p.PCompo) PCompo, (SELECT Name FROM pshade WHERE ID=p.PShade) PShade
+FROM `porder_detail` as `d`
+INNER JOIN `product` as `p` ON `a`.`PID` = `p`.`ID`
+WHERE `a`.`OrID` = 2
+ORDER BY `a`.`ID` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `p`.`PCID`, `p`.`PCode`, `p`.`PColor`, `p`.`PSCode`, `p`.`PSColor`, `p`.`PName`, `p`.`Photo`, `p`.`StType`, `p`.`NoColor`, `p`.`Unit` as `StUnit`, `p`.`UnitConvert`, (SELECT Name FROM ptype WHERE ID=p.PTypeID) PType, (SELECT Name FROM width WHERE ID=p.PWidth) PWidth, (SELECT Name FROM weight WHERE ID=p.PWeight) PWeight, (SELECT Name FROM composition WHERE ID=p.PCompo) PCompo, (SELECT Name FROM pshade WHERE ID=p.PShade) PShade
+FROM `porder_detail` as `d`
+INNER JOIN `product` as `p` ON `a`.`PID` = `p`.`ID`
+WHERE `a`.`OrID` = :a.OrID:
+ORDER BY `a`.`ID` ASC', [...], false)
+ 5 APPPATH\Modules\Create_or\Controllers\Prepare_or.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Prepare_or->get_order_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Prepare_or))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-25 10:55:29 --> mysqli_sql_exception: Unknown table 'dfinest.a' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `a`.*, `...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*, `...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*, `...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Controllers\Prepare_or.php(98): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Prepare_or->get_order_detail()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Prepare_or))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-25 10:55:29 --> Unknown table 'dfinest.a'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `a`.*, `p`.`PCID`, `p`.`PCode`, `p`.`PColor`, `p`.`PSCode`, `p`.`PSColor`, `p`.`PName`, `p`.`Photo`, `p`.`StType`, `p`.`NoColor`, `p`.`Unit` as `StUnit`, `p`.`UnitConvert`, (SELECT Name FROM ptype WHERE ID=p.PTypeID) PType, (SELECT Name FROM width WHERE ID=p.PWidth) PWidth, (SELECT Name FROM weight WHERE ID=p.PWeight) PWeight, (SELECT Name FROM composition WHERE ID=p.PCompo) PCompo, (SELECT Name FROM pshade WHERE ID=p.PShade) PShade
+FROM `porder_detail` as `d`
+INNER JOIN `product` as `p` ON `a`.`PID` = `p`.`ID`
+WHERE `a`.`OrID` = 2
+ORDER BY `a`.`ID` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*, `p`.`PCID`, `p`.`PCode`, `p`.`PColor`, `p`.`PSCode`, `p`.`PSColor`, `p`.`PName`, `p`.`Photo`, `p`.`StType`, `p`.`NoColor`, `p`.`Unit` as `StUnit`, `p`.`UnitConvert`, (SELECT Name FROM ptype WHERE ID=p.PTypeID) PType, (SELECT Name FROM width WHERE ID=p.PWidth) PWidth, (SELECT Name FROM weight WHERE ID=p.PWeight) PWeight, (SELECT Name FROM composition WHERE ID=p.PCompo) PCompo, (SELECT Name FROM pshade WHERE ID=p.PShade) PShade
+FROM `porder_detail` as `d`
+INNER JOIN `product` as `p` ON `a`.`PID` = `p`.`ID`
+WHERE `a`.`OrID` = 2
+ORDER BY `a`.`ID` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*, `p`.`PCID`, `p`.`PCode`, `p`.`PColor`, `p`.`PSCode`, `p`.`PSColor`, `p`.`PName`, `p`.`Photo`, `p`.`StType`, `p`.`NoColor`, `p`.`Unit` as `StUnit`, `p`.`UnitConvert`, (SELECT Name FROM ptype WHERE ID=p.PTypeID) PType, (SELECT Name FROM width WHERE ID=p.PWidth) PWidth, (SELECT Name FROM weight WHERE ID=p.PWeight) PWeight, (SELECT Name FROM composition WHERE ID=p.PCompo) PCompo, (SELECT Name FROM pshade WHERE ID=p.PShade) PShade
+FROM `porder_detail` as `d`
+INNER JOIN `product` as `p` ON `a`.`PID` = `p`.`ID`
+WHERE `a`.`OrID` = 2
+ORDER BY `a`.`ID` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `p`.`PCID`, `p`.`PCode`, `p`.`PColor`, `p`.`PSCode`, `p`.`PSColor`, `p`.`PName`, `p`.`Photo`, `p`.`StType`, `p`.`NoColor`, `p`.`Unit` as `StUnit`, `p`.`UnitConvert`, (SELECT Name FROM ptype WHERE ID=p.PTypeID) PType, (SELECT Name FROM width WHERE ID=p.PWidth) PWidth, (SELECT Name FROM weight WHERE ID=p.PWeight) PWeight, (SELECT Name FROM composition WHERE ID=p.PCompo) PCompo, (SELECT Name FROM pshade WHERE ID=p.PShade) PShade
+FROM `porder_detail` as `d`
+INNER JOIN `product` as `p` ON `a`.`PID` = `p`.`ID`
+WHERE `a`.`OrID` = :a.OrID:
+ORDER BY `a`.`ID` ASC', [...], false)
+ 5 APPPATH\Modules\Create_or\Controllers\Prepare_or.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Prepare_or->get_order_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Prepare_or))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-25 10:55:29 --> mysqli_sql_exception: Unknown table 'dfinest.a' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `a`.*, `...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*, `...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*, `...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Controllers\Prepare_or.php(98): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Prepare_or->get_order_detail()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Prepare_or))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-25 10:55:29 --> Unknown table 'dfinest.a'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `a`.*, `p`.`PCID`, `p`.`PCode`, `p`.`PColor`, `p`.`PSCode`, `p`.`PSColor`, `p`.`PName`, `p`.`Photo`, `p`.`StType`, `p`.`NoColor`, `p`.`Unit` as `StUnit`, `p`.`UnitConvert`, (SELECT Name FROM ptype WHERE ID=p.PTypeID) PType, (SELECT Name FROM width WHERE ID=p.PWidth) PWidth, (SELECT Name FROM weight WHERE ID=p.PWeight) PWeight, (SELECT Name FROM composition WHERE ID=p.PCompo) PCompo, (SELECT Name FROM pshade WHERE ID=p.PShade) PShade
+FROM `porder_detail` as `d`
+INNER JOIN `product` as `p` ON `a`.`PID` = `p`.`ID`
+WHERE `a`.`OrID` = 2
+ORDER BY `a`.`ID` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*, `p`.`PCID`, `p`.`PCode`, `p`.`PColor`, `p`.`PSCode`, `p`.`PSColor`, `p`.`PName`, `p`.`Photo`, `p`.`StType`, `p`.`NoColor`, `p`.`Unit` as `StUnit`, `p`.`UnitConvert`, (SELECT Name FROM ptype WHERE ID=p.PTypeID) PType, (SELECT Name FROM width WHERE ID=p.PWidth) PWidth, (SELECT Name FROM weight WHERE ID=p.PWeight) PWeight, (SELECT Name FROM composition WHERE ID=p.PCompo) PCompo, (SELECT Name FROM pshade WHERE ID=p.PShade) PShade
+FROM `porder_detail` as `d`
+INNER JOIN `product` as `p` ON `a`.`PID` = `p`.`ID`
+WHERE `a`.`OrID` = 2
+ORDER BY `a`.`ID` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*, `p`.`PCID`, `p`.`PCode`, `p`.`PColor`, `p`.`PSCode`, `p`.`PSColor`, `p`.`PName`, `p`.`Photo`, `p`.`StType`, `p`.`NoColor`, `p`.`Unit` as `StUnit`, `p`.`UnitConvert`, (SELECT Name FROM ptype WHERE ID=p.PTypeID) PType, (SELECT Name FROM width WHERE ID=p.PWidth) PWidth, (SELECT Name FROM weight WHERE ID=p.PWeight) PWeight, (SELECT Name FROM composition WHERE ID=p.PCompo) PCompo, (SELECT Name FROM pshade WHERE ID=p.PShade) PShade
+FROM `porder_detail` as `d`
+INNER JOIN `product` as `p` ON `a`.`PID` = `p`.`ID`
+WHERE `a`.`OrID` = 2
+ORDER BY `a`.`ID` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `p`.`PCID`, `p`.`PCode`, `p`.`PColor`, `p`.`PSCode`, `p`.`PSColor`, `p`.`PName`, `p`.`Photo`, `p`.`StType`, `p`.`NoColor`, `p`.`Unit` as `StUnit`, `p`.`UnitConvert`, (SELECT Name FROM ptype WHERE ID=p.PTypeID) PType, (SELECT Name FROM width WHERE ID=p.PWidth) PWidth, (SELECT Name FROM weight WHERE ID=p.PWeight) PWeight, (SELECT Name FROM composition WHERE ID=p.PCompo) PCompo, (SELECT Name FROM pshade WHERE ID=p.PShade) PShade
+FROM `porder_detail` as `d`
+INNER JOIN `product` as `p` ON `a`.`PID` = `p`.`ID`
+WHERE `a`.`OrID` = :a.OrID:
+ORDER BY `a`.`ID` ASC', [...], false)
+ 5 APPPATH\Modules\Create_or\Controllers\Prepare_or.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Prepare_or->get_order_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Prepare_or))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-25 10:55:29 --> mysqli_sql_exception: Unknown table 'dfinest.a' in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `a`.*, `...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*, `...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*, `...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Modules\Create_or\Controllers\Prepare_or.php(98): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Prepare_or->get_order_detail()
+#6 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Prepare_or))
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-25 10:55:29 --> Unknown table 'dfinest.a'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `a`.*, `p`.`PCID`, `p`.`PCode`, `p`.`PColor`, `p`.`PSCode`, `p`.`PSColor`, `p`.`PName`, `p`.`Photo`, `p`.`StType`, `p`.`NoColor`, `p`.`Unit` as `StUnit`, `p`.`UnitConvert`, (SELECT Name FROM ptype WHERE ID=p.PTypeID) PType, (SELECT Name FROM width WHERE ID=p.PWidth) PWidth, (SELECT Name FROM weight WHERE ID=p.PWeight) PWeight, (SELECT Name FROM composition WHERE ID=p.PCompo) PCompo, (SELECT Name FROM pshade WHERE ID=p.PShade) PShade
+FROM `porder_detail` as `d`
+INNER JOIN `product` as `p` ON `a`.`PID` = `p`.`ID`
+WHERE `a`.`OrID` = 2
+ORDER BY `a`.`ID` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*, `p`.`PCID`, `p`.`PCode`, `p`.`PColor`, `p`.`PSCode`, `p`.`PSColor`, `p`.`PName`, `p`.`Photo`, `p`.`StType`, `p`.`NoColor`, `p`.`Unit` as `StUnit`, `p`.`UnitConvert`, (SELECT Name FROM ptype WHERE ID=p.PTypeID) PType, (SELECT Name FROM width WHERE ID=p.PWidth) PWidth, (SELECT Name FROM weight WHERE ID=p.PWeight) PWeight, (SELECT Name FROM composition WHERE ID=p.PCompo) PCompo, (SELECT Name FROM pshade WHERE ID=p.PShade) PShade
+FROM `porder_detail` as `d`
+INNER JOIN `product` as `p` ON `a`.`PID` = `p`.`ID`
+WHERE `a`.`OrID` = 2
+ORDER BY `a`.`ID` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*, `p`.`PCID`, `p`.`PCode`, `p`.`PColor`, `p`.`PSCode`, `p`.`PSColor`, `p`.`PName`, `p`.`Photo`, `p`.`StType`, `p`.`NoColor`, `p`.`Unit` as `StUnit`, `p`.`UnitConvert`, (SELECT Name FROM ptype WHERE ID=p.PTypeID) PType, (SELECT Name FROM width WHERE ID=p.PWidth) PWidth, (SELECT Name FROM weight WHERE ID=p.PWeight) PWeight, (SELECT Name FROM composition WHERE ID=p.PCompo) PCompo, (SELECT Name FROM pshade WHERE ID=p.PShade) PShade
+FROM `porder_detail` as `d`
+INNER JOIN `product` as `p` ON `a`.`PID` = `p`.`ID`
+WHERE `a`.`OrID` = 2
+ORDER BY `a`.`ID` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `p`.`PCID`, `p`.`PCode`, `p`.`PColor`, `p`.`PSCode`, `p`.`PSColor`, `p`.`PName`, `p`.`Photo`, `p`.`StType`, `p`.`NoColor`, `p`.`Unit` as `StUnit`, `p`.`UnitConvert`, (SELECT Name FROM ptype WHERE ID=p.PTypeID) PType, (SELECT Name FROM width WHERE ID=p.PWidth) PWidth, (SELECT Name FROM weight WHERE ID=p.PWeight) PWeight, (SELECT Name FROM composition WHERE ID=p.PCompo) PCompo, (SELECT Name FROM pshade WHERE ID=p.PShade) PShade
+FROM `porder_detail` as `d`
+INNER JOIN `product` as `p` ON `a`.`PID` = `p`.`ID`
+WHERE `a`.`OrID` = :a.OrID:
+ORDER BY `a`.`ID` ASC', [...], false)
+ 5 APPPATH\Modules\Create_or\Controllers\Prepare_or.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Prepare_or->get_order_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Prepare_or))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-25 11:02:28 --> Undefined array key "color_list"
+in APPPATH\Modules\Create_or\Views\prepare_or\order_detail.php on line 14.
+ 1 APPPATH\Modules\Create_or\Views\prepare_or\order_detail.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "color_list"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\prepare_or\\order_detail.php', 14)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\prepare_or\\order_detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\create_or\\Views\\prepare_or\\order_detail', [], true)
+ 5 APPPATH\Modules\Create_or\Controllers\Prepare_or.php(103): view('Modules\\create_or\\Views\\prepare_or\\order_detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Prepare_or->get_order_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Prepare_or))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-25 11:02:29 --> Undefined array key "color_list"
+in APPPATH\Modules\Create_or\Views\prepare_or\order_detail.php on line 14.
+ 1 APPPATH\Modules\Create_or\Views\prepare_or\order_detail.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "color_list"', 'D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\prepare_or\\order_detail.php', 14)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Modules\\Create_or\\Views\\prepare_or\\order_detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\create_or\\Views\\prepare_or\\order_detail', [], true)
+ 5 APPPATH\Modules\Create_or\Controllers\Prepare_or.php(103): view('Modules\\create_or\\Views\\prepare_or\\order_detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Create_or\Controllers\Prepare_or->get_order_detail()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Create_or\Controllers\Prepare_or))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-25 16:15:14 --> mysqli_sql_exception: Table 'dfinest.retail' doesn't exist in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(ID...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(ID...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(ID...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(ID...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Models\BaseModel.php(55): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Models\MainModel.php(405): App\Models\BaseModel->count_rec('ID', 'retail', 'YEAR(CreatedDat...')
+#6 D:\xampp\htdocs\dfinest\app\Modules\Stock\Controllers\Retail.php(43): App\Models\MainModel->gen_docno('retail')
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Stock\Controllers\Retail->index()
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Retail))
+#9 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-09-25 16:15:14 --> Table 'dfinest.retail' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(ID) as total
+FROM `retail`
+WHERE YEAR(CreatedDate) = "2023" AND MONTH(CreatedDate) = "09"', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(ID) as total
+FROM `retail`
+WHERE YEAR(CreatedDate) = "2023" AND MONTH(CreatedDate) = "09"')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(ID) as total
+FROM `retail`
+WHERE YEAR(CreatedDate) = "2023" AND MONTH(CreatedDate) = "09"')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(ID) as total
+FROM `retail`
+WHERE YEAR(CreatedDate) = "2023" AND MONTH(CreatedDate) = "09"', [], false)
+ 5 APPPATH\Models\BaseModel.php(55): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\MainModel.php(405): App\Models\BaseModel->count_rec('ID', 'retail', 'YEAR(CreatedDate)="2023" AND MONTH(CreatedDate)="09"')
+ 7 APPPATH\Modules\Stock\Controllers\Retail.php(43): App\Models\MainModel->gen_docno('retail')
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Retail->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Retail))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-25 16:15:15 --> mysqli_sql_exception: Table 'dfinest.retail' doesn't exist in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(ID...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(ID...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(ID...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(ID...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Models\BaseModel.php(55): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Models\MainModel.php(405): App\Models\BaseModel->count_rec('ID', 'retail', 'YEAR(CreatedDat...')
+#6 D:\xampp\htdocs\dfinest\app\Modules\Stock\Controllers\Retail.php(43): App\Models\MainModel->gen_docno('retail')
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Stock\Controllers\Retail->index()
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Retail))
+#9 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-09-25 16:15:15 --> Table 'dfinest.retail' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(ID) as total
+FROM `retail`
+WHERE YEAR(CreatedDate) = "2023" AND MONTH(CreatedDate) = "09"', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(ID) as total
+FROM `retail`
+WHERE YEAR(CreatedDate) = "2023" AND MONTH(CreatedDate) = "09"')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(ID) as total
+FROM `retail`
+WHERE YEAR(CreatedDate) = "2023" AND MONTH(CreatedDate) = "09"')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(ID) as total
+FROM `retail`
+WHERE YEAR(CreatedDate) = "2023" AND MONTH(CreatedDate) = "09"', [], false)
+ 5 APPPATH\Models\BaseModel.php(55): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\MainModel.php(405): App\Models\BaseModel->count_rec('ID', 'retail', 'YEAR(CreatedDate)="2023" AND MONTH(CreatedDate)="09"')
+ 7 APPPATH\Modules\Stock\Controllers\Retail.php(43): App\Models\MainModel->gen_docno('retail')
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Retail->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Retail))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-25 16:15:15 --> mysqli_sql_exception: Table 'dfinest.retail' doesn't exist in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(ID...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(ID...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(ID...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(ID...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Models\BaseModel.php(55): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Models\MainModel.php(405): App\Models\BaseModel->count_rec('ID', 'retail', 'YEAR(CreatedDat...')
+#6 D:\xampp\htdocs\dfinest\app\Modules\Stock\Controllers\Retail.php(43): App\Models\MainModel->gen_docno('retail')
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Stock\Controllers\Retail->index()
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Retail))
+#9 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-09-25 16:15:15 --> Table 'dfinest.retail' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(ID) as total
+FROM `retail`
+WHERE YEAR(CreatedDate) = "2023" AND MONTH(CreatedDate) = "09"', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(ID) as total
+FROM `retail`
+WHERE YEAR(CreatedDate) = "2023" AND MONTH(CreatedDate) = "09"')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(ID) as total
+FROM `retail`
+WHERE YEAR(CreatedDate) = "2023" AND MONTH(CreatedDate) = "09"')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(ID) as total
+FROM `retail`
+WHERE YEAR(CreatedDate) = "2023" AND MONTH(CreatedDate) = "09"', [], false)
+ 5 APPPATH\Models\BaseModel.php(55): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\MainModel.php(405): App\Models\BaseModel->count_rec('ID', 'retail', 'YEAR(CreatedDate)="2023" AND MONTH(CreatedDate)="09"')
+ 7 APPPATH\Modules\Stock\Controllers\Retail.php(43): App\Models\MainModel->gen_docno('retail')
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Retail->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Retail))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-25 16:15:16 --> mysqli_sql_exception: Table 'dfinest.retail' doesn't exist in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(ID...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(ID...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(ID...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(ID...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Models\BaseModel.php(55): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Models\MainModel.php(405): App\Models\BaseModel->count_rec('ID', 'retail', 'YEAR(CreatedDat...')
+#6 D:\xampp\htdocs\dfinest\app\Modules\Stock\Controllers\Retail.php(43): App\Models\MainModel->gen_docno('retail')
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Stock\Controllers\Retail->index()
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Retail))
+#9 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-09-25 16:15:16 --> Table 'dfinest.retail' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(ID) as total
+FROM `retail`
+WHERE YEAR(CreatedDate) = "2023" AND MONTH(CreatedDate) = "09"', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(ID) as total
+FROM `retail`
+WHERE YEAR(CreatedDate) = "2023" AND MONTH(CreatedDate) = "09"')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(ID) as total
+FROM `retail`
+WHERE YEAR(CreatedDate) = "2023" AND MONTH(CreatedDate) = "09"')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(ID) as total
+FROM `retail`
+WHERE YEAR(CreatedDate) = "2023" AND MONTH(CreatedDate) = "09"', [], false)
+ 5 APPPATH\Models\BaseModel.php(55): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\MainModel.php(405): App\Models\BaseModel->count_rec('ID', 'retail', 'YEAR(CreatedDate)="2023" AND MONTH(CreatedDate)="09"')
+ 7 APPPATH\Modules\Stock\Controllers\Retail.php(43): App\Models\MainModel->gen_docno('retail')
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Retail->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Retail))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-25 16:17:14 --> mysqli_sql_exception: Table 'dfinest.retail' doesn't exist in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(ID...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(ID...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(ID...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(ID...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Models\BaseModel.php(55): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Models\MainModel.php(405): App\Models\BaseModel->count_rec('ID', 'retail', 'YEAR(CreatedDat...')
+#6 D:\xampp\htdocs\dfinest\app\Modules\Stock\Controllers\Retail.php(42): App\Models\MainModel->gen_docno('retail')
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Stock\Controllers\Retail->index()
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Retail))
+#9 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-09-25 16:17:14 --> Table 'dfinest.retail' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(ID) as total
+FROM `retail`
+WHERE YEAR(CreatedDate) = "2023" AND MONTH(CreatedDate) = "09"', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(ID) as total
+FROM `retail`
+WHERE YEAR(CreatedDate) = "2023" AND MONTH(CreatedDate) = "09"')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(ID) as total
+FROM `retail`
+WHERE YEAR(CreatedDate) = "2023" AND MONTH(CreatedDate) = "09"')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(ID) as total
+FROM `retail`
+WHERE YEAR(CreatedDate) = "2023" AND MONTH(CreatedDate) = "09"', [], false)
+ 5 APPPATH\Models\BaseModel.php(55): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\MainModel.php(405): App\Models\BaseModel->count_rec('ID', 'retail', 'YEAR(CreatedDate)="2023" AND MONTH(CreatedDate)="09"')
+ 7 APPPATH\Modules\Stock\Controllers\Retail.php(42): App\Models\MainModel->gen_docno('retail')
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Retail->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Retail))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-25 16:30:23 --> mysqli_sql_exception: Table 'dfinest.retail' doesn't exist in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(ID...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(ID...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(ID...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(ID...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Models\BaseModel.php(55): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Models\MainModel.php(405): App\Models\BaseModel->count_rec('ID', 'retail', 'YEAR(CreatedDat...')
+#6 D:\xampp\htdocs\dfinest\app\Modules\Stock\Controllers\Retail.php(42): App\Models\MainModel->gen_docno('retail')
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Stock\Controllers\Retail->index()
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Retail))
+#9 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-09-25 16:30:23 --> Table 'dfinest.retail' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(ID) as total
+FROM `retail`
+WHERE YEAR(CreatedDate) = "2023" AND MONTH(CreatedDate) = "09"', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(ID) as total
+FROM `retail`
+WHERE YEAR(CreatedDate) = "2023" AND MONTH(CreatedDate) = "09"')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(ID) as total
+FROM `retail`
+WHERE YEAR(CreatedDate) = "2023" AND MONTH(CreatedDate) = "09"')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(ID) as total
+FROM `retail`
+WHERE YEAR(CreatedDate) = "2023" AND MONTH(CreatedDate) = "09"', [], false)
+ 5 APPPATH\Models\BaseModel.php(55): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\MainModel.php(405): App\Models\BaseModel->count_rec('ID', 'retail', 'YEAR(CreatedDate)="2023" AND MONTH(CreatedDate)="09"')
+ 7 APPPATH\Modules\Stock\Controllers\Retail.php(42): App\Models\MainModel->gen_docno('retail')
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Retail->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Retail))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-25 16:30:25 --> mysqli_sql_exception: Table 'dfinest.retail' doesn't exist in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(ID...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(ID...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(ID...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(ID...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Models\BaseModel.php(55): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Models\MainModel.php(405): App\Models\BaseModel->count_rec('ID', 'retail', 'YEAR(CreatedDat...')
+#6 D:\xampp\htdocs\dfinest\app\Modules\Stock\Controllers\Retail.php(42): App\Models\MainModel->gen_docno('retail')
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Stock\Controllers\Retail->index()
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Retail))
+#9 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-09-25 16:30:25 --> Table 'dfinest.retail' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(ID) as total
+FROM `retail`
+WHERE YEAR(CreatedDate) = "2023" AND MONTH(CreatedDate) = "09"', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(ID) as total
+FROM `retail`
+WHERE YEAR(CreatedDate) = "2023" AND MONTH(CreatedDate) = "09"')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(ID) as total
+FROM `retail`
+WHERE YEAR(CreatedDate) = "2023" AND MONTH(CreatedDate) = "09"')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(ID) as total
+FROM `retail`
+WHERE YEAR(CreatedDate) = "2023" AND MONTH(CreatedDate) = "09"', [], false)
+ 5 APPPATH\Models\BaseModel.php(55): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\MainModel.php(405): App\Models\BaseModel->count_rec('ID', 'retail', 'YEAR(CreatedDate)="2023" AND MONTH(CreatedDate)="09"')
+ 7 APPPATH\Modules\Stock\Controllers\Retail.php(42): App\Models\MainModel->gen_docno('retail')
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Retail->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Retail))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-25 16:36:16 --> Undefined array key "transfer"
+in APPPATH\Models\MainModel.php on line 408.
+ 1 APPPATH\Models\MainModel.php(408): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "transfer"', 'D:\\xampp\\htdocs\\dfinest\\app\\Models\\MainModel.php', 408)
+ 2 APPPATH\Modules\Stock\Controllers\Transfer.php(43): App\Models\MainModel->gen_docno('transfer')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Transfer->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Transfer))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-25 16:36:42 --> Invalid file: "Modules\Stock\Views	ransfer\_title.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Stock\\Views	ransfer\\_title.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Stock\\Views	ransfer\\_title', [], true)
+ 3 APPPATH\Views\inc-header.php(107): view('Modules\\Stock\\Views	ransfer\\_title')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-header.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-header', [], true)
+ 7 APPPATH\Modules\Stock\Controllers\Transfer.php(53): view('inc-header', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Transfer->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Transfer))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-25 16:36:43 --> Invalid file: "Modules\Stock\Views	ransfer\_title.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Stock\\Views	ransfer\\_title.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Stock\\Views	ransfer\\_title', [], true)
+ 3 APPPATH\Views\inc-header.php(107): view('Modules\\Stock\\Views	ransfer\\_title')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-header.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-header', [], true)
+ 7 APPPATH\Modules\Stock\Controllers\Transfer.php(53): view('inc-header', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Transfer->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Transfer))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-25 16:36:43 --> Invalid file: "Modules\Stock\Views	ransfer\_title.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Stock\\Views	ransfer\\_title.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Stock\\Views	ransfer\\_title', [], true)
+ 3 APPPATH\Views\inc-header.php(107): view('Modules\\Stock\\Views	ransfer\\_title')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-header.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-header', [], true)
+ 7 APPPATH\Modules\Stock\Controllers\Transfer.php(53): view('inc-header', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Transfer->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Transfer))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-25 16:38:03 --> Invalid file: "Modules\Stock\Views	ransfer\_title.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Stock\\Views	ransfer\\_title.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Stock\\Views	ransfer\\_title', [], true)
+ 3 APPPATH\Views\inc-header.php(107): view('Modules\\Stock\\Views	ransfer\\_title')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-header.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-header', [], true)
+ 7 APPPATH\Modules\Stock\Controllers\Transfer.php(53): view('inc-header', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Transfer->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Transfer))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-25 16:38:04 --> Invalid file: "Modules\Stock\Views	ransfer\_title.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Stock\\Views	ransfer\\_title.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Stock\\Views	ransfer\\_title', [], true)
+ 3 APPPATH\Views\inc-header.php(107): view('Modules\\Stock\\Views	ransfer\\_title')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-header.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-header', [], true)
+ 7 APPPATH\Modules\Stock\Controllers\Transfer.php(53): view('inc-header', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Transfer->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Transfer))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-25 16:38:24 --> Invalid file: "Modules\Stock\Views	ransfer\_title.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Stock\\Views	ransfer\\_title.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Stock\\Views	ransfer\\_title', [], true)
+ 3 APPPATH\Views\inc-header.php(107): view('Modules\\Stock\\Views	ransfer\\_title')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-header.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-header', [], true)
+ 7 APPPATH\Modules\Stock\Controllers\Transfer.php(53): view('inc-header', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Transfer->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Transfer))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-25 16:38:56 --> Invalid file: "Modules\Stock\Views	ransfer\_title.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Stock\\Views	ransfer\\_title.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Stock\\Views	ransfer\\_title', [], true)
+ 3 APPPATH\Views\inc-header.php(107): view('Modules\\Stock\\Views	ransfer\\_title')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-header.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-header', [], true)
+ 7 APPPATH\Modules\Stock\Controllers\Transfer.php(53): view('inc-header', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Transfer->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Transfer))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-25 16:38:57 --> Invalid file: "Modules\Stock\Views	ransfer\_title.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Stock\\Views	ransfer\\_title.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Stock\\Views	ransfer\\_title', [], true)
+ 3 APPPATH\Views\inc-header.php(107): view('Modules\\Stock\\Views	ransfer\\_title')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-header.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-header', [], true)
+ 7 APPPATH\Modules\Stock\Controllers\Transfer.php(53): view('inc-header', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Transfer->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Transfer))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-25 16:39:17 --> Invalid file: "Modules\Stock\Views	ransfer\_title.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Stock\\Views	ransfer\\_title.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Stock\\Views	ransfer\\_title', [], true)
+ 3 APPPATH\Views\inc-header.php(107): view('Modules\\Stock\\Views	ransfer\\_title')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-header.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-header', [], true)
+ 7 APPPATH\Modules\Stock\Controllers\Transfer.php(53): view('inc-header', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Transfer->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Transfer))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-25 16:39:18 --> Invalid file: "Modules\Stock\Views	ransfer\_title.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Stock\\Views	ransfer\\_title.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Stock\\Views	ransfer\\_title', [], true)
+ 3 APPPATH\Views\inc-header.php(107): view('Modules\\Stock\\Views	ransfer\\_title')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-header.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-header', [], true)
+ 7 APPPATH\Modules\Stock\Controllers\Transfer.php(53): view('inc-header', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Transfer->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Transfer))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-25 16:39:57 --> Invalid file: "Modules\Stock\Views	ransfer\_title.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Stock\\Views	ransfer\\_title.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Stock\\Views	ransfer\\_title', [], true)
+ 3 APPPATH\Views\inc-header.php(107): view('Modules\\Stock\\Views	ransfer\\_title')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-header.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-header', [], true)
+ 7 APPPATH\Modules\Stock\Controllers\Transfer.php(53): view('inc-header', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Transfer->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Transfer))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-25 16:39:58 --> Invalid file: "Modules\Stock\Views	ransfer\_title.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Stock\\Views	ransfer\\_title.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Stock\\Views	ransfer\\_title', [], true)
+ 3 APPPATH\Views\inc-header.php(107): view('Modules\\Stock\\Views	ransfer\\_title')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-header.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-header', [], true)
+ 7 APPPATH\Modules\Stock\Controllers\Transfer.php(53): view('inc-header', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Transfer->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Transfer))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-25 16:39:58 --> Invalid file: "Modules\Stock\Views	ransfer\_title.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Stock\\Views	ransfer\\_title.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Stock\\Views	ransfer\\_title', [], true)
+ 3 APPPATH\Views\inc-header.php(107): view('Modules\\Stock\\Views	ransfer\\_title')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-header.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-header', [], true)
+ 7 APPPATH\Modules\Stock\Controllers\Transfer.php(53): view('inc-header', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Transfer->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Transfer))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-25 16:39:58 --> Invalid file: "Modules\Stock\Views	ransfer\_title.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Stock\\Views	ransfer\\_title.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Stock\\Views	ransfer\\_title', [], true)
+ 3 APPPATH\Views\inc-header.php(107): view('Modules\\Stock\\Views	ransfer\\_title')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-header.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-header', [], true)
+ 7 APPPATH\Modules\Stock\Controllers\Transfer.php(53): view('inc-header', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Transfer->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Transfer))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-25 16:39:58 --> Invalid file: "Modules\Stock\Views	ransfer\_title.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Stock\\Views	ransfer\\_title.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('Modules\\Stock\\Views	ransfer\\_title', [], true)
+ 3 APPPATH\Views\inc-header.php(107): view('Modules\\Stock\\Views	ransfer\\_title')
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\dfinest\\app\\Views\\inc-header.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('inc-header', [], true)
+ 7 APPPATH\Modules\Stock\Controllers\Transfer.php(53): view('inc-header', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Transfer->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Transfer))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-25 17:12:09 --> mysqli_sql_exception: Table 'dfinest.retail' doesn't exist in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(ID...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(ID...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(ID...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(ID...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Models\BaseModel.php(55): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Models\MainModel.php(405): App\Models\BaseModel->count_rec('ID', 'retail', 'YEAR(CreatedDat...')
+#6 D:\xampp\htdocs\dfinest\app\Modules\Stock\Controllers\Retail.php(42): App\Models\MainModel->gen_docno('retail')
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Stock\Controllers\Retail->index()
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Retail))
+#9 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-09-25 17:12:09 --> Table 'dfinest.retail' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(ID) as total
+FROM `retail`
+WHERE YEAR(CreatedDate) = "2023" AND MONTH(CreatedDate) = "09"', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(ID) as total
+FROM `retail`
+WHERE YEAR(CreatedDate) = "2023" AND MONTH(CreatedDate) = "09"')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(ID) as total
+FROM `retail`
+WHERE YEAR(CreatedDate) = "2023" AND MONTH(CreatedDate) = "09"')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(ID) as total
+FROM `retail`
+WHERE YEAR(CreatedDate) = "2023" AND MONTH(CreatedDate) = "09"', [], false)
+ 5 APPPATH\Models\BaseModel.php(55): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\MainModel.php(405): App\Models\BaseModel->count_rec('ID', 'retail', 'YEAR(CreatedDate)="2023" AND MONTH(CreatedDate)="09"')
+ 7 APPPATH\Modules\Stock\Controllers\Retail.php(42): App\Models\MainModel->gen_docno('retail')
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Retail->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Retail))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-25 17:12:30 --> mysqli_sql_exception: Table 'dfinest.retail' doesn't exist in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(ID...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(ID...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(ID...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(ID...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Models\BaseModel.php(55): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Models\MainModel.php(405): App\Models\BaseModel->count_rec('ID', 'retail', 'YEAR(CreatedDat...')
+#6 D:\xampp\htdocs\dfinest\app\Modules\Stock\Controllers\Retail.php(42): App\Models\MainModel->gen_docno('retail')
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Stock\Controllers\Retail->index()
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Retail))
+#9 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-09-25 17:12:30 --> Table 'dfinest.retail' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(ID) as total
+FROM `retail`
+WHERE YEAR(CreatedDate) = "2023" AND MONTH(CreatedDate) = "09"', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(ID) as total
+FROM `retail`
+WHERE YEAR(CreatedDate) = "2023" AND MONTH(CreatedDate) = "09"')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(ID) as total
+FROM `retail`
+WHERE YEAR(CreatedDate) = "2023" AND MONTH(CreatedDate) = "09"')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(ID) as total
+FROM `retail`
+WHERE YEAR(CreatedDate) = "2023" AND MONTH(CreatedDate) = "09"', [], false)
+ 5 APPPATH\Models\BaseModel.php(55): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\MainModel.php(405): App\Models\BaseModel->count_rec('ID', 'retail', 'YEAR(CreatedDate)="2023" AND MONTH(CreatedDate)="09"')
+ 7 APPPATH\Modules\Stock\Controllers\Retail.php(42): App\Models\MainModel->gen_docno('retail')
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Retail->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Retail))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-25 17:12:30 --> mysqli_sql_exception: Table 'dfinest.retail' doesn't exist in D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\dfinest\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(ID...', 0)
+#1 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(ID...')
+#2 D:\xampp\htdocs\dfinest\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(ID...')
+#3 D:\xampp\htdocs\dfinest\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(ID...', Array, false)
+#4 D:\xampp\htdocs\dfinest\app\Models\BaseModel.php(55): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\dfinest\app\Models\MainModel.php(405): App\Models\BaseModel->count_rec('ID', 'retail', 'YEAR(CreatedDat...')
+#6 D:\xampp\htdocs\dfinest\app\Modules\Stock\Controllers\Retail.php(42): App\Models\MainModel->gen_docno('retail')
+#7 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(932): App\Modules\Stock\Controllers\Retail->index()
+#8 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Retail))
+#9 D:\xampp\htdocs\dfinest\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\dfinest\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-09-25 17:12:30 --> Table 'dfinest.retail' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(ID) as total
+FROM `retail`
+WHERE YEAR(CreatedDate) = "2023" AND MONTH(CreatedDate) = "09"', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(ID) as total
+FROM `retail`
+WHERE YEAR(CreatedDate) = "2023" AND MONTH(CreatedDate) = "09"')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(ID) as total
+FROM `retail`
+WHERE YEAR(CreatedDate) = "2023" AND MONTH(CreatedDate) = "09"')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(ID) as total
+FROM `retail`
+WHERE YEAR(CreatedDate) = "2023" AND MONTH(CreatedDate) = "09"', [], false)
+ 5 APPPATH\Models\BaseModel.php(55): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\MainModel.php(405): App\Models\BaseModel->count_rec('ID', 'retail', 'YEAR(CreatedDate)="2023" AND MONTH(CreatedDate)="09"')
+ 7 APPPATH\Modules\Stock\Controllers\Retail.php(42): App\Models\MainModel->gen_docno('retail')
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Modules\Stock\Controllers\Retail->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Stock\Controllers\Retail))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
