@@ -71,7 +71,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   | The $query_builder variables lets you determine whether or not to load
   | the query builder class.
  */
-$active_group = 'demo';
+$active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
@@ -96,47 +96,3 @@ $db['default'] = array(
     'save_queries' => TRUE
 );
 
-$db['demo'] = array(
-    'dsn' => '',
-    'hostname' => 'localhost',
-    'username' => 'kissdemos_user',
-    'password' => ',u?!L]2hdVr#',
-    'database' => 'kissdemos_kha',
-    'dbdriver' => 'mysqli',
-    'dbprefix' => '',
-    'pconnect' => TRUE,
-    'db_debug' => (ENVIRONMENT !== 'production'),
-    'cache_on' => FALSE,
-    'cachedir' => '',
-    'char_set' => 'utf8',
-    'dbcollat' => 'utf8_unicode_ci',
-    'swap_pre' => '',
-    'encrypt' => FALSE,
-    'compress' => FALSE,
-    'stricton' => FALSE,
-    'failover' => array(),
-    'save_queries' => TRUE
-);
-
-/*$db['estar'] = array(
-    'dsn' => '',
-    //'hostname' => 'localhost',
-    'hostname' => '203.151.210.228',
-    'username' => 'estarweb_2019',
-    'password' => 'estarweb#db!2019',
-    'database' => 'estarweb_db_2019',
-    'dbdriver' => 'mysqli',
-    'dbprefix' => '',
-    'pconnect' => TRUE,
-    'db_debug' => (ENVIRONMENT !== 'production'),
-    'cache_on' => FALSE,
-    'cachedir' => '',
-    'char_set' => 'utf8',
-    'dbcollat' => 'utf8_unicode_ci',
-    'swap_pre' => '',
-    'encrypt' => FALSE,
-    'compress' => FALSE,
-    'stricton' => FALSE,
-    'failover' => array(),
-    'save_queries' => TRUE
-);*/
