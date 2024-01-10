@@ -110,8 +110,8 @@
             },
 
             sort: {
-                sort: 'asc',
-                field: 'id',
+                sort: 'desc',
+                field: 'Sequence',
             },
 
             // column sorting
@@ -147,6 +147,16 @@
                         }
                     },
                 }, {
+                    field: 'date',
+                    title: 'Date',
+                    // sortable: 'asc', // default sort
+                    filterable: false, // disable or enable filtering
+                    sortable: false,
+                    width: 80,
+                      class: 'text-center',
+                    // basic templating support for column rendering,
+                    //template: '{{OrderID}} - {{ShipCountry}}',
+                }, {
                     field: 'title_th',
                     title: 'Title (TH)',
                     // sortable: 'asc', // default sort
@@ -163,15 +173,22 @@
                     // basic templating support for column rendering,
                     //template: '{{OrderID}} - {{ShipCountry}}',
                 }, {
-                    field: 'updated_at',
-                    title: 'Updated at',
-                    // sortable: 'asc', // default sort
-                    filterable: false, // disable or enable filtering
+                    field: 'id',
+                    title: 'Seq',
+                    filterable: false,
                     sortable: false,
-                    width: 140,
-                    // basic templating support for column rendering,
-                    //template: '{{OrderID}} - {{ShipCountry}}',
-                }, {
+                       width: 80,
+                    template: function (row, index) {
+                        var textResp = '';
+                        if ((index + 1) > 1) {
+                            textResp += '<button class="btn btn-default btn-sm" onclick="updateSEQ(\'down\', \'news\', \'Sequence\', \'id\', ' + row.id + ' , {});"><i class="fa fa-arrow-up" aria-hidden="true"></i></button>'
+                        }
+                        if ((index + 1) < <?php echo (int) $this->mains->getCountdata('news'); ?>) {
+                            textResp += '<button class="btn btn-default btn-sm" onclick="updateSEQ(\'up\', \'news\', \'Sequence\', \'id\', ' + row.id + ' , {});"><i class="fa fa-arrow-down" aria-hidden="true"></i></button>'
+                        }
+                        return textResp;
+                    }
+                },{
                     field: 'active',
                     title: 'Active',
                     width: 60,

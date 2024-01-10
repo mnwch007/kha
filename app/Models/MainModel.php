@@ -375,7 +375,7 @@ class MainModel extends \App\Models\BaseModel {
         $db->select(implode(', ', $f));
         $db->where('active', 1);
         //$db->where('p.home_active', 1);
-        $db->orderBy('Sequence', 'asc');
+        $db->orderBy('Sequence', 'desc');
         $query = $db->get();
         $arr = $query->getResultArray();
 //        foreach ($arr as $key => $val):

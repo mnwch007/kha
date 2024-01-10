@@ -23,8 +23,8 @@ class News extends MY_Controller {
 
     public function loadContent() {
         /* set sort field */
-        $sort_field = ($_REQUEST['sort']['field'] ? $_REQUEST['sort']['field'] : 'id');
-        $sort_type = ($_REQUEST['sort']['sort'] ? $_REQUEST['sort']['sort'] : 'asc');
+        $sort_field = ($_REQUEST['sort']['field'] ? $_REQUEST['sort']['field'] : 'Sequence');
+        $sort_type = ($_REQUEST['sort']['sort'] ? $_REQUEST['sort']['sort'] : 'desc');
         /* json data for datatables */
         $data = $this->models->get_itemlist($sort_field, $sort_type);
         echo $this->mains->loadAjaxData($data);
@@ -154,7 +154,10 @@ class News extends MY_Controller {
                 $resp['text'] = $this->resp->show('default', 2);
             else:
                 # Make array db
+                $getLastSeq = $this->mains->getSeq('news', 'Sequence', array());
+
                 $insDB = array(
+                    'Sequence' => (int) ($getLastSeq['Sequence'] + 1),
                     'ntype' => $ntype,
                     'date' => $date,
                     'expired' => $expired,
