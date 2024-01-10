@@ -106,7 +106,7 @@ $base_url .= str_replace(basename($_SERVER['SCRIPT_NAME']), '', $_SERVER['SCRIPT
 defined('BASESEURL') || define('BASESEURL', $base_url);
 
 define("SITENAME", "Keha Sukpracha");
-define("VERSION", "20231218");
+define("VERSION", "20230110");
 define("NUM_LOAD", "50");
 
 $nyear = date('Y') + 1;
